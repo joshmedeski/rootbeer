@@ -1,11 +1,11 @@
 <?php
 /**
- * The organism for displaying the head content.
+ * The organism for displaying the header.
  *
- * @package WordPress
- * @subpackage Root Beer
- * @author Josh Medeski
- * @framework Foundation
+ * @package    WordPress
+ * @subpackage RootBeer
+ * @author     JoshMedeski
+ * @framework  Foundation
  */
 ?>
 

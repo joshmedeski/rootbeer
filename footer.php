@@ -1,8 +1,10 @@
 <?php
-/* Footer Content
+/* The organism for displaying the footer.
  *
- * @package RootBeer
- * @author JoshMedeski
+ * @package    WordPress
+ * @subpackage RootBeer
+ * @author     JoshMedeski
+ * @framework  Foundation
  */
 ?>
   <script>

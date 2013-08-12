@@ -2,10 +2,10 @@
 /**
  * The page for displaying 404 pages (Not Found).
  *
- * @package WordPress
- * @theme Root Beer
- * @framework Foundation
- * @author Josh Medeski
+ * @package    WordPress
+ * @subpackage RootBeer
+ * @author     JoshMedeski
+ * @framework  Foundation
  */
 get_header(); get_template_part( 'organism-header' ); ?>
 
