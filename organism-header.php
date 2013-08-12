@@ -8,11 +8,11 @@
  * @framework Foundation
  */
 ?>
-
 <header id="organism-header">
 	<div class="row">
 		<div class="small-12 columns">
 			<p>This is the header.</p>
+			<?php get_template_part( 'molecule-topbar' ); ?>
 		</div>
 	</div>
 </header>

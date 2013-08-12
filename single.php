@@ -14,7 +14,7 @@ get_header(); get_template_part( 'organism-header' ); ?>
 	<div class="large-9 columns">
 		<?php while ( have_posts() ) : the_post(); ?>
 
-			<?php get_template_part( 'content', get_post_format() ); ?>
+			<?php get_template_part( 'content-page', get_post_format() ); ?>
 			
 			<hr>
 			
@@ -26,8 +26,6 @@ get_header(); get_template_part( 'organism-header' ); ?>
 			<hr>
 
 			<?php comments_template( '', true ); ?>
-
-			<hr>
 
 		<?php endwhile; // end of the loop. ?>
 		</div>

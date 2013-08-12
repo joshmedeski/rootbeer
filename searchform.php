@@ -9,7 +9,7 @@
  */
 ?>
 
-<form role="search" method="get" id="searchform" action="<?php bloginfo('url'); ?>">
+<form role="search" method="get" id="searchform" action="<?php echo home_url(); ?>">
 	<div class="row collapse">
 		<label for="s"><?php _e('Search for:', 'rootbeer'); ?></label>
 		<div class="small-12 medium-9 large-9 columns">

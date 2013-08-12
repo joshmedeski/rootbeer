@@ -5,7 +5,7 @@ Description: A WordPress framework with <a href="http://foundation.zurb.com">ZUR
 Author: Josh Medeski
 Author URI: http://joshmedeski.com
 License: MIT License
-Version: 0.1.0
+Version: 4.3.1
 */
 
 // Global Foundation Settings
@@ -70,3 +70,24 @@ Version: 0.1.0
 // @import "header";
 // @import "footer";
 // @import "sidebar";
+
+// Fix Admin Bar when using MP6 Plugin
+body.admin-bar {
+	margin-top: 32px;
+}
+
+// Colophon Spacing
+.colophon {
+	@media #{$small} {
+		text-align: right;		
+	}
+}
+
+// Inline list button
+.nav-button a {
+	@include button-base;
+  @include button-size($padding: $button-sml);
+  @include button-style;
+  @include single-transition;
+  @include inset-shadow;
+}
