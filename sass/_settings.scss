@@ -71,6 +71,8 @@ $default-float: left;
 // $secondary-color: #e9e9e9;
 // $alert-color: #c60f13;
 // $success-color: #5da423;
+// $white-color: #fff;
+// $black-color: #000;
 
 // Make sure border radius matches unless we want it different.
 
@@ -80,7 +82,7 @@ $default-float: left;
 // Inset shadow shiny edges and depressions.
 
 // $shiny-edge-size: 0 1px 0;
-// $shiny-edge-color: rgba(#fff, .5);
+// $shiny-edge-color: rgba($white-color, .5);
 // $shiny-edge-active-color: rgba(#000, .2);
 
 // Control whether or not CSS classes come through in the CSS files.
@@ -290,10 +292,10 @@ $default-float: left;
 // $input-font-family: inherit;
 // $input-font-color: rgba(0,0,0,0.75);
 // $input-font-size: emCalc(14);
-// $input-bg-color: #fff;
-// $input-focus-bg-color: darken(#fff, 2%);
-// $input-border-color: darken(#fff, 20%);
-// $input-focus-border-color: darken(#fff, 40%);
+// $input-bg-color: $white-color;
+// $input-focus-bg-color: darken($white-color, 2%);
+// $input-border-color: darken($white-color, 20%);
+// $input-focus-border-color: darken($white-color, 40%);
 // $input-border-style: solid;
 // $input-border-width: 1px;
 // $input-disabled-bg: #ddd;
@@ -310,19 +312,19 @@ $default-float: left;
 
 // We use these to style the legends when you use them
 
-// $legend-bg: #fff;
+// $legend-bg: $white-color;
 // $legend-font-weight: bold;
 // $legend-padding: emCalc(0, 3);
 
 // We use these to style the prefix and postfix input elements
 
-// $input-prefix-bg: darken(#fff, 5%);
-// $input-prefix-border-color: darken(#fff, 20%);
+// $input-prefix-bg: darken($white-color, 5%);
+// $input-prefix-border-color: darken($white-color, 20%);
 // $input-prefix-border-size: 1px;
 // $input-prefix-border-type: solid;
 // $input-prefix-overflow: hidden;
 // $input-prefix-font-color: #333;
-// $input-prefix-font-color-alt: #fff;
+// $input-prefix-font-color-alt: $white-color;
 
 // We use these to style the error states for inputs and labels
 
@@ -330,7 +332,7 @@ $default-float: left;
 // $input-error-message-top: 0;
 // $input-error-message-font-size: emCalc(12);
 // $input-error-message-font-weight: bold;
-// $input-error-message-font-color: #fff;
+// $input-error-message-font-color: $white-color;
 // $input-error-message-font-color-alt: #333;
 
 // We use this to style the glowing effect of inputs when focused
@@ -357,7 +359,7 @@ $default-float: left;
 // We use these to control button text styles.
 
 // $button-font-family: inherit;
-// $button-font-color: #fff;
+// $button-font-color: $white-color;
 // $button-font-color-alt: #333;
 // $button-font-med: emCalc(16);
 // $button-font-tny: emCalc(11);
@@ -399,7 +401,7 @@ $default-float: left;
 
 // We use these to set the color of the pip in dropdown buttons
 
-// $dropdown-button-pip-color: #fff;
+// $dropdown-button-pip-color: $white-color;
 // $dropdown-button-pip-color-alt: #333;
 
 // We use these to style tiny dropdown buttons
@@ -437,7 +439,7 @@ $default-float: left;
 // We use these to control different shared styles for Split Buttons
 
 // $split-button-function-factor: 15%;
-// $split-button-pip-color: #fff;
+// $split-button-pip-color: $white-color;
 // $split-button-pip-color-alt: #333;
 // $split-button-active-bg-tint: rgba(0,0,0,0.1);
 
@@ -488,7 +490,7 @@ $default-float: left;
 
 // $alert-font-weight: bold;
 // $alert-font-size: emCalc(14);
-// $alert-font-color: #fff;
+// $alert-font-color: $white-color;
 // $alert-font-color-alt: darken($secondary-color, 60%);
 
 // We use this for close hover effect.
@@ -564,7 +566,7 @@ $default-float: left;
 
 // We use these to style the close button
 
-// $clearing-close-color: #fff;
+// $clearing-close-color: $white-color;
 // $clearing-close-size: 40px;
 
 // We use these to style the arrows
@@ -574,7 +576,7 @@ $default-float: left;
 
 // We use these to style captions
 
-// $clearing-caption-font-color: #fff;
+// $clearing-caption-font-color: $white-color;
 // $clearing-caption-padding: 10px 30px;
 
 // We use these to make the image and carousel height and style
@@ -592,7 +594,7 @@ $default-float: left;
 
 // $custom-form-border-color: #ccc;
 // $custom-form-border-size: 1px;
-// $custom-form-bg: #fff;
+// $custom-form-bg: $white-color;
 // $custom-form-bg-disabled: #ddd;
 // $custom-form-input-size: 16px;
 // $custom-form-check-color: #222;
@@ -602,7 +604,7 @@ $default-float: left;
 
 // We use these to style the custom select form element.
 
-// $custom-select-bg: #fff;
+// $custom-select-bg: $white-color;
 // $custom-select-fade-to-color: #f3f3f3;
 // $custom-select-border-color: #ddd;
 // $custom-select-triangle-color: #aaa;
@@ -615,8 +617,8 @@ $default-float: left;
 // We use these to control the style of the custom select dropdown element.
 
 // $custom-dropdown-height: 200px;
-// $custom-dropdown-bg: #fff;
-// $custom-dropdown-border-color: darken(#fff, 20%);
+// $custom-dropdown-bg: $white-color;
+// $custom-dropdown-border-color: darken($white-color, 20%);
 // $custom-dropdown-border-width: 1px;
 // $custom-dropdown-border-style: solid;
 // $custom-dropdown-font-color: #555;
@@ -646,18 +648,18 @@ $default-float: left;
 
 // We use this to control the background color
 
-// $f-dropdown-bg: #fff;
+// $f-dropdown-bg: $white-color;
 
 // We use this to set the border styles for dropdowns.
 
 // $f-dropdown-border-style: solid;
 // $f-dropdown-border-width: 1px;
-// $f-dropdown-border-color: darken(#fff, 20%);
+// $f-dropdown-border-color: darken($white-color, 20%);
 
 // We use these to style the triangle pip.
 
 // $f-dropdown-triangle-size: 6px;
-// $f-dropdown-triangle-color: #fff;
+// $f-dropdown-triangle-color: $white-color;
 // $f-dropdown-triangle-side-offset: 10px;
 
 // We use these to control styles for the list elements.
@@ -728,7 +730,7 @@ $default-float: left;
 
 // Here, we're setting the tip dont styles
 
-// $joyride-tip-font-color: #fff;
+// $joyride-tip-font-color: $white-color;
 // $joyride-tip-font-size: emCalc(14);
 // $joyride-tip-header-weight: bold;
 
@@ -761,7 +763,7 @@ $default-float: left;
 // $keystroke-font: "Consolas", "Menlo", "Courier", monospace;
 // $keystroke-font-size: emCalc(14);
 // $keystroke-font-color: #222;
-// $keystroke-font-color-alt: #fff;
+// $keystroke-font-color-alt: $white-color;
 // $keystroke-function-factor: 7%;
 
 // We use this to control keystroke padding.
@@ -770,7 +772,7 @@ $default-float: left;
 
 // We use these to control background and border styles.
 
-// $keystroke-bg: darken(#fff, $keystroke-function-factor);
+// $keystroke-bg: darken($white-color, $keystroke-function-factor);
 // $keystroke-border-style: solid;
 // $keystroke-border-width: 1px;
 // $keystroke-border-color: darken($keystroke-bg, $keystroke-function-factor);
@@ -790,13 +792,13 @@ $default-float: left;
 // $label-font-sizing: emCalc(14);
 // $label-font-weight: bold;
 // $label-font-color: #333;
-// $label-font-color-alt: #fff;
+// $label-font-color-alt: $white-color;
 
 //
 // Magellan Variables
 //
 
-// $magellan-bg: #fff;
+// $magellan-bg: $white-color;
 // $magellan-padding: 10px;
 
 //
@@ -808,7 +810,7 @@ $default-float: left;
 // $orbit-container-bg: #f5f5f5;
 // $orbit-caption-bg-old: rgb(0,0,0);
 // $orbit-caption-bg: rgba(0,0,0,0.6);
-// $orbit-caption-font-color: #fff;
+// $orbit-caption-font-color: $white-color;
 
 // We use these to control the left/right nav styles
 
@@ -828,7 +830,7 @@ $default-float: left;
 // We use thes to controls the style of slide numbers
 
 // $orbit-slide-number-bg: rgba(0,0,0,0);
-// $orbit-slide-number-font-color: #fff;
+// $orbit-slide-number-font-color: $white-color;
 // $orbit-slide-number-padding: emCalc(5px);
 
 // Graceful Loading Wrapper and preloader
@@ -857,7 +859,7 @@ $default-float: left;
 
 // $pagination-link-pad: emCalc(1, 7, 1);
 // $pagination-link-font-color: #999;
-// $pagination-link-active-bg: darken(#fff, 10%);
+// $pagination-link-active-bg: darken($white-color, 10%);
 
 // We use these for disabled anchor links
 
@@ -868,7 +870,7 @@ $default-float: left;
 // We use these for currently selected anchor links
 
 // $pagination-link-current-background: $primary-color;
-// $pagination-link-current-font-color: #fff;
+// $pagination-link-current-font-color: $white-color;
 // $pagination-link-current-font-weight: bold;
 // $pagination-link-current-cursor: default;
 // $pagination-link-current-active-bg: $primary-color;
@@ -879,7 +881,7 @@ $default-float: left;
 
 // We use these to control the background and border styles
 
-// $panel-bg: darken(#fff, 5%);
+// $panel-bg: darken($white-color, 5%);
 // $panel-border-style: solid;
 // $panel-border-size: 1px;
 
@@ -896,7 +898,7 @@ $default-float: left;
 // We use these to set default font colors
 
 // $panel-font-color: #333;
-// $panel-font-color-alt: #fff;
+// $panel-font-color-alt: $white-color;
 
 // $panel-header-adjust: true;
 
@@ -932,7 +934,7 @@ $default-float: left;
 
 // We use these to control the description styles
 
-// $price-bg: #fff;
+// $price-bg: $white-color;
 // $price-desc-color: #777;
 // $price-desc-padding: emCalc(15);
 // $price-desc-align: center;
@@ -967,7 +969,7 @@ $default-float: left;
 
 // We use these to control the border styles
 
-// $progress-bar-border-color: darken(#fff, 20%);
+// $progress-bar-border-color: darken($white-color, 20%);
 // $progress-bar-border-size: 1px;
 // $progress-bar-border-style: solid;
 // $progress-bar-border-radius: $global-radius;
@@ -995,7 +997,7 @@ $default-float: left;
 
 // We use these to control the style of the modal itself.
 
-// $reveal-modal-bg: #fff;
+// $reveal-modal-bg: $white-color;
 // $reveal-position-top: 50px;
 // $reveal-default-width: 80%;
 // $reveal-modal-padding: emCalc(20);
@@ -1034,7 +1036,7 @@ $default-float: left;
 // $section-title-color-active: #333;
 // $section-title-bg: #efefef;
 // $section-title-bg-active: darken($section-title-bg, $section-function-factor);
-// $section-title-bg-active-tabs: #fff;
+// $section-title-bg-active-tabs: $white-color;
 // $section-title-bg-hover: darken($section-title-bg, $section-function-factor / 2);
 
 // Want to control border size, here ya go!
@@ -1049,7 +1051,7 @@ $default-float: left;
 
 // Control the color of the background and some size options
 
-// $section-content-bg: #fff;
+// $section-content-bg: $white-color;
 // $section-vertical-nav-min-width: emCalc(200);
 // $section-vertical-tabs-title-width: emCalc(200);
 // $section-bottom-margin: emCalc(20);
@@ -1083,7 +1085,7 @@ $default-float: left;
 
 // $side-nav-divider-size: 1px;
 // $side-nav-divider-style: solid;
-// $side-nav-divider-color: darken(#fff, 10%);
+// $side-nav-divider-color: darken($white-color, 10%);
 
 //
 // Sub Nav Variables
@@ -1106,7 +1108,7 @@ $default-float: left;
 
 // $sub-nav-active-font-weight: bold;
 // $sub-nav-active-bg: $primary-color;
-// $sub-nav-active-color: #fff;
+// $sub-nav-active-color: $white-color;
 // $sub-nav-active-padding: emCalc(3, 9);
 // $sub-nav-active-cursor: default;
 
@@ -1116,10 +1118,10 @@ $default-float: left;
 
 // Controlling border styles and background colors for the switch container
 
-// $switch-border-color: darken(#fff, 20%);
+// $switch-border-color: darken($white-color, 20%);
 // $switch-border-style: solid;
 // $switch-border-width: 1px;
-// $switch-bg: #fff;
+// $switch-bg: $white-color;
 
 // We use these to control the switch heights for our default classes
 
@@ -1139,7 +1141,7 @@ $default-float: left;
 
 // We use these to style the switch-paddle
 
-// $switch-paddle-bg: #fff;
+// $switch-paddle-bg: $white-color;
 // $switch-paddle-fade-to-color: darken($switch-paddle-bg, 10%);
 // $switch-paddle-border-color: darken($switch-paddle-bg, 35%);
 // $switch-paddle-border-width: 1px;
@@ -1159,7 +1161,7 @@ $default-float: left;
 
 // These control the background color for the table and even rows
 
-// $table-bg: #fff;
+// $table-bg: $white-color;
 // $table-even-row-bg: #f9f9f9;
 
 // These control the table cell border style
@@ -1196,7 +1198,7 @@ $default-float: left;
 
 // $thumb-border-style: solid;
 // $thumb-border-width: 4px;
-// $thumb-border-color: #fff;
+// $thumb-border-color: $white-color;
 // $thumb-box-shadow: 0 0 0 1px rgba(#000,.2);
 // $thumb-box-shadow-hover: 0 0 6px 1px rgba($primary-color,0.5);
 
@@ -1220,7 +1222,7 @@ $default-float: left;
 // $tooltip-bg: #000;
 // $tooltip-font-size: emCalc(15);
 // $tooltip-font-weight: bold;
-// $tooltip-font-color: #fff;
+// $tooltip-font-color: $white-color;
 // $tooltip-line-height: 1.3;
 // $tooltip-close-font-size: emCalc(10);
 // $tooltip-close-font-weight: normal;
@@ -1235,7 +1237,7 @@ $default-float: left;
 
 // Background color for the top bar
 
-// $topbar-bg: #111;
+$topbar-bg: #111;
 
 // Height and margin
 
@@ -1254,17 +1256,17 @@ $default-float: left;
 // Style the top bar dropdown elements
 
 // $topbar-dropdown-bg: #222;
-// $topbar-dropdown-link-color: #fff;
+// $topbar-dropdown-link-color: $white-color;
 // $topbar-dropdown-link-bg: lighten($topbar-bg, 5%);
 // $topbar-dropdown-toggle-size: 5px;
-// $topbar-dropdown-toggle-color: #fff;
+// $topbar-dropdown-toggle-color: $white-color;
 // $topbar-dropdown-toggle-alpha: 0.5;
 
 // Set the link colors and styles for top-level nav
 
-// $topbar-link-color: #fff;
-// $topbar-link-color-hover: #fff;
-// $topbar-link-color-active: #fff;
+// $topbar-link-color: $white-color;
+// $topbar-link-color-hover: $white-color;
+// $topbar-link-color-active: $white-color;
 // $topbar-link-weight: bold;
 // $topbar-link-font-size: emCalc(13);
 // $topbar-link-hover-lightness: -30%; // Darken by 30%
@@ -1281,8 +1283,8 @@ $default-float: left;
 // $topbar-menu-link-transform: uppercase;
 // $topbar-menu-link-font-size: emCalc(13);
 // $topbar-menu-link-weight: bold;
-// $topbar-menu-link-color: #fff;
-// $topbar-menu-icon-color: #fff;
+// $topbar-menu-link-color: $white-color;
+// $topbar-menu-icon-color: $white-color;
 // $topbar-menu-link-color-toggled: #888;
 // $topbar-menu-icon-color-toggled: #888;
 
