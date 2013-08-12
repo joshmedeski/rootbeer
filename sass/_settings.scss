@@ -219,14 +219,14 @@ $default-float: left;
 
 // Style the <hr> element
 
-// $hr-border-width: 1px;
+$hr-border-width: 2px;
 // $hr-border-style: solid;
-// $hr-border-color: #ddd;
+$hr-border-color: #e4e4e4;
 // $hr-margin: emCalc(20);
 
 // Style lists
 
-// $list-style-position: outside;
+$list-style-position: inside;
 // $list-side-margin: 0;
 // $list-nested-margin: emCalc(20);
 // $definition-list-header-weight: bold;

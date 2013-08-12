@@ -9,10 +9,10 @@
  */
 ?>
 
-<footer id="organism-header">
+<header id="organism-header">
 	<div class="row">
 		<div class="small-12 columns">
 			<p>This is the header.</p>
 		</div>
 	</div>
-</footer>
+</header>

@@ -1,27 +1,19 @@
 <?php
-/* Index Content
- *
- * @package RootBeer
- * @author JoshMedeski
- */
-?>
-
-<?php
 /**
- * The default template file
+ * The page for displaying 404 pages (Not Found).
  *
- * @package Root
- * @subpackge Templates
- * @since 1.0.0
+ * @package    WordPress
+ * @subpackage RootBeer
+ * @author     JoshMedeski
+ * @framework  Foundation
  */
-?>
-
-<?php get_header(); ?>
+get_header(); get_template_part( 'organism-header' ); ?>
 
 <div class="row">
     <!-- Main Content -->
     <div class="large-9 columns">
         <?php if ( have_posts() ) : ?>
+            <h1>From the Blog</h1>
             <?php while ( have_posts() ) : the_post(); ?>
                 <?php get_template_part( 'content', get_post_format() ); ?>
             <?php endwhile; ?>
@@ -35,4 +27,5 @@
         <?php get_sidebar(); ?>
     </div>
 </div>
-<?php get_footer(); ?>
+
+<?php get_template_part( 'organism-footer' ); get_footer(); ?>
