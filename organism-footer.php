@@ -12,7 +12,7 @@
 <footer id="organism-footer">
 	<div class="row">
 		<div class="small-12 columns">
-			<p>This is the footer.</p>
+			<p class="colophon">&copy; <?php echo date("Y"); ?> <?php bloginfo('name'); ?>.</p>
 		</div>
 	</div>
 </footer>
