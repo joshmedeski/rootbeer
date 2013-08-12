@@ -1,0 +1,13 @@
+/*
+Theme Name: Root Beer
+Description: Used to style the TinyMCE editor.
+*/
+
+// Foundation Elements
+@import "settings";
+@import "foundation/components/global";
+@import "foundation/components/grid";
+@import "foundation/components/type";
+
+// Padding around editor
+body {padding: 10px;}

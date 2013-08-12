@@ -1,41 +1,28 @@
 <?php
-/**
- * The template for displaying the header
+/* Header Content
  *
- * @package Reactor
- * @subpackge Templates
- * @since 1.0.0
- */?><!DOCTYPE html>
-<!--[if lt IE 7]><html <?php language_attributes(); ?> class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
-<!--[if ( IE 7 )&!( IEMobile )]><html <?php language_attributes(); ?> class="no-js lt-ie9 lt-ie8"><![endif]-->
-<!--[if ( IE 8 )&!( IEMobile )]><html <?php language_attributes(); ?> class="no-js lt-ie9"><![endif]-->
-<!--[if gt IE 8]><!--> <html <?php language_attributes(); ?> class="no-js"><!--<![endif]-->
+ * @package RootBeer
+ * @author JoshMedeski
+ */
+?>
+
+<!DOCTYPE html>
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
 
 <head>
-<!-- WordPress head -->
-<?php wp_head(); ?>
-<!-- end WordPress head -->
-<?php reactor_head(); ?>
+    <meta charset="<?php bloginfo('charset'); ?>" />
+    <meta name="viewport" content="width=device-width">
+
+    <title><?php wp_title('|', true, 'right'); ?></title>
+
+    <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
+
+    <script src="<?php echo get_template_directory_uri(); ?>/javascripts/vendor/custom.modernizr.js"></script>
+
+    <?php wp_head(); ?>
+
 </head>
 
 <body <?php body_class(); ?>>
-
-	<?php reactor_body_inside(); ?>
-
-    <div id="page" class="hfeed site"> 
-    
-        <?php reactor_header_before(); ?>
-    
-        <header id="header" class="site-header" role="banner">
-            <div class="row">
-                <div class="<?php reactor_columns( 12 ); ?>">
-                    
-                    <?php reactor_header_inside(); ?>
-                    
-                </div><!-- .columns -->
-            </div><!-- .row -->
-        </header><!-- #header -->
-        
-        <?php reactor_header_after(); ?>
-        
-        <div id="main" class="wrapper">
