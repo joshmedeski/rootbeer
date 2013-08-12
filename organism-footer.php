@@ -13,9 +13,10 @@
 	<section id="footer-widgets">
 		<!-- Widgets -->
 		<div class="row">
+			<hr>
 			<?php if ( is_active_sidebar( 'bottom-sidebar' ) ) : ?>
-			<?php dynamic_sidebar( 'bottom-sidebar' ); ?>
-	<?php endif; ?>
+				<?php dynamic_sidebar( 'bottom-sidebar' ); ?>
+			<?php endif; ?>
 		</div>
 	</section>
 	
