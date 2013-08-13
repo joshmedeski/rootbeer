@@ -23,6 +23,7 @@
 			<?php if ( comments_open() ) : ?>
 				<p><?php comments_popup_link(); ?></p>
 			<?php endif; // comments_open() ?>
+			
 		</header><!-- .entry-header -->
 
 		<?php if ( is_search() ) : // Only display Excerpts for Search ?>

@@ -74,6 +74,9 @@ Version: 4.3.1
 // Fix Admin Bar when using MP6 Plugin
 body.admin-bar {
 	margin-top: 32px;
+	.top-bar {
+		margin-top: -32px;
+	}
 }
 
 // Colophon Spacing

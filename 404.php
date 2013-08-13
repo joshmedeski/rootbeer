@@ -7,7 +7,7 @@
  * @author     JoshMedeski
  * @framework  Foundation
  */
-get_header(); get_template_part( 'organism-header' ); ?>
+get_header(); get_template_part( 'components/topbar', 'components/header-default' ); ?>
 
 <div class="row">
 	<div class="text-center entry-header small-12 columns">
@@ -26,4 +26,4 @@ get_header(); get_template_part( 'organism-header' ); ?>
 	</div>
 </div>
 
-<?php get_template_part( 'organism-footer' ); get_footer(); ?>
+<?php get_template_part( 'components/footer-default' ); get_footer(); ?>

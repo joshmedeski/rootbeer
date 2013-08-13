@@ -6,9 +6,7 @@
  * @author     JoshMedeski
  * @framework  Foundation
  */
-?>
-
-	<?php wp_footer(); ?>
+wp_footer(); ?>
   
   <script>
   document.write('<script src=' +

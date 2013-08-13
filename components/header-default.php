@@ -9,10 +9,10 @@
  */
 ?>
 
-<header id="organism-header">
+<section id="header-default">
 	<div class="row collapse">
 		<div class="small-12 columns">
-			<?php get_template_part( 'molecule-topbar' ); ?>
+			<?php get_template_part( 'components/topbar' ); ?>
 		</div>
 	</div>
-</header>
+</section>
