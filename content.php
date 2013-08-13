@@ -18,6 +18,8 @@
 			</h2>
 			<?php endif; // is_single() ?>
 
+			<?php get_template_part( 'components/meta' ); ?>
+
 			<p><?php the_post_thumbnail(); ?></p>
 
 			<?php if ( comments_open() ) : ?>

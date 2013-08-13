@@ -21,7 +21,7 @@ get_header(); get_template_part( 'components/header-default' ); while (have_post
 
 <!-- Main Content -->
 <div class="row">
-	<div class="large-9 columns">
+	<div class="large-8 columns">
 		<p><?php the_post_thumbnail(); ?></p>
 		<?php the_content(); ?>
 		<?php wp_link_pages(array('before' => '<nav class="page-nav"><p>' . __('Pages:', 'roots'), 'after' => '</p></nav>')); ?>

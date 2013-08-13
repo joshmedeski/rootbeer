@@ -22,7 +22,7 @@ get_header(); get_template_part( 'components/header-default' ); ?>
 
 <div class="row">
     <!-- Main Content -->
-    <div class="large-9 columns">
+    <div class="large-8 columns">
         <?php if ( have_posts() ) : ?>
             <?php while ( have_posts() ) : the_post(); ?>
                 <?php get_template_part( 'content', get_post_format() ); ?>

@@ -9,6 +9,7 @@
  */
 get_header(); get_template_part( 'components/header-default' ); while ( have_posts() ) : the_post(); ?>
 
+
 <!-- The Title -->
 <section id="title">
 	<div class="row">
@@ -21,7 +22,7 @@ get_header(); get_template_part( 'components/header-default' ); while ( have_pos
 
 <!-- Main Content -->
 <div class="row">
-	<div class="large-9 columns">
+	<div class="large-8 columns">
 		<p><?php the_post_thumbnail(); ?></p>
 		<?php the_content(); ?>
 		<hr>	

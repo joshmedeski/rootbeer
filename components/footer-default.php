@@ -25,11 +25,16 @@
 			<hr>
 			<!-- Footer Menu -->
 			<div class="large-6 medium-6 columns">
-				<?php if ( function_exists('rootbeer_footer_nav') ) : ?>
-					<nav class="footer-links" role="navigation">
-						<?php rootbeer_footer_nav(); ?>
-					</nav><!-- #footer-links -->
-				<?php endif; ?>
+      <?php
+          wp_nav_menu( array(
+              'theme_location' => 'footer',
+              'container'      => false,
+              'menu_class'     => 'inline-list',
+							'echo'           => true,
+							'fallback_cb'    => false,
+              'items_wrap'     => '<ul class="%2$s">%3$s</ul>',
+              'depth'          => 1,
+			) ); ?>
 			</div>
 			<!-- Colphon -->
 			<div class="large-6 medium-6 columns">
