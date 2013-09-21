@@ -1,0 +1,12 @@
+/* humanstxt.org */
+
+/* Team */
+Josh Medeski
+Site: joshmedeski.com
+Twitter: @joshmedeski
+Location: Houston, Texas
+
+/* Site */
+Standards: HTML5, CSS3, Sass, Git, BEM.
+Framework: Zurb's Foundation (foundation.zurb.com).
+Software: Sublime Text, Codekit, Mamp Pro, Google Chrome, Edge Inspect, Dropbox, Photoshop, Illustrator.
