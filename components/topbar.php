@@ -20,6 +20,9 @@
       <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
       </ul>
       <section class="top-bar-section">
+        <ul class="left">
+          <li><a id="slogan"><?php bloginfo('description'); ?></a></li>
+        </ul>
       <?php
           wp_nav_menu( array(
               'theme_location' => 'topbar',

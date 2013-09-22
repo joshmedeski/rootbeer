@@ -71,9 +71,17 @@ Version: 4.3.1
 // @import "footer";
 // @import "sidebar";
 
+::selection {
+	background: $secondary-color;
+	color: #000;
+}
+
+#slogan {
+	color: #777;
+}
+
 #header-default {
 	background: black;
-	border-bottom: 3px solid $primary-color;
 	.current-menu-item > a {
 		color: #777;
 	}
@@ -109,3 +117,7 @@ Version: 4.3.1
   @include inset-shadow;
 }
 
+// Comments
+#submit {
+	@include button($bg: $secondary-color);
+}
