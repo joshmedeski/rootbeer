@@ -71,11 +71,17 @@ Version: 4.3.1
 // @import "footer";
 // @import "sidebar";
 
-// Fix Admin Bar when using MP6 Plugin
-body.admin-bar {
-	margin-top: 32px;
-	.top-bar {
-		margin-top: -32px;
+#header-default {
+	background: black;
+	border-bottom: 3px solid $primary-color;
+	.current-menu-item > a {
+		color: #777;
+	}
+	.menu-item > a {
+		letter-spacing: emCalc(2);
+		&:hover {
+			color: $primary-color;
+		}
 	}
 }
 
@@ -84,6 +90,14 @@ body.admin-bar {
 	@media #{$small} {
 		text-align: right;		
 	}
+}
+
+.main-content {
+	padding-top: emCalc(20);
+}
+
+.side-content {
+	padding-top: emCalc(100);
 }
 
 // Inline list button

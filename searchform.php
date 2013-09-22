@@ -15,7 +15,7 @@
 			<input type="text" value="<?php get_search_query(); ?>" name="s" id="s" placeholder="<?php echo esc_attr__('Search', 'rootbeer'); ?>" />
 		</div>
 		<div class="small-4 columns">
-			<input class="button prefix" type="submit" id="searchsubmit" value="<?php echo esc_attr__('Search', 'rootbeer'); ?>" />
+			<input class="secondary button prefix" type="submit" id="searchsubmit" value="<?php echo esc_attr__('Search', 'rootbeer'); ?>" />
 		</div>
 	</div>
 </form>
