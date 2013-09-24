@@ -1,5 +1,5 @@
 <?php
-/* This will be seen on the top of every page (except landing pages, see landing-header.php).
+/* This will be seen on the top of every landing page.
  *
  * @package    WordPress
  * @subpackage RootBeer
@@ -8,10 +8,10 @@
  */
 ?>
 
-<header id="header-default">
+<section id="header-default">
 	<div class="row collapse">
 		<div class="small-12 columns">
-			<?php get_template_part( 'components/nav-topbar' ); ?>
+			<?php get_template_part( 'components/topbar' ); ?>
 		</div>
 	</div>
-</header>
+</section>

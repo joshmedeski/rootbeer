@@ -10,6 +10,7 @@ Version: 4.3.1
 
 // Global Foundation Settings
 @import "settings";
+@import "custom-settings";
 
 // Comment out this import if you don't want to use normalize
 @import "normalize";
@@ -120,4 +121,13 @@ Version: 4.3.1
 // Comments
 #submit {
 	@include button($bg: $secondary-color);
+}
+
+// Subscribe
+.subscribe {
+	@include grid-row; 
+	@include panel;
+	section {
+		@include grid-column($columns: 6, $collapse: true);
+	}
 }

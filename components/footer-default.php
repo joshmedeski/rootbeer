@@ -1,6 +1,5 @@
 <?php
-/**
- * The organism for displaying footer content.
+/* This will be seen on the bottom of every page.
  *
  * @package WordPress
  * @subpackage Root Beer
@@ -10,15 +9,15 @@
 ?>
 
 <footer>
-	<section id="footer-widgets">
-		<!-- Widgets -->
-		<div class="row">
-			<hr>
-			<?php if ( is_active_sidebar( 'bottom-sidebar' ) ) : ?>
+	<?php if ( is_active_sidebar( 'bottom-sidebar' ) ) : ?>
+		<section id="footer-widgets">
+			<!-- Widgets -->
+			<div class="row">
+				<hr>
 				<?php dynamic_sidebar( 'bottom-sidebar' ); ?>
-			<?php endif; ?>
-		</div>
-	</section>
+			</div>
+		</section>
+	<?php endif; ?>
 	
 	<section id="footer-colophon">
 		<div class="row">
@@ -38,7 +37,7 @@
 			</div>
 			<!-- Colphon -->
 			<div class="large-6 medium-6 columns">
-				<p class="colophon">&copy; <?php echo date("Y"); ?> <?php bloginfo('name'); ?>.</p>
+				<p class="colophon">&copy; <?php echo date("Y"); ?> <?php bloginfo('name'); ?>. All Rights Reserved.</p>
 			</div>
 		</div>
 	</section>

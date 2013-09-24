@@ -26,4 +26,4 @@ get_header(); get_template_part( 'components/topbar', 'components/header-default
 	</div>
 </div>
 
-<?php get_template_part( 'components/footer-default' ); get_footer(); ?>
+<?php get_footer(); ?>

@@ -1,6 +1,5 @@
 <?php
-/**
- * This is the Top Bar.
+/* This is the Top Bar for navigation.
  *
  * @package    WordPress
  * @subpackage RootBeer

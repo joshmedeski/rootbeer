@@ -15,7 +15,9 @@ get_header(); get_template_part( 'components/header-default' ); while ( have_pos
 		<h1><?php the_title(); ?></h1>
 		<p><?php the_post_thumbnail(); ?></p>
 		<?php the_content(); ?>
-		<hr>	
+		
+		<hr>
+
 		<nav class="nav-single row">
 			<div class="nav-previous small-6 columns"><?php previous_post_link( '%link', '<span class="meta-nav">' . _x( '&larr;', 'Previous post link', 'twentytwelve' ) . '</span> %title' ); ?></div>
 			<div class="nav-next small-6 columns text-right"><?php next_post_link( '%link', '%title <span class="meta-nav">' . _x( '&rarr;', 'Next post link', 'twentytwelve' ) . '</span>' ); ?></div>
@@ -29,5 +31,5 @@ get_header(); get_template_part( 'components/header-default' ); while ( have_pos
   <?php get_sidebar(); ?>
 </div>
 
-<?php get_template_part( 'components/footer-default' ); get_footer(); ?>
+<?php get_footer(); ?>
 

@@ -1,8 +1,11 @@
 /* humanstxt.org */
 
+/* About */
+This is a Wordpress framework built for Foundation users.
+
 /* Team */
 Josh Medeski
-Site: joshmedeski.com
+Site: medeskidesign.com
 Twitter: @joshmedeski
 Location: Houston, Texas
 

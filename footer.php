@@ -1,12 +1,12 @@
 <?php
-/* The organism for displaying the footer.
+/* This is the Wordpress footer file.
  *
  * @package    WordPress
  * @subpackage RootBeer
  * @author     JoshMedeski
  * @framework  Foundation
  */
-wp_footer(); ?>
+get_template_part( 'components/footer-default' ); wp_footer(); ?>
   
   <script>
   document.write('<script src=' +

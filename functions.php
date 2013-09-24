@@ -159,4 +159,11 @@ class rootbeer_walker extends Walker_Nav_Menu {
   	}
 }
 
+// Foundation's flex-video class for embedded videos (just paste the youtube link!)
+// Credit: thanks davidmcnee (http://wordpress.org/support/topic/adding-a-wrapping-div-to-video-embeds)
+add_filter('embed_oembed_html', 'my_embed_oembed_html', 99, 4);
+function my_embed_oembed_html($html, $url, $attr, $post_id) {
+  return '<div class="flex-video">' . $html . '</div>';
+}
+
 ?>

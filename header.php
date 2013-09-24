@@ -1,6 +1,5 @@
 <?php
-/**
- * The organism for displaying the header.
+/* This is the Wordpress header file.
  *
  * @package    WordPress
  * @subpackage RootBeer
@@ -23,6 +22,8 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
 
     <script src="<?php echo get_template_directory_uri(); ?>/javascripts/vendor/custom.modernizr.js"></script>
+		
+		<?php get_template_part( 'components/custom-header' ); ?>
 
     <?php wp_head(); ?>
 
