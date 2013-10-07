@@ -1,0 +1,122 @@
+// Global Foundation Settings
+@import "settings";
+
+// Comment out this import if you don't want to use normalize
+@import "normalize";
+
+// Comment out this import if you are customizing you imports below
+@import "foundation";
+
+// Import specific parts of Foundation by commenting the import "foundation"
+// and uncommenting what you want below. You must uncomment the following if customizing
+
+// @import "foundation/components/global"; // *always required
+// @import "foundation/components/grid";
+
+//
+// Use this grid if you want to start using the new Foundation 5 grid early.
+// It will change breakpoints to min-width: 640px and 1024px.
+//
+@import "foundation/components/grid-5";
+//
+
+// @import "foundation/components/visibility";
+// @import "foundation/components/block-grid";
+// @import "foundation/components/type";
+// @import "foundation/components/buttons";
+// @import "foundation/components/forms"; // *requires components/buttons
+// @import "foundation/components/custom-forms"; // *requires components/buttons, components/forms
+// @import "foundation/components/button-groups"; // *requires components/buttons
+// @import "foundation/components/dropdown-buttons"; // *requires components/buttons
+// @import "foundation/components/split-buttons"; // *requires components/buttons
+// @import "foundation/components/flex-video";
+// @import "foundation/components/section";
+// @import "foundation/components/top-bar";  // *requires components/grid
+// @import "foundation/components/orbit";
+// @import "foundation/components/reveal";
+// @import "foundation/components/joyride";
+// @import "foundation/components/clearing";
+// @import "foundation/components/alert-boxes";
+// @import "foundation/components/breadcrumbs";
+// @import "foundation/components/keystrokes";
+// @import "foundation/components/labels";
+// @import "foundation/components/inline-lists";
+// @import "foundation/components/pagination";
+// @import "foundation/components/panels";
+// @import "foundation/components/pricing-tables";
+// @import "foundation/components/progress-bars";
+// @import "foundation/components/side-nav";
+// @import "foundation/components/sub-nav";
+// @import "foundation/components/switch";
+// @import "foundation/components/magellan";
+// @import "foundation/components/tables";
+// @import "foundation/components/thumbs";
+// @import "foundation/components/tooltips";
+// @import "foundation/components/dropdown";
+
+//
+// Import custom components here
+//
+// @import "header";
+// @import "footer";
+// @import "sidebar";
+
+::selection {
+	background: $secondary-color;
+	color: #000;
+}
+
+#slogan {
+	color: #777;
+}
+
+#header-default {
+	background: black;
+	.current-menu-item > a {
+		color: #777;
+	}
+	.menu-item > a {
+		letter-spacing: emCalc(2);
+		&:hover {
+			color: $primary-color;
+		}
+	}
+}
+
+// Colophon Spacing
+.colophon {
+	@media #{$small} {
+		text-align: right;		
+	}
+}
+
+.main-content {
+	padding-top: emCalc(20);
+}
+
+.side-content {
+	padding-top: emCalc(100);
+}
+
+// Inline list button
+.nav-button a {
+	@include button-base;
+  @include button-size($padding: $button-sml);
+  @include button-style;
+  @include single-transition;
+  @include inset-shadow;
+}
+
+// Comments
+#submit {
+	@include button($bg: $secondary-color);
+}
+
+// Subscribe
+.subscribe {
+	@include grid-row; 
+	@include panel;
+	section {
+		@include grid-column($columns: 6, $collapse: true);
+	}
+}
