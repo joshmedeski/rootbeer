@@ -21,6 +21,17 @@ file 'sidebar.php'
 file 'single.php'
 file 'style.css'
 
+def copy_js_from(relative_path, prefix_path, excludes=[])
+  absolute_path = File.join(File.dirname(__FILE__), relative_path, prefix_path)
+  js_files = Dir.glob("#{absolute_path}/*.js")
+  js_files.reject! {|f| excludes.include? File.basename(f)}
+  js_files.each do |js|
+    javascript "#{relative_path}/#{prefix_path}/#{File.basename(js)}",
+      :to => "#{prefix_path}/#{File.basename(js)}"
+  end
+  return js_files.map {|f| "#{prefix_path}/#{File.basename(f)}"}
+end
+
 javascripts = copy_js_from("../../../zurb-foundation-4.3.1/js", "foundation", ["foundation.js", "index.js"])
 vendor_javascripts = copy_js_from("../../../zurb-foundation-4.3.1/js", "vendor")
 

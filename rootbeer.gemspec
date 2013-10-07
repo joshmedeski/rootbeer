@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["josh.medeski@gmail.com"]
   spec.description   = %q{Rootbeer is a Wordpress Framework built with Zurb's Foundation, Compass, and Sass.}
   spec.summary       = %q{A Wordpress Foundation Framework}
-  spec.homepage      = "http://github.com/joshmedeski/rootbeer"
+  spec.homepage      = "https://github.com/joshmedeski/foundation-rootbeer"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
