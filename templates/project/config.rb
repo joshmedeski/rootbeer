@@ -1,6 +1,6 @@
 require 'zurb-foundation'
 require 'rootbeer'
-# TODO: CREAT A RUBY GEM require 'rootbeer'
+
 # Require any additional compass plugins here.
 
 
