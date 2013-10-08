@@ -1,0 +1,25 @@
+//
+// Custom WordPress login style
+//
+@import "settings";
+@import "rootbeer/foundation/global";
+@import "rootbeer/foundation/type";
+@import "rootbeer/foundation/buttons";
+
+.login h1 a {
+	background-image: url(images/login-logo.png);
+	background-size: 274px 63px;
+}
+
+#wp-submit {
+	@include button;
+}
+
+.login #nav a, .login #backtoblog a {
+    color: $anchor-font-color;
+    text-decoration: $anchor-text-decoration;
+    line-height: inherit;
+
+    &:hover,
+    &:focus { color: $anchor-font-color-hover; }
+}

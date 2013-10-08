@@ -1,0 +1,18 @@
+/*
+Theme Name: Root Beer
+Description: Used to style the TinyMCE editor.
+*/
+
+// Foundation Elements
+@import "settings";
+@import "rootbeer/foundation/global";
+@import "rootbeer/foundation/grid";
+@import "rootbeer/foundation/type";
+@import "rootbeer/foundation/buttons";
+
+// Padding around editor
+body {padding: 10px;}
+
+.half {
+	@include grid-column($columns: 6, $collapse: true)
+}
