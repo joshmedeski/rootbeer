@@ -1,0 +1,5 @@
+.gitignore
+.git-ftp-ignore
+README.md
+config.rb
+scss/*
