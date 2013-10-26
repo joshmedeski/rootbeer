@@ -1,14 +1,17 @@
 <?php
 /* Functions
  *
- * @package RootBeer
- * @author JoshMedeski
+ * @package    WordPress
+ * @subpackage RootBeer
+ * @author     JoshMedeski
  */
 
-function rootbeer_setup() {
+// Includes
+include_once('functions-styles.php');
+include_once('functions-scripts.php');
+include_once('functions-widgets.php');
 
-	// This styles the visual editor with editor-style.css to match the theme style.
-	add_editor_style();
+function rootbeer_setup() {
 	
 	// This styles the login screen with login-style.css to match the theme style
 	function login_stylesheet() { ?>
@@ -18,34 +21,6 @@ function rootbeer_setup() {
 
 }
 add_action( 'after_setup_theme', 'rootbeer_setup' );
-
-// Register Sidebar Widgets
-function sidebar_widgets() {
-	register_sidebar( array(
-		'name'          => __( 'Sidebar Widgets', 'rootbeer' ),
-		'description'   => __( 'Appears in the sidebar.', 'rootbeer' ),
-		'class'         => 'widgets--sidebar',
-		'before_widget' => '<div class="widgets--sidebar__widget">',
-		'after_widget'  => '</div>',
-		'before_title'  => '<h4 class="widgets--sidebar__title">',
-		'after_title'   => '</h4>'
-	) );
-}
-add_action( 'widgets_init', 'sidebar_widgets' );
-
-// Register Footer Widgets
-function footer_widgets() {
-	register_sidebar( array(
-		'name'          => __( 'Footer Widgets', 'rootbeer' ),
-		'description'   => __( 'Appears in the footer.', 'rootbeer' ),
-		'class'         => 'widget--footer',
-		'before_widget' => '<div class="widgets--footer__widget">',
-		'after_widget'  => '</div>',
-		'before_title'  => '<h4 class="widgets--footer__title">',
-		'after_title'   => '</h4>'
-	) );
-}
-add_action( 'widgets_init', 'footer_widgets' );
 
 // Register Footer Navigation
 $footer_navigation = array(

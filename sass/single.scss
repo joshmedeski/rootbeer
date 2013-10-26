@@ -1,0 +1,22 @@
+// Single
+
+.single {
+}
+
+.single__row {
+	@include grid-row;
+}
+
+.single__columns {
+	@include grid-column(8);
+}
+
+.single__title {
+}
+
+.single__content {
+}
+
+.single__aside {
+	@include grid-column(4);	
+}

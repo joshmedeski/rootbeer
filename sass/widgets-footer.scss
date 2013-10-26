@@ -1,13 +1,15 @@
 // Wordpress Footer Widgets
 
 .widgets--footer {
+}
+
+.widgets--footer__row {
 	@include grid-row;
 }
 
-.widgets--footer__widget {
+.widgets--footer__columns {
 	@include grid-column(4);
 }
 
 .widgets--footer__title {
-
 }

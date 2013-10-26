@@ -8,15 +8,18 @@
  */
 get_header(); while (have_posts()) : the_post(); ?>
 
-<!-- Main Content -->
-<div class="row">
-	<div class="large-8 columns site-content-article">
-		<h1 class="page-title"><?php the_title(); ?></h1>
-		<p><?php the_post_thumbnail(); ?></p>
-		<?php the_content(); ?>
-		<?php wp_link_pages(array('before' => '<nav class="page-nav"><p>' . __('Pages:', 'roots'), 'after' => '</p></nav>')); ?>
+<section class="page">
+	<div class="page__row">
+		<main class="page__columns">
+			<h1 class="page__title"><?php the_title(); ?></h1>
+			<div class="page__thumbnail"><?php the_post_thumbnail(); ?></div>
+			<div class="page__content"><?php the_content(); ?></div>
+			<?php wp_link_pages(array('before' => '<nav class="page-nav"><p>' . __('Pages:', 'roots'), 'after' => '</p></nav>')); ?>
+		</main>
+		<aside class="page__sidebar">
+			<?php get_sidebar(); ?>
+		</aside>
 	</div>
-	<?php get_sidebar(); ?>
-</div>
+</section>
 
 <?php endwhile; get_footer(); ?>

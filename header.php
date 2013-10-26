@@ -1,10 +1,10 @@
 <?php
-/* This is the Wordpress header file.
+/* Header
  *
  * @package    WordPress
  * @subpackage RootBeer
- * @author     JoshMedeski
  * @framework  Foundation
+ * @author     JoshMedeski
  */
 ?>
 
@@ -13,39 +13,11 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
 
 <head>
-    <meta charset="<?php bloginfo('charset'); ?>" />
-    <meta name="viewport" content="width=device-width">
-
-    <title><?php wp_title('|', true, 'right'); ?> <?php bloginfo('name'); ?></title>
-
-    <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico" />
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/app.css">
-
-    <!-- Google Font Example
-	<link href='http://fonts.googleapis.com/css?family=CUSTOM--FONT' rel='stylesheet' type='text/css'>
-	-->
-
-	<!-- Typekit Example
-	<script type="text/javascript" src="//use.typekit.net/CUSTOM--KIT.js"></script>
-	-->
-	
-	<!-- Google Analytics Example
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-	
-	  ga('create', 'CUSTOM--ID', 'CUSTOM--URL');
-	  ga('send', 'pageview');
-	</script> 
-	-->
-
-	<!-- Foundation's Custom Modernizer Script -->
-    <script src="<?php echo get_template_directory_uri(); ?>/javascripts/vendor/custom.modernizr.js"></script>
-
-    <?php wp_head(); ?>
-
+	<meta charset="<?php bloginfo('charset'); ?>" />
+	<meta name="viewport" content="initial-scale=1.0">
+	<title><?php wp_title('|', true, 'right'); ?><?php bloginfo('name'); ?></title>
+	<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
+	<?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>

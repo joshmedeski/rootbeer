@@ -1,0 +1,15 @@
+// Footer
+
+.footer {
+}
+
+.footer__row {
+	@include grid-row;
+}
+
+.footer__columns {
+	@include grid-column(12);
+}
+
+.footer__text {
+}

@@ -1,9 +1,11 @@
 <?php
-/* Sidebar Content
+/* Sidebar
  *
- * @package RootBeer
- * @author JoshMedeski
+ * @package    WordPress
+ * @subpackage RootBeer
+ * @framework  Foundation
+ * @author     JoshMedeski
  */
-if ( is_active_sidebar( 'sidebar_widgets' ) ) :
-	dynamic_sidebar( 'sidebar_widgets' ); 
+if ( is_active_sidebar( 'rootbeer_sidebar_widgets' ) ) :
+	dynamic_sidebar( 'rootbeer_sidebar_widgets' );
 endif; ?>

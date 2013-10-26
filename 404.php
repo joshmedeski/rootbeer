@@ -1,13 +1,12 @@
 <?php
-/**
- * The page for displaying 404 pages (Not Found).
+/* 404
  *
  * @package    WordPress
  * @subpackage RootBeer
- * @author     JoshMedeski
  * @framework  Foundation
+ * @author     JoshMedeski
  */
-get_header(); get_template_part( 'components/topbar', 'components/header-default' ); ?>
+get_header(); ?>
 
 <div class="row">
 	<div class="text-center entry-header small-12 columns">

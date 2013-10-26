@@ -1,10 +1,10 @@
 <?php
-/**
- * The default template for displaying content. Used for both single and index/archive/search.
+/* Content
  *
- * @package WordPress
- * @subpackage Twenty_Twelve
- * @since Twenty Twelve 1.0
+ * @package    WordPress
+ * @subpackage RootBeer
+ * @framework  Foundation
+ * @author     JoshMedeski
  */
 ?>
 
