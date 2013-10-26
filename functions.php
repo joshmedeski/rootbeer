@@ -19,34 +19,46 @@ function rootbeer_setup() {
 }
 add_action( 'after_setup_theme', 'rootbeer_setup' );
 
-
-// Register Sidebar
-function rootbeer_main_sidebar() {
+// Register Sidebar Widgets
+function sidebar_widgets() {
 	register_sidebar( array(
-		'name' => __( 'Sidebar', 'rootbeer' ),
-		'id' => 'sidebar',
-		'description' => __( 'Appears on the sidebar of every post & page.', 'rootbeer' ),
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-		'after_widget' => '</aside>',
-		'before_title' => '<h4 class="sidebar-title">',
-		'after_title' => '</h4>',
+		'name'          => __( 'Sidebar Widgets', 'rootbeer' ),
+		'description'   => __( 'Appears in the sidebar.', 'rootbeer' ),
+		'class'         => 'widgets--sidebar',
+		'before_widget' => '<div class="widgets--sidebar__widget">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h4 class="widgets--sidebar__title">',
+		'after_title'   => '</h4>'
 	) );
 }
-add_action( 'widgets_init', 'rootbeer_main_sidebar' );
+add_action( 'widgets_init', 'sidebar_widgets' );
 
-// Footer Sidebar
-function rootbeer_bottom_sidebar() {
+// Register Footer Widgets
+function footer_widgets() {
 	register_sidebar( array(
-		'name' => __( 'Bottom Widgets', 'rootbeer' ),
-		'id' => 'bottom-sidebar',
-		'description' => __( 'Appears on the bottom of every post & page, best results with 4 widgets.', 'rootbeer' ),
-		'before_widget' => '<aside id="%1$s" class="large-3 columns widget %2$s">',
-		'after_widget' => '</aside>',
-		'before_title' => '<h5 class="bottom-title">',
-		'after_title' => '</h5>',
+		'name'          => __( 'Footer Widgets', 'rootbeer' ),
+		'description'   => __( 'Appears in the footer.', 'rootbeer' ),
+		'class'         => 'widget--footer',
+		'before_widget' => '<div class="widgets--footer__widget">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h4 class="widgets--footer__title">',
+		'after_title'   => '</h4>'
 	) );
 }
-add_action( 'widgets_init', 'rootbeer_bottom_sidebar' );
+add_action( 'widgets_init', 'footer_widgets' );
+
+// Register Footer Navigation
+$footer_navigation = array(
+	'theme_location'  => 'footer_navigation',
+	'container'       => 'section',
+	'container_class' => 'navigation--footer',
+	'menu_class'      => 'inline-list',
+	'items_wrap'      => '<ul class="%2$s">%3$s</ul>',
+	'depth'           => 1,
+	'echo'            => true,
+	'fallback_cb'     => 'false'
+);
+wp_nav_menu( $footer_navigation );
 
 // Add menu supports. http://codex.wordpress.org/Function_Reference/register_nav_menus
 add_theme_support('menus');

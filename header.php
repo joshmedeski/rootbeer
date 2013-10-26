@@ -50,21 +50,21 @@
 
 <body <?php body_class(); ?>>
 
-<header class="site--header">
+<header class="header">
 	<div class="row">
 		<div class="small-12 columns">
 			<div class="contain-to-grid">
 			  <nav class="top-bar">
 			      <ul class="title-area">
 			          <li class="name">
-			            <h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+			            <h1 class="header__title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 			          </li>
 			      <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
 			      <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
 			      </ul>
 			      <section class="top-bar-section">
 			        <ul class="left">
-			          <li><a class="site--description"><?php bloginfo('description'); ?></a></li>
+			          <li><a class="header__description"><?php bloginfo('description'); ?></a></li>
 			        </ul>
 			      <?php
 			          wp_nav_menu( array(

@@ -4,8 +4,6 @@
  * @package RootBeer
  * @author JoshMedeski
  */
-if ( is_active_sidebar( 'sidebar' ) ) : ?>
-	<div class="site--sidebar">
-		<?php dynamic_sidebar( 'sidebar' ); ?>
-	</div>
-<?php endif; ?>
+if ( is_active_sidebar( 'sidebar_widgets' ) ) :
+	dynamic_sidebar( 'sidebar_widgets' ); 
+endif; ?>
