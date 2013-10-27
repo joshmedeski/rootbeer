@@ -1,0 +1,9 @@
+// Mixins
+
+@mixin links($link-color)
+  a {
+    color: $link-color;
+    
+    &:hover,
+    &:focus { color: darken($link-color, 5%); }
+  }

@@ -34,9 +34,7 @@ get_header(); while ( have_posts() ) : the_post(); ?>
 					<?php next_post_link( '%link' ); ?>
 				</div>
 			</nav>
-			<div class="single__comments">
-				<?php comments_template(); ?>
-			</div>
+			<?php comments_template(); ?>
 		</article>
 		<aside class="single__sidebar">
 			<?php get_sidebar(); ?>	

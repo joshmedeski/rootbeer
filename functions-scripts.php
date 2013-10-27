@@ -7,6 +7,31 @@
  * @author     JoshMedeski
  */
 
+// Vendor Scripts
+
+// add_action( 'wp_enqueue_scripts', 'rootbeer_modernizr_script' );
+// add_action( 'wp_enqueue_scripts', 'rootbeer_jquery_script' );
+add_action( 'wp_enqueue_scripts', 'rootbeer_zepto_script' );
+
+// Foundation Scripts
+
+// add_action( 'wp_enqueue_scripts', 'rootbeer_abide_script' );
+// add_action( 'wp_enqueue_scripts', 'rootbeer_alert_script' );
+// add_action( 'wp_enqueue_scripts', 'rootbeer_clearing_script' );
+// add_action( 'wp_enqueue_scripts', 'rootbeer_cookie_script' );
+// add_action( 'wp_enqueue_scripts', 'rootbeer_dropdown_script' );
+// add_action( 'wp_enqueue_scripts', 'rootbeer_forms_script' );
+// add_action( 'wp_enqueue_scripts', 'rootbeer_interchange_script' );
+// add_action( 'wp_enqueue_scripts', 'rootbeer_joyride_script' );
+add_action( 'wp_enqueue_scripts', 'rootbeer_foundation_script' );
+// add_action( 'wp_enqueue_scripts', 'rootbeer_magellan_script' );
+// add_action( 'wp_enqueue_scripts', 'rootbeer_orbit_script' );
+// add_action( 'wp_enqueue_scripts', 'rootbeer_placeholder_script' );
+// add_action( 'wp_enqueue_scripts', 'rootbeer_reveal_script' );
+// add_action( 'wp_enqueue_scripts', 'rootbeer_section_script' );
+// add_action( 'wp_enqueue_scripts', 'rootbeer_tooltips_script' );
+add_action( 'wp_enqueue_scripts', 'rootbeer_topbar_script' );
+
 //
 // Vendor Scripts
 //
@@ -29,9 +54,6 @@ function rootbeer_zepto_script() {
 		get_template_directory_uri() . '/javascripts/vendor/zepto.js'
 	);
 }
-add_action( 'wp_enqueue_scripts', 'rootbeer_modernizr_script' );
-add_action( 'wp_enqueue_scripts', 'rootbeer_jquery_script' );
-add_action( 'wp_enqueue_scripts', 'rootbeer_zepto_script' );
 
 //
 // Foundation Scripts
@@ -149,20 +171,4 @@ function rootbeer_topbar_script() {
 		true
 	);
 }
-add_action( 'wp_enqueue_scripts', 'rootbeer_abide_script' );
-add_action( 'wp_enqueue_scripts', 'rootbeer_alert_script' );
-add_action( 'wp_enqueue_scripts', 'rootbeer_clearing_script' );
-add_action( 'wp_enqueue_scripts', 'rootbeer_cookie_script' );
-add_action( 'wp_enqueue_scripts', 'rootbeer_dropdown_script' );
-add_action( 'wp_enqueue_scripts', 'rootbeer_forms_script' );
-add_action( 'wp_enqueue_scripts', 'rootbeer_interchange_script' );
-add_action( 'wp_enqueue_scripts', 'rootbeer_joyride_script' );
-add_action( 'wp_enqueue_scripts', 'rootbeer_foundation_script' );
-add_action( 'wp_enqueue_scripts', 'rootbeer_magellan_script' );
-add_action( 'wp_enqueue_scripts', 'rootbeer_orbit_script' );
-add_action( 'wp_enqueue_scripts', 'rootbeer_placeholder_script' );
-add_action( 'wp_enqueue_scripts', 'rootbeer_reveal_script' );
-add_action( 'wp_enqueue_scripts', 'rootbeer_section_script' );
-add_action( 'wp_enqueue_scripts', 'rootbeer_tooltips_script' );
-add_action( 'wp_enqueue_scripts', 'rootbeer_topbar_script' );
 ?>
