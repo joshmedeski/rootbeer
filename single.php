@@ -26,6 +26,7 @@ get_header(); while ( have_posts() ) : the_post(); ?>
 			</h6>
 			<div class="single__content"><?php the_content(); ?></div>
 			<div class="single__thumbnail"><?php the_post_thumbnail(); ?></div>
+			<hr>
 			<nav class="single__nav">
 				<div class="single__nav--previous">
 					<?php previous_post_link( '%link' ); ?>
@@ -34,6 +35,7 @@ get_header(); while ( have_posts() ) : the_post(); ?>
 					<?php next_post_link( '%link' ); ?>
 				</div>
 			</nav>
+			<hr>
 			<?php comments_template(); ?>
 		</article>
 		<aside class="single__sidebar">
