@@ -1,6 +1,13 @@
 // Login Style
 
-@import "app";
+// Global Foundation Settings
+@import "settings";
+
+// Comment out this import if you don't want to use normalize
+@import "normalize";
+
+// Comment out this import if you are customizing you imports below
+@import "foundation";
 
 .login h1 a {
 	background-image: url(images/login-logo.png);
