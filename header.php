@@ -10,45 +10,53 @@
 
 <!DOCTYPE html>
 <!--[if IE 8]> <html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 
 <head>
 	<meta charset="<?php bloginfo('charset'); ?>" />
-	<meta name="viewport" content="initial-scale=1.0">
-	<title><?php wp_title('|', true, 'right'); ?><?php bloginfo('name'); ?></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Title Credit: http://perishablepress.com/how-to-generate-perfect-wordpress-title-tags-without-a-plugin/ -->
+	<title>
+		<?php
+			if (function_exists('is_tag') && is_tag()) { 
+				echo 'Tag Archive for &quot;'.$tag.'&quot; — '; 
+			} 
+			elseif (is_archive()) { 
+				wp_title(''); echo ' Archive — '; 
+			}
+			elseif (is_search()) { 
+				echo 'Search for &quot;'.wp_specialchars($s).'&quot; — '; 
+			}
+			elseif (!(is_404()) && (is_single()) || (is_page())) { 
+				wp_title(''); echo ' — '; 
+			}
+			elseif (is_404()) {
+				echo 'Not Found — '; 
+			}
+			if (is_home()) { 
+				bloginfo('name'); echo ' — '; bloginfo('description'); 
+			}
+			else { bloginfo('name'); }
+		?>
+	</title>
 	<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
+
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/stylesheets/app.css">
+
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+	
 	<?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
 
-<header class="header">
-	<div class="header__row">
-		<nav class="top-bar">
-			<ul class="title-area">
-				<li class="name">
-					<h1 class="header__title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				</li>
-				<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-			</ul>
-			<section class="top-bar-section">
-				<ul class="left">
-					<li><a class="header__description"><?php bloginfo('description'); ?></a></li>
-				</ul>
-			<?php
-				wp_nav_menu( array(
-					'theme_location' => 'header',
-					'container' => false,
-					'depth' => 0,
-					'items_wrap' => '<ul class="right">%3$s</ul>',
-					'fallback_cb' => 'reverie_menu_fallback', // workaround to show a message to set up a menu
-					'walker' => new rootbeer_walker( array(
-					    'in_top_bar' => true,
-					    'item_type' => 'li'
-					) ),
-				) );
-			?>
-			</section>
-		</nav>
+<header role="banner" class="site__header">
+	<div class="row">
+		<div class="small-12 columns">
+			<h1 class="header__title"><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
+			<p class="header__description"><?php bloginfo('description'); ?></p>
+		</div>
 	</div>
 </header>
