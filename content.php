@@ -11,11 +11,11 @@
 	<article id="post-<?php the_ID(); ?>">
 		<header class="entry-header">
 			<?php if ( is_single() ) : ?>
-			<h2 class="entry-title"><?php the_title(); ?></h2>
+				<h2 class="entry-title"><?php the_title(); ?></h2>
 			<?php else : ?>
-			<h2 class="entry-title">
-				<a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
-			</h2>
+				<h2 class="entry-title">
+					<a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
+				</h2>
 			<?php endif; // is_single() ?>
 
 			<?php get_template_part( 'components/meta' ); ?>
