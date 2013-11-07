@@ -1,21 +1,20 @@
 <?php
-/**
- * The organism for displaying the header content.
+/* The Search Form
  *
  * @package    WordPress
  * @subpackage RootBeer
- * @author     JoshMedeski
  * @framework  Foundation
+ * @author     JoshMedeski
  */
 ?>
 
-<form role="search" method="get" id="searchform" action="<?php echo home_url(); ?>">
+<form role="search" class="searchform" method="get" action="<?php echo home_url(); ?>">
 	<div class="row collapse">
-		<div class="small-8 columns">
-			<input type="text" value="<?php get_search_query(); ?>" name="s" id="s" placeholder="<?php echo esc_attr__('Search', 'rootbeer'); ?>" />
+		<div class="searchform__input small-8 columns">
+			<input type="text" value="<?php get_search_query(); ?>" name="s" placeholder="<?php echo esc_attr__('Search', 'rootbeer'); ?>" />
 		</div>
-		<div class="small-4 columns">
-			<input class="secondary button prefix" type="submit" id="searchsubmit" value="<?php echo esc_attr__('Search', 'rootbeer'); ?>" />
+		<div class="searchform__submit small-4 columns">
+			<input type="submit" class="secondary button prefix" value="<?php echo esc_attr__('Search', 'rootbeer'); ?>" />
 		</div>
 	</div>
 </form>
