@@ -25,13 +25,13 @@ add_action( 'widgets_init', 'rootbeer_sidebar_widgets' );
 // Footer Widgets
 function rootbeer_footer_widgets() {
 	register_sidebar( array(
-		'name'          => __( 'Footer Widgets', 'rootbeer' ),
-		'description'   => __( 'These are the widgets in the footer.', 'rootbeer' ),
-		'id'            => 'footer-widgets',
-		'class'         => 'widgets--footer',
-		'before_widget' => '<div class="widgets--footer__widget">',
+		'name'          => __( 'Bottom Widgets', 'rootbeer' ),
+		'description'   => __( 'These are the widgets in the bottom.', 'rootbeer' ),
+		'id'            => 'bottom-widgets',
+		'class'         => 'widgets--bottom',
+		'before_widget' => '<div class="widget">',
 		'after_widget'  => '</div>',
-		'before_title'  => '<h4 class="widgets--footer__title">',
+		'before_title'  => '<h4 class="widget__title">',
 		'after_title'   => '</h4>'
 	) );
 }
