@@ -1,4 +1,11 @@
-<?php /* Page Template: Full Width */
+<?php
+/* Page Template: Full Width
+ *
+ * @package    WordPress
+ * @subpackage RootBeer
+ * @framework  Foundation
+ * @author     JoshMedeski
+ */
 get_header(); ?>
   <section class="content">
   	<div class="row">
