@@ -10,3 +10,4 @@ This is a responsive wordpress framework.
 **Friday, November 22, 2013**
 
 * Updated to Foundation 5!
+* Added social icons and updated icon font
