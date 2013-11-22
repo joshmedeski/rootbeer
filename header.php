@@ -30,7 +30,7 @@
 		</title>
 
 		<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
-		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/stylesheets/app.css">
+		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/app.css">
 
 		<link rel="profile" href="http://gmpg.org/xfn/11">
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
