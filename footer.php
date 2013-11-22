@@ -16,7 +16,7 @@
 						'depth'           => 1,
 						'echo'            => true,
 						'fallback_cb'     => 'false'
-					); 
+					);
 				wp_nav_menu( $footer_navigation ); ?>
 
 				<div class="footer__copyright">
