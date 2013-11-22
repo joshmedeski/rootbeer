@@ -1,20 +1,10 @@
-<?php
-/* The Search Form
- *
- * @package    WordPress
- * @subpackage RootBeer
- * @framework  Foundation
- * @author     JoshMedeski
- */
-?>
-
-<form role="search" class="searchform" method="get" action="<?php echo home_url(); ?>">
+<form class="search" method="get" role="search" action="<?php echo home_url(); ?>">
 	<div class="row collapse">
-		<div class="searchform__input small-8 columns">
-			<input type="text" value="<?php get_search_query(); ?>" name="s" placeholder="<?php echo esc_attr__('Search', 'rootbeer'); ?>" />
+		<div class="small-8 columns">
+			<input name="s" type="text" placeholder="<?php echo esc_attr__('Search', 'rootbeer'); ?>" value="<?php get_search_query(); ?>">
 		</div>
-		<div class="searchform__submit small-4 columns">
-			<input type="submit" class="secondary button prefix" value="<?php echo esc_attr__('Search', 'rootbeer'); ?>" />
+		<div class="small-4 columns">
+			<input class="secondary button prefix" type="submit" value="<?php echo esc_attr__('Search', 'rootbeer'); ?>">
 		</div>
 	</div>
 </form>

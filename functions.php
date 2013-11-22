@@ -10,11 +10,11 @@
 add_theme_support('menus');
 
 // Includes
-include_once('functions-customize.php');
-include_once('functions-styles.php');
-include_once('functions-scripts.php');
-include_once('functions-widgets.php');
-include_once('functions-menus.php');
+include_once('functions/functions-customize.php');
+include_once('functions/functions-styles.php');
+include_once('functions/functions-scripts.php');
+include_once('functions/functions-widgets.php');
+include_once('functions/functions-menus.php');
 
 function rootbeer_setup() {
 	
