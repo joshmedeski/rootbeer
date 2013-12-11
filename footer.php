@@ -6,6 +6,7 @@
 		
 		<footer class="footer">
 			<div class="row">
+			<div class="large-12 columns">
 				<?php 
 					$footer_navigation = array(
 						'theme_location'  => 'footer',
@@ -18,14 +19,19 @@
 						'fallback_cb'     => 'false'
 					);
 				wp_nav_menu( $footer_navigation ); ?>
-
-				<div class="footer__copyright">
-					<p>&copy; <?php echo date("Y"); ?> <?php bloginfo('name'); ?>.</p>
+					<div class="footer__copyright">
+						<p>&copy; <?php echo date("Y"); ?> <?php bloginfo('name'); ?>.</p>
+					</div>
 				</div>
-				</div>
+			</div>
 		</footer>
 
 		<?php wp_footer(); ?>
+
+		<script type="text/javascript" src="<? echo get_template_directory_uri() ?>/jquery.js"></script>
+		<script type="text/javascript" src="<? echo get_template_directory_uri() ?>/foundation.min.js"></script>
+
+
 
 		<script>
   		$(document).foundation();
