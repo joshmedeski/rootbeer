@@ -1,4 +1,4 @@
-<form class="search" method="get" role="search" action="<?php echo home_url(); ?>">
+<form class="search-form" method="get" role="search" action="<?php echo home_url(); ?>">
 	<div class="row collapse">
 		<div class="small-8 columns">
 			<input name="s" type="text" placeholder="<?php echo esc_attr__('Search', 'rootbeer'); ?>" value="<?php get_search_query(); ?>">
