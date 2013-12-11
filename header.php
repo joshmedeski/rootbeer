@@ -41,9 +41,54 @@
 	<body <?php body_class(); ?>>
 		<header class="header" role="banner">
 			<div class="row">
-				<div class="small-12 columns">
-					<h1 class="header__title"><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
-					<p class="header__description"><?php bloginfo('description'); ?></p>
+				<div class="large-6 columns">
+					<h1 class="site-title"><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
+					<p class="site-tagline subheader"><?php bloginfo('description'); ?></p>
+				</div>
+				<div class="large-2 columns">
+
+				</div>
+				<div class="large-4 columns hide-for-small">
+					<?php get_search_form(); ?>
 				</div>
 			</div>
 		</header>
+
+<div class="contain-to-grid">
+	<nav class="top-bar" data-topbar>
+	  <ul class="title-area">
+	    <li class="name"></li>
+	  </ul>
+
+	  <section class="top-bar-section">
+	    <!-- Left Nav Section -->
+			      <?php
+			          wp_nav_menu( array(
+			              'theme_location' => 'topbar',
+			              'container' => false,
+			              'depth' => 0,
+			              'items_wrap' => '<ul class="left">%3$s</ul>',
+			              'fallback_cb' => 'reverie_menu_fallback', // workaround to show a message to set up a menu
+			              'walker' => new rootbeer_walker( array(
+			                  'in_top_bar' => true,
+			                  'item_type' => 'li'
+			              ) ),
+			          ) );
+			      ?>
+	    <!-- Right Nav Section -->
+	    <ul class="right">
+	    	<li class="has-form show-for-small">
+	    		<form class="search-form" method="get" role="search" action="<?php echo home_url(); ?>
+	    			">
+	    			<div class="row collapse">
+	    				<div class="small-8 columns">
+	    					<input name="s" type="text" placeholder="<?php echo esc_attr__('Search', 'rootbeer'); ?>" value="<?php get_search_query(); ?>"></div>
+	    				<div class="small-4 columns">
+	    					<input class="secondary button expand" type="submit" value="<?php echo esc_attr__('Search', 'rootbeer'); ?>"></div>
+	    			</div>
+	    		</form>
+	    	</li>
+	    </ul>
+	  </section>
+	</nav>
+</div>
