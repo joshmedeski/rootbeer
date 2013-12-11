@@ -19,6 +19,11 @@ function rootbeer_login_style() { ?>
 <?php }
 add_action( 'login_enqueue_scripts', 'rootbeer_login_style' );
 
+function rootbeer_login_scripts() {
+  wp_enqueue_style( 'core', 'style.css', false ); 
+}
+add_action( 'login_enqueue_scripts', 'rootbeer_login_scripts', 10 );
+
 // Editor Style
 function rootbeer_editor_style() {
     add_editor_style( 'style-editor.css' );
