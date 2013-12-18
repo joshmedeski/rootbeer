@@ -36,6 +36,7 @@
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
 		<?php wp_head(); ?>
+    
 	</head>
 
 	<body <?php body_class(); ?>>
@@ -61,20 +62,19 @@
 	  </ul>
 
 	  <section class="top-bar-section">
-	    <!-- Left Nav Section -->
-			      <?php
-			          wp_nav_menu( array(
-			              'theme_location' => 'topbar',
-			              'container' => false,
-			              'depth' => 0,
-			              'items_wrap' => '<ul class="left">%3$s</ul>',
-			              'fallback_cb' => 'reverie_menu_fallback', // workaround to show a message to set up a menu
-			              'walker' => new rootbeer_walker( array(
-			                  'in_top_bar' => true,
-			                  'item_type' => 'li'
-			              ) ),
-			          ) );
-			      ?>
+     <!-- Left Nav Section -->
+     <?php
+     wp_nav_menu( array(
+      'theme_location' => 'topbar',
+      'container'      => false,
+      'depth'          => 0,
+      'items_wrap'     => '<ul class="left">%3$s</ul>',
+      'fallback_cb'    => 'reverie_menu_fallback', // workaround to show a message to set up a menu
+      'walker'         => new rootbeer_walker( array(
+      'in_top_bar'     => true,
+      'item_type'      => 'li'
+        ) ),
+      ) ); ?>
 	    <!-- Right Nav Section -->
 	    <ul class="right">
 	    	<li class="has-form show-for-small">
@@ -91,4 +91,21 @@
 	    </ul>
 	  </section>
 	</nav>
+</div>
+
+<div id="optin">
+  <div id="optin-inner">
+    <form action="http://paula-stephens.us7.list-manage.com/subscribe/post?u=0fc1553a7295bf82a19e9497d&amp;id=e9683d5265" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+      <h4>Don't miss out on FREE tips to rock a healthy life. Sign up now!</h4>
+      <div id="name-email">
+        <input id="mce-FNAME" class="name" type="text" onblur="if(this.value=='')this.value=this.defaultValue;" onfocus="if(this.value==this.defaultValue)this.value='';" name="FNAME" value="Enter your name" size="25">
+        <input id="mce-EMAIL" class="required email" type="email" onblur="if(this.value=='')this.value=this.defaultValue;" onfocus="if(this.value==this.defaultValue)this.value='';" name="EMAIL" value="Enter your email" size="25">
+        <div id="mce-responses" class="clear">
+          <div id="mce-error-response" class="response" style="display:none"></div>
+          <div id="mce-success-response" class="response" style="display:none"></div>
+        </div>
+      </div>
+      <input id="mc-embedded-subscribe" class="button" type="submit" name="subscribe" value="Sign Up!">
+    </form>
+  </div>
 </div>
