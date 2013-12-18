@@ -30,7 +30,7 @@
 		</title>
 
 		<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
-		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/app.css">
+		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/app.css">
 
 		<link rel="profile" href="http://gmpg.org/xfn/11">
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
@@ -59,13 +59,14 @@
 	<nav class="top-bar" data-topbar>
 	  <ul class="title-area">
 	    <li class="name"></li>
+      <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
 	  </ul>
 
 	  <section class="top-bar-section">
      <!-- Left Nav Section -->
      <?php
      wp_nav_menu( array(
-      'theme_location' => 'topbar',
+      'theme_location' => 'primary',
       'container'      => false,
       'depth'          => 0,
       'items_wrap'     => '<ul class="left">%3$s</ul>',
@@ -91,21 +92,4 @@
 	    </ul>
 	  </section>
 	</nav>
-</div>
-
-<div id="optin">
-  <div id="optin-inner">
-    <form action="http://paula-stephens.us7.list-manage.com/subscribe/post?u=0fc1553a7295bf82a19e9497d&amp;id=e9683d5265" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-      <h4>Don't miss out on FREE tips to rock a healthy life. Sign up now!</h4>
-      <div id="name-email">
-        <input id="mce-FNAME" class="name" type="text" onblur="if(this.value=='')this.value=this.defaultValue;" onfocus="if(this.value==this.defaultValue)this.value='';" name="FNAME" value="Enter your name" size="25">
-        <input id="mce-EMAIL" class="required email" type="email" onblur="if(this.value=='')this.value=this.defaultValue;" onfocus="if(this.value==this.defaultValue)this.value='';" name="EMAIL" value="Enter your email" size="25">
-        <div id="mce-responses" class="clear">
-          <div id="mce-error-response" class="response" style="display:none"></div>
-          <div id="mce-success-response" class="response" style="display:none"></div>
-        </div>
-      </div>
-      <input id="mc-embedded-subscribe" class="button" type="submit" name="subscribe" value="Sign Up!">
-    </form>
-  </div>
 </div>
