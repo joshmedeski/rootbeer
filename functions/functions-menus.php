@@ -9,8 +9,8 @@
 
 // This theme uses wp_nav_menu() in two locations.
 register_nav_menus( array(
-	'primary'   => __( 'Primary top menu', 'rootbeer' ),
-	'secondary' => __( 'Secondary bottom menu', 'rootbeer' ),
+	'primary'   => __( 'Primary menu on the top', 'rootbeer' ),
+	'secondary' => __( 'Secondary menu on the bottom', 'rootbeer' ),
 ) );
 
 /**
