@@ -7,8 +7,11 @@
  * @author     JoshMedeski
  */
 
-register_nav_menu('header', 'Header');
-register_nav_menu('footer', 'Footer');
+// This theme uses wp_nav_menu() in two locations.
+register_nav_menus( array(
+	'primary'   => __( 'Primary top menu', 'rootbeer' ),
+	'secondary' => __( 'Secondary bottom menu', 'rootbeer' ),
+) );
 
 /**
  * class required_walker
