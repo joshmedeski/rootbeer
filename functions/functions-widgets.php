@@ -26,10 +26,10 @@ add_action( 'widgets_init', 'rootbeer_sidebar_widgets' );
 function rootbeer_bottom_widgets() {
 	register_sidebar( array(
 		'name'          => __( 'Bottom Widgets', 'rootbeer' ),
-		'description'   => __( 'These are the widgets in the bottom.', 'rootbeer' ),
+		'description'   => __( 'These are the widgets in the <bottom class=""></bottom>', 'rootbeer' ),
 		'id'            => 'bottom-widgets',
 		'class'         => 'bottom-widgets',
-		'before_widget' => '<div class="bottom-widget large-4 columns">',
+		'before_widget' => '<div class="bottom-widget large-3 columns">',
 		'after_widget'  => '</div>',
 		'before_title'  => '<h4 class="bottom-widget-title">',
 		'after_title'   => '</h4>'
