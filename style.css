@@ -5,5 +5,7 @@ Description: A WordPress framework with <a href="http://foundation.zurb.com">ZUR
 Author: Josh Medeski
 Author URI: https://github.com/joshmedeski/
 License: MIT License
-Version: 0.1.1
+Version: 0.5.3
 */
+
+/* The theme's styles are built with sass and compiled to "theme.css" */
