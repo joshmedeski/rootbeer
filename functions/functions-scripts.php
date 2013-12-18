@@ -7,8 +7,12 @@
  * @author     JoshMedeski
  */
 
-// Remove jQuery
-// wp_deregister_script('jquery');
+// Remove Mailchimp Styles (mc4wp)
+add_action( 'wp_print_styles', 'mailchimp_deregister_styles', 100 );
+
+function mailchimp_deregister_styles() {
+	wp_deregister_style( 'mailchimp-for-wp' );
+}
 
 // Add Files
 add_action( 'wp_enqueue_scripts', 'rootbeer_modernizer_script' );
