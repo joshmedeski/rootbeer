@@ -10,8 +10,7 @@
             get_template_part( 'content', 'none' );
         endif; ?>
       </main>
-
-        <?php get_sidebar(); ?>
+      <?php get_sidebar(); ?>
     </div>
   </section>
 <?php get_footer(); ?>
