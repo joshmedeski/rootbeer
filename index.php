@@ -10,9 +10,8 @@
             get_template_part( 'content', 'none' );
         endif; ?>
       </main>
-      <aside class="large-4 columns" role="complementary">
+
         <?php get_sidebar(); ?>
-      </aside>
     </div>
   </section>
 <?php get_footer(); ?>
