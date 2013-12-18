@@ -28,11 +28,6 @@
 
 		<?php wp_footer(); ?>
 
-		<script type="text/javascript" src="<? echo get_template_directory_uri() ?>/jquery.js"></script>
-		<script type="text/javascript" src="<? echo get_template_directory_uri() ?>/foundation.min.js"></script>
-
-
-
 		<script>
   		$(document).foundation();
 		</script>
