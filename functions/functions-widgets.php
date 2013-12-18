@@ -23,18 +23,18 @@ function rootbeer_sidebar_widgets() {
 add_action( 'widgets_init', 'rootbeer_sidebar_widgets' );
 
 // Footer Widgets
-function rootbeer_footer_widgets() {
+function rootbeer_bottom_widgets() {
 	register_sidebar( array(
 		'name'          => __( 'Bottom Widgets', 'rootbeer' ),
 		'description'   => __( 'These are the widgets in the bottom.', 'rootbeer' ),
 		'id'            => 'bottom-widgets',
-		'class'         => 'widgets--bottom',
-		'before_widget' => '<div class="widget">',
+		'class'         => 'bottom-widgets',
+		'before_widget' => '<div class="bottom-widget large-4 columns">',
 		'after_widget'  => '</div>',
-		'before_title'  => '<h4 class="widget__title">',
+		'before_title'  => '<h4 class="bottom-widget-title">',
 		'after_title'   => '</h4>'
 	) );
 }
-add_action( 'widgets_init', 'rootbeer_footer_widgets' );
+add_action( 'widgets_init', 'rootbeer_bottom_widgets' );
 
 ?>
