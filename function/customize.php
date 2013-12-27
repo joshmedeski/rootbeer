@@ -6,44 +6,85 @@
  * @framework  Foundation
  * @author     JoshMedeski
  */
-function outlet_customizer_admin() {
-	add_theme_page( 'Theme Customize', 'Theme Customize', 'edit_theme_options', 'customize.php' ); 	
-	}
-add_action ('admin_menu', 'outlet_customizer_admin');
 
-function rootbeer_customize_register($wp_customize){
+function rootbeer_register_theme_customizer( $wp_customize ) {
+    $wp_customize->add_setting(
+        'rootbeer_link_color',
+        array(
+            'default'     => '#000000'
+        )
+    );
+    $wp_customize->add_control(
+        new WP_Customize_Color_Control(
+            $wp_customize,
+            'link_color',
+            array(
+                'label'       => __( 'Link Color', 'rootbeer' ),
+                'section'     => 'colors',
+                'settings'    => 'rootbeer_link_color'
+            )
+        )
+    );
 
-//	Logo Section
-	$wp_customize->add_section('rootbeer_logo', array(
-		'title'    => __('Logo', 'rootbeer'),
-		'priority' => 25
-    )); 
-  }
+    // Header Options
+    $wp_customize->add_section(
+        'rootbeer_header',
+        array(
+            'title'     => 'Header',
+            'description' => 'This controls the top of the website.',
+            'priority'  => 200
+        )
+    );
 
-//  =============================
-//  Logo Section          		=
-//  ============================= 
+    $wp_customize->add_setting(
+    'rootbeer_display_header',
+        array(
+            'default'    =>  'true'
+        )
+    );
 
-//	Retina Logo
-    // $wp_customize->add_setting('rootbeer_theme_options[outlet_retina_logo]', array(
-    //     'capability'	=> 'edit_theme_options',
-    //     'type'			=> 'option',
-    // ));
-    // $wp_customize->add_control( new WP_Customize_Image_Control($wp_customize, 'outlet_retina_logo', array(
-    //     'label'    => __('Retina Logo', 'rootbeer'),
-    //     'section'  => 'rootbeer_logo',
-    //     'settings' => 'rootbeer_theme_options[outlet_retina_logo]',
-    // )));
-    
-   
+    $wp_customize->add_control(
+    'rootbeer_display_header',
+        array(
+            'section'   => 'rootbeer_header',
+            'label'     => 'Display Header?',
+            'type'      => 'checkbox'
+        )
+    );
 
-add_action('customize_register', 'rootbeer_customize_register');
+    $wp_customize->add_setting(
+    'rootbeer_header_style',
+        array(
+            'default'   => 'nav-bar'
+        )
+    );
+ 
+    $wp_customize->add_control(
+        'rootbeer_header_style',
+        array(
+            'section'  => 'rootbeer_header',
+            'label'    => 'Header Style',
+            'type'     => 'select',
+            'choices'  => array(
+                'nav-bar'    => 'Nav Bar',
+                'top-bar'   => 'Top Bar',
+                'inline-list'   => 'Inline List',
+                'custom'   => 'Custom',
+            )
+        )
+    );
 
-// Foundation's flex-video class for embedded videos (just paste the youtube link!)
-// Credit: thanks davidmcnee (http://wordpress.org/support/topic/adding-a-wrapping-div-to-video-embeds)
-add_filter('embed_oembed_html', 'my_embed_oembed_html', 99, 4);
-    function my_embed_oembed_html($html, $url, $attr, $post_id) {
-    return '<div class="flex-video">' . $html . '</div>';
-    }
+}
+add_action( 'customize_register', 'rootbeer_register_theme_customizer' );
 
-?>
+function rootbeer_customizer_css() {
+    ?>
+    <style type="text/css">
+        a { color: <?php echo get_theme_mod( 'rootbeer_link_color' ); ?>; }
+        <?php if( false === get_theme_mod( 'rootbeer_display_header' ) ) { ?>
+            .header { display: none; }
+        <?php } // end if ?>
+    </style>
+    <?php
+}
+add_action( 'wp_head', 'rootbeer_customizer_css' );
