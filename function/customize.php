@@ -11,7 +11,7 @@ function rootbeer_register_theme_customizer( $wp_customize ) {
     $wp_customize->add_setting(
         'rootbeer_link_color',
         array(
-            'default'     => '#000000'
+            'default' => '#000000'
         )
     );
     $wp_customize->add_control(
@@ -19,9 +19,9 @@ function rootbeer_register_theme_customizer( $wp_customize ) {
             $wp_customize,
             'link_color',
             array(
-                'label'       => __( 'Link Color', 'rootbeer' ),
-                'section'     => 'colors',
-                'settings'    => 'rootbeer_link_color'
+                'label'    => __( 'Link Color', 'rootbeer' ),
+                'section'  => 'colors',
+                'settings' => 'rootbeer_link_color'
             )
         )
     );
@@ -30,9 +30,9 @@ function rootbeer_register_theme_customizer( $wp_customize ) {
     $wp_customize->add_section(
         'rootbeer_header',
         array(
-            'title'     => 'Header',
+            'title'       => 'Header',
             'description' => 'This controls the top of the website.',
-            'priority'  => 200
+            'priority'    => 200
         )
     );
 
@@ -66,11 +66,60 @@ function rootbeer_register_theme_customizer( $wp_customize ) {
             'label'    => 'Header Style',
             'type'     => 'select',
             'choices'  => array(
-                'nav-bar'    => 'Nav Bar',
-                'top-bar'   => 'Top Bar',
-                'inline-list'   => 'Inline List',
-                'custom'   => 'Custom',
+                'nav-bar'     => 'Nav Bar',
+                'top-bar'     => 'Top Bar',
+                'inline-list' => 'Inline List',
+                'custom'      => 'Custom',
             )
+        )
+    );
+
+    // Footer Options
+    $wp_customize->add_section(
+        'rootbeer_footer',
+        array(
+            'title'       => 'Footer',
+            'description' => 'This controls the bottom of the website.',
+            'priority'    => 220
+        )
+    );
+
+     $wp_customize->add_setting(
+    'rootbeer_footer_style',
+        array(
+            'default'   => 'top'
+        )
+    );
+ 
+    $wp_customize->add_control(
+        'rootbeer_footer_style',
+        array(
+            'section' => 'rootbeer_footer',
+            'label'   => 'Footer Style',
+            'type'    => 'select',
+            'choices' => array(
+                'top'    => 'Menu on Top',
+                'right'  => 'Menu to the Right',
+                'left'   => 'Menu to the Left',
+                'center' => 'Center the Text',
+                'custom' => 'Custom'
+            )
+        )
+    );
+
+    $wp_customize->add_setting(
+    'rootbeer_footer_copyright_text',
+        array(
+            'default' => 'All Rights Reserved',
+        )
+    );
+
+    $wp_customize->add_control(
+    'rootbeer_footer_copyright_text',
+        array(
+            'section'  => 'rootbeer_footer',
+            'label'    => 'Copyright Message',
+            'type'     => 'text'
         )
     );
 
@@ -81,9 +130,6 @@ function rootbeer_customizer_css() {
     ?>
     <style type="text/css">
         a { color: <?php echo get_theme_mod( 'rootbeer_link_color' ); ?>; }
-        <?php if( false === get_theme_mod( 'rootbeer_display_header' ) ) { ?>
-            .header { display: none; }
-        <?php } // end if ?>
     </style>
     <?php
 }
