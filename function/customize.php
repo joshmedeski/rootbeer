@@ -5,6 +5,9 @@
  * @subpackage RootBeer
  * @framework  Foundation
  * @author     JoshMedeski
+ *
+ * @link http://wp.tutsplus.com/tutorials/theme-development/a-guide-to-the-wordpress-theme-customizer-what-it-is-why-it-benefits-us/ 
+ * 
  */
 
 function rootbeer_register_theme_customizer( $wp_customize ) {
