@@ -5,7 +5,7 @@
       <p class="site-tagline subheader"><?php bloginfo('description'); ?></p>
     </div>
     <div class="large-6 columns">
-      <?php get_template_part( 'nav-primary', 'inlinelist' ); ?>
+      <?php get_template_part( 'templates/nav-primary', 'inlinelist' ); ?>
     </div>
   </div>
 </header>

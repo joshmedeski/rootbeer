@@ -1,7 +1,7 @@
 <footer class="footer">
   <div class="row">
     <div class="medium-7 columns">
-      <?php get_template_part( 'nav-secondary', 'inlinelist' ); ?>
+      <?php get_template_part( 'templates/nav-secondary', 'inlinelist' ); ?>
     </div>
     <div class="medium-5 columns">
       <div class="footer-copyright text-right">

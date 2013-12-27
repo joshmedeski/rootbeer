@@ -10,4 +10,4 @@
   </div>
 </header>
 
-<?php get_template_part( 'nav-primary', 'topbar' ); ?>
+<?php get_template_part( 'templates/nav-primary', 'topbar' ); ?>

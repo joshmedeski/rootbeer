@@ -8,7 +8,7 @@
     <div class="medium-7 columns">
     <!-- TODO: remove inline and inject into the bower compontent -->
       <div style="float:right;">
-        <?php get_template_part( 'nav-secondary', 'inlinelist' ); ?>
+        <?php get_template_part( 'templates/nav-secondary', 'inlinelist' ); ?>
       </div>
     </div>
   </div>
