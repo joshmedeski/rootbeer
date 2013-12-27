@@ -9,9 +9,8 @@
 
 // This theme uses wp_nav_menu() in two locations.
 register_nav_menus( array(
-<<<<<<< HEAD:function/menus.php
-	'main'   => __( 'Main menu', 'rootbeer' ),
-	'secondary' => __( 'Secondary menu', 'rootbeer' ),
+	'primary'   => __( 'Primary menu on the top', 'rootbeer' ),
+	'secondary' => __( 'Secondary menu on the bottom', 'rootbeer' ),
 ) );
 
 // Top Bar Main Navigation Function
@@ -30,11 +29,6 @@ function top_bar_nav() {
 			)	),
 	) );
 }
-=======
-	'primary'   => __( 'Primary menu on the top', 'rootbeer' ),
-	'secondary' => __( 'Secondary menu on the bottom', 'rootbeer' ),
-) );
->>>>>>> 115308afa5f1504a4d6957d7018df40e698df605:functions/functions-menus.php
 
 /**
  * class required_walker
