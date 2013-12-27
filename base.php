@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-  <div class="wrap container" role="document">
+  <div class="container" role="document">
     <div class="content row">
       <main class="main large-8 columns" role="main">
         <?php include rootbeer_template_path(); ?>
