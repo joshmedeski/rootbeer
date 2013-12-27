@@ -24,8 +24,8 @@ function rootbeer_modernizer_script() {
 	wp_enqueue_script(
 		'modernizer',
 		get_template_directory_uri() . '/js/modernizr.js',
+		false,
 		"2.7.1",
-		array(),
 		false
 	);
 }
@@ -34,8 +34,8 @@ function rootbeer_jquery_script() {
 	wp_enqueue_script(
 		'jquery',
 		get_template_directory_uri() . '/js/jquery.js',
+		false,
 		"2.0.3",
-		array(),
 		true
 	);
 }
@@ -43,8 +43,8 @@ function rootbeer_foundation_script() {
 	wp_enqueue_script(
 		'foundation',
 		get_template_directory_uri('jquery') . '/js/foundation.js',
+		array('jquery'),
 		"5.0.2",
-		array(),
 		true
 	);
 }
