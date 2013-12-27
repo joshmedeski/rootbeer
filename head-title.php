@@ -1,3 +1,4 @@
+// <!-- Title Credit: http://perishablepress.com/how-to-generate-perfect-wordpress-title-tags-without-a-plugin/ -->
 <title>
   <?php
     if (function_exists('is_tag') && is_tag()) { 
