@@ -1,5 +1,7 @@
 <?php get_header(); ?>
 
+
+
 <?php if ( 'nav-bar' === get_theme_mod( 'rootbeer_header_style' ) ) { ?>
   <?php get_template_part( 'templates/header', 'nav-bar' ); ?>
 <?php } elseif ( 'top-bar' === get_theme_mod( 'rootbeer_header_style' ) ) { ?>
@@ -10,15 +12,13 @@
   <?php get_template_part( 'templates/header', 'custom' ); ?>
 <?php } // end if/else ?>
 
-    <div class="container" role="document">
-      <div class="content row">
-        <main class="main medium-8 columns" role="main">
-          <?php include rootbeer_template_path(); ?>
-        </main>
-        <aside class="sidebar medium-4 columns" role="complementary">
-          <?php include rootbeer_sidebar_path(); ?>
-        </aside>
-      </div>
+    <div class="row" role="document">
+      <main class="content medium-8 columns">
+        <?php include rootbeer_template_path(); ?>
+      </main>
+      <aside class="sidebar medium-4 columns" role="complementary">
+        <?php include rootbeer_sidebar_path(); ?>
+      </aside>
     </div>
 
 <?php get_sidebar('bottom'); ?>
