@@ -8,4 +8,8 @@ License: MIT License
 Version: 0.5.3
 */
 
-/* The theme's styles are built with sass and compiled to "theme.css" */
+@import "settings";
+@import "style";
+@import "normalize";
+@import "foundation";
+@import "rootbeer";

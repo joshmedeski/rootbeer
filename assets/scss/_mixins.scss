@@ -1,0 +1,25 @@
+
+//
+// BEM Mixins using the @at-root function
+//
+
+// element get prepended with "." and the $name
+@mixin b("$block") {
+  .$block {
+    @content;
+  }
+}
+
+//elements get appended with "__" and the $name
+@mixin e("$element") {
+  @at-root   #{&}__#{$name} {
+    @content;
+  }
+}
+
+//modifiers get appended with "--" and the $name
+@mixin m("$modifier") {
+  @at-root   #{&}--#{$modifier} {
+    @content;
+  }
+}

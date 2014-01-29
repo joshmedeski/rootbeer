@@ -2,8 +2,8 @@
 /**
  * Theme wrapper
  *
- * @link http://roots.io/an-introduction-to-the-roots-theme-wrapper/
- * @link http://scribu.net/wordpress/theme-wrappers.html
+ * @credit http://roots.io/an-introduction-to-the-roots-theme-wrapper/
+ * @credit http://scribu.net/wordpress/theme-wrappers.html
  */
 function rootbeer_template_path() {
   return Rootbeer_Wrapping::$main_template;
@@ -47,3 +47,4 @@ class Rootbeer_Wrapping {
   }
 }
 add_filter('template_include', array('Rootbeer_Wrapping', 'wrap'), 99);
+?>
