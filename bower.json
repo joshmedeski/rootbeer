@@ -4,8 +4,9 @@
   "private": "true",
   "dependencies": {
     "foundation": "*",
-    "mrmrs-colors": "*",
+    "foundation-icons": "*",
     "jquery.countdown": "*",
+    "mrmrs-colors": "*",
     "sunglass": "*"
   }
 }
