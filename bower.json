@@ -1,8 +1,11 @@
 {
-  "name": "rootbeer",
+  "name": "rootbeer-theme",
   "version": "0.6.0",
   "private": "true",
   "dependencies": {
-    "rootbeer": "*"
+    "foundation": "*",
+    "mrmrs-colors": "*",
+    "jquery.countdown": "*",
+    "sunglass": "*"
   }
 }
