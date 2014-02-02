@@ -1,0 +1,64 @@
+// 
+// THEME SETTINGS
+// 
+
+// REM
+$rem-base: 16px;
+@import "foundation/functions";
+
+// COLORS
+$blue: #52a4e2;
+$red: #cc181e;
+$green: #7fc621;
+$yellow: #edc160;
+$white: #fff;
+$gray: #e7e7e7;
+$black: #111;
+
+$primary-color: $blue;
+$secondary-color: $gray;
+$alert-color: $red;
+$success-color: $green;
+$warning-color: $yellow;
+$info-color: lighten($blue,20%);
+
+// GLOBAL
+// $global-radius: 3px;
+// $global-rounded: 1000px;
+$global-spacing: rem-calc(30);
+
+// GRID
+// $row-width: rem-calc(1000);
+// $total-columns: 12;
+$column-gutter: $global-spacing;
+
+// BODY
+$body-bg: $white;
+$body-font-color: $black;
+// $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+
+// HEADER
+// $header-font-family: join("Open Sans", $body-font-family);
+// $header-font-weight: 300;
+// $header-font-style: normal;
+// $header-font-color: #222;
+// $header-line-height: 1.4;
+// $header-top-margin: .2rem;
+// $header-bottom-margin: .5rem;
+// $header-text-rendering: optimizeLegibility;
+
+// HR
+// $hr-border-width: 1px;
+// $hr-border-style: solid;
+$hr-border-color: $gray;
+// $hr-margin: rem-calc(20);
+
+// TOP BAR
+$topbar-bg-color: #333333;
+// $topbar-height: 45px;
+$topbar-dropdown-bg: $topbar-bg-color;
+$topbar-link-bg-hover: darken($topbar-bg-color, 10%);
+$topbar-margin-bottom: $global-spacing;
+
+// PANELS
+// $callout-panel-link-color: $primary-color;
