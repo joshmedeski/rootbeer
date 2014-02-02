@@ -1,0 +1,64 @@
+//
+// The Grid
+// This contains all of the styling for the grid system.
+//
+
+//
+// Grid Variables
+
+// Foundation's Variables
+$include-html-grid-classes: $include-html-classes;
+$row-width: rem-calc(1000);
+$column-gutter: rem-calc(30);
+$total-columns: 12;
+
+// Rootbeer's Variables
+$main-columns: 9;
+$sidebar-columns: $total-columns - $main-columns;
+$sidebar-position: right; // options: right or left
+$full-columns: $main-columns;
+$footer-columns: $total-columns / 3;
+
+// Container
+//
+.grid__container {}
+
+
+// Row
+//
+.grid__row {
+  @include grid-row;
+}
+
+.grid__row--nest {
+  @include grid-row(nest);
+}
+
+// Columns
+//
+.grid__columns,
+.grid__columns--main,
+.grid__columns--sidebar,
+.grid__columns--full,
+.grid__columns--footer {
+  @include grid-column;
+}
+
+@media #{$medium-up} {
+  .grid__columns--main {
+    @include grid-column($main-columns);
+  }
+  .grid__columns--full {
+    @include grid-column(
+      $columns:$full-columns,$center:true,$last-column:true);
+  }
+  .grid__columns--sidebar {
+    @include grid-column($columns:$sidebar-columns,$last-column:true);
+    // Foundation fix to create even spacing between the sidebar and main column
+    padding-left: 0;
+  }
+  .grid__columns--footer {
+    @include grid-column($footer-columns);
+  }
+}
+

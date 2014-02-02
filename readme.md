@@ -11,3 +11,5 @@ This is a responsive wordpress framework.
 
 * Updated to Foundation 5!
 * Added social icons and updated icon font
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/joshmedeski/rootbeer/trend.png)](https://bitdeli.com/free "Bitdeli Badge")

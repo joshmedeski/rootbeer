@@ -1,7 +1,5 @@
 <?php get_header(); ?>
 
-
-
 <?php if ( 'nav-bar' === get_theme_mod( 'rootbeer_header_style' ) ) { ?>
   <?php get_template_part( 'templates/header', 'nav-bar' ); ?>
 <?php } elseif ( 'top-bar' === get_theme_mod( 'rootbeer_header_style' ) ) { ?>
@@ -32,6 +30,6 @@
   <?php get_template_part( 'templates/footer', 'center' ); ?>
 <?php } else { ?>
   <?php get_template_part( 'templates/footer', 'custom' ); ?>
-<?php } // end if/else ?> 
+<?php } // end if/else ?>
 
 <?php get_footer(); ?>
