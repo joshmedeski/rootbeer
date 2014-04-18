@@ -10,14 +10,14 @@
 - [Compass](http://compass-style.org/)
 
 ## To Do
-- [] Install instructions
-- [] Border Radius Placeholder
-- [] Boxed Layout Placholder
-- [] Define and incorporate _theme.scss variables
-- [] Dashicons menu integration
-- [] Add requirements to README.md
-- [] Add recommended tools to README.md (Codekit, Sublime Text, Dash, etc...)
-- [] Add footer widgets and styles
+- [ ] Install instructions
+- [ ] Border Radius Placeholder
+- [ ] Boxed Layout Placholder
+- [ ] Define and incorporate _theme.scss variables
+- [ ] Dashicons menu integration
+- [ ] Add requirements to README.md
+- [ ] Add recommended tools to README.md (Codekit, Sublime Text, Dash, etc...)
+- [ ] Add footer widgets and styles
 
 ## User Manual
 
