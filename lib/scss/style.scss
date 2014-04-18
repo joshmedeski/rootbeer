@@ -39,6 +39,7 @@ input[type="submit"],
 textarea:focus,
 .button, .entry-title {
   @include single-transition($ease:ease-in-out);
+  word-wrap: break-word;
 }
 
 ::-moz-selection {
@@ -96,17 +97,20 @@ Common Classes
   margin-left: 2.4rem;
 }
 
+// Search-Form Icon
 .search-form {
   input[type="search"] {
-    padding-left: rem-calc(36);
+    // padding-left: rem-calc(36);
   }
   &:before {
     @extend %dashicon;
     @extend .dashicons-search;
     font-size: rem-calc(18);
-    left: 10px;
+    color: #999;
+    right: 7px;
     position: relative;
-    top: 28px;
+    bottom: -28px;
+    // margin-top: -28px;
 
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
     -webkit-transform: scale(-1, 1);
