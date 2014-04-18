@@ -37,6 +37,10 @@ add_theme_support( 'genesis-footer-widgets', 4 );
 // Color style options
 // include_once( get_stylesheet_directory() . '/lib/functions/color-styles.php' );
 
+// Reposition the primary navigation menu to the top of the site
+// remove_action( 'genesis_after_header', 'genesis_do_nav' );
+// add_action( 'genesis_before_header', 'genesis_do_nav' );
+
 // Custom Fonts
 // include_once( get_stylesheet_directory() . '/lib/functions/fonts.php' );
 
