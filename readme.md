@@ -1,4 +1,4 @@
-![screenshot](https://github.com/joshmedeski/rootbeer/blob/master/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/joshmedeski/rootbeer/master/screenshot.png)
 
 # Rootbeer WordPress Starter Theme
 
