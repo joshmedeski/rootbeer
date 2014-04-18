@@ -1,12 +1,13 @@
 # Require any additional compass plugins here.
 add_import_path "bower_components/foundation/scss"
+add_import_path "bower_components/mrmrs-colors/sass"
 
 # Set this to the root of your project when deployed:
 http_path = "/"
 css_dir = "/"
-sass_dir = "scss"
+sass_dir = "lib/scss"
 images_dir = "images"
-javascripts_dir = "js"
+javascripts_dir = "lib/js"
 
 # You can select your preferred output style here (can be overridden via the command line):
 # output_style = :expanded or :nested or :compact or :compressed

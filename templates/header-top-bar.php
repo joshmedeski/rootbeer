@@ -1,1 +1,0 @@
-<?php get_template_part( 'templates/nav-primary', 'topbar-right' ); ?>
