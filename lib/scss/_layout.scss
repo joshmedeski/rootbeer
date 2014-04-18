@@ -1,0 +1,302 @@
+/*
+Structure and Layout
+--------------------------------------------- */
+
+/* Site Containers
+--------------------------------------------- */
+
+.site-inner,
+.wrap {
+  @include grid-row;
+}
+
+.site-inner {
+  padding-top: rem-calc(40);
+}
+
+/* Column Widths and Positions
+--------------------------------------------- */
+
+.content-sidebar {
+  .content {
+    @include grid-column(12);
+    @media #{$medium-up} {
+      @include grid-column($columns:8);
+    }
+  }
+  .sidebar {
+    @include grid-column(12);
+    @media #{$medium-up} {
+      @include grid-column($columns:4);
+    }
+  }
+}
+
+.sidebar-content {
+  .sidebar {
+    @include grid-column(12);
+    @media #{$medium-up} {
+      @include grid-column($columns:4,$pull:8);
+    }
+  }
+  .content {
+    @include grid-column(12);
+    @media #{$medium-up} {
+      @include grid-column($columns:8,$push:4);
+    }
+  }
+}
+
+.content-sidebar-sidebar {
+  .content {
+    @include grid-column(12);
+    @media #{$medium-up} {
+      @include grid-column($columns:8);
+    }
+    @media #{$large-up} {
+      @include grid-column($columns:6);
+    }
+  }
+  .sidebar-primary {
+    @include grid-column(12);
+    @media #{$medium-up} {
+      @include grid-column($columns:4);
+    }
+    @media #{$large-up} {
+      @include grid-column(3);
+    }
+  }
+  .sidebar-secondary {
+    @include grid-column(12);
+    .widget {
+      @media #{$medium-only} {
+        @include grid-column($columns:3);
+      }
+    }
+    @media #{$large-up} {
+      @include grid-column(3);
+    }
+  }
+}
+
+.sidebar-content-sidebar {
+  .content {
+    @include grid-column(12);
+    @media #{$medium-up} {
+      @include grid-column($columns:7, $push:2);
+    }
+  }
+  .sidebar-primary {
+    @include grid-column(12);
+    @media #{$medium-up} {
+      @include grid-column($columns:3, $push:2);
+    }
+  }
+  .sidebar-secondary {
+    @include grid-column(12);
+    @media #{$medium-up} {
+      @include grid-column($columns:2, $pull:10);
+    }
+  }
+}
+
+.sidebar-sidebar-content {
+  .content {
+    @include grid-column(12);
+    @media #{$medium-up} {
+      @include grid-column($columns:7, $push:5);
+    }
+  }
+  .sidebar-primary {
+    @include grid-column(12);
+    @media #{$medium-up} {
+      @include grid-column($columns:3, $pull:5);
+    }
+  }
+  .sidebar-secondary {
+    @include grid-column(12);
+    @media #{$medium-up} {
+      @include grid-column($columns:2, $pull:10);
+    }
+  }
+}
+
+.full-width-content .content {
+  @include grid-column(12);
+  @media #{$medium-up} {
+    @include grid-column($columns:8,$center:true);
+  }
+}
+
+/* Primary Sidebar */
+
+.sidebar-primary {
+  @include grid-column(12);
+  @media #{$medium-up} {
+    @include grid-column(4);
+  }
+}
+
+.sidebar-content .sidebar-primary,
+.sidebar-sidebar-content .sidebar-primary {
+  float: left;
+}
+
+/* Secondary Sidebar */
+
+.sidebar-secondary {
+  float: left;
+  width: 180px;
+}
+
+.content-sidebar-sidebar .sidebar-secondary {
+  float: right;
+}
+
+/* Column Classes
+  Link: http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css
+  --------------------------------------------- */
+
+  .five-sixths,
+  .four-sixths,
+  .one-fourth,
+  .one-half,
+  .one-sixth,
+  .one-third,
+  .three-fourths,
+  .three-sixths,
+  .two-fourths,
+  .two-sixths,
+  .two-thirds {
+    float: left;
+    margin-left: 2.564102564102564%;
+  }
+
+  .one-half,
+  .three-sixths,
+  .two-fourths {
+    width: 48.717948717948715%;
+  }
+
+  .one-third,
+  .two-sixths {
+    width: 31.623931623931625%;
+  }
+
+  .four-sixths,
+  .two-thirds {
+    width: 65.81196581196582%;
+  }
+
+  .one-fourth {
+    width: 23.076923076923077%;
+  }
+
+  .three-fourths {
+    width: 74.35897435897436%;
+  }
+
+  .one-sixth {
+    width: 14.52991452991453%;
+  }
+
+  .five-sixths {
+    width: 82.90598290598291%;
+  }
+
+  .first {
+    clear: both;
+    margin-left: 0;
+  }
+
+  .sidebar .widget.enews-widget {
+    padding: rem-calc(20);
+  }
+
+  @media only screen and (max-width: 1023px) {
+
+    .header-image .site-header .wrap {
+      background-position: center top;
+    }
+
+    .site-inner {
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+
+    .archive-description,
+    .author-box,
+    .comment-respond,
+    .entry,
+    .entry-comments,
+    .entry-footer .entry-meta,
+    .header-image .site-header .widget-area,
+    .sidebar .widget,
+    .site-header {
+      padding: 0;
+    }
+
+    .genesis-nav-menu li,
+    .site-header ul.genesis-nav-menu,
+    .site-header .search-form {
+      float: none;
+    }
+
+    .genesis-nav-menu,
+    .site-description,
+    .site-header .title-area,
+    .site-header .search-form,
+    .site-title {
+      text-align: center;
+    }
+
+    .genesis-nav-menu a,
+    .genesis-nav-menu > .first > a,
+    .genesis-nav-menu > .last > a {
+      padding: 20px 16px;
+      padding: 2rem 1.6rem;
+    }
+
+    .site-header .search-form {
+      margin: 16px auto ;
+      margin: 1.6rem auto;
+    }
+
+    .genesis-nav-menu li.right {
+      display: none;
+    }
+
+    .entry-footer .entry-meta {
+      margin: 0;
+      padding-top: rem-calc(12);
+    }
+
+    .site-footer {
+      padding: rem-calc(24) 0;
+    }
+  }
+
+
+
+  @media only screen and (max-width: 767px) {
+
+    .five-sixths,
+    .four-sixths,
+    .one-fourth,
+    .one-half,
+    .one-sixth,
+    .one-third,
+    .three-fourths,
+    .three-sixths,
+    .two-fourths,
+    .two-sixths,
+    .two-thirds {
+      margin: 0;
+      width: 100%;
+    }
+
+  }
+
+  #wpadminbar {
+    position: fixed;
+  }
