@@ -1,0 +1,99 @@
+// Footer Widgets
+$footer-widgets-bg: #333;
+$footer-widgets-color: #999;
+$footer-widgets-hover: #ddd;
+$footer-widgets-title-color: #ddd;
+$footer-widgets-padding-top: rem-calc(40);
+$footer-widgets-padding-bottom: rem-calc(16);
+$footer-widgets-underline: true;
+$footer-widgets-underline-color: #666;
+
+// Simple Social Icons
+// TODO: define true statement in styles
+$footer-widgets-social-box: false;
+
+// Footer
+$footer-bg: #222;
+$footer-color: #999;
+$footer-hover: #ddd;
+
+%footer-link {
+  border-bottom: 1px solid $footer-widgets-underline-color;
+}
+
+/*
+Footer Widgets
+---------------------------------------- */
+
+.footer-widgets {
+  background-color: $footer-widgets-bg;
+  color: $footer-widgets-color;
+  clear: both;
+  padding: $footer-widgets-padding-top 0 $footer-widgets-padding-bottom;
+  .widget-area {
+    @include grid-column(12);
+    @media #{$medium-up} {
+      @include grid-column(3);
+    }
+  }
+  abbr {
+    color: darken($footer-widgets-color, 10%);
+  }
+  a {
+    @extend %footer-link;
+    color: $footer-widgets-color;
+    &:hover {
+      color: $footer-widgets-hover;
+    }
+  }
+  .simple-social-icons ul li a {
+    background: none !important;
+    color: $footer-widgets-color !important;
+    &:hover {
+      background: #666 !important;
+      color: $footer-widgets-hover !important;
+    }
+  }
+  .widget {
+    margin-bottom: 24px;
+    margin-bottom: 2.4rem;
+  }
+  .widget-title {
+    color: $footer-widgets-title-color;
+  }
+  ul {
+    margin-left: 0;
+    li {
+      list-style-type: none;
+      margin-bottom: rem-calc(6);
+      word-wrap: break-word;
+    }
+  }
+}
+
+.footer-widgets .search-form input:focus {
+  border: 1px solid #ddd;
+}
+
+
+/*
+Site Footer
+----------------------------------------- */
+
+.site-footer {
+  background-color: $footer-bg;
+  color: $footer-color;
+  font-size: rem-calc(14);
+  padding: rem-calc(40) 0;
+  text-align: center;
+  p {
+    margin-bottom: 0;
+  }
+  a {
+    color: $footer-color;
+    @extend %footer-link;
+    &:hover {
+      color: $footer-hover;
+    }
+  }
+}

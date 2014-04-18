@@ -32,7 +32,7 @@ include_once( get_stylesheet_directory() . '/lib/functions/widget-after-header.p
 include_once( get_stylesheet_directory() . '/lib/functions/widget-after-post.php' );
 
 // Footer widgets
-// add_theme_support( 'genesis-footer-widgets', 3 );
+add_theme_support( 'genesis-footer-widgets', 4 );
 
 // Color style options
 // include_once( get_stylesheet_directory() . '/lib/functions/color-styles.php' );
