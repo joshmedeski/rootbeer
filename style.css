@@ -8239,7 +8239,7 @@ th.hide-for-touch {
 }
 
 /* line 2, lib/scss/_dashicon.scss */
-.search-form:before, input[type="email"]:before, .entry-time:before, .entry-author:before, .entry-comments-link:before, .entry-tags:before, .entry-categories:before {
+div.sharedaddy .sd-content li.share-email:before, div.sharedaddy .sd-content li.share-facebook:before, div.sharedaddy .sd-content li.share-google-plus-1:before, div.sharedaddy .sd-content li.share-twitter:before, .search-form:before, input[type="email"]:before, .entry-time:before, .entry-author:before, .entry-comments-link:before, .entry-tags:before, .entry-categories:before {
   font: normal 18px/1 'dashicons';
   margin-right: 5px;
   margin-top: 2px;
@@ -9040,7 +9040,7 @@ th.hide-for-touch {
 }
 
 /* line 680, lib/scss/_dashicon.scss */
-.dashicons-twitter:before {
+.dashicons-twitter:before, div.sharedaddy .sd-content li.share-twitter:before {
   content: "\f301";
 }
 
@@ -9050,7 +9050,7 @@ th.hide-for-touch {
 }
 
 /* line 688, lib/scss/_dashicon.scss */
-.dashicons-email:before {
+.dashicons-email:before, div.sharedaddy .sd-content li.share-email:before {
   content: "\f465";
 }
 
@@ -9065,7 +9065,7 @@ th.hide-for-touch {
 }
 
 /* line 700, lib/scss/_dashicon.scss */
-.dashicons-facebook-alt:before {
+.dashicons-facebook-alt:before, div.sharedaddy .sd-content li.share-facebook:before {
   content: "\f305";
 }
 
@@ -9075,7 +9075,7 @@ th.hide-for-touch {
 }
 
 /* line 708, lib/scss/_dashicon.scss */
-.dashicons-googleplus:before {
+.dashicons-googleplus:before, div.sharedaddy .sd-content li.share-google-plus-1:before {
   content: "\f462";
 }
 
@@ -9278,152 +9278,6 @@ th.hide-for-touch {
 /* line 871, lib/scss/_dashicon.scss */
 .dashicons-smiley:before {
   content: "\f328";
-}
-
-/* line 37, lib/scss/_simple-social-icons.scss */
-.simple-social-icons ul li.social-dribbble a {
-  background: #ea4c89 !important;
-}
-/* line 40, lib/scss/_simple-social-icons.scss */
-.simple-social-icons ul li.social-dribbble a:hover {
-  background: #e51e6b !important;
-}
-
-/* line 37, lib/scss/_simple-social-icons.scss */
-.simple-social-icons ul li.social-email a {
-  background: #bdbdbd !important;
-}
-/* line 40, lib/scss/_simple-social-icons.scss */
-.simple-social-icons ul li.social-email a:hover {
-  background: #a4a4a4 !important;
-}
-
-/* line 37, lib/scss/_simple-social-icons.scss */
-.simple-social-icons ul li.social-facebook a {
-  background: #3b5998 !important;
-}
-/* line 40, lib/scss/_simple-social-icons.scss */
-.simple-social-icons ul li.social-facebook a:hover {
-  background: #2d4373 !important;
-}
-
-/* line 37, lib/scss/_simple-social-icons.scss */
-.simple-social-icons ul li.social-flickr a {
-  background: #0063dc !important;
-}
-/* line 40, lib/scss/_simple-social-icons.scss */
-.simple-social-icons ul li.social-flickr a:hover {
-  background: #004ca9 !important;
-}
-
-/* line 37, lib/scss/_simple-social-icons.scss */
-.simple-social-icons ul li.social-github a {
-  background: #171515 !important;
-}
-/* line 40, lib/scss/_simple-social-icons.scss */
-.simple-social-icons ul li.social-github a:hover {
-  background: black !important;
-}
-
-/* line 37, lib/scss/_simple-social-icons.scss */
-.simple-social-icons ul li.social-gplus a {
-  background: #dd4b39 !important;
-}
-/* line 40, lib/scss/_simple-social-icons.scss */
-.simple-social-icons ul li.social-gplus a:hover {
-  background: #c23321 !important;
-}
-
-/* line 37, lib/scss/_simple-social-icons.scss */
-.simple-social-icons ul li.social-instagram a {
-  background: #3f729b !important;
-}
-/* line 40, lib/scss/_simple-social-icons.scss */
-.simple-social-icons ul li.social-instagram a:hover {
-  background: #305777 !important;
-}
-
-/* line 37, lib/scss/_simple-social-icons.scss */
-.simple-social-icons ul li.social-linkedin a {
-  background: #0e76a8 !important;
-}
-/* line 40, lib/scss/_simple-social-icons.scss */
-.simple-social-icons ul li.social-linkedin a:hover {
-  background: #0a5579 !important;
-}
-
-/* line 37, lib/scss/_simple-social-icons.scss */
-.simple-social-icons ul li.social-pinterest a {
-  background: #c8232c !important;
-}
-/* line 40, lib/scss/_simple-social-icons.scss */
-.simple-social-icons ul li.social-pinterest a:hover {
-  background: #9d1b22 !important;
-}
-
-/* line 37, lib/scss/_simple-social-icons.scss */
-.simple-social-icons ul li.social-rss a {
-  background: #ee802f !important;
-}
-/* line 40, lib/scss/_simple-social-icons.scss */
-.simple-social-icons ul li.social-rss a:hover {
-  background: #d86612 !important;
-}
-
-/* line 37, lib/scss/_simple-social-icons.scss */
-.simple-social-icons ul li.social-stumbleupon a {
-  background: #f74425 !important;
-}
-/* line 40, lib/scss/_simple-social-icons.scss */
-.simple-social-icons ul li.social-stumbleupon a:hover {
-  background: #e12808 !important;
-}
-
-/* line 37, lib/scss/_simple-social-icons.scss */
-.simple-social-icons ul li.social-tumblr a {
-  background: #34526f !important;
-}
-/* line 40, lib/scss/_simple-social-icons.scss */
-.simple-social-icons ul li.social-tumblr a:hover {
-  background: #24384c !important;
-}
-
-/* line 37, lib/scss/_simple-social-icons.scss */
-.simple-social-icons ul li.social-twitter a {
-  background: #55acee !important;
-}
-/* line 40, lib/scss/_simple-social-icons.scss */
-.simple-social-icons ul li.social-twitter a:hover {
-  background: #2795e9 !important;
-}
-
-/* line 37, lib/scss/_simple-social-icons.scss */
-.simple-social-icons ul li.social-vimeo a {
-  background: #44bbff !important;
-}
-/* line 40, lib/scss/_simple-social-icons.scss */
-.simple-social-icons ul li.social-vimeo a:hover {
-  background: #11a8ff !important;
-}
-
-/* line 37, lib/scss/_simple-social-icons.scss */
-.simple-social-icons ul li.social-youtube a {
-  background: #c4302b !important;
-}
-/* line 40, lib/scss/_simple-social-icons.scss */
-.simple-social-icons ul li.social-youtube a:hover {
-  background: #9a2622 !important;
-}
-
-/* line 53, lib/scss/_simple-social-icons.scss */
-.simple-social-icons ul li a {
-  -webkit-border-radius: 0 !important;
-  border-radius: 0 !important;
-}
-
-/* line 69, lib/scss/_simple-social-icons.scss */
-.header-widget-area .simple-social-icons ul {
-  float: right;
 }
 
 /*
@@ -10145,7 +9999,913 @@ Site Footer
   color: #dddddd;
 }
 
-/* line 30, lib/scss/style.scss */
+/* line 37, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-dribbble a {
+  background: #ea4c89 !important;
+}
+/* line 40, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-dribbble a:hover {
+  background: #e51e6b !important;
+}
+
+/* line 37, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-email a {
+  background: #bdbdbd !important;
+}
+/* line 40, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-email a:hover {
+  background: #a4a4a4 !important;
+}
+
+/* line 37, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-facebook a {
+  background: #3b5998 !important;
+}
+/* line 40, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-facebook a:hover {
+  background: #2d4373 !important;
+}
+
+/* line 37, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-flickr a {
+  background: #0063dc !important;
+}
+/* line 40, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-flickr a:hover {
+  background: #004ca9 !important;
+}
+
+/* line 37, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-github a {
+  background: #171515 !important;
+}
+/* line 40, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-github a:hover {
+  background: black !important;
+}
+
+/* line 37, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-gplus a {
+  background: #dd4b39 !important;
+}
+/* line 40, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-gplus a:hover {
+  background: #c23321 !important;
+}
+
+/* line 37, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-instagram a {
+  background: #3f729b !important;
+}
+/* line 40, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-instagram a:hover {
+  background: #305777 !important;
+}
+
+/* line 37, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-linkedin a {
+  background: #0e76a8 !important;
+}
+/* line 40, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-linkedin a:hover {
+  background: #0a5579 !important;
+}
+
+/* line 37, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-pinterest a {
+  background: #c8232c !important;
+}
+/* line 40, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-pinterest a:hover {
+  background: #9d1b22 !important;
+}
+
+/* line 37, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-rss a {
+  background: #ee802f !important;
+}
+/* line 40, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-rss a:hover {
+  background: #d86612 !important;
+}
+
+/* line 37, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-stumbleupon a {
+  background: #f74425 !important;
+}
+/* line 40, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-stumbleupon a:hover {
+  background: #e12808 !important;
+}
+
+/* line 37, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-tumblr a {
+  background: #34526f !important;
+}
+/* line 40, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-tumblr a:hover {
+  background: #24384c !important;
+}
+
+/* line 37, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-twitter a {
+  background: #55acee !important;
+}
+/* line 40, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-twitter a:hover {
+  background: #2795e9 !important;
+}
+
+/* line 37, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-vimeo a {
+  background: #44bbff !important;
+}
+/* line 40, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-vimeo a:hover {
+  background: #11a8ff !important;
+}
+
+/* line 37, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-youtube a {
+  background: #c4302b !important;
+}
+/* line 40, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-youtube a:hover {
+  background: #9a2622 !important;
+}
+
+/* line 53, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li a {
+  -webkit-border-radius: 0 !important;
+  border-radius: 0 !important;
+}
+
+/* line 69, lib/scss/_simple-social-icons.scss */
+.header-widget-area .simple-social-icons ul {
+  float: right;
+}
+
+/* line 30, lib/scss/_jetpack-sharing.scss */
+div.sharedaddy .sd-content ul {
+  margin: 0 auto 1.0625rem auto;
+  margin-left: -1.375rem;
+  margin-right: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+/* line 41, bower_components/foundation/scss/foundation/components/_inline-lists.scss */
+div.sharedaddy .sd-content ul > li {
+  list-style: none;
+  float: left;
+  margin-left: 1.375rem;
+  display: block;
+}
+/* line 46, bower_components/foundation/scss/foundation/components/_inline-lists.scss */
+div.sharedaddy .sd-content ul > li > * {
+  display: block;
+}
+/* line 32, lib/scss/_jetpack-sharing.scss */
+div.sharedaddy .sd-content ul span {
+  position: absolute;
+  margin-right: 10px;
+}
+
+/* line 39, lib/scss/_jetpack-sharing.scss */
+div.sharedaddy .sd-content li.share-digg {
+  background: black !important;
+  border: 1px solid black !important;
+}
+/* line 42, lib/scss/_jetpack-sharing.scss */
+div.sharedaddy .sd-content li.share-digg a {
+  color: #fff;
+}
+/* line 44, lib/scss/_jetpack-sharing.scss */
+div.sharedaddy .sd-content li.share-digg a:hover {
+  color: black;
+}
+
+/* line 39, lib/scss/_jetpack-sharing.scss */
+div.sharedaddy .sd-content li.share-email {
+  background: #bdbdbd !important;
+  border: 1px solid #a4a4a4 !important;
+}
+/* line 42, lib/scss/_jetpack-sharing.scss */
+div.sharedaddy .sd-content li.share-email a {
+  color: #fff;
+}
+/* line 44, lib/scss/_jetpack-sharing.scss */
+div.sharedaddy .sd-content li.share-email a:hover {
+  color: #a4a4a4;
+}
+
+/* line 39, lib/scss/_jetpack-sharing.scss */
+div.sharedaddy .sd-content li.share-facebook {
+  background: #3b5998 !important;
+  border: 1px solid #2d4373 !important;
+}
+/* line 42, lib/scss/_jetpack-sharing.scss */
+div.sharedaddy .sd-content li.share-facebook a {
+  color: #fff;
+}
+/* line 44, lib/scss/_jetpack-sharing.scss */
+div.sharedaddy .sd-content li.share-facebook a:hover {
+  color: #2d4373;
+}
+
+/* line 39, lib/scss/_jetpack-sharing.scss */
+div.sharedaddy .sd-content li.share-google-plus-1 {
+  background: #dd4b39 !important;
+  border: 1px solid #c23321 !important;
+}
+/* line 42, lib/scss/_jetpack-sharing.scss */
+div.sharedaddy .sd-content li.share-google-plus-1 a {
+  color: #fff;
+}
+/* line 44, lib/scss/_jetpack-sharing.scss */
+div.sharedaddy .sd-content li.share-google-plus-1 a:hover {
+  color: #c23321;
+}
+
+/* line 39, lib/scss/_jetpack-sharing.scss */
+div.sharedaddy .sd-content li.share-linkedin {
+  background: #0e76a8 !important;
+  border: 1px solid #0a5579 !important;
+}
+/* line 42, lib/scss/_jetpack-sharing.scss */
+div.sharedaddy .sd-content li.share-linkedin a {
+  color: #fff;
+}
+/* line 44, lib/scss/_jetpack-sharing.scss */
+div.sharedaddy .sd-content li.share-linkedin a:hover {
+  color: #0a5579;
+}
+
+/* line 39, lib/scss/_jetpack-sharing.scss */
+div.sharedaddy .sd-content li.share-pinterest {
+  background: #c8232c !important;
+  border: 1px solid #9d1b22 !important;
+}
+/* line 42, lib/scss/_jetpack-sharing.scss */
+div.sharedaddy .sd-content li.share-pinterest a {
+  color: #fff;
+}
+/* line 44, lib/scss/_jetpack-sharing.scss */
+div.sharedaddy .sd-content li.share-pinterest a:hover {
+  color: #9d1b22;
+}
+
+/* line 39, lib/scss/_jetpack-sharing.scss */
+div.sharedaddy .sd-content li.share-print {
+  background: #888888 !important;
+  border: 1px solid #6f6f6f !important;
+}
+/* line 42, lib/scss/_jetpack-sharing.scss */
+div.sharedaddy .sd-content li.share-print a {
+  color: #fff;
+}
+/* line 44, lib/scss/_jetpack-sharing.scss */
+div.sharedaddy .sd-content li.share-print a:hover {
+  color: #6f6f6f;
+}
+
+/* line 39, lib/scss/_jetpack-sharing.scss */
+div.sharedaddy .sd-content li.share-reddit {
+  background: #cee2f8 !important;
+  border: 1px solid #a1c8f2 !important;
+}
+/* line 42, lib/scss/_jetpack-sharing.scss */
+div.sharedaddy .sd-content li.share-reddit a {
+  color: #fff;
+}
+/* line 44, lib/scss/_jetpack-sharing.scss */
+div.sharedaddy .sd-content li.share-reddit a:hover {
+  color: #a1c8f2;
+}
+
+/* line 39, lib/scss/_jetpack-sharing.scss */
+div.sharedaddy .sd-content li.share-stumbleupon {
+  background: #f74425 !important;
+  border: 1px solid #e12808 !important;
+}
+/* line 42, lib/scss/_jetpack-sharing.scss */
+div.sharedaddy .sd-content li.share-stumbleupon a {
+  color: #fff;
+}
+/* line 44, lib/scss/_jetpack-sharing.scss */
+div.sharedaddy .sd-content li.share-stumbleupon a:hover {
+  color: #e12808;
+}
+
+/* line 39, lib/scss/_jetpack-sharing.scss */
+div.sharedaddy .sd-content li.share-tumblr {
+  background: #34526f !important;
+  border: 1px solid #24384c !important;
+}
+/* line 42, lib/scss/_jetpack-sharing.scss */
+div.sharedaddy .sd-content li.share-tumblr a {
+  color: #fff;
+}
+/* line 44, lib/scss/_jetpack-sharing.scss */
+div.sharedaddy .sd-content li.share-tumblr a:hover {
+  color: #24384c;
+}
+
+/* line 39, lib/scss/_jetpack-sharing.scss */
+div.sharedaddy .sd-content li.share-twitter {
+  background: #55acee !important;
+  border: 1px solid #2795e9 !important;
+}
+/* line 42, lib/scss/_jetpack-sharing.scss */
+div.sharedaddy .sd-content li.share-twitter a {
+  color: #fff;
+}
+/* line 44, lib/scss/_jetpack-sharing.scss */
+div.sharedaddy .sd-content li.share-twitter a:hover {
+  color: #2795e9;
+}
+
+/* line 53, lib/scss/_jetpack-sharing.scss */
+div.sharedaddy .sd-content li.share-email:before {
+  color: #fff;
+}
+
+/* line 53, lib/scss/_jetpack-sharing.scss */
+div.sharedaddy .sd-content li.share-facebook:before {
+  color: #fff;
+}
+
+/* line 53, lib/scss/_jetpack-sharing.scss */
+div.sharedaddy .sd-content li.share-google-plus-1:before {
+  color: #fff;
+}
+
+/* line 53, lib/scss/_jetpack-sharing.scss */
+div.sharedaddy .sd-content li.share-twitter:before {
+  color: #fff;
+}
+
+/* line 63, lib/scss/_jetpack-sharing.scss */
+.sharrre {
+  display: inline-block;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  margin-right: 5px;
+  overflow: hidden;
+  position: relative;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Buttons */
+/* line 79, lib/scss/_jetpack-sharing.scss */
+.sharrre .share,
+.sharrre .count {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: none;
+  display: inline-block;
+  padding: 0;
+  text-decoration: none !important;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/* line 96, lib/scss/_jetpack-sharing.scss */
+.sharrre .share {
+  color: #fff;
+  float: left;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* line 103, lib/scss/_jetpack-sharing.scss */
+.sharrre:hover .share {
+  border: none;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* line 109, lib/scss/_jetpack-sharing.scss */
+.sharrre .count {
+  background-color: #fff;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+}
+
+/* Small */
+/* line 118, lib/scss/_jetpack-sharing.scss */
+.share-small .share,
+.share-small .count {
+  font-size: 12px;
+  height: 20px;
+  line-height: 20px;
+}
+
+/* line 125, lib/scss/_jetpack-sharing.scss */
+.share-small .share {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  padding: 0 0 0 24px;
+  width: 20px;
+}
+
+/* line 132, lib/scss/_jetpack-sharing.scss */
+.share-small .sharrre:hover .share {
+  width: 60px;
+}
+
+/* line 133, lib/scss/_jetpack-sharing.scss */
+.share-small .facebook:hover .share {
+  width: 50px;
+}
+
+/* line 134, lib/scss/_jetpack-sharing.scss */
+.share-small .pinterest:hover .share {
+  width: 45px;
+}
+
+/* line 135, lib/scss/_jetpack-sharing.scss */
+.share-small .googlePlus:hover .share {
+  width: 40px;
+}
+
+/* line 137, lib/scss/_jetpack-sharing.scss */
+.share-small .count {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  float: right;
+  width: 42px;
+}
+
+/* Medium */
+/* line 146, lib/scss/_jetpack-sharing.scss */
+.share-medium .share,
+.share-medium .count {
+  font-size: 13px;
+  height: 25px;
+  line-height: 25px;
+}
+
+/* line 153, lib/scss/_jetpack-sharing.scss */
+.share-medium .share {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  padding: 0 0 0 28px;
+  width: 28px;
+}
+
+/* line 160, lib/scss/_jetpack-sharing.scss */
+.share-medium .count {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  float: right;
+  width: 42px;
+}
+
+/* line 167, lib/scss/_jetpack-sharing.scss */
+.share-medium .sharrre:hover .share {
+  width: 65px;
+}
+
+/* line 168, lib/scss/_jetpack-sharing.scss */
+.share-medium .facebook:hover .share {
+  width: 55px;
+}
+
+/* line 169, lib/scss/_jetpack-sharing.scss */
+.share-medium .pinterest:hover .share {
+  width: 50px;
+}
+
+/* line 170, lib/scss/_jetpack-sharing.scss */
+.share-medium .googlePlus:hover .share {
+  width: 45px;
+}
+
+/* Tall */
+/* line 174, lib/scss/_jetpack-sharing.scss */
+.share-tall .share {
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  font-size: 13px;
+  height: 25px;
+  line-height: 25px;
+  padding-left: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+/* line 185, lib/scss/_jetpack-sharing.scss */
+.share-tall .googlePlus .share {
+  padding-left: 16px;
+}
+
+/* line 186, lib/scss/_jetpack-sharing.scss */
+.share-tall .facebook .share {
+  padding-left: 18px;
+}
+
+/* line 188, lib/scss/_jetpack-sharing.scss */
+.share-tall .count {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  display: block;
+  float: none;
+  font-size: 16px;
+  height: 55px;
+  line-height: 55px;
+  width: 75px;
+}
+
+/* Icons */
+/* line 201, lib/scss/_jetpack-sharing.scss */
+.share-small .share:before,
+.share-medium .share:before,
+.share-tall .share:before {
+  line-height: 1;
+  display: block;
+  font-family: 'Genericons';
+  font-size: 13px;
+  height: 20px;
+  top: 4px;
+  left: 6px;
+  text-indent: 0;
+  -webkit-font-smoothing: antialiased;
+  position: absolute;
+  width: 20px;
+}
+
+/* line 217, lib/scss/_jetpack-sharing.scss */
+.share-medium .share:before {
+  font-size: 14px;
+  top: 5px;
+  left: 7px;
+}
+
+/* line 223, lib/scss/_jetpack-sharing.scss */
+.share-tall .share:before {
+  bottom: 0px;
+  top: auto;
+}
+
+/* line 228, lib/scss/_jetpack-sharing.scss */
+.twitter .share:before {
+  content: '\f202';
+}
+
+/* line 229, lib/scss/_jetpack-sharing.scss */
+.facebook .share:before {
+  content: '\f204';
+}
+
+/* line 230, lib/scss/_jetpack-sharing.scss */
+.googlePlus .share:before {
+  content: '\f218';
+}
+
+/* line 231, lib/scss/_jetpack-sharing.scss */
+.youtube .share:before {
+  content: '\f213';
+}
+
+/* line 232, lib/scss/_jetpack-sharing.scss */
+.digg .share:before {
+  content: '\f221';
+}
+
+/* line 233, lib/scss/_jetpack-sharing.scss */
+.delicious .share:before {
+  content: '\f202';
+}
+
+/* line 234, lib/scss/_jetpack-sharing.scss */
+.pinterest .share:before {
+  content: '\f209';
+}
+
+/* line 235, lib/scss/_jetpack-sharing.scss */
+.linkedin .share:before {
+  content: '\f207';
+}
+
+/* line 236, lib/scss/_jetpack-sharing.scss */
+.stumbleupon .share:before {
+  content: '\f223';
+}
+
+/* line 238, lib/scss/_jetpack-sharing.scss */
+.share-small .pinterest .share:before {
+  font-size: 12px;
+}
+
+/* line 242, lib/scss/_jetpack-sharing.scss */
+.share-small .linkedin .share:before {
+  font-size: 16px;
+  top: 1px;
+}
+
+/* line 247, lib/scss/_jetpack-sharing.scss */
+.share-small .stumbleupon .share:before {
+  font-size: 16px;
+  top: 3px;
+}
+
+/* line 252, lib/scss/_jetpack-sharing.scss */
+.share-medium .pinterest .share:before {
+  font-size: 13px;
+  top: 6px;
+}
+
+/* line 257, lib/scss/_jetpack-sharing.scss */
+.share-medium .linkedin .share:before {
+  font-size: 17px;
+  top: 3px;
+}
+
+/* line 262, lib/scss/_jetpack-sharing.scss */
+.share-medium .stumbleupon .share:before {
+  font-size: 16px;
+  top: 5px;
+}
+
+/* line 267, lib/scss/_jetpack-sharing.scss */
+.share-tall .facebook .share:before {
+  left: 10px;
+}
+
+/* line 271, lib/scss/_jetpack-sharing.scss */
+.share-tall .googlePlus .share:before {
+  left: 13px;
+}
+
+/* line 275, lib/scss/_jetpack-sharing.scss */
+.share-tall .pinterest .share:before {
+  font-size: 13px;
+  bottom: -1px;
+}
+
+/* line 280, lib/scss/_jetpack-sharing.scss */
+.share-tall .linkedin .share:before {
+  font-size: 17px;
+  bottom: 2px;
+}
+
+/* line 285, lib/scss/_jetpack-sharing.scss */
+.share-tall .stumbleupon .share:before {
+  font-size: 16px;
+}
+
+/* Appearance - filled */
+/* line 291, lib/scss/_jetpack-sharing.scss */
+.share-filled .twitter .share {
+  background: #09b0ed;
+}
+
+/* line 292, lib/scss/_jetpack-sharing.scss */
+.share-filled .twitter .count,
+.share-filled .twitter .count:hover {
+  color: #09b0ed;
+  border: 1px solid #09b0ed;
+}
+
+/* line 295, lib/scss/_jetpack-sharing.scss */
+.share-filled .facebook .share {
+  background: #3d5a98;
+}
+
+/* line 296, lib/scss/_jetpack-sharing.scss */
+.share-filled .facebook .count,
+.share-filled .facebook .count:hover {
+  color: #3d5a98;
+  border: 1px solid #3d5a98;
+}
+
+/* line 299, lib/scss/_jetpack-sharing.scss */
+.share-filled .googlePlus .share {
+  background: #dd4c39;
+}
+
+/* line 300, lib/scss/_jetpack-sharing.scss */
+.share-filled .googlePlus .count,
+.share-filled .googlePlus .count:hover {
+  color: #dd4c39;
+  border: 1px solid #dd4c39;
+}
+
+/* line 303, lib/scss/_jetpack-sharing.scss */
+.share-filled .linkedin .share {
+  background: #035a87;
+}
+
+/* line 304, lib/scss/_jetpack-sharing.scss */
+.share-filled .linkedin .count,
+.share-filled .linkedin .count:hover {
+  color: #035a87;
+  border: 1px solid #035a87;
+}
+
+/* line 307, lib/scss/_jetpack-sharing.scss */
+.share-filled .youtube .share {
+  background: #cc181e;
+}
+
+/* line 308, lib/scss/_jetpack-sharing.scss */
+.share-filled .youtube .count,
+.share-filled .youtube .count:hover {
+  color: #cc181e;
+  border: 1px solid #cc181e;
+}
+
+/* line 311, lib/scss/_jetpack-sharing.scss */
+.share-filled .pinterest .share {
+  background: #cb2127;
+}
+
+/* line 312, lib/scss/_jetpack-sharing.scss */
+.share-filled .pinterest .count,
+.share-filled .pinterest .count:hover {
+  color: #cb2127;
+  border: 1px solid #cb2127;
+}
+
+/* line 315, lib/scss/_jetpack-sharing.scss */
+.share-filled .stumbleupon .share {
+  background: #eb4923;
+}
+
+/* line 316, lib/scss/_jetpack-sharing.scss */
+.share-filled .stumbleupon .count,
+.share-filled .stumbleupon .count:hover {
+  color: #eb4923;
+  border: 1px solid #eb4923;
+}
+
+/* line 319, lib/scss/_jetpack-sharing.scss */
+.share-filled .twitter:hover .count {
+  background: #09b0ed !important;
+}
+
+/* line 320, lib/scss/_jetpack-sharing.scss */
+.share-filled .facebook:hover .count {
+  background: #3d5a98 !important;
+}
+
+/* line 321, lib/scss/_jetpack-sharing.scss */
+.share-filled .googlePlus:hover .count {
+  background: #dd4c39 !important;
+}
+
+/* line 322, lib/scss/_jetpack-sharing.scss */
+.share-filled .linkedin:hover .count {
+  background: #035a87 !important;
+}
+
+/* line 323, lib/scss/_jetpack-sharing.scss */
+.share-filled .youtube:hover .count {
+  background: #cc181e !important;
+}
+
+/* line 324, lib/scss/_jetpack-sharing.scss */
+.share-filled .pinterest:hover .count {
+  background: #cb2127 !important;
+}
+
+/* line 325, lib/scss/_jetpack-sharing.scss */
+.share-filled .stumbleupon:hover .count {
+  background: #eb4923 !important;
+}
+
+/* line 327, lib/scss/_jetpack-sharing.scss */
+.share-filled .sharrre:hover .count {
+  color: #fff;
+}
+
+/* Appearance - outlined */
+/* line 332, lib/scss/_jetpack-sharing.scss */
+.share-outlined .twitter .share,
+.share-outlined .twitter .count,
+.share-outlined .twitter .count:hover {
+  border: 1px solid #09b0ed;
+  color: #09b0ed;
+}
+
+/* line 336, lib/scss/_jetpack-sharing.scss */
+.share-outlined .facebook .share,
+.share-outlined .facebook .count,
+.share-outlined .facebook .count:hover {
+  border: 1px solid #3d5a98;
+  color: #3d5a98;
+}
+
+/* line 340, lib/scss/_jetpack-sharing.scss */
+.share-outlined .googlePlus .share,
+.share-outlined .googlePlus .count,
+.share-outlined .googlePlus .count:hover {
+  border: 1px solid #dd4c39;
+  color: #dd4c39;
+}
+
+/* line 344, lib/scss/_jetpack-sharing.scss */
+.share-outlined .linkedin .share,
+.share-outlined .linkedin .count,
+.share-outlined .linkedin .count:hover {
+  border: 1px solid #035a87;
+  color: #035a87;
+}
+
+/* line 348, lib/scss/_jetpack-sharing.scss */
+.share-outlined .youtube .share,
+.share-outlined .youtube .count,
+.share-outlined .youtube .count:hover {
+  border: 1px solid #cc181e;
+  color: #cc181e;
+}
+
+/* line 352, lib/scss/_jetpack-sharing.scss */
+.share-outlined .pinterest .share,
+.share-outlined .pinterest .count,
+.share-outlined .pinterest .count:hover {
+  border: 1px solid #cb2127;
+  color: #cb2127;
+}
+
+/* line 356, lib/scss/_jetpack-sharing.scss */
+.share-outlined .stumbleupon .share,
+.share-outlined .stumbleupon .count,
+.share-outlined .stumbleupon .count:hover {
+  border: 1px solid #eb4923;
+  color: #eb4923;
+}
+
+/* line 360, lib/scss/_jetpack-sharing.scss */
+.share-outlined.share-small .share,
+.share-outlined.share-medium .share {
+  border-right: none !important;
+}
+
+/* line 363, lib/scss/_jetpack-sharing.scss */
+.share-outlined.share-tall .share {
+  border-top: none !important;
+}
+
+/* line 365, lib/scss/_jetpack-sharing.scss */
+.share-outlined .twitter:hover .share,
+.share-outlined .twitter:hover .count {
+  background: #09b0ed;
+}
+
+/* line 368, lib/scss/_jetpack-sharing.scss */
+.share-outlined .facebook:hover .share,
+.share-outlined .facebook:hover .count {
+  background: #3d5a98;
+}
+
+/* line 371, lib/scss/_jetpack-sharing.scss */
+.share-outlined .googlePlus:hover .share,
+.share-outlined .googlePlus:hover .count {
+  background: #dd4c39;
+}
+
+/* line 374, lib/scss/_jetpack-sharing.scss */
+.share-outlined .linkedin:hover .share,
+.share-outlined .linkedin:hover .count {
+  background: #035a87;
+}
+
+/* line 377, lib/scss/_jetpack-sharing.scss */
+.share-outlined .youtube:hover .share,
+.share-outlined .youtube:hover .count {
+  background: #cc181e;
+}
+
+/* line 380, lib/scss/_jetpack-sharing.scss */
+.share-outlined .pinterest:hover .share,
+.share-outlined .pinterest:hover .count {
+  background: #cb2127;
+}
+
+/* line 383, lib/scss/_jetpack-sharing.scss */
+.share-outlined .stumbleupon:hover .share,
+.share-outlined .stumbleupon:hover .count {
+  background: #eb4923;
+}
+
+/* line 386, lib/scss/_jetpack-sharing.scss */
+.share-outlined .sharrre:hover .count,
+.share-outlined .sharrre:hover .share {
+  color: #fff;
+}
+
+/* line 33, lib/scss/style.scss */
 a,
 button,
 input:focus,
@@ -10157,30 +10917,30 @@ textarea:focus,
   transition: all 300ms ease-in-out;
 }
 
-/* line 41, lib/scss/style.scss */
+/* line 44, lib/scss/style.scss */
 ::-moz-selection {
   background-color: #008cba;
   color: #fff;
 }
 
-/* line 46, lib/scss/style.scss */
+/* line 49, lib/scss/style.scss */
 ::selection {
   background-color: #008cba;
   color: #fff;
 }
 
-/* line 51, lib/scss/style.scss */
+/* line 54, lib/scss/style.scss */
 ::-moz-placeholder {
   color: #999;
   opacity: 1;
 }
 
-/* line 56, lib/scss/style.scss */
+/* line 59, lib/scss/style.scss */
 ::-webkit-input-placeholder {
   color: #999;
 }
 
-/* line 60, lib/scss/style.scss */
+/* line 63, lib/scss/style.scss */
 button,
 input[type="button"],
 input[type="reset"],
@@ -10238,7 +10998,7 @@ input[type="submit"]:focus,
   color: white;
 }
 
-/* line 70, lib/scss/style.scss */
+/* line 73, lib/scss/style.scss */
 input {
   -webkit-border-radius: 0;
   border-radius: 0;
@@ -10249,28 +11009,28 @@ Common Classes
 ---------------------------------------------------------------------------------------------------- */
 /* WordPress
 --------------------------------------------- */
-/* line 82, lib/scss/style.scss */
+/* line 85, lib/scss/style.scss */
 .avatar {
   float: left;
 }
 
-/* line 86, lib/scss/style.scss */
+/* line 89, lib/scss/style.scss */
 .alignleft .avatar {
   margin-right: 24px;
   margin-right: 2.4rem;
 }
 
-/* line 91, lib/scss/style.scss */
+/* line 94, lib/scss/style.scss */
 .alignright .avatar {
   margin-left: 24px;
   margin-left: 2.4rem;
 }
 
-/* line 97, lib/scss/style.scss */
+/* line 100, lib/scss/style.scss */
 .search-form input[type="search"] {
   padding-left: 2.25rem;
 }
-/* line 100, lib/scss/style.scss */
+/* line 103, lib/scss/style.scss */
 .search-form:before {
   font-size: 1.125rem;
   left: 10px;
@@ -10284,12 +11044,12 @@ Common Classes
   transform: scale(-1, 1);
 }
 
-/* line 117, lib/scss/style.scss */
+/* line 120, lib/scss/style.scss */
 input[type="email"]:before {
   margin-top: -42px;
 }
 
-/* line 123, lib/scss/style.scss */
+/* line 126, lib/scss/style.scss */
 .search-form input[type="submit"] {
   border: 0;
   clip: rect(0, 0, 0, 0);
@@ -10300,7 +11060,7 @@ input[type="email"]:before {
   width: 1px;
 }
 
-/* line 136, lib/scss/style.scss */
+/* line 139, lib/scss/style.scss */
 img.centered,
 .aligncenter {
   display: block;
@@ -10308,39 +11068,39 @@ img.centered,
   margin: 0 auto 2.4rem;
 }
 
-/* line 143, lib/scss/style.scss */
+/* line 146, lib/scss/style.scss */
 img.alignnone {
   margin-bottom: 12px;
   margin-bottom: 1.2rem;
 }
 
-/* line 148, lib/scss/style.scss */
+/* line 151, lib/scss/style.scss */
 .alignleft {
   float: left;
   text-align: left;
 }
 
-/* line 153, lib/scss/style.scss */
+/* line 156, lib/scss/style.scss */
 .alignright {
   float: right;
   text-align: right;
 }
 
-/* line 158, lib/scss/style.scss */
+/* line 161, lib/scss/style.scss */
 img.alignleft,
 .wp-caption.alignleft {
   margin: 0 24px 24px 0;
   margin: 0 2.4rem 2.4rem 0;
 }
 
-/* line 164, lib/scss/style.scss */
+/* line 167, lib/scss/style.scss */
 img.alignright,
 .wp-caption.alignright {
   margin: 0 0 24px 24px;
   margin: 0 0 2.4rem 2.4rem;
 }
 
-/* line 170, lib/scss/style.scss */
+/* line 173, lib/scss/style.scss */
 .wp-caption-text {
   font-size: 14px;
   font-size: 1.4rem;
@@ -10348,12 +11108,12 @@ img.alignright,
   text-align: center;
 }
 
-/* line 180, lib/scss/style.scss */
+/* line 183, lib/scss/style.scss */
 .widget_calendar table {
   width: 100%;
 }
 
-/* line 184, lib/scss/style.scss */
+/* line 187, lib/scss/style.scss */
 .widget_calendar td,
 .widget_calendar th {
   text-align: center;
@@ -10361,7 +11121,7 @@ img.alignright,
 
 /* Genesis
 --------------------------------------------- */
-/* line 192, lib/scss/style.scss */
+/* line 195, lib/scss/style.scss */
 .breadcrumb {
   display: block;
   padding: 0.5625rem 0.875rem 0.5625rem;
@@ -10375,20 +11135,20 @@ img.alignright,
   margin-bottom: 1.25rem;
 }
 
-/* line 200, lib/scss/style.scss */
+/* line 203, lib/scss/style.scss */
 .archive-description,
 .author-box {
   background-color: #fff;
   margin-bottom: 2.5rem;
 }
 
-/* line 210, lib/scss/style.scss */
+/* line 213, lib/scss/style.scss */
 .author-box {
   padding: 2rem;
   background: #f5f5f5;
 }
 
-/* line 215, lib/scss/style.scss */
+/* line 218, lib/scss/style.scss */
 .author-box-title {
   color: #333;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -10398,52 +11158,52 @@ img.alignright,
   margin-bottom: 0.4rem;
 }
 
-/* line 224, lib/scss/style.scss */
+/* line 227, lib/scss/style.scss */
 .author-box a {
   border-bottom: 1px solid #ddd;
 }
 
-/* line 228, lib/scss/style.scss */
+/* line 231, lib/scss/style.scss */
 .author-box p {
   margin-bottom: 0;
 }
 
-/* line 232, lib/scss/style.scss */
+/* line 235, lib/scss/style.scss */
 .author-box .avatar {
   margin: 0 0.9375rem 0.9375rem 0;
 }
 
 /* Titles
 --------------------------------------------- */
-/* line 239, lib/scss/style.scss */
+/* line 242, lib/scss/style.scss */
 .entry-title {
   font-size: 2.25rem;
   line-height: 1;
 }
 
-/* line 244, lib/scss/style.scss */
+/* line 247, lib/scss/style.scss */
 .entry-title a,
 .sidebar .widget-title a {
   color: #333;
 }
-/* line 247, lib/scss/style.scss */
+/* line 250, lib/scss/style.scss */
 .entry-title a:hover,
 .sidebar .widget-title a:hover {
   color: #0078a0;
 }
 
-/* line 252, lib/scss/style.scss */
+/* line 255, lib/scss/style.scss */
 .widget-title {
   font-size: 1.25rem;
   text-transform: uppercase;
 }
 
-/* line 257, lib/scss/style.scss */
+/* line 260, lib/scss/style.scss */
 .sidebar .widget-title a {
   border: none;
 }
 
-/* line 261, lib/scss/style.scss */
+/* line 264, lib/scss/style.scss */
 .archive-title {
   font-size: 20px;
   font-size: 2rem;
@@ -10456,7 +11216,7 @@ Widgets
 ---------------------------------------------------------------------------------------------------- */
 /* Featured Content
 --------------------------------------------- */
-/* line 276, lib/scss/style.scss */
+/* line 279, lib/scss/style.scss */
 .featured-content .entry {
   border-bottom: 2px solid #f5f5f5;
   margin-bottom: 20px;
@@ -10465,7 +11225,7 @@ Widgets
   padding: 0 0 2.4rem;
 }
 
-/* line 284, lib/scss/style.scss */
+/* line 287, lib/scss/style.scss */
 .featured-content .entry-title {
   border: none;
   font-size: 24px;
@@ -10473,7 +11233,7 @@ Widgets
   line-height: 1.2;
 }
 
-/* line 291, lib/scss/style.scss */
+/* line 294, lib/scss/style.scss */
 .featured-content .entry-title a {
   border: none;
 }
@@ -10483,28 +11243,28 @@ Plugins
 ---------------------------------------------------------------------------------------------------- */
 /* Genesis eNews Extended
 --------------------------------------------- */
-/* line 303, lib/scss/style.scss */
+/* line 306, lib/scss/style.scss */
 .enews-widget {
   color: #999;
 }
 
-/* line 307, lib/scss/style.scss */
+/* line 310, lib/scss/style.scss */
 .enews-widget .widget-title {
   color: #fff;
 }
 
-/* line 311, lib/scss/style.scss */
+/* line 314, lib/scss/style.scss */
 .enews-widget input {
   margin-bottom: 16px;
   margin-bottom: 1.6rem;
 }
 
-/* line 316, lib/scss/style.scss */
+/* line 319, lib/scss/style.scss */
 .enews-widget input:focus {
   border: 1px solid #ddd;
 }
 
-/* line 320, lib/scss/style.scss */
+/* line 323, lib/scss/style.scss */
 .enews-widget input[type="submit"] {
   border-style: solid;
   border-width: 0px;
@@ -10544,7 +11304,7 @@ Plugins
 
 /* Genesis Latest Tweets
 --------------------------------------------- */
-/* line 332, lib/scss/style.scss */
+/* line 335, lib/scss/style.scss */
 .latest-tweets ul li {
   margin-bottom: 16px;
   margin-bottom: 1.6rem;
@@ -10552,7 +11312,7 @@ Plugins
 
 /* Gravity Forms
 --------------------------------------------- */
-/* line 340, lib/scss/style.scss */
+/* line 343, lib/scss/style.scss */
 div.gform_wrapper input[type="email"],
 div.gform_wrapper input[type="text"],
 div.gform_wrapper textarea,
@@ -10563,19 +11323,19 @@ div.gform_wrapper .ginput_complex label {
   padding: 1.6rem;
 }
 
-/* line 350, lib/scss/style.scss */
+/* line 353, lib/scss/style.scss */
 div.gform_wrapper .ginput_complex label {
   padding: 0;
 }
 
-/* line 354, lib/scss/style.scss */
+/* line 357, lib/scss/style.scss */
 div.gform_wrapper li,
 div.gform_wrapper form li {
   margin: 16px 0 0;
   margin: 1.6rem 0 0;
 }
 
-/* line 360, lib/scss/style.scss */
+/* line 363, lib/scss/style.scss */
 div.gform_wrapper .gform_footer input[type="submit"] {
   font-size: 14px;
   font-size: 1.4rem;
@@ -10583,7 +11343,7 @@ div.gform_wrapper .gform_footer input[type="submit"] {
 
 /* Jetpack
 --------------------------------------------- */
-/* line 368, lib/scss/style.scss */
+/* line 371, lib/scss/style.scss */
 img#wpstats {
   display: none;
 }
@@ -10591,7 +11351,7 @@ img#wpstats {
 /*
 Site Navigation
 --------------------------------------------------------- */
-/* line 376, lib/scss/style.scss */
+/* line 379, lib/scss/style.scss */
 .genesis-nav-menu {
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
@@ -10602,13 +11362,13 @@ Site Navigation
   margin-left: 0;
 }
 
-/* line 383, lib/scss/style.scss */
+/* line 386, lib/scss/style.scss */
 .genesis-nav-menu .menu-item {
   display: inline-block;
   text-align: left;
 }
 
-/* line 388, lib/scss/style.scss */
+/* line 391, lib/scss/style.scss */
 .genesis-nav-menu a {
   border: none;
   color: #999;
@@ -10617,24 +11377,24 @@ Site Navigation
   position: relative;
 }
 
-/* line 396, lib/scss/style.scss */
+/* line 399, lib/scss/style.scss */
 .genesis-nav-menu a:hover,
 .genesis-nav-menu .current-menu-item > a,
 .genesis-nav-menu .sub-menu .current-menu-item > a:hover {
   color: #333;
 }
 
-/* line 402, lib/scss/style.scss */
+/* line 405, lib/scss/style.scss */
 .genesis-nav-menu .sub-menu .current-menu-item > a {
   color: #999;
 }
 
-/* line 406, lib/scss/style.scss */
+/* line 409, lib/scss/style.scss */
 .genesis-nav-menu > .menu-item > a {
   text-transform: uppercase;
 }
 
-/* line 410, lib/scss/style.scss */
+/* line 413, lib/scss/style.scss */
 .genesis-nav-menu .sub-menu {
   left: -9999px;
   opacity: 0;
@@ -10648,7 +11408,7 @@ Site Navigation
   z-index: 99;
 }
 
-/* line 423, lib/scss/style.scss */
+/* line 426, lib/scss/style.scss */
 .genesis-nav-menu .sub-menu a {
   background-color: #fff;
   border: 1px solid #eee;
@@ -10659,33 +11419,33 @@ Site Navigation
   width: 12.5rem;
 }
 
-/* line 433, lib/scss/style.scss */
+/* line 436, lib/scss/style.scss */
 .genesis-nav-menu .sub-menu .sub-menu {
   margin: -54px 0 0 199px;
 }
 
-/* line 437, lib/scss/style.scss */
+/* line 440, lib/scss/style.scss */
 .genesis-nav-menu .menu-item:hover {
   position: static;
 }
 
-/* line 441, lib/scss/style.scss */
+/* line 444, lib/scss/style.scss */
 .genesis-nav-menu .menu-item:hover > .sub-menu {
   left: auto;
   opacity: 1;
 }
 
-/* line 446, lib/scss/style.scss */
+/* line 449, lib/scss/style.scss */
 .genesis-nav-menu > .first > a {
   padding-left: 0;
 }
 
-/* line 450, lib/scss/style.scss */
+/* line 453, lib/scss/style.scss */
 .genesis-nav-menu > .last > a {
   padding-right: 0;
 }
 
-/* line 454, lib/scss/style.scss */
+/* line 457, lib/scss/style.scss */
 .genesis-nav-menu > .right {
   display: inline-block;
   float: right;
@@ -10695,19 +11455,19 @@ Site Navigation
   text-transform: uppercase;
 }
 
-/* line 463, lib/scss/style.scss */
+/* line 466, lib/scss/style.scss */
 .genesis-nav-menu > .right > a {
   display: inline;
   padding: 0;
 }
 
-/* line 468, lib/scss/style.scss */
+/* line 471, lib/scss/style.scss */
 .genesis-nav-menu > .rss > a {
   margin-left: 48px;
   margin-left: 4.8rem;
 }
 
-/* line 473, lib/scss/style.scss */
+/* line 476, lib/scss/style.scss */
 .genesis-nav-menu > .search {
   padding: 14px 0 0;
   padding: 1.4rem 0 0;
@@ -10715,47 +11475,47 @@ Site Navigation
 
 /* Site Header Navigation
 --------------------------------------------- */
-/* line 481, lib/scss/style.scss */
+/* line 484, lib/scss/style.scss */
 .site-header .sub-menu {
   border-top: 1px solid #eee;
 }
 
-/* line 485, lib/scss/style.scss */
+/* line 488, lib/scss/style.scss */
 .site-header .sub-menu .sub-menu {
   margin-top: -55px;
 }
 
 /* Primary Navigation
 --------------------------------------------- */
-/* line 492, lib/scss/style.scss */
+/* line 495, lib/scss/style.scss */
 .nav-primary {
   background-color: #333;
 }
 
-/* line 496, lib/scss/style.scss */
+/* line 499, lib/scss/style.scss */
 .nav-primary a:hover,
 .nav-primary .current-menu-item > a {
   color: #fff;
 }
 
-/* line 501, lib/scss/style.scss */
+/* line 504, lib/scss/style.scss */
 .nav-primary .sub-menu a:hover {
   color: #333;
 }
 
-/* line 505, lib/scss/style.scss */
+/* line 508, lib/scss/style.scss */
 .genesis-nav-menu > .menu-item:first-child a {
   padding-left: 0;
 }
 
-/* line 509, lib/scss/style.scss */
+/* line 512, lib/scss/style.scss */
 .nav-primary > a:first {
   padding-left: 0;
 }
 
 /* Secondary Navigation
 --------------------------------------------- */
-/* line 516, lib/scss/style.scss */
+/* line 519, lib/scss/style.scss */
 .nav-secondary {
   background-color: #fff;
 }
@@ -10765,54 +11525,54 @@ Content Area
 --------------------------------------------- */
 /* Entries
 --------------------------------------------- */
-/* line 527, lib/scss/style.scss */
+/* line 530, lib/scss/style.scss */
 .entry {
   margin-bottom: 3.75rem;
 }
 
-/* line 532, lib/scss/style.scss */
+/* line 535, lib/scss/style.scss */
 .entry-content .attachment a,
 .entry-content .gallery a {
   border: none;
 }
 
-/* line 537, lib/scss/style.scss */
+/* line 540, lib/scss/style.scss */
 .entry-content ol ol,
 .entry-content ul ul {
   margin-bottom: 0;
 }
 
-/* line 542, lib/scss/style.scss */
+/* line 545, lib/scss/style.scss */
 .entry-content .search-form {
   width: 50%;
 }
 
-/* line 546, lib/scss/style.scss */
+/* line 549, lib/scss/style.scss */
 .entry-meta {
   color: #999;
   font-size: 0.875rem;
 }
-/* line 549, lib/scss/style.scss */
+/* line 552, lib/scss/style.scss */
 .entry-meta a {
   color: #999;
 }
-/* line 551, lib/scss/style.scss */
+/* line 554, lib/scss/style.scss */
 .entry-meta a:hover {
   color: #0078a0;
 }
 
-/* line 557, lib/scss/style.scss */
+/* line 560, lib/scss/style.scss */
 .entry-meta a {
   border-bottom: 1px solid #ddd;
 }
 
-/* line 561, lib/scss/style.scss */
+/* line 564, lib/scss/style.scss */
 .entry-header .entry-meta {
   margin-bottom: 24px;
   margin-bottom: 2.4rem;
 }
 
-/* line 569, lib/scss/style.scss */
+/* line 572, lib/scss/style.scss */
 .entry-categories,
 .entry-tags {
   display: block;
@@ -10820,7 +11580,7 @@ Content Area
 
 /* Pagination
 --------------------------------------------- */
-/* line 603, lib/scss/style.scss */
+/* line 606, lib/scss/style.scss */
 .archive-pagination,
 .entry-pagination {
   font-size: 14px;
@@ -10829,12 +11589,12 @@ Content Area
   margin: 4rem 0;
 }
 
-/* line 611, lib/scss/style.scss */
+/* line 614, lib/scss/style.scss */
 .archive-pagination li {
   display: inline;
 }
 
-/* line 615, lib/scss/style.scss */
+/* line 618, lib/scss/style.scss */
 .archive-pagination li a {
   background-color: #333;
   border-radius: 3px;
@@ -10845,20 +11605,20 @@ Content Area
   padding: 0.8rem 1.2rem;
 }
 
-/* line 625, lib/scss/style.scss */
+/* line 628, lib/scss/style.scss */
 .archive-pagination li a:hover,
 .archive-pagination li.active a {
   background-color: #008cba;
 }
 
-/* line 630, lib/scss/style.scss */
+/* line 633, lib/scss/style.scss */
 .entry-pagination a {
   border-bottom: 1px solid #ddd;
 }
 
 /* Comments
 --------------------------------------------- */
-/* line 637, lib/scss/style.scss */
+/* line 640, lib/scss/style.scss */
 .comment-respond,
 .entry-comments,
 .entry-pings {
@@ -10867,77 +11627,77 @@ Content Area
   margin-bottom: 4rem;
 }
 
-/* line 654, lib/scss/style.scss */
+/* line 657, lib/scss/style.scss */
 .comment-respond a,
 .entry-comments a {
   border-bottom: 1px solid #ddd;
 }
 
-/* line 659, lib/scss/style.scss */
+/* line 662, lib/scss/style.scss */
 .comment-content {
   clear: both;
 }
 
-/* line 663, lib/scss/style.scss */
+/* line 666, lib/scss/style.scss */
 .entry-comments .comment-author {
   margin-bottom: 0;
 }
 
-/* line 667, lib/scss/style.scss */
+/* line 670, lib/scss/style.scss */
 .comment-respond input[type="email"],
 .comment-respond input[type="text"],
 .comment-respond input[type="url"] {
   width: 50%;
 }
 
-/* line 673, lib/scss/style.scss */
+/* line 676, lib/scss/style.scss */
 .comment-respond label {
   display: block;
   margin-right: 0.75rem;
 }
 
-/* line 678, lib/scss/style.scss */
+/* line 681, lib/scss/style.scss */
 .comment-list {
   margin-left: 0;
 }
 
-/* line 682, lib/scss/style.scss */
+/* line 685, lib/scss/style.scss */
 .comment-list li,
 .ping-list li {
   list-style-type: none;
 }
 
-/* line 687, lib/scss/style.scss */
+/* line 690, lib/scss/style.scss */
 .comment-list li {
   margin-top: 1.5rem;
   padding: 2rem;
 }
 
-/* line 692, lib/scss/style.scss */
+/* line 695, lib/scss/style.scss */
 .comment-list li li {
   margin-right: -2rem;
 }
 
-/* line 696, lib/scss/style.scss */
+/* line 699, lib/scss/style.scss */
 .comment {
   background-color: #f5f5f5;
 }
-/* line 698, lib/scss/style.scss */
+/* line 701, lib/scss/style.scss */
 .comment .depth-2 {
   background: #e8e8e8;
 }
 
-/* line 703, lib/scss/style.scss */
+/* line 706, lib/scss/style.scss */
 .comment .avatar {
   margin: 0 1rem 1.5rem 0;
 }
 
-/* line 707, lib/scss/style.scss */
+/* line 710, lib/scss/style.scss */
 .entry-pings .reply {
   display: none;
 }
 
-/* line 714, lib/scss/style.scss */
+/* line 717, lib/scss/style.scss */
 .form-allowed-tags {
   background-color: #f5f5f5;
   font-size: 0.875rem;
@@ -10947,35 +11707,35 @@ Content Area
 /*
 Sidebars
 ---------------------------------------------------------------------------------------------------- */
-/* line 725, lib/scss/style.scss */
+/* line 728, lib/scss/style.scss */
 .sidebar {
   color: #999;
 }
 
-/* line 729, lib/scss/style.scss */
+/* line 732, lib/scss/style.scss */
 .sidebar p:last-child {
   margin-bottom: 0;
 }
 
-/* line 733, lib/scss/style.scss */
+/* line 736, lib/scss/style.scss */
 .sidebar li {
   list-style-type: none;
   margin-bottom: 0.375rem;
   word-wrap: break-word;
 }
 
-/* line 739, lib/scss/style.scss */
+/* line 742, lib/scss/style.scss */
 .sidebar ul > li:last-child {
   margin-bottom: 0;
 }
 
-/* line 743, lib/scss/style.scss */
+/* line 746, lib/scss/style.scss */
 .sidebar .widget {
   background-color: #fff;
   margin-bottom: 2.5rem;
 }
 
-/* line 748, lib/scss/style.scss */
+/* line 751, lib/scss/style.scss */
 .sidebar .enews-widget {
   background-color: #333;
 }
@@ -10984,7 +11744,7 @@ Sidebars
 Media Queries
 ------------------------------------------- */
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 761, lib/scss/style.scss */
+  /* line 764, lib/scss/style.scss */
   .header-image .site-header .wrap {
     background: url(images/logo@2x.png) no-repeat left;
     background-size: 320px 164px;

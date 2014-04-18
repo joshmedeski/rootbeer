@@ -15,7 +15,7 @@ $simple-social-icon-color: color;
 $simple-social-icon-shape: square;
 
 // Social Icon brand color map
-$social-icons: (
+$social-icon: (
   dribbble: #ea4c89,
   email: #bdbdbd,
   facebook: #3b5998,
@@ -33,7 +33,7 @@ $social-icons: (
   youtube: #c4302b
   );
 
-@each $site, $color in $social-icons {
+@each $site, $color in $social-icon {
   .simple-social-icons ul li.social-#{$site} a {
     @if $simple-social-icon-color == color {
       background: $color !important;

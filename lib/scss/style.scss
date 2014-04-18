@@ -21,11 +21,14 @@ $default-float: left !global;
 
 // Rootbeer Files
 @import "dashicon";
-@import "simple-social-icons";
 @import "theme";
+
 @import "layout";
 @import "header";
 @import "footer";
+
+@import "simple-social-icons";
+@import "jetpack-sharing";
 
 a,
 button,
