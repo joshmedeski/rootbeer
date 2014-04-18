@@ -1,3 +1,4 @@
-bower_components
-.sass-cache
 .DS-store
+.sass-cache
+bower_components
+config.codekit
