@@ -19,6 +19,22 @@ add_theme_support( 'genesis-responsive-viewport' );
 // Add new image sizes
 // add_image_size('grid-thumbnail', 100, 100, TRUE);
 
+// Video Wrapper
+function add_video_wmode_transparent_and_wrapper($html, $url, $attr) {
+
+  if ( strpos( $html, "<embed src=" ) !== false )
+  {
+    $html = str_replace('</param><embed', '</param><param name="wmode" value="opaque"></param><embed wmode="opaque" ', $html);
+  }
+  elseif ( strpos ( $html, 'feature=oembed' ) !== false )
+  {
+    $html = str_replace( 'feature=oembed', 'feature=oembed&wmode=opaque&rel=0&showinfo=0&controls=0', $html );
+  }
+  $return = '<div class="flex-video">'.$html.'</div>';
+  return $return;
+}
+add_filter( 'embed_oembed_html', 'add_video_wmode_transparent_and_wrapper', 10, 3);
+
 // Display author box on single posts
 add_filter( 'get_the_author_genesis_author_box_single', '__return_true' );
 
