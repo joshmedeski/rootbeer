@@ -1,0 +1,80 @@
+/*
+Site Header
+--------------------------------------------- */
+
+.site-header {
+  background-color: $site-header-bg;
+}
+
+/* Title Area
+--------------------------------------------- */
+
+.title-area {
+  @include grid-column(6);
+  padding: $site-header-padding 0;
+}
+
+.site-title {
+  font-size: rem-calc(30);
+  line-height: 1;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  a {
+    color: $body-font-color;
+    &:hover {
+      color: $anchor-font-color-hover;
+    }
+  }
+}
+
+.site-description {
+  color: #999;
+  font-size: rem-calc(18);
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+/* Full width header, no widgets */
+
+.header-full-width .title-area {
+  @include grid-column(12);
+}
+
+.header-image .site-description,
+.header-image .site-title a {
+  display: block;
+  text-indent: -9999px;
+}
+
+/* Logo, hide text */
+
+.header-image .site-header .wrap {
+  background: url(images/logo.png) no-repeat left;
+  padding: 0;
+}
+
+.header-image .site-title a {
+  float: left;
+  min-height: 164px;
+  width: 100%;
+}
+
+/* Widget Area
+--------------------------------------------- */
+
+.site-header .widget-area {
+  @include grid-column(12);
+  @media #{$medium-up} {
+    @include grid-column(6);
+  }
+  padding: $site-header-padding 0;
+  text-align: right;
+}
+
+.header-image .site-header .widget-area {
+  padding: rem-calc(40) 0;
+}
+
+.site-header .search-form {
+  float: right;
+}
