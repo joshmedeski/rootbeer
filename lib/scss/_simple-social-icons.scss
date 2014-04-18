@@ -1,0 +1,72 @@
+// Simple Social Icons Plugin
+// http://wordpress.org/plugins/simple-social-icons/
+
+// Simple Social Icon Color
+//
+// color: icons use the brand color
+// put in custom color if you don't want color (ex: #999)
+$simple-social-icon-color: color;
+
+// Simple Social Icon Shapes
+//
+// square: square shaped
+// radius: with a radius (uses global radius)
+// circle: round icons
+$simple-social-icon-shape: square;
+
+// Social Icon brand color map
+$social-icons: (
+  dribbble: #ea4c89,
+  email: #bdbdbd,
+  facebook: #3b5998,
+  flickr: #0063dc,
+  github: #171515,
+  gplus: #dd4b39,
+  instagram: #3f729b,
+  linkedin: #0e76a8,
+  pinterest: #c8232c,
+  rss: #ee802f,
+  stumbleupon: #f74425,
+  tumblr: #34526f,
+  twitter: #55acee,
+  vimeo: #44bbff,
+  youtube: #c4302b
+  );
+
+@each $site, $color in $social-icons {
+  .simple-social-icons ul li.social-#{$site} a {
+    @if $simple-social-icon-color == color {
+      background: $color !important;
+      &:hover {
+        background: darken($color, 10%) !important;
+      }
+    }
+    @else {
+      background: $simple-social-icon-color !important;
+      &:hover {
+        background: $color !important;
+      }
+    }
+  }
+}
+
+.simple-social-icons ul li a {
+  @if $simple-social-icon-shape == square {
+    -webkit-border-radius: 0 !important;
+    border-radius: 0 !important;
+  }
+  @else if $simple-social-icon-shape == radius {
+    -webkit-border-radius: $global-radius !important;
+    border-radius: $global-radius !important;
+  }
+  @else if $simple-social-icon-shape == circle {
+    -webkit-border-radius: 50% !important;
+    border-radius: 50% !important;
+  }
+}
+
+// Fix: float header widget area icons to the left
+.header-widget-area .simple-social-icons ul {
+  float: right;
+}
+
