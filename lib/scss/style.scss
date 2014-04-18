@@ -17,21 +17,15 @@
 @import "normalize";
 @import "settings";
 @import "foundation";
-
-// Rootbeer Files
-@import "theme";
-
 $default-float: left !global;
 
-// Dashicon Placeholder
-%dashicon {
-  font: normal 18px/1 'dashicons';
-  margin-right: 5px;
-  margin-top: 2px;
-  vertical-align: top;
-  -webkit-font-smoothing: antialiased;
-  display: inline-block;
-}
+// Rootbeer Files
+@import "dashicon";
+@import "simple-social-icons";
+@import "theme";
+@import "layout";
+@import "header";
+@import "footer";
 
 a,
 button,
@@ -72,168 +66,11 @@ input[type="submit"],
   @include button;
 }
 
-/*
-Structure and Layout
---------------------------------------------- */
-
-/* Site Containers
---------------------------------------------- */
-
-.site-inner,
-.wrap {
-  @include grid-row;
+// iOS Border Radius Fix
+input {
+  -webkit-border-radius: 0;
+  border-radius: 0;
 }
-
-.site-inner {
-  clear: both;
-  padding-top: 40px;
-  padding-top: 4rem;
-}
-
-/* Column Widths and Positions
---------------------------------------------- */
-
-/* Wrapping div for .content and .sidebar-primary */
-
-.content-sidebar-sidebar .content-sidebar-wrap,
-.sidebar-content-sidebar .content-sidebar-wrap,
-.sidebar-sidebar-content .content-sidebar-wrap {
-  width: 920px;
-}
-
-.content-sidebar-sidebar .content-sidebar-wrap {
-  float: left;
-}
-
-.sidebar-content-sidebar .content-sidebar-wrap,
-.sidebar-sidebar-content .content-sidebar-wrap {
-  float: right;
-}
-
-/* Content */
-
-.content {
-  @include grid-column(12);
-  @media #{$medium-up} {
-    @include grid-column(8);
-  }
-}
-
-.sidebar-content {
-  .sidebar {
-    @include grid-column(12);
-    @media #{$medium-up} {
-      @include grid-column($columns:4,$pull:8);
-    }
-  }
-  .content {
-    @include grid-column(12);
-    @media #{$medium-up} {
-      @include grid-column($columns:8,$push:4);
-    }
-  }
-}
-
-.content-sidebar .content,
-.content-sidebar-sidebar .content,
-.sidebar-content-sidebar .content {
-  float: left;
-}
-
-.content-sidebar-sidebar .content,
-.sidebar-content-sidebar .content,
-.sidebar-sidebar-content .content {
-  width: 520px;
-}
-
-.full-width-content .content {
-  @include grid-column(12);
-  @media #{$medium-up} {
-    @include grid-column($columns:8,$center:true);
-  }
-}
-
-/* Primary Sidebar */
-
-.sidebar-primary {
-  @include grid-column(12);
-  @media #{$medium-up} {
-    @include grid-column(4);
-  }
-}
-
-.sidebar-content .sidebar-primary,
-.sidebar-sidebar-content .sidebar-primary {
-  float: left;
-}
-
-/* Secondary Sidebar */
-
-.sidebar-secondary {
-  float: left;
-  width: 180px;
-}
-
-.content-sidebar-sidebar .sidebar-secondary {
-  float: right;
-}
-
-/* Column Classes
-  Link: http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css
-  --------------------------------------------- */
-
-  .five-sixths,
-  .four-sixths,
-  .one-fourth,
-  .one-half,
-  .one-sixth,
-  .one-third,
-  .three-fourths,
-  .three-sixths,
-  .two-fourths,
-  .two-sixths,
-  .two-thirds {
-    float: left;
-    margin-left: 2.564102564102564%;
-  }
-
-  .one-half,
-  .three-sixths,
-  .two-fourths {
-    width: 48.717948717948715%;
-  }
-
-  .one-third,
-  .two-sixths {
-    width: 31.623931623931625%;
-  }
-
-  .four-sixths,
-  .two-thirds {
-    width: 65.81196581196582%;
-  }
-
-  .one-fourth {
-    width: 23.076923076923077%;
-  }
-
-  .three-fourths {
-    width: 74.35897435897436%;
-  }
-
-  .one-sixth {
-    width: 14.52991452991453%;
-  }
-
-  .five-sixths {
-    width: 82.90598290598291%;
-  }
-
-  .first {
-    clear: both;
-    margin-left: 0;
-  }
-
 
 /*
 Common Classes
@@ -256,15 +93,30 @@ Common Classes
   margin-left: 2.4rem;
 }
 
-.search-form:after {
-  @extend %dashicon;
-  content: "\f179";
-  margin-top: -42px;
+.search-form {
+  input[type="search"] {
+    padding-left: rem-calc(36);
+  }
+  &:before {
+    @extend %dashicon;
+    @extend .dashicons-search;
+    font-size: rem-calc(18);
+    left: 10px;
+    position: relative;
+    top: 28px;
+
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
+    -webkit-transform: scale(-1, 1);
+    -moz-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+  }
 }
 
-input[type="email"]:after {
+input[type="email"]:before {
   @extend %dashicon;
-  content: "\f466";
+  @extend .dashicons-email-alt;
   margin-top: -42px;
 }
 
@@ -399,7 +251,6 @@ img.alignright,
 
 .widget-title {
   font-size: rem-calc(20);
-  margin-bottom: rem-calc(24);
   text-transform: uppercase;
 }
 
@@ -467,16 +318,13 @@ Plugins
 }
 
 .enews-widget input[type="submit"] {
-  background-color: $primary-color;
-  color: #fff;
-  margin: 0;
-  width: 100%;
+  @include button($full-width: true);
 }
 
-.enews-widget input:hover[type="submit"] {
-  background-color: #fff;
-  color: #333;
-}
+// .enews-widget input:hover[type="submit"] {
+//   background-color: #fff;
+//   color: #333;
+// }
 
 /* Genesis Latest Tweets
 --------------------------------------------- */
@@ -520,89 +368,6 @@ div.gform_wrapper .gform_footer input[type="submit"] {
 img#wpstats {
   display: none;
 }
-
-
-/*
-Site Header
---------------------------------------------- */
-
-.site-header {
-  padding: $site-header-padding 0;
-  background-color: $site-header-bg;
-}
-
-/* Title Area
---------------------------------------------- */
-
-.title-area {
-  @include grid-column(6);
-}
-
-.site-title {
-  font-size: rem-calc(30);
-  line-height: 1;
-  margin-bottom: 0;
-  text-transform: uppercase;
-  a {
-    color: $body-font-color;
-    &:hover {
-      color: $anchor-font-color-hover;
-    }
-  }
-}
-
-.site-description {
-  color: #999;
-  font-size: rem-calc(18);
-  line-height: 1;
-  margin-bottom: 0;
-}
-
-/* Full width header, no widgets */
-
-.header-full-width .title-area,
-.header-full-width .site-title {
-  @include grid-column(12);
-}
-
-.header-image .site-description,
-.header-image .site-title a {
-  display: block;
-  text-indent: -9999px;
-}
-
-/* Logo, hide text */
-
-.header-image .site-header .wrap {
-  background: url(images/logo.png) no-repeat left;
-  padding: 0;
-}
-
-.header-image .site-title a {
-  float: left;
-  min-height: 164px;
-  width: 100%;
-}
-
-/* Widget Area
---------------------------------------------- */
-
-.site-header .widget-area {
-  @include grid-column(12);
-  @media #{$medium-up} {
-    @include grid-column(6);
-  }
-  text-align: right;
-}
-
-.header-image .site-header .widget-area {
-  padding: rem-calc(40) 0;
-}
-
-.site-header .search-form {
-  float: right;
-}
-
 
 /*
 Site Navigation
@@ -764,15 +529,6 @@ Content Area
   margin-bottom: rem-calc(60);
 }
 
-.entry-content a {
-  border-bottom: 1px solid #ddd;
-  color: $primary-color;
-}
-
-.entry-content a:hover {
-  color: #333;
-}
-
 .entry-content .attachment a,
 .entry-content .gallery a {
   border: none;
@@ -812,32 +568,32 @@ Content Area
 
 .entry-categories,
 .entry-tags {
-  // display: block;
+  display: block;
 }
 
 .entry-time:before {
   @extend %dashicon;
-  content: "\f469";
+  @extend .dashicons-clock;
 }
 
 .entry-author:before {
   @extend %dashicon;
-  content: "\f110";
+  @extend .dashicons-admin-users
 }
 
 .entry-comments-link:before {
   @extend %dashicon;
-  content: "\f473";
+  @extend .dashicons-admin-comments;
 }
 
 .entry-tags:before {
   @extend %dashicon;
-  content: "\f323";
+  @extend .dashicons-tag;
 }
 
 .entry-categories:before {
   @extend %dashicon;
-  content: "\f318";
+  @extend .dashicons-category;
 }
 
 
@@ -970,10 +726,6 @@ Sidebars
   color: #999;
 }
 
-.sidebar a {
-  border-bottom: 1px solid #ddd;
-}
-
 .sidebar p:last-child {
   margin-bottom: 0;
 }
@@ -997,86 +749,9 @@ Sidebars
   background-color: #333;
 }
 
-
-/*
-Footer Widgets
----------------------------------------------------------------------------------------------------- */
-
-.footer-widgets {
-  background-color: #333;
-  color: #999;
-  clear: both;
-  padding: rem-calc(40) 0 rem-calc(16);
-}
-
-.footer-widgets-1,
-.footer-widgets-2,
-.footer-widgets-3 {
-  @include grid-column(12);
-  @media #{$medium-up} {
-    @include grid-column(4);
-  }
-}
-
-.footer-widgets-1 {
-  margin-right: 40px;
-  margin-right: 4rem;
-}
-
-.footer-widgets a {
-  border-bottom: 1px solid #666;
-  color: #999;
-}
-
-.footer-widgets a:hover {
-  color: #ddd;
-}
-
-.footer-widgets .widget {
-  margin-bottom: 24px;
-  margin-bottom: 2.4rem;
-}
-
-.footer-widgets .widget-title {
-  color: #fff;
-}
-
-.footer-widgets li {
-  list-style-type: none;
-  margin-bottom: rem-calc(6);
-  word-wrap: break-word;
-}
-
-.footer-widgets .search-form input:focus {
-  border: 1px solid #ddd;
-}
-
-
-/*
-Site Footer
----------------------------------------------------------------------------------------------------- */
-
-.site-footer {
-  background-color: #222222;
-  color: #999;
-  font-size: rem-calc(14);
-  padding: rem-calc(40) 0;
-  text-align: center;
-  p {
-    margin-bottom: 0;
-  }
-  a {
-    color: #999;
-    border-bottom: 1px solid #ddd;
-    &:hover {
-      color: $anchor-font-color-hover;
-    }
-  }
-}
-
 /*
 Media Queries
----------------------------------------------------------------------------------------------------- */
+------------------------------------------- */
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (-moz-min-device-pixel-ratio: 1.5),
@@ -1088,158 +763,4 @@ only screen and (min-device-pixel-ratio: 1.5) {
     background-size: 320px 164px;
   }
 
-}
-
-@media only screen and (max-width: 1139px) {
-
-  .site-inner,
-  .wrap {
-    @include grid-row;
-  }
-
-  .content-sidebar-sidebar .content-sidebar-wrap,
-  .sidebar-content-sidebar .content-sidebar-wrap,
-  .sidebar-sidebar-content .content-sidebar-wrap {
-    @include grid-row;
-  }
-
-  .sidebar-content-sidebar .content,
-  .sidebar-sidebar-content .content,
-  .content-sidebar-sidebar .content {
-    width: 400px;
-  }
-
-  .footer-widgets-1,
-  .footer-widgets-2,
-  .footer-widgets-3,
-  .sidebar-primary,
-  .title-area {
-    width: 300px;
-  }
-
-}
-
-@media only screen and (max-width: 1023px) {
-
-  body {
-    background-color: #fff;
-  }
-
-  .content,
-  .content-sidebar-sidebar .content,
-  .content-sidebar-sidebar .content-sidebar-wrap,
-  .footer-widgets-1,
-  .footer-widgets-2,
-  .footer-widgets-3,
-  .sidebar-content-sidebar .content,
-  .sidebar-content-sidebar .content-sidebar-wrap,
-  .sidebar-primary,
-  .sidebar-secondary,
-  .sidebar-sidebar-content .content,
-  .sidebar-sidebar-content .content-sidebar-wrap,
-  .site-header .widget-area,
-  .site-inner,
-  .title-area,
-  .wrap {
-    width: 100%;
-  }
-
-  .header-image .site-header .wrap {
-    background-position: center top;
-  }
-
-  .site-inner {
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-
-  .archive-description,
-  .author-box,
-  .comment-respond,
-  .entry,
-  .entry-comments,
-  .entry-footer .entry-meta,
-  .header-image .site-header .widget-area,
-  .sidebar .widget,
-  .site-header {
-    padding: 0;
-  }
-
-  .genesis-nav-menu li,
-  .site-header ul.genesis-nav-menu,
-  .site-header .search-form {
-    float: none;
-  }
-
-  .genesis-nav-menu,
-  .site-description,
-  .site-header .title-area,
-  .site-header .search-form,
-  .site-title {
-    text-align: center;
-  }
-
-  .genesis-nav-menu a,
-  .genesis-nav-menu > .first > a,
-  .genesis-nav-menu > .last > a {
-    padding: 20px 16px;
-    padding: 2rem 1.6rem;
-  }
-
-  .site-header .search-form {
-    margin: 16px auto ;
-    margin: 1.6rem auto;
-  }
-
-  .genesis-nav-menu li.right {
-    display: none;
-  }
-
-  .entry-footer .entry-meta {
-    margin: 0;
-    padding-top: 12px;
-    padding-top: 1.2rem;
-  }
-
-  .sidebar .widget.enews-widget {
-    padding: 40px;
-    padding: 4rem;
-  }
-
-  .site-footer {
-    padding: 24px 0;
-    padding: 2.4rem 0;
-  }
-
-  .footer-widgets {
-    padding: 40px 5% 16px;
-  }
-
-  .footer-widgets-1 {
-    margin: 0;
-  }
-
-}
-
-@media only screen and (max-width: 767px) {
-
-  .five-sixths,
-  .four-sixths,
-  .one-fourth,
-  .one-half,
-  .one-sixth,
-  .one-third,
-  .three-fourths,
-  .three-sixths,
-  .two-fourths,
-  .two-sixths,
-  .two-thirds {
-    margin: 0;
-    width: 100%;
-  }
-
-}
-
-#wpadminbar {
-  position: fixed;
 }

@@ -1,8 +1,7 @@
-@charset "UTF-8";
 /*
   Theme Name: Rootbeer
   Theme URI: https://github.com/joshmedeski/rootbeer
-  Description: A Genesis WordPress starter theme with Zurb's Foundation.
+  Description: A WordPress starter theme built with Genesis and Zurb's Foundation.
   Author: Josh Medeski
   Author URI: http://joshmedeski.com/
   Version: 1.0.0
@@ -13,185 +12,6 @@
   License: MIT
   License URI: http://opensource.org/licenses/MIT
   */
-/*
-
-   SKINS
-   • Backgrounds
-   • Colors
-
-*/
-/* Backgrounds */
-/* line 12, bower_components/mrmrs-colors/sass/_skins.scss */
-.bg-navy {
-  background-color: #001f3f;
-}
-
-/* line 13, bower_components/mrmrs-colors/sass/_skins.scss */
-.bg-blue {
-  background-color: #0074d9;
-}
-
-/* line 14, bower_components/mrmrs-colors/sass/_skins.scss */
-.bg-aqua {
-  background-color: #7fdbff;
-}
-
-/* line 15, bower_components/mrmrs-colors/sass/_skins.scss */
-.bg-teal {
-  background-color: #39cccc;
-}
-
-/* line 16, bower_components/mrmrs-colors/sass/_skins.scss */
-.bg-olive {
-  background-color: #3d9970;
-}
-
-/* line 17, bower_components/mrmrs-colors/sass/_skins.scss */
-.bg-green {
-  background-color: #2ecc40;
-}
-
-/* line 18, bower_components/mrmrs-colors/sass/_skins.scss */
-.bg-lime {
-  background-color: #01ff70;
-}
-
-/* line 19, bower_components/mrmrs-colors/sass/_skins.scss */
-.bg-yellow {
-  background-color: #ffdc00;
-}
-
-/* line 20, bower_components/mrmrs-colors/sass/_skins.scss */
-.bg-orange {
-  background-color: #ff851b;
-}
-
-/* line 21, bower_components/mrmrs-colors/sass/_skins.scss */
-.bg-red {
-  background-color: #ff4136;
-}
-
-/* line 22, bower_components/mrmrs-colors/sass/_skins.scss */
-.bg-fuchsia {
-  background-color: #f012be;
-}
-
-/* line 23, bower_components/mrmrs-colors/sass/_skins.scss */
-.bg-purple {
-  background-color: #b10dc9;
-}
-
-/* line 24, bower_components/mrmrs-colors/sass/_skins.scss */
-.bg-maroon {
-  background-color: #85144b;
-}
-
-/* line 25, bower_components/mrmrs-colors/sass/_skins.scss */
-.bg-white {
-  background-color: white;
-}
-
-/* line 26, bower_components/mrmrs-colors/sass/_skins.scss */
-.bg-gray {
-  background-color: #aaaaaa;
-}
-
-/* line 27, bower_components/mrmrs-colors/sass/_skins.scss */
-.bg-silver {
-  background-color: #dddddd;
-}
-
-/* line 28, bower_components/mrmrs-colors/sass/_skins.scss */
-.bg-black {
-  background-color: #111111;
-}
-
-/* Colors */
-/* line 33, bower_components/mrmrs-colors/sass/_skins.scss */
-.navy {
-  color: #001f3f;
-}
-
-/* line 34, bower_components/mrmrs-colors/sass/_skins.scss */
-.blue {
-  color: #0074d9;
-}
-
-/* line 35, bower_components/mrmrs-colors/sass/_skins.scss */
-.aqua {
-  color: #7fdbff;
-}
-
-/* line 36, bower_components/mrmrs-colors/sass/_skins.scss */
-.teal {
-  color: #39cccc;
-}
-
-/* line 37, bower_components/mrmrs-colors/sass/_skins.scss */
-.olive {
-  color: #3d9970;
-}
-
-/* line 38, bower_components/mrmrs-colors/sass/_skins.scss */
-.green {
-  color: #2ecc40;
-}
-
-/* line 39, bower_components/mrmrs-colors/sass/_skins.scss */
-.lime {
-  color: #01ff70;
-}
-
-/* line 40, bower_components/mrmrs-colors/sass/_skins.scss */
-.yellow {
-  color: #ffdc00;
-}
-
-/* line 41, bower_components/mrmrs-colors/sass/_skins.scss */
-.orange {
-  color: #ff851b;
-}
-
-/* line 42, bower_components/mrmrs-colors/sass/_skins.scss */
-.red {
-  color: #ff4136;
-}
-
-/* line 43, bower_components/mrmrs-colors/sass/_skins.scss */
-.fuchsia {
-  color: #f012be;
-}
-
-/* line 44, bower_components/mrmrs-colors/sass/_skins.scss */
-.purple {
-  color: #b10dc9;
-}
-
-/* line 45, bower_components/mrmrs-colors/sass/_skins.scss */
-.maroon {
-  color: #85144b;
-}
-
-/* line 46, bower_components/mrmrs-colors/sass/_skins.scss */
-.white {
-  color: white;
-}
-
-/* line 47, bower_components/mrmrs-colors/sass/_skins.scss */
-.silver {
-  color: #dddddd;
-}
-
-/* line 48, bower_components/mrmrs-colors/sass/_skins.scss */
-.gray {
-  color: #aaaaaa;
-}
-
-/* line 49, bower_components/mrmrs-colors/sass/_skins.scss */
-.black {
-  color: #111111;
-}
-
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -7451,7 +7271,7 @@ dl {
 
 /* line 298, bower_components/foundation/scss/foundation/components/_type.scss */
 ul {
-  margin-left: 1.1rem;
+  margin-left: 1.5rem;
 }
 /* line 300, bower_components/foundation/scss/foundation/components/_type.scss */
 ul.no-bullet {
@@ -7479,17 +7299,17 @@ ul.square li ul, ul.circle li ul, ul.disc li ul {
 /* line 328, bower_components/foundation/scss/foundation/components/_type.scss */
 ul.square {
   list-style-type: square;
-  margin-left: 1.1rem;
+  margin-left: 1.5rem;
 }
 /* line 329, bower_components/foundation/scss/foundation/components/_type.scss */
 ul.circle {
   list-style-type: circle;
-  margin-left: 1.1rem;
+  margin-left: 1.5rem;
 }
 /* line 330, bower_components/foundation/scss/foundation/components/_type.scss */
 ul.disc {
   list-style-type: disc;
-  margin-left: 1.1rem;
+  margin-left: 1.5rem;
 }
 /* line 331, bower_components/foundation/scss/foundation/components/_type.scss */
 ul.no-bullet {
@@ -8418,8 +8238,8 @@ th.hide-for-touch {
   display: table-cell !important;
 }
 
-/* line 32, lib/scss/style.scss */
-.search-form:after, input[type="email"]:after, .entry-time:before, .entry-author:before, .entry-comments-link:before, .entry-tags:before, .entry-categories:before {
+/* line 2, lib/scss/_dashicon.scss */
+.search-form:before, input[type="email"]:before, .entry-time:before, .entry-author:before, .entry-comments-link:before, .entry-tags:before, .entry-categories:before {
   font: normal 18px/1 'dashicons';
   margin-right: 5px;
   margin-top: 2px;
@@ -8428,7 +8248,1904 @@ th.hide-for-touch {
   display: inline-block;
 }
 
-/* line 41, lib/scss/style.scss */
+/* line 11, lib/scss/_dashicon.scss */
+.dashicons,
+.dashicons-before:before {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  line-height: 1;
+  font-family: "dashicons";
+  text-decoration: inherit;
+  font-weight: normal;
+  font-style: normal;
+  vertical-align: top;
+  text-align: center;
+  -webkit-transition: color .1s ease-in 0;
+  transition: color .1s ease-in 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Admin Menu Icons */
+/* line 32, lib/scss/_dashicon.scss */
+.dashicons-menu:before {
+  content: "\f333";
+}
+
+/* line 36, lib/scss/_dashicon.scss */
+.dashicons-admin-site:before {
+  content: "\f319";
+}
+
+/* line 40, lib/scss/_dashicon.scss */
+.dashicons-dashboard:before {
+  content: "\f226";
+}
+
+/* line 44, lib/scss/_dashicon.scss */
+.dashicons-admin-media:before {
+  content: "\f104";
+}
+
+/* line 48, lib/scss/_dashicon.scss */
+.dashicons-admin-page:before {
+  content: "\f105";
+}
+
+/* line 52, lib/scss/_dashicon.scss */
+.dashicons-admin-comments:before, .entry-comments-link:before {
+  content: "\f101";
+}
+
+/* line 56, lib/scss/_dashicon.scss */
+.dashicons-admin-appearance:before {
+  content: "\f100";
+}
+
+/* line 60, lib/scss/_dashicon.scss */
+.dashicons-admin-plugins:before {
+  content: "\f106";
+}
+
+/* line 64, lib/scss/_dashicon.scss */
+.dashicons-admin-users:before, .entry-author:before {
+  content: "\f110";
+}
+
+/* line 68, lib/scss/_dashicon.scss */
+.dashicons-admin-tools:before {
+  content: "\f107";
+}
+
+/* line 72, lib/scss/_dashicon.scss */
+.dashicons-admin-settings:before {
+  content: "\f108";
+}
+
+/* line 76, lib/scss/_dashicon.scss */
+.dashicons-admin-network:before {
+  content: "\f112";
+}
+
+/* line 80, lib/scss/_dashicon.scss */
+.dashicons-admin-generic:before {
+  content: "\f111";
+}
+
+/* line 84, lib/scss/_dashicon.scss */
+.dashicons-admin-home:before {
+  content: "\f102";
+}
+
+/* line 88, lib/scss/_dashicon.scss */
+.dashicons-admin-collapse:before {
+  content: "\f148";
+}
+
+/* Both Admin Menu and Post Formats */
+/* line 95, lib/scss/_dashicon.scss */
+.dashicons-admin-links:before,
+.dashicons-format-links:before {
+  content: "\f103";
+}
+
+/* line 100, lib/scss/_dashicon.scss */
+.dashicons-admin-post:before,
+.dashicons-format-standard:before {
+  content: "\f109";
+}
+
+/* Post Format Icons */
+/* line 108, lib/scss/_dashicon.scss */
+.dashicons-format-image:before {
+  content: "\f128";
+}
+
+/* line 112, lib/scss/_dashicon.scss */
+.dashicons-format-gallery:before {
+  content: "\f161";
+}
+
+/* line 116, lib/scss/_dashicon.scss */
+.dashicons-format-audio:before {
+  content: "\f127";
+}
+
+/* line 120, lib/scss/_dashicon.scss */
+.dashicons-format-video:before {
+  content: "\f126";
+}
+
+/* line 124, lib/scss/_dashicon.scss */
+.dashicons-format-chat:before {
+  content: "\f125";
+}
+
+/* line 128, lib/scss/_dashicon.scss */
+.dashicons-format-status:before {
+  content: "\f130";
+}
+
+/* line 132, lib/scss/_dashicon.scss */
+.dashicons-format-aside:before {
+  content: "\f123";
+}
+
+/* line 136, lib/scss/_dashicon.scss */
+.dashicons-format-quote:before {
+  content: "\f122";
+}
+
+/* Welcome Screen Icons */
+/* line 143, lib/scss/_dashicon.scss */
+.dashicons-welcome-write-blog:before,
+.dashicons-welcome-edit-page:before {
+  content: "\f119";
+}
+
+/* line 148, lib/scss/_dashicon.scss */
+.dashicons-welcome-add-page:before {
+  content: "\f133";
+}
+
+/* line 152, lib/scss/_dashicon.scss */
+.dashicons-welcome-view-site:before {
+  content: "\f115";
+}
+
+/* line 156, lib/scss/_dashicon.scss */
+.dashicons-welcome-widgets-menus:before {
+  content: "\f116";
+}
+
+/* line 160, lib/scss/_dashicon.scss */
+.dashicons-welcome-comments:before {
+  content: "\f117";
+}
+
+/* line 164, lib/scss/_dashicon.scss */
+.dashicons-welcome-learn-more:before {
+  content: "\f118";
+}
+
+/* Image Editing Icons */
+/* line 171, lib/scss/_dashicon.scss */
+.dashicons-image-crop:before {
+  content: "\f165";
+}
+
+/* line 175, lib/scss/_dashicon.scss */
+.dashicons-image-rotate-left:before {
+  content: "\f166";
+}
+
+/* line 179, lib/scss/_dashicon.scss */
+.dashicons-image-rotate-right:before {
+  content: "\f167";
+}
+
+/* line 183, lib/scss/_dashicon.scss */
+.dashicons-image-flip-vertical:before {
+  content: "\f168";
+}
+
+/* line 187, lib/scss/_dashicon.scss */
+.dashicons-image-flip-horizontal:before {
+  content: "\f169";
+}
+
+/* Both Image Editing and TinyMCE */
+/* line 194, lib/scss/_dashicon.scss */
+.dashicons-undo:before {
+  content: "\f171";
+}
+
+/* line 198, lib/scss/_dashicon.scss */
+.dashicons-redo:before {
+  content: "\f172";
+}
+
+/* TinyMCE Icons */
+/* line 204, lib/scss/_dashicon.scss */
+.dashicons-editor-bold:before {
+  content: "\f200";
+}
+
+/* line 208, lib/scss/_dashicon.scss */
+.dashicons-editor-italic:before {
+  content: "\f201";
+}
+
+/* line 212, lib/scss/_dashicon.scss */
+.dashicons-editor-ul:before {
+  content: "\f203";
+}
+
+/* line 216, lib/scss/_dashicon.scss */
+.dashicons-editor-ol:before {
+  content: "\f204";
+}
+
+/* line 220, lib/scss/_dashicon.scss */
+.dashicons-editor-quote:before {
+  content: "\f205";
+}
+
+/* line 224, lib/scss/_dashicon.scss */
+.dashicons-editor-alignleft:before {
+  content: "\f206";
+}
+
+/* line 228, lib/scss/_dashicon.scss */
+.dashicons-editor-aligncenter:before {
+  content: "\f207";
+}
+
+/* line 232, lib/scss/_dashicon.scss */
+.dashicons-editor-alignright:before {
+  content: "\f208";
+}
+
+/* line 236, lib/scss/_dashicon.scss */
+.dashicons-editor-insertmore:before {
+  content: "\f209";
+}
+
+/* line 240, lib/scss/_dashicon.scss */
+.dashicons-editor-spellcheck:before {
+  content: "\f210";
+}
+
+/* line 244, lib/scss/_dashicon.scss */
+.dashicons-editor-distractionfree:before,
+.dashicons-editor-expand:before {
+  content: "\f211";
+}
+
+/* line 249, lib/scss/_dashicon.scss */
+.dashicons-editor-contract:before {
+  content: "\f506";
+}
+
+/* line 253, lib/scss/_dashicon.scss */
+.dashicons-editor-kitchensink:before {
+  content: "\f212";
+}
+
+/* line 257, lib/scss/_dashicon.scss */
+.dashicons-editor-underline:before {
+  content: "\f213";
+}
+
+/* line 261, lib/scss/_dashicon.scss */
+.dashicons-editor-justify:before {
+  content: "\f214";
+}
+
+/* line 265, lib/scss/_dashicon.scss */
+.dashicons-editor-textcolor:before {
+  content: "\f215";
+}
+
+/* line 269, lib/scss/_dashicon.scss */
+.dashicons-editor-paste-word:before {
+  content: "\f216";
+}
+
+/* line 273, lib/scss/_dashicon.scss */
+.dashicons-editor-paste-text:before {
+  content: "\f217";
+}
+
+/* line 277, lib/scss/_dashicon.scss */
+.dashicons-editor-removeformatting:before {
+  content: "\f218";
+}
+
+/* line 281, lib/scss/_dashicon.scss */
+.dashicons-editor-video:before {
+  content: "\f219";
+}
+
+/* line 285, lib/scss/_dashicon.scss */
+.dashicons-editor-customchar:before {
+  content: "\f220";
+}
+
+/* line 289, lib/scss/_dashicon.scss */
+.dashicons-editor-outdent:before {
+  content: "\f221";
+}
+
+/* line 293, lib/scss/_dashicon.scss */
+.dashicons-editor-indent:before {
+  content: "\f222";
+}
+
+/* line 297, lib/scss/_dashicon.scss */
+.dashicons-editor-help:before {
+  content: "\f223";
+}
+
+/* line 301, lib/scss/_dashicon.scss */
+.dashicons-editor-strikethrough:before {
+  content: "\f224";
+}
+
+/* line 305, lib/scss/_dashicon.scss */
+.dashicons-editor-unlink:before {
+  content: "\f225";
+}
+
+/* line 309, lib/scss/_dashicon.scss */
+.dashicons-editor-rtl:before {
+  content: "\f320";
+}
+
+/* line 313, lib/scss/_dashicon.scss */
+.dashicons-editor-break:before {
+  content: "\f474";
+}
+
+/* line 317, lib/scss/_dashicon.scss */
+.dashicons-editor-code:before {
+  content: "\f475";
+}
+
+/* line 321, lib/scss/_dashicon.scss */
+.dashicons-editor-paragraph:before {
+  content: "\f476";
+}
+
+/* Post Icons */
+/* line 327, lib/scss/_dashicon.scss */
+.dashicons-align-left:before {
+  content: "\f135";
+}
+
+/* line 331, lib/scss/_dashicon.scss */
+.dashicons-align-right:before {
+  content: "\f136";
+}
+
+/* line 335, lib/scss/_dashicon.scss */
+.dashicons-align-center:before {
+  content: "\f134";
+}
+
+/* line 339, lib/scss/_dashicon.scss */
+.dashicons-align-none:before {
+  content: "\f138";
+}
+
+/* line 343, lib/scss/_dashicon.scss */
+.dashicons-lock:before {
+  content: "\f160";
+}
+
+/* line 347, lib/scss/_dashicon.scss */
+.dashicons-calendar:before {
+  content: "\f145";
+}
+
+/* line 351, lib/scss/_dashicon.scss */
+.dashicons-visibility:before {
+  content: "\f177";
+}
+
+/* line 355, lib/scss/_dashicon.scss */
+.dashicons-post-status:before {
+  content: "\f173";
+}
+
+/* line 359, lib/scss/_dashicon.scss */
+.dashicons-edit:before {
+  content: "\f464";
+}
+
+/* line 363, lib/scss/_dashicon.scss */
+.dashicons-post-trash:before,
+.dashicons-trash:before {
+  content: "\f182";
+}
+
+/* Sorting */
+/* line 371, lib/scss/_dashicon.scss */
+.dashicons-external:before {
+  content: "\f504";
+}
+
+/* line 375, lib/scss/_dashicon.scss */
+.dashicons-arrow-up:before {
+  content: "\f142";
+}
+
+/* line 379, lib/scss/_dashicon.scss */
+.dashicons-arrow-down:before {
+  content: "\f140";
+}
+
+/* line 383, lib/scss/_dashicon.scss */
+.dashicons-arrow-left:before {
+  content: "\f141";
+}
+
+/* line 387, lib/scss/_dashicon.scss */
+.dashicons-arrow-right:before {
+  content: "\f139";
+}
+
+/* line 391, lib/scss/_dashicon.scss */
+.dashicons-arrow-up-alt:before {
+  content: "\f342";
+}
+
+/* line 395, lib/scss/_dashicon.scss */
+.dashicons-arrow-down-alt:before {
+  content: "\f346";
+}
+
+/* line 399, lib/scss/_dashicon.scss */
+.dashicons-arrow-left-alt:before {
+  content: "\f340";
+}
+
+/* line 403, lib/scss/_dashicon.scss */
+.dashicons-arrow-right-alt:before {
+  content: "\f344";
+}
+
+/* line 407, lib/scss/_dashicon.scss */
+.dashicons-arrow-up-alt2:before {
+  content: "\f343";
+}
+
+/* line 411, lib/scss/_dashicon.scss */
+.dashicons-arrow-down-alt2:before {
+  content: "\f347";
+}
+
+/* line 415, lib/scss/_dashicon.scss */
+.dashicons-arrow-left-alt2:before {
+  content: "\f341";
+}
+
+/* line 419, lib/scss/_dashicon.scss */
+.dashicons-arrow-right-alt2:before {
+  content: "\f345";
+}
+
+/* line 423, lib/scss/_dashicon.scss */
+.dashicons-leftright:before {
+  content: "\f229";
+}
+
+/* line 427, lib/scss/_dashicon.scss */
+.dashicons-sort:before {
+  content: "\f156";
+}
+
+/* line 431, lib/scss/_dashicon.scss */
+.dashicons-randomize:before {
+  content: "\f503";
+}
+
+/* line 435, lib/scss/_dashicon.scss */
+.dashicons-list-view:before {
+  content: "\f163";
+}
+
+/* line 439, lib/scss/_dashicon.scss */
+.dashicons-exerpt-view:before {
+  content: "\f164";
+}
+
+/* WPorg specific icons: Jobs, Profiles, WordCamps */
+/* line 446, lib/scss/_dashicon.scss */
+.dashicons-hammer:before {
+  content: "\f308";
+}
+
+/* line 450, lib/scss/_dashicon.scss */
+.dashicons-art:before {
+  content: "\f309";
+}
+
+/* line 454, lib/scss/_dashicon.scss */
+.dashicons-migrate:before {
+  content: "\f310";
+}
+
+/* line 458, lib/scss/_dashicon.scss */
+.dashicons-performance:before {
+  content: "\f311";
+}
+
+/* line 462, lib/scss/_dashicon.scss */
+.dashicons-universal-access:before {
+  content: "\f483";
+}
+
+/* line 466, lib/scss/_dashicon.scss */
+.dashicons-universal-access-alt:before {
+  content: "\f507";
+}
+
+/* line 470, lib/scss/_dashicon.scss */
+.dashicons-tickets:before {
+  content: "\f486";
+}
+
+/* line 474, lib/scss/_dashicon.scss */
+.dashicons-nametag:before {
+  content: "\f484";
+}
+
+/* line 478, lib/scss/_dashicon.scss */
+.dashicons-clipboard:before {
+  content: "\f481";
+}
+
+/* line 482, lib/scss/_dashicon.scss */
+.dashicons-heart:before {
+  content: "\f487";
+}
+
+/* line 486, lib/scss/_dashicon.scss */
+.dashicons-megaphone:before {
+  content: "\f488";
+}
+
+/* line 490, lib/scss/_dashicon.scss */
+.dashicons-schedule:before {
+  content: "\f489";
+}
+
+/* Internal/Products */
+/* line 497, lib/scss/_dashicon.scss */
+.dashicons-wordpress:before {
+  content: "\f120";
+}
+
+/* line 501, lib/scss/_dashicon.scss */
+.dashicons-wordpress-alt:before {
+  content: "\f324";
+}
+
+/* line 505, lib/scss/_dashicon.scss */
+.dashicons-pressthis:before {
+  content: "\f157";
+}
+
+/* line 509, lib/scss/_dashicon.scss */
+.dashicons-update:before {
+  content: "\f463";
+}
+
+/* line 513, lib/scss/_dashicon.scss */
+.dashicons-screenoptions:before {
+  content: "\f180";
+}
+
+/* line 517, lib/scss/_dashicon.scss */
+.dashicons-info:before {
+  content: "\f348";
+}
+
+/* line 521, lib/scss/_dashicon.scss */
+.dashicons-cart:before {
+  content: "\f174";
+}
+
+/* line 525, lib/scss/_dashicon.scss */
+.dashicons-feedback:before {
+  content: "\f175";
+}
+
+/* line 529, lib/scss/_dashicon.scss */
+.dashicons-cloud:before {
+  content: "\f176";
+}
+
+/* line 533, lib/scss/_dashicon.scss */
+.dashicons-translation:before {
+  content: "\f326";
+}
+
+/* Taxonomies */
+/* line 540, lib/scss/_dashicon.scss */
+.dashicons-tag:before, .entry-tags:before {
+  content: "\f323";
+}
+
+/* line 544, lib/scss/_dashicon.scss */
+.dashicons-category:before, .entry-categories:before {
+  content: "\f318";
+}
+
+/* Widget icons */
+/* line 551, lib/scss/_dashicon.scss */
+.dashicons-archive:before {
+  content: "\f480";
+}
+
+/* line 555, lib/scss/_dashicon.scss */
+.dashicons-tagcloud:before {
+  content: "\f479";
+}
+
+/* line 559, lib/scss/_dashicon.scss */
+.dashicons-text:before {
+  content: "\f478";
+}
+
+/* Media icons */
+/* line 566, lib/scss/_dashicon.scss */
+.dashicons-media-archive:before {
+  content: "\f501";
+}
+
+/* line 570, lib/scss/_dashicon.scss */
+.dashicons-media-audio:before {
+  content: "\f500";
+}
+
+/* line 574, lib/scss/_dashicon.scss */
+.dashicons-media-code:before {
+  content: "\f499";
+}
+
+/* line 578, lib/scss/_dashicon.scss */
+.dashicons-media-default:before {
+  content: "\f498";
+}
+
+/* line 582, lib/scss/_dashicon.scss */
+.dashicons-media-document:before {
+  content: "\f497";
+}
+
+/* line 586, lib/scss/_dashicon.scss */
+.dashicons-media-interactive:before {
+  content: "\f496";
+}
+
+/* line 590, lib/scss/_dashicon.scss */
+.dashicons-media-spreadsheet:before {
+  content: "\f495";
+}
+
+/* line 594, lib/scss/_dashicon.scss */
+.dashicons-media-text:before {
+  content: "\f491";
+}
+
+/* line 598, lib/scss/_dashicon.scss */
+.dashicons-media-video:before {
+  content: "\f490";
+}
+
+/* line 602, lib/scss/_dashicon.scss */
+.dashicons-playlist-audio:before {
+  content: "\f492";
+}
+
+/* line 606, lib/scss/_dashicon.scss */
+.dashicons-playlist-video:before {
+  content: "\f493";
+}
+
+/* Alerts/Notifications/Flags */
+/* line 613, lib/scss/_dashicon.scss */
+.dashicons-yes:before {
+  content: "\f147";
+}
+
+/* line 617, lib/scss/_dashicon.scss */
+.dashicons-no:before {
+  content: "\f158";
+}
+
+/* line 621, lib/scss/_dashicon.scss */
+.dashicons-no-alt:before {
+  content: "\f335";
+}
+
+/* line 625, lib/scss/_dashicon.scss */
+.dashicons-plus:before {
+  content: "\f132";
+}
+
+/* line 629, lib/scss/_dashicon.scss */
+.dashicons-plus-alt:before {
+  content: "\f502";
+}
+
+/* line 633, lib/scss/_dashicon.scss */
+.dashicons-minus:before {
+  content: "\f460";
+}
+
+/* line 637, lib/scss/_dashicon.scss */
+.dashicons-dismiss:before {
+  content: "\f153";
+}
+
+/* line 641, lib/scss/_dashicon.scss */
+.dashicons-marker:before {
+  content: "\f159";
+}
+
+/* line 645, lib/scss/_dashicon.scss */
+.dashicons-star-filled:before {
+  content: "\f155";
+}
+
+/* line 649, lib/scss/_dashicon.scss */
+.dashicons-star-half:before {
+  content: "\f459";
+}
+
+/* line 653, lib/scss/_dashicon.scss */
+.dashicons-star-empty:before {
+  content: "\f154";
+}
+
+/* line 657, lib/scss/_dashicon.scss */
+.dashicons-flag:before {
+  content: "\f227";
+}
+
+/* Social Icons */
+/* line 664, lib/scss/_dashicon.scss */
+.dashicons-share:before {
+  content: "\f237";
+}
+
+/* line 668, lib/scss/_dashicon.scss */
+.dashicons-share1:before {
+  content: "\f237";
+}
+
+/* line 672, lib/scss/_dashicon.scss */
+.dashicons-share-alt:before {
+  content: "\f240";
+}
+
+/* line 676, lib/scss/_dashicon.scss */
+.dashicons-share-alt2:before {
+  content: "\f242";
+}
+
+/* line 680, lib/scss/_dashicon.scss */
+.dashicons-twitter:before {
+  content: "\f301";
+}
+
+/* line 684, lib/scss/_dashicon.scss */
+.dashicons-rss:before {
+  content: "\f303";
+}
+
+/* line 688, lib/scss/_dashicon.scss */
+.dashicons-email:before {
+  content: "\f465";
+}
+
+/* line 692, lib/scss/_dashicon.scss */
+.dashicons-email-alt:before, input[type="email"]:before {
+  content: "\f466";
+}
+
+/* line 696, lib/scss/_dashicon.scss */
+.dashicons-facebook:before {
+  content: "\f304";
+}
+
+/* line 700, lib/scss/_dashicon.scss */
+.dashicons-facebook-alt:before {
+  content: "\f305";
+}
+
+/* line 704, lib/scss/_dashicon.scss */
+.dashicons-networking:before {
+  content: "\f325";
+}
+
+/* line 708, lib/scss/_dashicon.scss */
+.dashicons-googleplus:before {
+  content: "\f462";
+}
+
+/* Misc/CPT */
+/* line 715, lib/scss/_dashicon.scss */
+.dashicons-location:before {
+  content: "\f230";
+}
+
+/* line 719, lib/scss/_dashicon.scss */
+.dashicons-location-alt:before {
+  content: "\f231";
+}
+
+/* line 723, lib/scss/_dashicon.scss */
+.dashicons-camera:before {
+  content: "\f306";
+}
+
+/* line 727, lib/scss/_dashicon.scss */
+.dashicons-images-alt:before {
+  content: "\f232";
+}
+
+/* line 731, lib/scss/_dashicon.scss */
+.dashicons-images-alt2:before {
+  content: "\f233";
+}
+
+/* line 735, lib/scss/_dashicon.scss */
+.dashicons-video-alt:before {
+  content: "\f234";
+}
+
+/* line 739, lib/scss/_dashicon.scss */
+.dashicons-video-alt2:before {
+  content: "\f235";
+}
+
+/* line 743, lib/scss/_dashicon.scss */
+.dashicons-video-alt3:before {
+  content: "\f236";
+}
+
+/* line 747, lib/scss/_dashicon.scss */
+.dashicons-vault:before {
+  content: "\f178";
+}
+
+/* line 751, lib/scss/_dashicon.scss */
+.dashicons-shield:before {
+  content: "\f332";
+}
+
+/* line 755, lib/scss/_dashicon.scss */
+.dashicons-shield-alt:before {
+  content: "\f334";
+}
+
+/* line 759, lib/scss/_dashicon.scss */
+.dashicons-sos:before {
+  content: "\f468";
+}
+
+/* line 763, lib/scss/_dashicon.scss */
+.dashicons-search:before, .search-form:before {
+  content: "\f179";
+}
+
+/* line 767, lib/scss/_dashicon.scss */
+.dashicons-slides:before {
+  content: "\f181";
+}
+
+/* line 771, lib/scss/_dashicon.scss */
+.dashicons-analytics:before {
+  content: "\f183";
+}
+
+/* line 775, lib/scss/_dashicon.scss */
+.dashicons-chart-pie:before {
+  content: "\f184";
+}
+
+/* line 779, lib/scss/_dashicon.scss */
+.dashicons-chart-bar:before {
+  content: "\f185";
+}
+
+/* line 783, lib/scss/_dashicon.scss */
+.dashicons-chart-line:before {
+  content: "\f238";
+}
+
+/* line 787, lib/scss/_dashicon.scss */
+.dashicons-chart-area:before {
+  content: "\f239";
+}
+
+/* line 791, lib/scss/_dashicon.scss */
+.dashicons-groups:before {
+  content: "\f307";
+}
+
+/* line 795, lib/scss/_dashicon.scss */
+.dashicons-businessman:before {
+  content: "\f338";
+}
+
+/* line 799, lib/scss/_dashicon.scss */
+.dashicons-id:before {
+  content: "\f336";
+}
+
+/* line 803, lib/scss/_dashicon.scss */
+.dashicons-id-alt:before {
+  content: "\f337";
+}
+
+/* line 807, lib/scss/_dashicon.scss */
+.dashicons-products:before {
+  content: "\f312";
+}
+
+/* line 811, lib/scss/_dashicon.scss */
+.dashicons-awards:before {
+  content: "\f313";
+}
+
+/* line 815, lib/scss/_dashicon.scss */
+.dashicons-forms:before {
+  content: "\f314";
+}
+
+/* line 819, lib/scss/_dashicon.scss */
+.dashicons-testimonial:before {
+  content: "\f473";
+}
+
+/* line 823, lib/scss/_dashicon.scss */
+.dashicons-portfolio:before {
+  content: "\f322";
+}
+
+/* line 827, lib/scss/_dashicon.scss */
+.dashicons-book:before {
+  content: "\f330";
+}
+
+/* line 831, lib/scss/_dashicon.scss */
+.dashicons-book-alt:before {
+  content: "\f331";
+}
+
+/* line 835, lib/scss/_dashicon.scss */
+.dashicons-download:before {
+  content: "\f316";
+}
+
+/* line 839, lib/scss/_dashicon.scss */
+.dashicons-upload:before {
+  content: "\f317";
+}
+
+/* line 843, lib/scss/_dashicon.scss */
+.dashicons-backup:before {
+  content: "\f321";
+}
+
+/* line 847, lib/scss/_dashicon.scss */
+.dashicons-clock:before, .entry-time:before {
+  content: "\f469";
+}
+
+/* line 851, lib/scss/_dashicon.scss */
+.dashicons-lightbulb:before {
+  content: "\f339";
+}
+
+/* line 855, lib/scss/_dashicon.scss */
+.dashicons-microphone:before {
+  content: "\f482";
+}
+
+/* line 859, lib/scss/_dashicon.scss */
+.dashicons-desktop:before {
+  content: "\f472";
+}
+
+/* line 863, lib/scss/_dashicon.scss */
+.dashicons-tablet:before {
+  content: "\f471";
+}
+
+/* line 867, lib/scss/_dashicon.scss */
+.dashicons-smartphone:before {
+  content: "\f470";
+}
+
+/* line 871, lib/scss/_dashicon.scss */
+.dashicons-smiley:before {
+  content: "\f328";
+}
+
+/* line 37, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-dribbble a {
+  background: #ea4c89 !important;
+}
+/* line 40, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-dribbble a:hover {
+  background: #e51e6b !important;
+}
+
+/* line 37, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-email a {
+  background: #bdbdbd !important;
+}
+/* line 40, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-email a:hover {
+  background: #a4a4a4 !important;
+}
+
+/* line 37, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-facebook a {
+  background: #3b5998 !important;
+}
+/* line 40, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-facebook a:hover {
+  background: #2d4373 !important;
+}
+
+/* line 37, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-flickr a {
+  background: #0063dc !important;
+}
+/* line 40, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-flickr a:hover {
+  background: #004ca9 !important;
+}
+
+/* line 37, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-github a {
+  background: #171515 !important;
+}
+/* line 40, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-github a:hover {
+  background: black !important;
+}
+
+/* line 37, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-gplus a {
+  background: #dd4b39 !important;
+}
+/* line 40, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-gplus a:hover {
+  background: #c23321 !important;
+}
+
+/* line 37, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-instagram a {
+  background: #3f729b !important;
+}
+/* line 40, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-instagram a:hover {
+  background: #305777 !important;
+}
+
+/* line 37, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-linkedin a {
+  background: #0e76a8 !important;
+}
+/* line 40, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-linkedin a:hover {
+  background: #0a5579 !important;
+}
+
+/* line 37, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-pinterest a {
+  background: #c8232c !important;
+}
+/* line 40, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-pinterest a:hover {
+  background: #9d1b22 !important;
+}
+
+/* line 37, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-rss a {
+  background: #ee802f !important;
+}
+/* line 40, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-rss a:hover {
+  background: #d86612 !important;
+}
+
+/* line 37, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-stumbleupon a {
+  background: #f74425 !important;
+}
+/* line 40, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-stumbleupon a:hover {
+  background: #e12808 !important;
+}
+
+/* line 37, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-tumblr a {
+  background: #34526f !important;
+}
+/* line 40, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-tumblr a:hover {
+  background: #24384c !important;
+}
+
+/* line 37, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-twitter a {
+  background: #55acee !important;
+}
+/* line 40, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-twitter a:hover {
+  background: #2795e9 !important;
+}
+
+/* line 37, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-vimeo a {
+  background: #44bbff !important;
+}
+/* line 40, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-vimeo a:hover {
+  background: #11a8ff !important;
+}
+
+/* line 37, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-youtube a {
+  background: #c4302b !important;
+}
+/* line 40, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li.social-youtube a:hover {
+  background: #9a2622 !important;
+}
+
+/* line 53, lib/scss/_simple-social-icons.scss */
+.simple-social-icons ul li a {
+  -webkit-border-radius: 0 !important;
+  border-radius: 0 !important;
+}
+
+/* line 69, lib/scss/_simple-social-icons.scss */
+.header-widget-area .simple-social-icons ul {
+  float: right;
+}
+
+/*
+Structure and Layout
+--------------------------------------------- */
+/* Site Containers
+--------------------------------------------- */
+/* line 8, lib/scss/_layout.scss */
+.site-inner,
+.wrap {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 62.5rem;
+  *zoom: 1;
+}
+/* line 116, bower_components/foundation/scss/foundation/components/_global.scss */
+.site-inner:before, .site-inner:after,
+.wrap:before,
+.wrap:after {
+  content: " ";
+  display: table;
+}
+/* line 117, bower_components/foundation/scss/foundation/components/_global.scss */
+.site-inner:after,
+.wrap:after {
+  clear: both;
+}
+
+/* line 13, lib/scss/_layout.scss */
+.site-inner {
+  padding-top: 2.5rem;
+}
+
+/* Column Widths and Positions
+--------------------------------------------- */
+/* line 21, lib/scss/_layout.scss */
+.content-sidebar .content {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: left;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 21, lib/scss/_layout.scss */
+  .content-sidebar .content {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 66.66667%;
+    float: left;
+  }
+}
+/* line 27, lib/scss/_layout.scss */
+.content-sidebar .sidebar {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: left;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 27, lib/scss/_layout.scss */
+  .content-sidebar .sidebar {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 33.33333%;
+    float: left;
+  }
+}
+
+/* line 36, lib/scss/_layout.scss */
+.sidebar-content .sidebar {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: left;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 36, lib/scss/_layout.scss */
+  .sidebar-content .sidebar {
+    position: relative;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 33.33333%;
+    right: 66.66667%;
+    left: auto;
+    float: left;
+  }
+}
+/* line 42, lib/scss/_layout.scss */
+.sidebar-content .content {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: left;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 42, lib/scss/_layout.scss */
+  .sidebar-content .content {
+    position: relative;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 66.66667%;
+    left: 33.33333%;
+    right: auto;
+    float: left;
+  }
+}
+
+/* line 51, lib/scss/_layout.scss */
+.content-sidebar-sidebar .content {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: left;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 51, lib/scss/_layout.scss */
+  .content-sidebar-sidebar .content {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 66.66667%;
+    float: left;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 51, lib/scss/_layout.scss */
+  .content-sidebar-sidebar .content {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 50%;
+    float: left;
+  }
+}
+/* line 60, lib/scss/_layout.scss */
+.content-sidebar-sidebar .sidebar-primary {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: left;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 60, lib/scss/_layout.scss */
+  .content-sidebar-sidebar .sidebar-primary {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 33.33333%;
+    float: left;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 60, lib/scss/_layout.scss */
+  .content-sidebar-sidebar .sidebar-primary {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 25%;
+    float: left;
+  }
+}
+/* line 69, lib/scss/_layout.scss */
+.content-sidebar-sidebar .sidebar-secondary {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: left;
+}
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 71, lib/scss/_layout.scss */
+  .content-sidebar-sidebar .sidebar-secondary .widget {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 25%;
+    float: left;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 69, lib/scss/_layout.scss */
+  .content-sidebar-sidebar .sidebar-secondary {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 25%;
+    float: left;
+  }
+}
+
+/* line 83, lib/scss/_layout.scss */
+.sidebar-content-sidebar .content {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: left;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 83, lib/scss/_layout.scss */
+  .sidebar-content-sidebar .content {
+    position: relative;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 58.33333%;
+    left: 16.66667%;
+    right: auto;
+    float: left;
+  }
+}
+/* line 89, lib/scss/_layout.scss */
+.sidebar-content-sidebar .sidebar-primary {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: left;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 89, lib/scss/_layout.scss */
+  .sidebar-content-sidebar .sidebar-primary {
+    position: relative;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 25%;
+    left: 16.66667%;
+    right: auto;
+    float: left;
+  }
+}
+/* line 95, lib/scss/_layout.scss */
+.sidebar-content-sidebar .sidebar-secondary {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: left;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 95, lib/scss/_layout.scss */
+  .sidebar-content-sidebar .sidebar-secondary {
+    position: relative;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 16.66667%;
+    right: 83.33333%;
+    left: auto;
+    float: left;
+  }
+}
+
+/* line 104, lib/scss/_layout.scss */
+.sidebar-sidebar-content .content {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: left;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 104, lib/scss/_layout.scss */
+  .sidebar-sidebar-content .content {
+    position: relative;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 58.33333%;
+    left: 41.66667%;
+    right: auto;
+    float: left;
+  }
+}
+/* line 110, lib/scss/_layout.scss */
+.sidebar-sidebar-content .sidebar-primary {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: left;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 110, lib/scss/_layout.scss */
+  .sidebar-sidebar-content .sidebar-primary {
+    position: relative;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 25%;
+    right: 41.66667%;
+    left: auto;
+    float: left;
+  }
+}
+/* line 116, lib/scss/_layout.scss */
+.sidebar-sidebar-content .sidebar-secondary {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: left;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 116, lib/scss/_layout.scss */
+  .sidebar-sidebar-content .sidebar-secondary {
+    position: relative;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 16.66667%;
+    right: 83.33333%;
+    left: auto;
+    float: left;
+  }
+}
+
+/* line 124, lib/scss/_layout.scss */
+.full-width-content .content {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: left;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 124, lib/scss/_layout.scss */
+  .full-width-content .content {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 66.66667%;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
+}
+
+/* Primary Sidebar */
+/* line 133, lib/scss/_layout.scss */
+.sidebar-primary {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: left;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 133, lib/scss/_layout.scss */
+  .sidebar-primary {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 33.33333%;
+    float: left;
+  }
+}
+
+/* line 140, lib/scss/_layout.scss */
+.sidebar-content .sidebar-primary,
+.sidebar-sidebar-content .sidebar-primary {
+  float: left;
+}
+
+/* Secondary Sidebar */
+/* line 147, lib/scss/_layout.scss */
+.sidebar-secondary {
+  float: left;
+  width: 180px;
+}
+
+/* line 152, lib/scss/_layout.scss */
+.content-sidebar-sidebar .sidebar-secondary {
+  float: right;
+}
+
+/* Column Classes
+  Link: http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css
+  --------------------------------------------- */
+/* line 160, lib/scss/_layout.scss */
+.five-sixths,
+.four-sixths,
+.one-fourth,
+.one-half,
+.one-sixth,
+.one-third,
+.three-fourths,
+.three-sixths,
+.two-fourths,
+.two-sixths,
+.two-thirds {
+  float: left;
+  margin-left: 2.564102564102564%;
+}
+
+/* line 175, lib/scss/_layout.scss */
+.one-half,
+.three-sixths,
+.two-fourths {
+  width: 48.717948717948715%;
+}
+
+/* line 181, lib/scss/_layout.scss */
+.one-third,
+.two-sixths {
+  width: 31.623931623931625%;
+}
+
+/* line 186, lib/scss/_layout.scss */
+.four-sixths,
+.two-thirds {
+  width: 65.81196581196582%;
+}
+
+/* line 191, lib/scss/_layout.scss */
+.one-fourth {
+  width: 23.076923076923077%;
+}
+
+/* line 195, lib/scss/_layout.scss */
+.three-fourths {
+  width: 74.35897435897436%;
+}
+
+/* line 199, lib/scss/_layout.scss */
+.one-sixth {
+  width: 14.52991452991453%;
+}
+
+/* line 203, lib/scss/_layout.scss */
+.five-sixths {
+  width: 82.90598290598291%;
+}
+
+/* line 207, lib/scss/_layout.scss */
+.first {
+  clear: both;
+  margin-left: 0;
+}
+
+/* line 212, lib/scss/_layout.scss */
+.sidebar .widget.enews-widget {
+  padding: 1.25rem;
+}
+
+@media only screen and (max-width: 1023px) {
+  /* line 218, lib/scss/_layout.scss */
+  .header-image .site-header .wrap {
+    background-position: center top;
+  }
+
+  /* line 222, lib/scss/_layout.scss */
+  .site-inner {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  /* line 227, lib/scss/_layout.scss */
+  .archive-description,
+  .author-box,
+  .comment-respond,
+  .entry,
+  .entry-comments,
+  .entry-footer .entry-meta,
+  .header-image .site-header .widget-area,
+  .sidebar .widget,
+  .site-header {
+    padding: 0;
+  }
+
+  /* line 239, lib/scss/_layout.scss */
+  .genesis-nav-menu li,
+  .site-header ul.genesis-nav-menu,
+  .site-header .search-form {
+    float: none;
+  }
+
+  /* line 245, lib/scss/_layout.scss */
+  .genesis-nav-menu,
+  .site-description,
+  .site-header .title-area,
+  .site-header .search-form,
+  .site-title {
+    text-align: center;
+  }
+
+  /* line 253, lib/scss/_layout.scss */
+  .genesis-nav-menu a,
+  .genesis-nav-menu > .first > a,
+  .genesis-nav-menu > .last > a {
+    padding: 20px 16px;
+    padding: 2rem 1.6rem;
+  }
+
+  /* line 260, lib/scss/_layout.scss */
+  .site-header .search-form {
+    margin: 16px auto;
+    margin: 1.6rem auto;
+  }
+
+  /* line 265, lib/scss/_layout.scss */
+  .genesis-nav-menu li.right {
+    display: none;
+  }
+
+  /* line 269, lib/scss/_layout.scss */
+  .entry-footer .entry-meta {
+    margin: 0;
+    padding-top: 0.75rem;
+  }
+
+  /* line 274, lib/scss/_layout.scss */
+  .site-footer {
+    padding: 1.5rem 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 283, lib/scss/_layout.scss */
+  .five-sixths,
+  .four-sixths,
+  .one-fourth,
+  .one-half,
+  .one-sixth,
+  .one-third,
+  .three-fourths,
+  .three-sixths,
+  .two-fourths,
+  .two-sixths,
+  .two-thirds {
+    margin: 0;
+    width: 100%;
+  }
+}
+/* line 300, lib/scss/_layout.scss */
+#wpadminbar {
+  position: fixed;
+}
+
+/*
+Site Header
+--------------------------------------------- */
+/* Title Area
+--------------------------------------------- */
+/* line 12, lib/scss/_header.scss */
+.title-area {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 50%;
+  float: left;
+  padding: 2.5rem 0;
+}
+
+/* line 17, lib/scss/_header.scss */
+.site-title {
+  font-size: 1.875rem;
+  line-height: 1;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+/* line 22, lib/scss/_header.scss */
+.site-title a {
+  color: #222222;
+}
+/* line 24, lib/scss/_header.scss */
+.site-title a:hover {
+  color: #0078a0;
+}
+
+/* line 30, lib/scss/_header.scss */
+.site-description {
+  color: #999;
+  font-size: 1.125rem;
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+/* Full width header, no widgets */
+/* line 39, lib/scss/_header.scss */
+.header-full-width .title-area {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: left;
+}
+
+/* line 43, lib/scss/_header.scss */
+.header-image .site-description,
+.header-image .site-title a {
+  display: block;
+  text-indent: -9999px;
+}
+
+/* Logo, hide text */
+/* line 51, lib/scss/_header.scss */
+.header-image .site-header .wrap {
+  background: url(images/logo.png) no-repeat left;
+  padding: 0;
+}
+
+/* line 56, lib/scss/_header.scss */
+.header-image .site-title a {
+  float: left;
+  min-height: 164px;
+  width: 100%;
+}
+
+/* Widget Area
+--------------------------------------------- */
+/* line 65, lib/scss/_header.scss */
+.site-header .widget-area {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: left;
+  padding: 2.5rem 0;
+  text-align: right;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 65, lib/scss/_header.scss */
+  .site-header .widget-area {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 50%;
+    float: left;
+  }
+}
+
+/* line 74, lib/scss/_header.scss */
+.header-image .site-header .widget-area {
+  padding: 2.5rem 0;
+}
+
+/* line 78, lib/scss/_header.scss */
+.site-header .search-form {
+  float: right;
+}
+
+/* line 20, lib/scss/_footer.scss */
+.footer-widgets a, .site-footer a {
+  border-bottom: 1px solid #666666;
+}
+
+/*
+Footer Widgets
+---------------------------------------- */
+/* line 28, lib/scss/_footer.scss */
+.footer-widgets {
+  background-color: #333333;
+  color: #999999;
+  clear: both;
+  padding: 2.5rem 0 1rem;
+}
+/* line 33, lib/scss/_footer.scss */
+.footer-widgets .widget-area {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: left;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 33, lib/scss/_footer.scss */
+  .footer-widgets .widget-area {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 25%;
+    float: left;
+  }
+}
+/* line 39, lib/scss/_footer.scss */
+.footer-widgets abbr {
+  color: gray;
+}
+/* line 42, lib/scss/_footer.scss */
+.footer-widgets a {
+  color: #999999;
+}
+/* line 45, lib/scss/_footer.scss */
+.footer-widgets a:hover {
+  color: #dddddd;
+}
+/* line 49, lib/scss/_footer.scss */
+.footer-widgets .simple-social-icons ul li a {
+  background: none !important;
+  color: #999999 !important;
+}
+/* line 52, lib/scss/_footer.scss */
+.footer-widgets .simple-social-icons ul li a:hover {
+  background: #666 !important;
+  color: #dddddd !important;
+}
+/* line 57, lib/scss/_footer.scss */
+.footer-widgets .widget {
+  margin-bottom: 24px;
+  margin-bottom: 2.4rem;
+}
+/* line 61, lib/scss/_footer.scss */
+.footer-widgets .widget-title {
+  color: #dddddd;
+}
+/* line 64, lib/scss/_footer.scss */
+.footer-widgets ul {
+  margin-left: 0;
+}
+/* line 66, lib/scss/_footer.scss */
+.footer-widgets ul li {
+  list-style-type: none;
+  margin-bottom: 0.375rem;
+  word-wrap: break-word;
+}
+
+/* line 74, lib/scss/_footer.scss */
+.footer-widgets .search-form input:focus {
+  border: 1px solid #ddd;
+}
+
+/*
+Site Footer
+----------------------------------------- */
+/* line 83, lib/scss/_footer.scss */
+.site-footer {
+  background-color: #222222;
+  color: #999999;
+  font-size: 0.875rem;
+  padding: 2.5rem 0;
+  text-align: center;
+}
+/* line 89, lib/scss/_footer.scss */
+.site-footer p {
+  margin-bottom: 0;
+}
+/* line 92, lib/scss/_footer.scss */
+.site-footer a {
+  color: #999999;
+}
+/* line 95, lib/scss/_footer.scss */
+.site-footer a:hover {
+  color: #dddddd;
+}
+
+/* line 30, lib/scss/style.scss */
 a,
 button,
 input:focus,
@@ -8440,30 +10157,30 @@ textarea:focus,
   transition: all 300ms ease-in-out;
 }
 
-/* line 52, lib/scss/style.scss */
+/* line 41, lib/scss/style.scss */
 ::-moz-selection {
   background-color: #008cba;
   color: #fff;
 }
 
-/* line 57, lib/scss/style.scss */
+/* line 46, lib/scss/style.scss */
 ::selection {
   background-color: #008cba;
   color: #fff;
 }
 
-/* line 62, lib/scss/style.scss */
+/* line 51, lib/scss/style.scss */
 ::-moz-placeholder {
   color: #999;
   opacity: 1;
 }
 
-/* line 67, lib/scss/style.scss */
+/* line 56, lib/scss/style.scss */
 ::-webkit-input-placeholder {
   color: #999;
 }
 
-/* line 71, lib/scss/style.scss */
+/* line 60, lib/scss/style.scss */
 button,
 input[type="button"],
 input[type="reset"],
@@ -8521,252 +10238,10 @@ input[type="submit"]:focus,
   color: white;
 }
 
-/*
-Structure and Layout
---------------------------------------------- */
-/* Site Containers
---------------------------------------------- */
-/* line 87, lib/scss/style.scss */
-.site-inner,
-.wrap {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0;
-  margin-bottom: 0;
-  max-width: 62.5rem;
-  *zoom: 1;
-}
-/* line 116, bower_components/foundation/scss/foundation/components/_global.scss */
-.site-inner:before, .site-inner:after,
-.wrap:before,
-.wrap:after {
-  content: " ";
-  display: table;
-}
-/* line 117, bower_components/foundation/scss/foundation/components/_global.scss */
-.site-inner:after,
-.wrap:after {
-  clear: both;
-}
-
-/* line 92, lib/scss/style.scss */
-.site-inner {
-  clear: both;
-  padding-top: 40px;
-  padding-top: 4rem;
-}
-
-/* Column Widths and Positions
---------------------------------------------- */
-/* Wrapping div for .content and .sidebar-primary */
-/* line 103, lib/scss/style.scss */
-.content-sidebar-sidebar .content-sidebar-wrap,
-.sidebar-content-sidebar .content-sidebar-wrap,
-.sidebar-sidebar-content .content-sidebar-wrap {
-  width: 920px;
-}
-
-/* line 109, lib/scss/style.scss */
-.content-sidebar-sidebar .content-sidebar-wrap {
-  float: left;
-}
-
-/* line 113, lib/scss/style.scss */
-.sidebar-content-sidebar .content-sidebar-wrap,
-.sidebar-sidebar-content .content-sidebar-wrap {
-  float: right;
-}
-
-/* Content */
-/* line 120, lib/scss/style.scss */
-.content {
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
-  width: 100%;
-  float: left;
-}
-@media only screen and (min-width: 40.063em) {
-  /* line 120, lib/scss/style.scss */
-  .content {
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
-    width: 66.66667%;
-    float: left;
-  }
-}
-
-/* line 128, lib/scss/style.scss */
-.sidebar-content .sidebar {
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
-  width: 100%;
-  float: left;
-}
-@media only screen and (min-width: 40.063em) {
-  /* line 128, lib/scss/style.scss */
-  .sidebar-content .sidebar {
-    position: relative;
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
-    width: 33.33333%;
-    right: 66.66667%;
-    left: auto;
-    float: left;
-  }
-}
-/* line 134, lib/scss/style.scss */
-.sidebar-content .content {
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
-  width: 100%;
-  float: left;
-}
-@media only screen and (min-width: 40.063em) {
-  /* line 134, lib/scss/style.scss */
-  .sidebar-content .content {
-    position: relative;
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
-    width: 66.66667%;
-    left: 33.33333%;
-    right: auto;
-    float: left;
-  }
-}
-
-/* line 142, lib/scss/style.scss */
-.content-sidebar .content,
-.content-sidebar-sidebar .content,
-.sidebar-content-sidebar .content {
-  float: left;
-}
-
-/* line 148, lib/scss/style.scss */
-.content-sidebar-sidebar .content,
-.sidebar-content-sidebar .content,
-.sidebar-sidebar-content .content {
-  width: 520px;
-}
-
-/* line 154, lib/scss/style.scss */
-.full-width-content .content {
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
-  width: 100%;
-  float: left;
-}
-@media only screen and (min-width: 40.063em) {
-  /* line 154, lib/scss/style.scss */
-  .full-width-content .content {
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
-    width: 66.66667%;
-    float: left;
-    margin-left: auto;
-    margin-right: auto;
-    float: none;
-  }
-}
-
-/* Primary Sidebar */
-/* line 163, lib/scss/style.scss */
-.sidebar-primary {
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
-  width: 100%;
-  float: left;
-}
-@media only screen and (min-width: 40.063em) {
-  /* line 163, lib/scss/style.scss */
-  .sidebar-primary {
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
-    width: 33.33333%;
-    float: left;
-  }
-}
-
-/* line 170, lib/scss/style.scss */
-.sidebar-content .sidebar-primary,
-.sidebar-sidebar-content .sidebar-primary {
-  float: left;
-}
-
-/* Secondary Sidebar */
-/* line 177, lib/scss/style.scss */
-.sidebar-secondary {
-  float: left;
-  width: 180px;
-}
-
-/* line 182, lib/scss/style.scss */
-.content-sidebar-sidebar .sidebar-secondary {
-  float: right;
-}
-
-/* Column Classes
-  Link: http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css
-  --------------------------------------------- */
-/* line 190, lib/scss/style.scss */
-.five-sixths,
-.four-sixths,
-.one-fourth,
-.one-half,
-.one-sixth,
-.one-third,
-.three-fourths,
-.three-sixths,
-.two-fourths,
-.two-sixths,
-.two-thirds {
-  float: left;
-  margin-left: 2.564102564102564%;
-}
-
-/* line 205, lib/scss/style.scss */
-.one-half,
-.three-sixths,
-.two-fourths {
-  width: 48.717948717948715%;
-}
-
-/* line 211, lib/scss/style.scss */
-.one-third,
-.two-sixths {
-  width: 31.623931623931625%;
-}
-
-/* line 216, lib/scss/style.scss */
-.four-sixths,
-.two-thirds {
-  width: 65.81196581196582%;
-}
-
-/* line 221, lib/scss/style.scss */
-.one-fourth {
-  width: 23.076923076923077%;
-}
-
-/* line 225, lib/scss/style.scss */
-.three-fourths {
-  width: 74.35897435897436%;
-}
-
-/* line 229, lib/scss/style.scss */
-.one-sixth {
-  width: 14.52991452991453%;
-}
-
-/* line 233, lib/scss/style.scss */
-.five-sixths {
-  width: 82.90598290598291%;
-}
-
-/* line 237, lib/scss/style.scss */
-.first {
-  clear: both;
-  margin-left: 0;
+/* line 70, lib/scss/style.scss */
+input {
+  -webkit-border-radius: 0;
+  border-radius: 0;
 }
 
 /*
@@ -8774,36 +10249,47 @@ Common Classes
 ---------------------------------------------------------------------------------------------------- */
 /* WordPress
 --------------------------------------------- */
-/* line 250, lib/scss/style.scss */
+/* line 82, lib/scss/style.scss */
 .avatar {
   float: left;
 }
 
-/* line 254, lib/scss/style.scss */
+/* line 86, lib/scss/style.scss */
 .alignleft .avatar {
   margin-right: 24px;
   margin-right: 2.4rem;
 }
 
-/* line 259, lib/scss/style.scss */
+/* line 91, lib/scss/style.scss */
 .alignright .avatar {
   margin-left: 24px;
   margin-left: 2.4rem;
 }
 
-/* line 264, lib/scss/style.scss */
-.search-form:after {
-  content: "\f179";
+/* line 97, lib/scss/style.scss */
+.search-form input[type="search"] {
+  padding-left: 2.25rem;
+}
+/* line 100, lib/scss/style.scss */
+.search-form:before {
+  font-size: 1.125rem;
+  left: 10px;
+  position: relative;
+  top: 28px;
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
+  -webkit-transform: scale(-1, 1);
+  -moz-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+/* line 117, lib/scss/style.scss */
+input[type="email"]:before {
   margin-top: -42px;
 }
 
-/* line 270, lib/scss/style.scss */
-input[type="email"]:after {
-  content: "\f466";
-  margin-top: -42px;
-}
-
-/* line 276, lib/scss/style.scss */
+/* line 123, lib/scss/style.scss */
 .search-form input[type="submit"] {
   border: 0;
   clip: rect(0, 0, 0, 0);
@@ -8814,7 +10300,7 @@ input[type="email"]:after {
   width: 1px;
 }
 
-/* line 289, lib/scss/style.scss */
+/* line 136, lib/scss/style.scss */
 img.centered,
 .aligncenter {
   display: block;
@@ -8822,39 +10308,39 @@ img.centered,
   margin: 0 auto 2.4rem;
 }
 
-/* line 296, lib/scss/style.scss */
+/* line 143, lib/scss/style.scss */
 img.alignnone {
   margin-bottom: 12px;
   margin-bottom: 1.2rem;
 }
 
-/* line 301, lib/scss/style.scss */
+/* line 148, lib/scss/style.scss */
 .alignleft {
   float: left;
   text-align: left;
 }
 
-/* line 306, lib/scss/style.scss */
+/* line 153, lib/scss/style.scss */
 .alignright {
   float: right;
   text-align: right;
 }
 
-/* line 311, lib/scss/style.scss */
+/* line 158, lib/scss/style.scss */
 img.alignleft,
 .wp-caption.alignleft {
   margin: 0 24px 24px 0;
   margin: 0 2.4rem 2.4rem 0;
 }
 
-/* line 317, lib/scss/style.scss */
+/* line 164, lib/scss/style.scss */
 img.alignright,
 .wp-caption.alignright {
   margin: 0 0 24px 24px;
   margin: 0 0 2.4rem 2.4rem;
 }
 
-/* line 323, lib/scss/style.scss */
+/* line 170, lib/scss/style.scss */
 .wp-caption-text {
   font-size: 14px;
   font-size: 1.4rem;
@@ -8862,12 +10348,12 @@ img.alignright,
   text-align: center;
 }
 
-/* line 333, lib/scss/style.scss */
+/* line 180, lib/scss/style.scss */
 .widget_calendar table {
   width: 100%;
 }
 
-/* line 337, lib/scss/style.scss */
+/* line 184, lib/scss/style.scss */
 .widget_calendar td,
 .widget_calendar th {
   text-align: center;
@@ -8875,7 +10361,7 @@ img.alignright,
 
 /* Genesis
 --------------------------------------------- */
-/* line 345, lib/scss/style.scss */
+/* line 192, lib/scss/style.scss */
 .breadcrumb {
   display: block;
   padding: 0.5625rem 0.875rem 0.5625rem;
@@ -8889,20 +10375,20 @@ img.alignright,
   margin-bottom: 1.25rem;
 }
 
-/* line 353, lib/scss/style.scss */
+/* line 200, lib/scss/style.scss */
 .archive-description,
 .author-box {
   background-color: #fff;
   margin-bottom: 2.5rem;
 }
 
-/* line 363, lib/scss/style.scss */
+/* line 210, lib/scss/style.scss */
 .author-box {
   padding: 2rem;
   background: #f5f5f5;
 }
 
-/* line 368, lib/scss/style.scss */
+/* line 215, lib/scss/style.scss */
 .author-box-title {
   color: #333;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -8912,53 +10398,52 @@ img.alignright,
   margin-bottom: 0.4rem;
 }
 
-/* line 377, lib/scss/style.scss */
+/* line 224, lib/scss/style.scss */
 .author-box a {
   border-bottom: 1px solid #ddd;
 }
 
-/* line 381, lib/scss/style.scss */
+/* line 228, lib/scss/style.scss */
 .author-box p {
   margin-bottom: 0;
 }
 
-/* line 385, lib/scss/style.scss */
+/* line 232, lib/scss/style.scss */
 .author-box .avatar {
   margin: 0 0.9375rem 0.9375rem 0;
 }
 
 /* Titles
 --------------------------------------------- */
-/* line 392, lib/scss/style.scss */
+/* line 239, lib/scss/style.scss */
 .entry-title {
   font-size: 2.25rem;
   line-height: 1;
 }
 
-/* line 397, lib/scss/style.scss */
+/* line 244, lib/scss/style.scss */
 .entry-title a,
 .sidebar .widget-title a {
   color: #333;
 }
-/* line 400, lib/scss/style.scss */
+/* line 247, lib/scss/style.scss */
 .entry-title a:hover,
 .sidebar .widget-title a:hover {
   color: #0078a0;
 }
 
-/* line 405, lib/scss/style.scss */
+/* line 252, lib/scss/style.scss */
 .widget-title {
   font-size: 1.25rem;
-  margin-bottom: 1.5rem;
   text-transform: uppercase;
 }
 
-/* line 411, lib/scss/style.scss */
+/* line 257, lib/scss/style.scss */
 .sidebar .widget-title a {
   border: none;
 }
 
-/* line 415, lib/scss/style.scss */
+/* line 261, lib/scss/style.scss */
 .archive-title {
   font-size: 20px;
   font-size: 2rem;
@@ -8971,7 +10456,7 @@ Widgets
 ---------------------------------------------------------------------------------------------------- */
 /* Featured Content
 --------------------------------------------- */
-/* line 430, lib/scss/style.scss */
+/* line 276, lib/scss/style.scss */
 .featured-content .entry {
   border-bottom: 2px solid #f5f5f5;
   margin-bottom: 20px;
@@ -8980,7 +10465,7 @@ Widgets
   padding: 0 0 2.4rem;
 }
 
-/* line 438, lib/scss/style.scss */
+/* line 284, lib/scss/style.scss */
 .featured-content .entry-title {
   border: none;
   font-size: 24px;
@@ -8988,7 +10473,7 @@ Widgets
   line-height: 1.2;
 }
 
-/* line 445, lib/scss/style.scss */
+/* line 291, lib/scss/style.scss */
 .featured-content .entry-title a {
   border: none;
 }
@@ -8998,44 +10483,68 @@ Plugins
 ---------------------------------------------------------------------------------------------------- */
 /* Genesis eNews Extended
 --------------------------------------------- */
-/* line 457, lib/scss/style.scss */
+/* line 303, lib/scss/style.scss */
 .enews-widget {
   color: #999;
 }
 
-/* line 461, lib/scss/style.scss */
+/* line 307, lib/scss/style.scss */
 .enews-widget .widget-title {
   color: #fff;
 }
 
-/* line 465, lib/scss/style.scss */
+/* line 311, lib/scss/style.scss */
 .enews-widget input {
   margin-bottom: 16px;
   margin-bottom: 1.6rem;
 }
 
-/* line 470, lib/scss/style.scss */
+/* line 316, lib/scss/style.scss */
 .enews-widget input:focus {
   border: 1px solid #ddd;
 }
 
-/* line 474, lib/scss/style.scss */
+/* line 320, lib/scss/style.scss */
 .enews-widget input[type="submit"] {
-  background-color: #008cba;
-  color: #fff;
-  margin: 0;
+  border-style: solid;
+  border-width: 0px;
+  cursor: pointer;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  line-height: normal;
+  margin: 0 0 1.25rem;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  display: inline-block;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-bottom: 1.0625rem;
+  padding-left: 2rem;
+  font-size: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1.0625rem;
+  padding-right: 0;
+  padding-left: 0;
   width: 100%;
+  background-color: #008cba;
+  border-color: #007095;
+  color: white;
 }
-
-/* line 481, lib/scss/style.scss */
-.enews-widget input:hover[type="submit"] {
-  background-color: #fff;
-  color: #333;
+/* line 133, bower_components/foundation/scss/foundation/components/_buttons.scss */
+.enews-widget input[type="submit"]:hover, .enews-widget input[type="submit"]:focus {
+  background-color: #007095;
+}
+/* line 144, bower_components/foundation/scss/foundation/components/_buttons.scss */
+.enews-widget input[type="submit"]:hover, .enews-widget input[type="submit"]:focus {
+  color: white;
 }
 
 /* Genesis Latest Tweets
 --------------------------------------------- */
-/* line 489, lib/scss/style.scss */
+/* line 332, lib/scss/style.scss */
 .latest-tweets ul li {
   margin-bottom: 16px;
   margin-bottom: 1.6rem;
@@ -9043,7 +10552,7 @@ Plugins
 
 /* Gravity Forms
 --------------------------------------------- */
-/* line 497, lib/scss/style.scss */
+/* line 340, lib/scss/style.scss */
 div.gform_wrapper input[type="email"],
 div.gform_wrapper input[type="text"],
 div.gform_wrapper textarea,
@@ -9054,19 +10563,19 @@ div.gform_wrapper .ginput_complex label {
   padding: 1.6rem;
 }
 
-/* line 507, lib/scss/style.scss */
+/* line 350, lib/scss/style.scss */
 div.gform_wrapper .ginput_complex label {
   padding: 0;
 }
 
-/* line 511, lib/scss/style.scss */
+/* line 354, lib/scss/style.scss */
 div.gform_wrapper li,
 div.gform_wrapper form li {
   margin: 16px 0 0;
   margin: 1.6rem 0 0;
 }
 
-/* line 517, lib/scss/style.scss */
+/* line 360, lib/scss/style.scss */
 div.gform_wrapper .gform_footer input[type="submit"] {
   font-size: 14px;
   font-size: 1.4rem;
@@ -9074,118 +10583,15 @@ div.gform_wrapper .gform_footer input[type="submit"] {
 
 /* Jetpack
 --------------------------------------------- */
-/* line 525, lib/scss/style.scss */
+/* line 368, lib/scss/style.scss */
 img#wpstats {
   display: none;
 }
 
 /*
-Site Header
---------------------------------------------- */
-/* line 534, lib/scss/style.scss */
-.site-header {
-  padding: 2.5rem 0;
-}
-
-/* Title Area
---------------------------------------------- */
-/* line 542, lib/scss/style.scss */
-.title-area {
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
-  width: 50%;
-  float: left;
-}
-
-/* line 546, lib/scss/style.scss */
-.site-title {
-  font-size: 1.875rem;
-  line-height: 1;
-  margin-bottom: 0;
-  text-transform: uppercase;
-}
-/* line 551, lib/scss/style.scss */
-.site-title a {
-  color: #222222;
-}
-/* line 553, lib/scss/style.scss */
-.site-title a:hover {
-  color: #0078a0;
-}
-
-/* line 559, lib/scss/style.scss */
-.site-description {
-  color: #999;
-  font-size: 1.125rem;
-  line-height: 1;
-  margin-bottom: 0;
-}
-
-/* Full width header, no widgets */
-/* line 568, lib/scss/style.scss */
-.header-full-width .title-area,
-.header-full-width .site-title {
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
-  width: 100%;
-  float: left;
-}
-
-/* line 573, lib/scss/style.scss */
-.header-image .site-description,
-.header-image .site-title a {
-  display: block;
-  text-indent: -9999px;
-}
-
-/* Logo, hide text */
-/* line 581, lib/scss/style.scss */
-.header-image .site-header .wrap {
-  background: url(images/logo.png) no-repeat left;
-  padding: 0;
-}
-
-/* line 586, lib/scss/style.scss */
-.header-image .site-title a {
-  float: left;
-  min-height: 164px;
-  width: 100%;
-}
-
-/* Widget Area
---------------------------------------------- */
-/* line 595, lib/scss/style.scss */
-.site-header .widget-area {
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
-  width: 100%;
-  float: left;
-  text-align: right;
-}
-@media only screen and (min-width: 40.063em) {
-  /* line 595, lib/scss/style.scss */
-  .site-header .widget-area {
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
-    width: 50%;
-    float: left;
-  }
-}
-
-/* line 603, lib/scss/style.scss */
-.header-image .site-header .widget-area {
-  padding: 2.5rem 0;
-}
-
-/* line 607, lib/scss/style.scss */
-.site-header .search-form {
-  float: right;
-}
-
-/*
 Site Navigation
 --------------------------------------------------------- */
-/* line 616, lib/scss/style.scss */
+/* line 376, lib/scss/style.scss */
 .genesis-nav-menu {
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
@@ -9196,13 +10602,13 @@ Site Navigation
   margin-left: 0;
 }
 
-/* line 623, lib/scss/style.scss */
+/* line 383, lib/scss/style.scss */
 .genesis-nav-menu .menu-item {
   display: inline-block;
   text-align: left;
 }
 
-/* line 628, lib/scss/style.scss */
+/* line 388, lib/scss/style.scss */
 .genesis-nav-menu a {
   border: none;
   color: #999;
@@ -9211,24 +10617,24 @@ Site Navigation
   position: relative;
 }
 
-/* line 636, lib/scss/style.scss */
+/* line 396, lib/scss/style.scss */
 .genesis-nav-menu a:hover,
 .genesis-nav-menu .current-menu-item > a,
 .genesis-nav-menu .sub-menu .current-menu-item > a:hover {
   color: #333;
 }
 
-/* line 642, lib/scss/style.scss */
+/* line 402, lib/scss/style.scss */
 .genesis-nav-menu .sub-menu .current-menu-item > a {
   color: #999;
 }
 
-/* line 646, lib/scss/style.scss */
+/* line 406, lib/scss/style.scss */
 .genesis-nav-menu > .menu-item > a {
   text-transform: uppercase;
 }
 
-/* line 650, lib/scss/style.scss */
+/* line 410, lib/scss/style.scss */
 .genesis-nav-menu .sub-menu {
   left: -9999px;
   opacity: 0;
@@ -9242,7 +10648,7 @@ Site Navigation
   z-index: 99;
 }
 
-/* line 663, lib/scss/style.scss */
+/* line 423, lib/scss/style.scss */
 .genesis-nav-menu .sub-menu a {
   background-color: #fff;
   border: 1px solid #eee;
@@ -9253,33 +10659,33 @@ Site Navigation
   width: 12.5rem;
 }
 
-/* line 673, lib/scss/style.scss */
+/* line 433, lib/scss/style.scss */
 .genesis-nav-menu .sub-menu .sub-menu {
   margin: -54px 0 0 199px;
 }
 
-/* line 677, lib/scss/style.scss */
+/* line 437, lib/scss/style.scss */
 .genesis-nav-menu .menu-item:hover {
   position: static;
 }
 
-/* line 681, lib/scss/style.scss */
+/* line 441, lib/scss/style.scss */
 .genesis-nav-menu .menu-item:hover > .sub-menu {
   left: auto;
   opacity: 1;
 }
 
-/* line 686, lib/scss/style.scss */
+/* line 446, lib/scss/style.scss */
 .genesis-nav-menu > .first > a {
   padding-left: 0;
 }
 
-/* line 690, lib/scss/style.scss */
+/* line 450, lib/scss/style.scss */
 .genesis-nav-menu > .last > a {
   padding-right: 0;
 }
 
-/* line 694, lib/scss/style.scss */
+/* line 454, lib/scss/style.scss */
 .genesis-nav-menu > .right {
   display: inline-block;
   float: right;
@@ -9289,19 +10695,19 @@ Site Navigation
   text-transform: uppercase;
 }
 
-/* line 703, lib/scss/style.scss */
+/* line 463, lib/scss/style.scss */
 .genesis-nav-menu > .right > a {
   display: inline;
   padding: 0;
 }
 
-/* line 708, lib/scss/style.scss */
+/* line 468, lib/scss/style.scss */
 .genesis-nav-menu > .rss > a {
   margin-left: 48px;
   margin-left: 4.8rem;
 }
 
-/* line 713, lib/scss/style.scss */
+/* line 473, lib/scss/style.scss */
 .genesis-nav-menu > .search {
   padding: 14px 0 0;
   padding: 1.4rem 0 0;
@@ -9309,47 +10715,47 @@ Site Navigation
 
 /* Site Header Navigation
 --------------------------------------------- */
-/* line 721, lib/scss/style.scss */
+/* line 481, lib/scss/style.scss */
 .site-header .sub-menu {
   border-top: 1px solid #eee;
 }
 
-/* line 725, lib/scss/style.scss */
+/* line 485, lib/scss/style.scss */
 .site-header .sub-menu .sub-menu {
   margin-top: -55px;
 }
 
 /* Primary Navigation
 --------------------------------------------- */
-/* line 732, lib/scss/style.scss */
+/* line 492, lib/scss/style.scss */
 .nav-primary {
   background-color: #333;
 }
 
-/* line 736, lib/scss/style.scss */
+/* line 496, lib/scss/style.scss */
 .nav-primary a:hover,
 .nav-primary .current-menu-item > a {
   color: #fff;
 }
 
-/* line 741, lib/scss/style.scss */
+/* line 501, lib/scss/style.scss */
 .nav-primary .sub-menu a:hover {
   color: #333;
 }
 
-/* line 745, lib/scss/style.scss */
+/* line 505, lib/scss/style.scss */
 .genesis-nav-menu > .menu-item:first-child a {
   padding-left: 0;
 }
 
-/* line 749, lib/scss/style.scss */
+/* line 509, lib/scss/style.scss */
 .nav-primary > a:first {
   padding-left: 0;
 }
 
 /* Secondary Navigation
 --------------------------------------------- */
-/* line 756, lib/scss/style.scss */
+/* line 516, lib/scss/style.scss */
 .nav-secondary {
   background-color: #fff;
 }
@@ -9359,92 +10765,62 @@ Content Area
 --------------------------------------------- */
 /* Entries
 --------------------------------------------- */
-/* line 767, lib/scss/style.scss */
+/* line 527, lib/scss/style.scss */
 .entry {
   margin-bottom: 3.75rem;
 }
 
-/* line 772, lib/scss/style.scss */
-.entry-content a {
-  border-bottom: 1px solid #ddd;
-  color: #008cba;
-}
-
-/* line 777, lib/scss/style.scss */
-.entry-content a:hover {
-  color: #333;
-}
-
-/* line 781, lib/scss/style.scss */
+/* line 532, lib/scss/style.scss */
 .entry-content .attachment a,
 .entry-content .gallery a {
   border: none;
 }
 
-/* line 786, lib/scss/style.scss */
+/* line 537, lib/scss/style.scss */
 .entry-content ol ol,
 .entry-content ul ul {
   margin-bottom: 0;
 }
 
-/* line 791, lib/scss/style.scss */
+/* line 542, lib/scss/style.scss */
 .entry-content .search-form {
   width: 50%;
 }
 
-/* line 795, lib/scss/style.scss */
+/* line 546, lib/scss/style.scss */
 .entry-meta {
   color: #999;
   font-size: 0.875rem;
 }
-/* line 798, lib/scss/style.scss */
+/* line 549, lib/scss/style.scss */
 .entry-meta a {
   color: #999;
 }
-/* line 800, lib/scss/style.scss */
+/* line 551, lib/scss/style.scss */
 .entry-meta a:hover {
   color: #0078a0;
 }
 
-/* line 806, lib/scss/style.scss */
+/* line 557, lib/scss/style.scss */
 .entry-meta a {
   border-bottom: 1px solid #ddd;
 }
 
-/* line 810, lib/scss/style.scss */
+/* line 561, lib/scss/style.scss */
 .entry-header .entry-meta {
   margin-bottom: 24px;
   margin-bottom: 2.4rem;
 }
 
-/* line 823, lib/scss/style.scss */
-.entry-time:before {
-  content: "\f469";
-}
-
-/* line 828, lib/scss/style.scss */
-.entry-author:before {
-  content: "\f110";
-}
-
-/* line 833, lib/scss/style.scss */
-.entry-comments-link:before {
-  content: "\f473";
-}
-
-/* line 838, lib/scss/style.scss */
-.entry-tags:before {
-  content: "\f323";
-}
-
-/* line 843, lib/scss/style.scss */
-.entry-categories:before {
-  content: "\f318";
+/* line 569, lib/scss/style.scss */
+.entry-categories,
+.entry-tags {
+  display: block;
 }
 
 /* Pagination
 --------------------------------------------- */
-/* line 852, lib/scss/style.scss */
+/* line 603, lib/scss/style.scss */
 .archive-pagination,
 .entry-pagination {
   font-size: 14px;
@@ -9453,12 +10829,12 @@ Content Area
   margin: 4rem 0;
 }
 
-/* line 860, lib/scss/style.scss */
+/* line 611, lib/scss/style.scss */
 .archive-pagination li {
   display: inline;
 }
 
-/* line 864, lib/scss/style.scss */
+/* line 615, lib/scss/style.scss */
 .archive-pagination li a {
   background-color: #333;
   border-radius: 3px;
@@ -9469,20 +10845,20 @@ Content Area
   padding: 0.8rem 1.2rem;
 }
 
-/* line 874, lib/scss/style.scss */
+/* line 625, lib/scss/style.scss */
 .archive-pagination li a:hover,
 .archive-pagination li.active a {
   background-color: #008cba;
 }
 
-/* line 879, lib/scss/style.scss */
+/* line 630, lib/scss/style.scss */
 .entry-pagination a {
   border-bottom: 1px solid #ddd;
 }
 
 /* Comments
 --------------------------------------------- */
-/* line 886, lib/scss/style.scss */
+/* line 637, lib/scss/style.scss */
 .comment-respond,
 .entry-comments,
 .entry-pings {
@@ -9491,77 +10867,77 @@ Content Area
   margin-bottom: 4rem;
 }
 
-/* line 903, lib/scss/style.scss */
+/* line 654, lib/scss/style.scss */
 .comment-respond a,
 .entry-comments a {
   border-bottom: 1px solid #ddd;
 }
 
-/* line 908, lib/scss/style.scss */
+/* line 659, lib/scss/style.scss */
 .comment-content {
   clear: both;
 }
 
-/* line 912, lib/scss/style.scss */
+/* line 663, lib/scss/style.scss */
 .entry-comments .comment-author {
   margin-bottom: 0;
 }
 
-/* line 916, lib/scss/style.scss */
+/* line 667, lib/scss/style.scss */
 .comment-respond input[type="email"],
 .comment-respond input[type="text"],
 .comment-respond input[type="url"] {
   width: 50%;
 }
 
-/* line 922, lib/scss/style.scss */
+/* line 673, lib/scss/style.scss */
 .comment-respond label {
   display: block;
   margin-right: 0.75rem;
 }
 
-/* line 927, lib/scss/style.scss */
+/* line 678, lib/scss/style.scss */
 .comment-list {
   margin-left: 0;
 }
 
-/* line 931, lib/scss/style.scss */
+/* line 682, lib/scss/style.scss */
 .comment-list li,
 .ping-list li {
   list-style-type: none;
 }
 
-/* line 936, lib/scss/style.scss */
+/* line 687, lib/scss/style.scss */
 .comment-list li {
   margin-top: 1.5rem;
   padding: 2rem;
 }
 
-/* line 941, lib/scss/style.scss */
+/* line 692, lib/scss/style.scss */
 .comment-list li li {
   margin-right: -2rem;
 }
 
-/* line 945, lib/scss/style.scss */
+/* line 696, lib/scss/style.scss */
 .comment {
   background-color: #f5f5f5;
 }
-/* line 947, lib/scss/style.scss */
+/* line 698, lib/scss/style.scss */
 .comment .depth-2 {
   background: #e8e8e8;
 }
 
-/* line 952, lib/scss/style.scss */
+/* line 703, lib/scss/style.scss */
 .comment .avatar {
   margin: 0 1rem 1.5rem 0;
 }
 
-/* line 956, lib/scss/style.scss */
+/* line 707, lib/scss/style.scss */
 .entry-pings .reply {
   display: none;
 }
 
-/* line 963, lib/scss/style.scss */
+/* line 714, lib/scss/style.scss */
 .form-allowed-tags {
   background-color: #f5f5f5;
   font-size: 0.875rem;
@@ -9571,352 +10947,46 @@ Content Area
 /*
 Sidebars
 ---------------------------------------------------------------------------------------------------- */
-/* line 974, lib/scss/style.scss */
+/* line 725, lib/scss/style.scss */
 .sidebar {
   color: #999;
 }
 
-/* line 978, lib/scss/style.scss */
-.sidebar a {
-  border-bottom: 1px solid #ddd;
-}
-
-/* line 982, lib/scss/style.scss */
+/* line 729, lib/scss/style.scss */
 .sidebar p:last-child {
   margin-bottom: 0;
 }
 
-/* line 986, lib/scss/style.scss */
+/* line 733, lib/scss/style.scss */
 .sidebar li {
   list-style-type: none;
   margin-bottom: 0.375rem;
   word-wrap: break-word;
 }
 
-/* line 992, lib/scss/style.scss */
+/* line 739, lib/scss/style.scss */
 .sidebar ul > li:last-child {
   margin-bottom: 0;
 }
 
-/* line 996, lib/scss/style.scss */
+/* line 743, lib/scss/style.scss */
 .sidebar .widget {
   background-color: #fff;
   margin-bottom: 2.5rem;
 }
 
-/* line 1001, lib/scss/style.scss */
+/* line 748, lib/scss/style.scss */
 .sidebar .enews-widget {
   background-color: #333;
 }
 
 /*
-Footer Widgets
----------------------------------------------------------------------------------------------------- */
-/* line 1010, lib/scss/style.scss */
-.footer-widgets {
-  background-color: #333;
-  color: #999;
-  clear: both;
-  padding: 2.5rem 0 1rem;
-}
-
-/* line 1017, lib/scss/style.scss */
-.footer-widgets-1,
-.footer-widgets-2,
-.footer-widgets-3 {
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
-  width: 100%;
-  float: left;
-}
-@media only screen and (min-width: 40.063em) {
-  /* line 1017, lib/scss/style.scss */
-  .footer-widgets-1,
-  .footer-widgets-2,
-  .footer-widgets-3 {
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
-    width: 33.33333%;
-    float: left;
-  }
-}
-
-/* line 1026, lib/scss/style.scss */
-.footer-widgets-1 {
-  margin-right: 40px;
-  margin-right: 4rem;
-}
-
-/* line 1031, lib/scss/style.scss */
-.footer-widgets a {
-  border-bottom: 1px solid #666;
-  color: #999;
-}
-
-/* line 1036, lib/scss/style.scss */
-.footer-widgets a:hover {
-  color: #ddd;
-}
-
-/* line 1040, lib/scss/style.scss */
-.footer-widgets .widget {
-  margin-bottom: 24px;
-  margin-bottom: 2.4rem;
-}
-
-/* line 1045, lib/scss/style.scss */
-.footer-widgets .widget-title {
-  color: #fff;
-}
-
-/* line 1049, lib/scss/style.scss */
-.footer-widgets li {
-  list-style-type: none;
-  margin-bottom: 0.375rem;
-  word-wrap: break-word;
-}
-
-/* line 1055, lib/scss/style.scss */
-.footer-widgets .search-form input:focus {
-  border: 1px solid #ddd;
-}
-
-/*
-Site Footer
----------------------------------------------------------------------------------------------------- */
-/* line 1064, lib/scss/style.scss */
-.site-footer {
-  background-color: #222222;
-  color: #999;
-  font-size: 0.875rem;
-  padding: 2.5rem 0;
-  text-align: center;
-}
-/* line 1070, lib/scss/style.scss */
-.site-footer p {
-  margin-bottom: 0;
-}
-/* line 1073, lib/scss/style.scss */
-.site-footer a {
-  color: #999;
-  border-bottom: 1px solid #ddd;
-}
-/* line 1076, lib/scss/style.scss */
-.site-footer a:hover {
-  color: #0078a0;
-}
-
-/*
 Media Queries
----------------------------------------------------------------------------------------------------- */
+------------------------------------------- */
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 1091, lib/scss/style.scss */
+  /* line 761, lib/scss/style.scss */
   .header-image .site-header .wrap {
     background: url(images/logo@2x.png) no-repeat left;
     background-size: 320px 164px;
   }
-}
-@media only screen and (max-width: 1139px) {
-  /* line 1100, lib/scss/style.scss */
-  .site-inner,
-  .wrap {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    margin-bottom: 0;
-    max-width: 62.5rem;
-    *zoom: 1;
-  }
-  /* line 116, bower_components/foundation/scss/foundation/components/_global.scss */
-  .site-inner:before, .site-inner:after,
-  .wrap:before,
-  .wrap:after {
-    content: " ";
-    display: table;
-  }
-  /* line 117, bower_components/foundation/scss/foundation/components/_global.scss */
-  .site-inner:after,
-  .wrap:after {
-    clear: both;
-  }
-
-  /* line 1105, lib/scss/style.scss */
-  .content-sidebar-sidebar .content-sidebar-wrap,
-  .sidebar-content-sidebar .content-sidebar-wrap,
-  .sidebar-sidebar-content .content-sidebar-wrap {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    margin-bottom: 0;
-    max-width: 62.5rem;
-    *zoom: 1;
-  }
-  /* line 116, bower_components/foundation/scss/foundation/components/_global.scss */
-  .content-sidebar-sidebar .content-sidebar-wrap:before, .content-sidebar-sidebar .content-sidebar-wrap:after,
-  .sidebar-content-sidebar .content-sidebar-wrap:before,
-  .sidebar-content-sidebar .content-sidebar-wrap:after,
-  .sidebar-sidebar-content .content-sidebar-wrap:before,
-  .sidebar-sidebar-content .content-sidebar-wrap:after {
-    content: " ";
-    display: table;
-  }
-  /* line 117, bower_components/foundation/scss/foundation/components/_global.scss */
-  .content-sidebar-sidebar .content-sidebar-wrap:after,
-  .sidebar-content-sidebar .content-sidebar-wrap:after,
-  .sidebar-sidebar-content .content-sidebar-wrap:after {
-    clear: both;
-  }
-
-  /* line 1111, lib/scss/style.scss */
-  .sidebar-content-sidebar .content,
-  .sidebar-sidebar-content .content,
-  .content-sidebar-sidebar .content {
-    width: 400px;
-  }
-
-  /* line 1117, lib/scss/style.scss */
-  .footer-widgets-1,
-  .footer-widgets-2,
-  .footer-widgets-3,
-  .sidebar-primary,
-  .title-area {
-    width: 300px;
-  }
-}
-@media only screen and (max-width: 1023px) {
-  /* line 1129, lib/scss/style.scss */
-  body {
-    background-color: #fff;
-  }
-
-  /* line 1133, lib/scss/style.scss */
-  .content,
-  .content-sidebar-sidebar .content,
-  .content-sidebar-sidebar .content-sidebar-wrap,
-  .footer-widgets-1,
-  .footer-widgets-2,
-  .footer-widgets-3,
-  .sidebar-content-sidebar .content,
-  .sidebar-content-sidebar .content-sidebar-wrap,
-  .sidebar-primary,
-  .sidebar-secondary,
-  .sidebar-sidebar-content .content,
-  .sidebar-sidebar-content .content-sidebar-wrap,
-  .site-header .widget-area,
-  .site-inner,
-  .title-area,
-  .wrap {
-    width: 100%;
-  }
-
-  /* line 1152, lib/scss/style.scss */
-  .header-image .site-header .wrap {
-    background-position: center top;
-  }
-
-  /* line 1156, lib/scss/style.scss */
-  .site-inner {
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-
-  /* line 1161, lib/scss/style.scss */
-  .archive-description,
-  .author-box,
-  .comment-respond,
-  .entry,
-  .entry-comments,
-  .entry-footer .entry-meta,
-  .header-image .site-header .widget-area,
-  .sidebar .widget,
-  .site-header {
-    padding: 0;
-  }
-
-  /* line 1173, lib/scss/style.scss */
-  .genesis-nav-menu li,
-  .site-header ul.genesis-nav-menu,
-  .site-header .search-form {
-    float: none;
-  }
-
-  /* line 1179, lib/scss/style.scss */
-  .genesis-nav-menu,
-  .site-description,
-  .site-header .title-area,
-  .site-header .search-form,
-  .site-title {
-    text-align: center;
-  }
-
-  /* line 1187, lib/scss/style.scss */
-  .genesis-nav-menu a,
-  .genesis-nav-menu > .first > a,
-  .genesis-nav-menu > .last > a {
-    padding: 20px 16px;
-    padding: 2rem 1.6rem;
-  }
-
-  /* line 1194, lib/scss/style.scss */
-  .site-header .search-form {
-    margin: 16px auto;
-    margin: 1.6rem auto;
-  }
-
-  /* line 1199, lib/scss/style.scss */
-  .genesis-nav-menu li.right {
-    display: none;
-  }
-
-  /* line 1203, lib/scss/style.scss */
-  .entry-footer .entry-meta {
-    margin: 0;
-    padding-top: 12px;
-    padding-top: 1.2rem;
-  }
-
-  /* line 1209, lib/scss/style.scss */
-  .sidebar .widget.enews-widget {
-    padding: 40px;
-    padding: 4rem;
-  }
-
-  /* line 1214, lib/scss/style.scss */
-  .site-footer {
-    padding: 24px 0;
-    padding: 2.4rem 0;
-  }
-
-  /* line 1219, lib/scss/style.scss */
-  .footer-widgets {
-    padding: 40px 5% 16px;
-  }
-
-  /* line 1223, lib/scss/style.scss */
-  .footer-widgets-1 {
-    margin: 0;
-  }
-}
-@media only screen and (max-width: 767px) {
-  /* line 1231, lib/scss/style.scss */
-  .five-sixths,
-  .four-sixths,
-  .one-fourth,
-  .one-half,
-  .one-sixth,
-  .one-third,
-  .three-fourths,
-  .three-sixths,
-  .two-fourths,
-  .two-sixths,
-  .two-thirds {
-    margin: 0;
-    width: 100%;
-  }
-}
-/* line 1248, lib/scss/style.scss */
-#wpadminbar {
-  position: fixed;
 }
