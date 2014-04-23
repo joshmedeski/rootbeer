@@ -17,10 +17,9 @@
 @import "normalize";
 @import "settings";
 @import "foundation";
-$default-float: left !global;
 
 // Rootbeer Files
-@import "dashicon";
+@import "dashicon"; // Remove from Rootbeer
 @import "theme";
 
 @import "layout";
