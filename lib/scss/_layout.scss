@@ -16,89 +16,96 @@ $fourth-columns: $total-columns/4 !default;
 }
 
 // Columns
-%col-6of6 {
+%col-12of12 {
   @include grid-column($total-columns);
 }
 
-%col-4of6 {
-  @extend %col-6of6;
+%col-8of12 {
+  @extend %col-12of12;
   @media #{$medium-up} {
     @include grid-column($columns:$third-columns*2);
   }
 }
 
-%col-3of6 {
-  @extend %col-6of6;
+%col-6of12 {
+  @extend %col-12of12;
   @media #{$medium-up} {
     @include grid-column($columns:$half-columns);
   }
 }
 
-%col-2of6 {
-  @extend %col-6of6;
+%col-4of12 {
+  @extend %col-12of12;
   @media #{$medium-up} {
     @include grid-column($columns:$third-columns);
   }
 }
 
-%col-1of6 {
-  @extend %col-6of6;
+%col-3of12 {
+  @extend %col-12of12;
+  @media #{$medium-up} {
+    @include grid-column($columns:$fourth-columns);
+  }
+}
+
+%col-2of12 {
+  @extend %col-12of12;
   @media #{$medium-up} {
     @include grid-column($columns:$third-columns/2);
   }
 }
 
 // Push
-%push-4of6 {
+%push-8of12 {
   @media #{$medium-up} {
     @include grid-column($push:$third-columns*2);
   }
 }
 
-%push-3of6 {
+%push-6of12 {
   @media #{$medium-up} {
     @include grid-column($push:$half-columns);
   }
 }
 
-%push-2of6 {
+%push-4of12 {
   @media #{$medium-up} {
     @include grid-column($push:$third-columns);
   }
 }
 
-%push-1of6 {
+%push-2of12 {
   @media #{$medium-up} {
     @include grid-column($push:$third-columns/2);
   }
 }
 
 // Pull
-%pull-5of6 {
+%pull-10of12 {
   @media #{$medium-up} {
     @include grid-column($pull:$half-columns+$third-columns);
   }
 }
 
-%pull-4of6 {
+%pull-8of12 {
   @media #{$medium-up} {
     @include grid-column($pull:$third-columns*2);
   }
 }
 
-%pull-3of6 {
+%pull-6of12 {
   @media #{$medium-up} {
     @include grid-column($pull:$half-columns);
   }
 }
 
-%pull-2of6 {
+%pull-4of12 {
   @media #{$medium-up} {
     @include grid-column($pull:$third-columns);
   }
 }
 
-%pull-1of6 {
+%pull-2of12 {
   @media #{$medium-up} {
     @include grid-column($pull:$third-columns/2);
   }
@@ -111,33 +118,46 @@ $fourth-columns: $total-columns/4 !default;
 .wrap                 { @extend %row; }
 .site-inner           { @extend %row; }
 
+.title-area           { @extend %col-6of12; }
+.header-widget-area   { @extend %col-6of12; }
+
+.header-full-width
+.title-area           { @extend %col-12of12; }
+
+.menu-primary         { @extend %col-12of12; }
+
 .content-sidebar {
-  .content            { @extend %col-4of6; }
-  .sidebar-primary    { @extend %col-2of6; }
+  .content            { @extend %col-8of12; }
+  .sidebar-primary    { @extend %col-4of12; }
 }
 
 .sidebar-content {
-  .sidebar-primary    { @extend %col-2of6; @extend %pull-4of6; }
-  .content            { @extend %col-4of6; @extend %push-2of6; }
+  .sidebar-primary    { @extend %col-4of12; @extend %pull-8of12; }
+  .content            { @extend %col-8of12; @extend %push-4of12; }
 }
 
 .content-sidebar-sidebar {
-  .content            { @extend %col-3of6; }
-  .sidebar-primary    { @extend %col-2of6; }
-  .sidebar-secondary  { @extend %col-1of6; }
+  .content            { @extend %col-6of12; }
+  .sidebar-primary    { @extend %col-4of12; }
+  .sidebar-secondary  { @extend %col-2of12; }
 }
 
 .sidebar-sidebar-content {
-  .sidebar-secondary  { @extend %col-1of6; @extend %pull-5of6; }
-  .sidebar-primary    { @extend %col-2of6; @extend %pull-2of6; }
-  .content            { @extend %col-3of6; @extend %push-3of6; }
+  .sidebar-secondary  { @extend %col-2of12; @extend %pull-10of12; }
+  .sidebar-primary    { @extend %col-4of12; @extend %pull-4of12; }
+  .content            { @extend %col-6of12; @extend %push-6of12; }
 }
 
 .sidebar-content-sidebar {
-  .sidebar-secondary  { @extend %col-1of6; @extend %pull-5of6; }
-  .content            { @extend %col-3of6; @extend %push-1of6; }
-  .sidebar-primary    { @extend %col-2of6; @extend %push-1of6; }
+  .sidebar-secondary  { @extend %col-2of12; @extend %pull-10of12; }
+  .content            { @extend %col-6of12; @extend %push-2of12; }
+  .sidebar-primary    { @extend %col-4of12; @extend %push-2of12; }
 }
 
 .full-width-content
-  .content            { @extend %col-6of6; }
+  .content            { @extend %col-12of12; }
+
+.footer-widgets-1     { @extend %col-3of12; }
+.footer-widgets-2     { @extend %col-3of12; }
+.footer-widgets-3     { @extend %col-3of12; }
+.footer-widgets-4     { @extend %col-3of12; }

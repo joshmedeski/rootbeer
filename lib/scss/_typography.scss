@@ -1,0 +1,51 @@
+// --------------------------------------------------
+// VARIABLES
+// --------------------------------------------------
+
+// Site Title
+$site-title-font-size: rem-calc(30) !default;
+$site-title-uppercase: true !default;
+$site-title-link-color: $body-font-color !default;
+$site-title-link-color-hover: $primary-color !default;
+
+// Site Description
+$site-description-font-size: rem-calc(18) !default;
+
+// Primary Menu
+
+// --------------------------------------------------
+// PLACEHOLDERS
+// --------------------------------------------------
+
+%anchor-hidden {
+  a {
+    color: $body-font-color;
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}
+
+%anchor-light {
+  a {
+    color: $subheader-font-color;
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}
+
+%no-margin {
+  margin: 0;
+  line-height: 1;
+}
+
+%uppercase {
+  text-transform: uppercase;
+}
+
+%small-center {
+  @media #{$small-only} {
+    text-align: center;
+  }
+}
