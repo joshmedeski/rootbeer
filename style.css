@@ -9280,14 +9280,8 @@ div.sharedaddy .sd-content li.share-email:before, div.sharedaddy .sd-content li.
   content: "\f328";
 }
 
-/*
-Structure and Layout
---------------------------------------------- */
-/* Site Containers
---------------------------------------------- */
-/* line 8, lib/scss/_layout.scss */
-.site-inner,
-.wrap {
+/* line 36, lib/scss/_layout.scss */
+.wrap, .site-inner {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -9297,504 +9291,134 @@ Structure and Layout
   *zoom: 1;
 }
 /* line 116, bower_components/foundation/scss/foundation/components/_global.scss */
-.site-inner:before, .site-inner:after,
-.wrap:before,
-.wrap:after {
+.wrap:before, .site-inner:before, .wrap:after, .site-inner:after {
   content: " ";
   display: table;
 }
 /* line 117, bower_components/foundation/scss/foundation/components/_global.scss */
-.site-inner:after,
-.wrap:after {
+.wrap:after, .site-inner:after {
   clear: both;
 }
 
-/* line 13, lib/scss/_layout.scss */
-.site-inner {
-  padding-top: 2.5rem;
-}
-
-/* Column Widths and Positions
---------------------------------------------- */
-/* line 21, lib/scss/_layout.scss */
-.content-sidebar .content {
+/* line 41, lib/scss/_layout.scss */
+.content-sidebar .content, .sidebar-content .content, .content-sidebar-sidebar .content, .sidebar-sidebar-content .content, .sidebar-content-sidebar .content, .content-sidebar .sidebar-primary, .sidebar-content .sidebar-primary, .content-sidebar-sidebar .sidebar-primary, .sidebar-sidebar-content .sidebar-primary, .sidebar-content-sidebar .sidebar-primary, .content-sidebar-sidebar .sidebar-secondary, .sidebar-sidebar-content .sidebar-secondary, .sidebar-content-sidebar .sidebar-secondary, .full-width-content
+.content {
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
   width: 100%;
   float: left;
 }
+
 @media only screen and (min-width: 40.063em) {
-  /* line 21, lib/scss/_layout.scss */
-  .content-sidebar .content {
+  /* line 45, lib/scss/_layout.scss */
+  .content-sidebar .content, .sidebar-content .content {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 66.66667%;
     float: left;
   }
 }
-/* line 27, lib/scss/_layout.scss */
-.content-sidebar .sidebar {
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
-  width: 100%;
-  float: left;
-}
-@media only screen and (min-width: 40.063em) {
-  /* line 27, lib/scss/_layout.scss */
-  .content-sidebar .sidebar {
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
-    width: 33.33333%;
-    float: left;
-  }
-}
 
-/* line 36, lib/scss/_layout.scss */
-.sidebar-content .sidebar {
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
-  width: 100%;
-  float: left;
-}
 @media only screen and (min-width: 40.063em) {
-  /* line 36, lib/scss/_layout.scss */
-  .sidebar-content .sidebar {
-    position: relative;
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
-    width: 33.33333%;
-    right: 66.66667%;
-    left: auto;
-    float: left;
-  }
-}
-/* line 42, lib/scss/_layout.scss */
-.sidebar-content .content {
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
-  width: 100%;
-  float: left;
-}
-@media only screen and (min-width: 40.063em) {
-  /* line 42, lib/scss/_layout.scss */
-  .sidebar-content .content {
-    position: relative;
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
-    width: 66.66667%;
-    left: 33.33333%;
-    right: auto;
-    float: left;
-  }
-}
-
-/* line 51, lib/scss/_layout.scss */
-.content-sidebar-sidebar .content {
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
-  width: 100%;
-  float: left;
-}
-@media only screen and (min-width: 40.063em) {
-  /* line 51, lib/scss/_layout.scss */
-  .content-sidebar-sidebar .content {
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
-    width: 66.66667%;
-    float: left;
-  }
-}
-@media only screen and (min-width: 64.063em) {
-  /* line 51, lib/scss/_layout.scss */
-  .content-sidebar-sidebar .content {
+  /* line 52, lib/scss/_layout.scss */
+  .content-sidebar-sidebar .content, .sidebar-sidebar-content .content, .sidebar-content-sidebar .content {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 50%;
     float: left;
   }
 }
-/* line 60, lib/scss/_layout.scss */
-.content-sidebar-sidebar .sidebar-primary {
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
-  width: 100%;
-  float: left;
-}
+
 @media only screen and (min-width: 40.063em) {
-  /* line 60, lib/scss/_layout.scss */
-  .content-sidebar-sidebar .sidebar-primary {
+  /* line 59, lib/scss/_layout.scss */
+  .content-sidebar .sidebar-primary, .sidebar-content .sidebar-primary, .content-sidebar-sidebar .sidebar-primary, .sidebar-sidebar-content .sidebar-primary, .sidebar-content-sidebar .sidebar-primary {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 33.33333%;
     float: left;
   }
 }
-@media only screen and (min-width: 64.063em) {
-  /* line 60, lib/scss/_layout.scss */
-  .content-sidebar-sidebar .sidebar-primary {
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
-    width: 25%;
-    float: left;
-  }
-}
-/* line 69, lib/scss/_layout.scss */
-.content-sidebar-sidebar .sidebar-secondary {
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
-  width: 100%;
-  float: left;
-}
-@media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /* line 71, lib/scss/_layout.scss */
-  .content-sidebar-sidebar .sidebar-secondary .widget {
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
-    width: 25%;
-    float: left;
-  }
-}
-@media only screen and (min-width: 64.063em) {
-  /* line 69, lib/scss/_layout.scss */
-  .content-sidebar-sidebar .sidebar-secondary {
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
-    width: 25%;
-    float: left;
-  }
-}
 
-/* line 83, lib/scss/_layout.scss */
-.sidebar-content-sidebar .content {
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
-  width: 100%;
-  float: left;
-}
 @media only screen and (min-width: 40.063em) {
-  /* line 83, lib/scss/_layout.scss */
-  .sidebar-content-sidebar .content {
-    position: relative;
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
-    width: 58.33333%;
-    left: 16.66667%;
-    right: auto;
-    float: left;
-  }
-}
-/* line 89, lib/scss/_layout.scss */
-.sidebar-content-sidebar .sidebar-primary {
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
-  width: 100%;
-  float: left;
-}
-@media only screen and (min-width: 40.063em) {
-  /* line 89, lib/scss/_layout.scss */
-  .sidebar-content-sidebar .sidebar-primary {
-    position: relative;
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
-    width: 25%;
-    left: 16.66667%;
-    right: auto;
-    float: left;
-  }
-}
-/* line 95, lib/scss/_layout.scss */
-.sidebar-content-sidebar .sidebar-secondary {
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
-  width: 100%;
-  float: left;
-}
-@media only screen and (min-width: 40.063em) {
-  /* line 95, lib/scss/_layout.scss */
-  .sidebar-content-sidebar .sidebar-secondary {
-    position: relative;
+  /* line 66, lib/scss/_layout.scss */
+  .content-sidebar-sidebar .sidebar-secondary, .sidebar-sidebar-content .sidebar-secondary, .sidebar-content-sidebar .sidebar-secondary {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 16.66667%;
-    right: 83.33333%;
-    left: auto;
     float: left;
   }
 }
 
-/* line 104, lib/scss/_layout.scss */
-.sidebar-sidebar-content .content {
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
-  width: 100%;
-  float: left;
-}
 @media only screen and (min-width: 40.063em) {
-  /* line 104, lib/scss/_layout.scss */
+  /* line 80, lib/scss/_layout.scss */
   .sidebar-sidebar-content .content {
     position: relative;
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
-    width: 58.33333%;
-    left: 41.66667%;
+    left: 50%;
     right: auto;
     float: left;
   }
 }
-/* line 110, lib/scss/_layout.scss */
-.sidebar-sidebar-content .sidebar-primary {
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
-  width: 100%;
-  float: left;
-}
+
 @media only screen and (min-width: 40.063em) {
-  /* line 110, lib/scss/_layout.scss */
-  .sidebar-sidebar-content .sidebar-primary {
+  /* line 86, lib/scss/_layout.scss */
+  .sidebar-content .content {
     position: relative;
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
-    width: 25%;
-    right: 41.66667%;
-    left: auto;
+    left: 33.33333%;
+    right: auto;
     float: left;
   }
 }
-/* line 116, lib/scss/_layout.scss */
-.sidebar-sidebar-content .sidebar-secondary {
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
-  width: 100%;
-  float: left;
-}
+
 @media only screen and (min-width: 40.063em) {
-  /* line 116, lib/scss/_layout.scss */
-  .sidebar-sidebar-content .sidebar-secondary {
+  /* line 92, lib/scss/_layout.scss */
+  .sidebar-content-sidebar .content, .sidebar-content-sidebar .sidebar-primary {
     position: relative;
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
-    width: 16.66667%;
+    left: 16.66667%;
+    right: auto;
+    float: left;
+  }
+}
+
+@media only screen and (min-width: 40.063em) {
+  /* line 99, lib/scss/_layout.scss */
+  .sidebar-sidebar-content .sidebar-secondary, .sidebar-content-sidebar .sidebar-secondary {
+    position: relative;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
     right: 83.33333%;
     left: auto;
     float: left;
   }
 }
 
-/* line 124, lib/scss/_layout.scss */
-.full-width-content .content {
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
-  width: 100%;
-  float: left;
-}
 @media only screen and (min-width: 40.063em) {
-  /* line 124, lib/scss/_layout.scss */
-  .full-width-content .content {
+  /* line 105, lib/scss/_layout.scss */
+  .sidebar-content .sidebar-primary {
+    position: relative;
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
-    width: 66.66667%;
-    float: left;
-    margin-left: auto;
-    margin-right: auto;
-    float: none;
-  }
-}
-
-/* Primary Sidebar */
-/* line 133, lib/scss/_layout.scss */
-.sidebar-primary {
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
-  width: 100%;
-  float: left;
-}
-@media only screen and (min-width: 40.063em) {
-  /* line 133, lib/scss/_layout.scss */
-  .sidebar-primary {
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
-    width: 33.33333%;
+    right: 66.66667%;
+    left: auto;
     float: left;
   }
 }
 
-/* line 140, lib/scss/_layout.scss */
-.sidebar-content .sidebar-primary,
-.sidebar-sidebar-content .sidebar-primary {
-  float: left;
-}
-
-/* Secondary Sidebar */
-/* line 147, lib/scss/_layout.scss */
-.sidebar-secondary {
-  float: left;
-  width: 180px;
-}
-
-/* line 152, lib/scss/_layout.scss */
-.content-sidebar-sidebar .sidebar-secondary {
-  float: right;
-}
-
-/* Column Classes
-  Link: http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css
-  --------------------------------------------- */
-/* line 160, lib/scss/_layout.scss */
-.five-sixths,
-.four-sixths,
-.one-fourth,
-.one-half,
-.one-sixth,
-.one-third,
-.three-fourths,
-.three-sixths,
-.two-fourths,
-.two-sixths,
-.two-thirds {
-  float: left;
-  margin-left: 2.564102564102564%;
-}
-
-/* line 175, lib/scss/_layout.scss */
-.one-half,
-.three-sixths,
-.two-fourths {
-  width: 48.717948717948715%;
-}
-
-/* line 181, lib/scss/_layout.scss */
-.one-third,
-.two-sixths {
-  width: 31.623931623931625%;
-}
-
-/* line 186, lib/scss/_layout.scss */
-.four-sixths,
-.two-thirds {
-  width: 65.81196581196582%;
-}
-
-/* line 191, lib/scss/_layout.scss */
-.one-fourth {
-  width: 23.076923076923077%;
-}
-
-/* line 195, lib/scss/_layout.scss */
-.three-fourths {
-  width: 74.35897435897436%;
-}
-
-/* line 199, lib/scss/_layout.scss */
-.one-sixth {
-  width: 14.52991452991453%;
-}
-
-/* line 203, lib/scss/_layout.scss */
-.five-sixths {
-  width: 82.90598290598291%;
-}
-
-/* line 207, lib/scss/_layout.scss */
-.first {
-  clear: both;
-  margin-left: 0;
-}
-
-/* line 212, lib/scss/_layout.scss */
-.sidebar .widget.enews-widget {
-  padding: 1.25rem;
-}
-
-@media only screen and (max-width: 1023px) {
-  /* line 218, lib/scss/_layout.scss */
-  .header-image .site-header .wrap {
-    background-position: center top;
+@media only screen and (min-width: 40.063em) {
+  /* line 117, lib/scss/_layout.scss */
+  .sidebar-sidebar-content .sidebar-primary {
+    position: relative;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    right: 33.33333%;
+    left: auto;
+    float: left;
   }
-
-  /* line 222, lib/scss/_layout.scss */
-  .site-inner {
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-
-  /* line 227, lib/scss/_layout.scss */
-  .archive-description,
-  .author-box,
-  .comment-respond,
-  .entry,
-  .entry-comments,
-  .entry-footer .entry-meta,
-  .header-image .site-header .widget-area,
-  .sidebar .widget,
-  .site-header {
-    padding: 0;
-  }
-
-  /* line 239, lib/scss/_layout.scss */
-  .genesis-nav-menu li,
-  .site-header ul.genesis-nav-menu,
-  .site-header .search-form {
-    float: none;
-  }
-
-  /* line 245, lib/scss/_layout.scss */
-  .genesis-nav-menu,
-  .site-description,
-  .site-header .title-area,
-  .site-header .search-form,
-  .site-title {
-    text-align: center;
-  }
-
-  /* line 253, lib/scss/_layout.scss */
-  .genesis-nav-menu a,
-  .genesis-nav-menu > .first > a,
-  .genesis-nav-menu > .last > a {
-    padding: 20px 16px;
-    padding: 2rem 1.6rem;
-  }
-
-  /* line 260, lib/scss/_layout.scss */
-  .site-header .search-form {
-    margin: 1rem auto;
-  }
-
-  /* line 264, lib/scss/_layout.scss */
-  .genesis-nav-menu li.right {
-    display: none;
-  }
-
-  /* line 268, lib/scss/_layout.scss */
-  .entry-footer .entry-meta {
-    margin: 0;
-    padding-top: 0.75rem;
-  }
-
-  /* line 273, lib/scss/_layout.scss */
-  .site-footer {
-    padding: 1.5rem 0;
-  }
-}
-@media only screen and (max-width: 767px) {
-  /* line 282, lib/scss/_layout.scss */
-  .five-sixths,
-  .four-sixths,
-  .one-fourth,
-  .one-half,
-  .one-sixth,
-  .one-third,
-  .three-fourths,
-  .three-sixths,
-  .two-fourths,
-  .two-sixths,
-  .two-thirds {
-    margin: 0;
-    width: 100%;
-  }
-}
-/* line 299, lib/scss/_layout.scss */
-#wpadminbar {
-  position: fixed;
 }
 
 /*
@@ -10913,7 +10537,7 @@ div.sharedaddy .sd-content li.share-twitter:before {
   color: #fff;
 }
 
-/* line 33, lib/scss/style.scss */
+/* line 32, lib/scss/style.scss */
 a,
 button,
 input:focus,
@@ -10926,30 +10550,30 @@ textarea:focus,
   word-wrap: break-word;
 }
 
-/* line 45, lib/scss/style.scss */
+/* line 44, lib/scss/style.scss */
 ::-moz-selection {
   background-color: #008cba;
   color: #fff;
 }
 
-/* line 50, lib/scss/style.scss */
+/* line 49, lib/scss/style.scss */
 ::selection {
   background-color: #008cba;
   color: #fff;
 }
 
-/* line 55, lib/scss/style.scss */
+/* line 54, lib/scss/style.scss */
 ::-moz-placeholder {
   color: #999;
   opacity: 1;
 }
 
-/* line 60, lib/scss/style.scss */
+/* line 59, lib/scss/style.scss */
 ::-webkit-input-placeholder {
   color: #999;
 }
 
-/* line 64, lib/scss/style.scss */
+/* line 63, lib/scss/style.scss */
 button,
 input[type="button"],
 input[type="reset"],
@@ -11007,7 +10631,7 @@ input[type="submit"]:focus,
   color: white;
 }
 
-/* line 74, lib/scss/style.scss */
+/* line 73, lib/scss/style.scss */
 input {
   -webkit-border-radius: 0;
   border-radius: 0;
@@ -11018,24 +10642,24 @@ Common Classes
 ---------------------------------------------------------------------------------------------------- */
 /* WordPress
 --------------------------------------------- */
-/* line 86, lib/scss/style.scss */
+/* line 85, lib/scss/style.scss */
 .avatar {
   float: left;
 }
 
-/* line 90, lib/scss/style.scss */
+/* line 89, lib/scss/style.scss */
 .alignleft .avatar {
   margin-right: 24px;
   margin-right: 2.4rem;
 }
 
-/* line 95, lib/scss/style.scss */
+/* line 94, lib/scss/style.scss */
 .alignright .avatar {
   margin-left: 24px;
   margin-left: 2.4rem;
 }
 
-/* line 105, lib/scss/style.scss */
+/* line 104, lib/scss/style.scss */
 .search-form:before {
   font-size: 1.125rem;
   color: #999;
@@ -11050,12 +10674,12 @@ Common Classes
   transform: scale(-1, 1);
 }
 
-/* line 124, lib/scss/style.scss */
+/* line 123, lib/scss/style.scss */
 input[type="email"]:before {
   margin-top: -42px;
 }
 
-/* line 130, lib/scss/style.scss */
+/* line 129, lib/scss/style.scss */
 .search-form input[type="submit"] {
   border: 0;
   clip: rect(0, 0, 0, 0);
@@ -11066,7 +10690,7 @@ input[type="email"]:before {
   width: 1px;
 }
 
-/* line 143, lib/scss/style.scss */
+/* line 142, lib/scss/style.scss */
 img.centered,
 .aligncenter {
   display: block;
@@ -11074,39 +10698,39 @@ img.centered,
   margin: 0 auto 2.4rem;
 }
 
-/* line 150, lib/scss/style.scss */
+/* line 149, lib/scss/style.scss */
 img.alignnone {
   margin-bottom: 12px;
   margin-bottom: 1.2rem;
 }
 
-/* line 155, lib/scss/style.scss */
+/* line 154, lib/scss/style.scss */
 .alignleft {
   float: left;
   text-align: left;
 }
 
-/* line 160, lib/scss/style.scss */
+/* line 159, lib/scss/style.scss */
 .alignright {
   float: right;
   text-align: right;
 }
 
-/* line 165, lib/scss/style.scss */
+/* line 164, lib/scss/style.scss */
 img.alignleft,
 .wp-caption.alignleft {
   margin: 0 24px 24px 0;
   margin: 0 2.4rem 2.4rem 0;
 }
 
-/* line 171, lib/scss/style.scss */
+/* line 170, lib/scss/style.scss */
 img.alignright,
 .wp-caption.alignright {
   margin: 0 0 24px 24px;
   margin: 0 0 2.4rem 2.4rem;
 }
 
-/* line 177, lib/scss/style.scss */
+/* line 176, lib/scss/style.scss */
 .wp-caption-text {
   font-size: 14px;
   font-size: 1.4rem;
@@ -11114,12 +10738,12 @@ img.alignright,
   text-align: center;
 }
 
-/* line 187, lib/scss/style.scss */
+/* line 186, lib/scss/style.scss */
 .widget_calendar table {
   width: 100%;
 }
 
-/* line 191, lib/scss/style.scss */
+/* line 190, lib/scss/style.scss */
 .widget_calendar td,
 .widget_calendar th {
   text-align: center;
@@ -11127,7 +10751,7 @@ img.alignright,
 
 /* Genesis
 --------------------------------------------- */
-/* line 199, lib/scss/style.scss */
+/* line 198, lib/scss/style.scss */
 .breadcrumb {
   display: block;
   padding: 0.5625rem 0.875rem 0.5625rem;
@@ -11141,20 +10765,20 @@ img.alignright,
   margin-bottom: 1.25rem;
 }
 
-/* line 207, lib/scss/style.scss */
+/* line 206, lib/scss/style.scss */
 .archive-description,
 .author-box {
   background-color: #fff;
   margin-bottom: 2.5rem;
 }
 
-/* line 217, lib/scss/style.scss */
+/* line 216, lib/scss/style.scss */
 .author-box {
   padding: 2rem;
   background: #f5f5f5;
 }
 
-/* line 222, lib/scss/style.scss */
+/* line 221, lib/scss/style.scss */
 .author-box-title {
   color: #333;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -11164,52 +10788,52 @@ img.alignright,
   margin-bottom: 0.4rem;
 }
 
-/* line 231, lib/scss/style.scss */
+/* line 230, lib/scss/style.scss */
 .author-box a {
   border-bottom: 1px solid #ddd;
 }
 
-/* line 235, lib/scss/style.scss */
+/* line 234, lib/scss/style.scss */
 .author-box p {
   margin-bottom: 0;
 }
 
-/* line 239, lib/scss/style.scss */
+/* line 238, lib/scss/style.scss */
 .author-box .avatar {
   margin: 0 0.9375rem 0.9375rem 0;
 }
 
 /* Titles
 --------------------------------------------- */
-/* line 246, lib/scss/style.scss */
+/* line 245, lib/scss/style.scss */
 .entry-title {
   font-size: 2.25rem;
   line-height: 1;
 }
 
-/* line 251, lib/scss/style.scss */
+/* line 250, lib/scss/style.scss */
 .entry-title a,
 .sidebar .widget-title a {
   color: #333;
 }
-/* line 254, lib/scss/style.scss */
+/* line 253, lib/scss/style.scss */
 .entry-title a:hover,
 .sidebar .widget-title a:hover {
   color: #0078a0;
 }
 
-/* line 259, lib/scss/style.scss */
+/* line 258, lib/scss/style.scss */
 .widget-title {
   font-size: 1.25rem;
   text-transform: uppercase;
 }
 
-/* line 264, lib/scss/style.scss */
+/* line 263, lib/scss/style.scss */
 .sidebar .widget-title a {
   border: none;
 }
 
-/* line 268, lib/scss/style.scss */
+/* line 267, lib/scss/style.scss */
 .archive-title {
   font-size: 20px;
   font-size: 2rem;
@@ -11222,7 +10846,7 @@ Widgets
 ---------------------------------------------------------------------------------------------------- */
 /* Featured Content
 --------------------------------------------- */
-/* line 283, lib/scss/style.scss */
+/* line 282, lib/scss/style.scss */
 .featured-content .entry {
   border-bottom: 2px solid #f5f5f5;
   margin-bottom: 20px;
@@ -11231,7 +10855,7 @@ Widgets
   padding: 0 0 2.4rem;
 }
 
-/* line 291, lib/scss/style.scss */
+/* line 290, lib/scss/style.scss */
 .featured-content .entry-title {
   border: none;
   font-size: 24px;
@@ -11239,7 +10863,7 @@ Widgets
   line-height: 1.2;
 }
 
-/* line 298, lib/scss/style.scss */
+/* line 297, lib/scss/style.scss */
 .featured-content .entry-title a {
   border: none;
 }
@@ -11249,28 +10873,28 @@ Plugins
 ---------------------------------------------------------------------------------------------------- */
 /* Genesis eNews Extended
 --------------------------------------------- */
-/* line 310, lib/scss/style.scss */
+/* line 309, lib/scss/style.scss */
 .enews-widget {
   color: #999;
 }
 
-/* line 314, lib/scss/style.scss */
+/* line 313, lib/scss/style.scss */
 .enews-widget .widget-title {
   color: #fff;
 }
 
-/* line 318, lib/scss/style.scss */
+/* line 317, lib/scss/style.scss */
 .enews-widget input {
   margin-bottom: 16px;
   margin-bottom: 1.6rem;
 }
 
-/* line 323, lib/scss/style.scss */
+/* line 322, lib/scss/style.scss */
 .enews-widget input:focus {
   border: 1px solid #ddd;
 }
 
-/* line 327, lib/scss/style.scss */
+/* line 326, lib/scss/style.scss */
 .enews-widget input[type="submit"] {
   border-style: solid;
   border-width: 0px;
@@ -11310,7 +10934,7 @@ Plugins
 
 /* Genesis Latest Tweets
 --------------------------------------------- */
-/* line 339, lib/scss/style.scss */
+/* line 338, lib/scss/style.scss */
 .latest-tweets ul li {
   margin-bottom: 16px;
   margin-bottom: 1.6rem;
@@ -11318,7 +10942,7 @@ Plugins
 
 /* Gravity Forms
 --------------------------------------------- */
-/* line 347, lib/scss/style.scss */
+/* line 346, lib/scss/style.scss */
 div.gform_wrapper input[type="email"],
 div.gform_wrapper input[type="text"],
 div.gform_wrapper textarea,
@@ -11329,19 +10953,19 @@ div.gform_wrapper .ginput_complex label {
   padding: 1.6rem;
 }
 
-/* line 357, lib/scss/style.scss */
+/* line 356, lib/scss/style.scss */
 div.gform_wrapper .ginput_complex label {
   padding: 0;
 }
 
-/* line 361, lib/scss/style.scss */
+/* line 360, lib/scss/style.scss */
 div.gform_wrapper li,
 div.gform_wrapper form li {
   margin: 16px 0 0;
   margin: 1.6rem 0 0;
 }
 
-/* line 367, lib/scss/style.scss */
+/* line 366, lib/scss/style.scss */
 div.gform_wrapper .gform_footer input[type="submit"] {
   font-size: 14px;
   font-size: 1.4rem;
@@ -11349,7 +10973,7 @@ div.gform_wrapper .gform_footer input[type="submit"] {
 
 /* Jetpack
 --------------------------------------------- */
-/* line 375, lib/scss/style.scss */
+/* line 374, lib/scss/style.scss */
 img#wpstats {
   display: none;
 }
@@ -11357,7 +10981,7 @@ img#wpstats {
 /*
 Site Navigation
 --------------------------------------------------------- */
-/* line 383, lib/scss/style.scss */
+/* line 382, lib/scss/style.scss */
 .genesis-nav-menu {
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
@@ -11368,13 +10992,13 @@ Site Navigation
   margin-left: 0;
 }
 
-/* line 390, lib/scss/style.scss */
+/* line 389, lib/scss/style.scss */
 .genesis-nav-menu .menu-item {
   display: inline-block;
   text-align: left;
 }
 
-/* line 395, lib/scss/style.scss */
+/* line 394, lib/scss/style.scss */
 .genesis-nav-menu a {
   border: none;
   color: #999;
@@ -11383,24 +11007,24 @@ Site Navigation
   position: relative;
 }
 
-/* line 403, lib/scss/style.scss */
+/* line 402, lib/scss/style.scss */
 .genesis-nav-menu a:hover,
 .genesis-nav-menu .current-menu-item > a,
 .genesis-nav-menu .sub-menu .current-menu-item > a:hover {
   color: #333;
 }
 
-/* line 409, lib/scss/style.scss */
+/* line 408, lib/scss/style.scss */
 .genesis-nav-menu .sub-menu .current-menu-item > a {
   color: #999;
 }
 
-/* line 413, lib/scss/style.scss */
+/* line 412, lib/scss/style.scss */
 .genesis-nav-menu > .menu-item > a {
   text-transform: uppercase;
 }
 
-/* line 417, lib/scss/style.scss */
+/* line 416, lib/scss/style.scss */
 .genesis-nav-menu .sub-menu {
   left: -9999px;
   opacity: 0;
@@ -11414,7 +11038,7 @@ Site Navigation
   z-index: 99;
 }
 
-/* line 430, lib/scss/style.scss */
+/* line 429, lib/scss/style.scss */
 .genesis-nav-menu .sub-menu a {
   background-color: #fff;
   border: 1px solid #eee;
@@ -11425,33 +11049,33 @@ Site Navigation
   width: 12.5rem;
 }
 
-/* line 440, lib/scss/style.scss */
+/* line 439, lib/scss/style.scss */
 .genesis-nav-menu .sub-menu .sub-menu {
   margin: -54px 0 0 199px;
 }
 
-/* line 444, lib/scss/style.scss */
+/* line 443, lib/scss/style.scss */
 .genesis-nav-menu .menu-item:hover {
   position: static;
 }
 
-/* line 448, lib/scss/style.scss */
+/* line 447, lib/scss/style.scss */
 .genesis-nav-menu .menu-item:hover > .sub-menu {
   left: auto;
   opacity: 1;
 }
 
-/* line 453, lib/scss/style.scss */
+/* line 452, lib/scss/style.scss */
 .genesis-nav-menu > .first > a {
   padding-left: 0;
 }
 
-/* line 457, lib/scss/style.scss */
+/* line 456, lib/scss/style.scss */
 .genesis-nav-menu > .last > a {
   padding-right: 0;
 }
 
-/* line 461, lib/scss/style.scss */
+/* line 460, lib/scss/style.scss */
 .genesis-nav-menu > .right {
   display: inline-block;
   float: right;
@@ -11461,19 +11085,19 @@ Site Navigation
   text-transform: uppercase;
 }
 
-/* line 470, lib/scss/style.scss */
+/* line 469, lib/scss/style.scss */
 .genesis-nav-menu > .right > a {
   display: inline;
   padding: 0;
 }
 
-/* line 475, lib/scss/style.scss */
+/* line 474, lib/scss/style.scss */
 .genesis-nav-menu > .rss > a {
   margin-left: 48px;
   margin-left: 4.8rem;
 }
 
-/* line 480, lib/scss/style.scss */
+/* line 479, lib/scss/style.scss */
 .genesis-nav-menu > .search {
   padding: 14px 0 0;
   padding: 1.4rem 0 0;
@@ -11481,47 +11105,47 @@ Site Navigation
 
 /* Site Header Navigation
 --------------------------------------------- */
-/* line 488, lib/scss/style.scss */
+/* line 487, lib/scss/style.scss */
 .site-header .sub-menu {
   border-top: 1px solid #eee;
 }
 
-/* line 492, lib/scss/style.scss */
+/* line 491, lib/scss/style.scss */
 .site-header .sub-menu .sub-menu {
   margin-top: -55px;
 }
 
 /* Primary Navigation
 --------------------------------------------- */
-/* line 499, lib/scss/style.scss */
+/* line 498, lib/scss/style.scss */
 .nav-primary {
   background-color: #333;
 }
 
-/* line 503, lib/scss/style.scss */
+/* line 502, lib/scss/style.scss */
 .nav-primary a:hover,
 .nav-primary .current-menu-item > a {
   color: #fff;
 }
 
-/* line 508, lib/scss/style.scss */
+/* line 507, lib/scss/style.scss */
 .nav-primary .sub-menu a:hover {
   color: #333;
 }
 
-/* line 512, lib/scss/style.scss */
+/* line 511, lib/scss/style.scss */
 .genesis-nav-menu > .menu-item:first-child a {
   padding-left: 0;
 }
 
-/* line 516, lib/scss/style.scss */
+/* line 515, lib/scss/style.scss */
 .nav-primary > a:first {
   padding-left: 0;
 }
 
 /* Secondary Navigation
 --------------------------------------------- */
-/* line 523, lib/scss/style.scss */
+/* line 522, lib/scss/style.scss */
 .nav-secondary {
   background-color: #fff;
 }
@@ -11531,54 +11155,54 @@ Content Area
 --------------------------------------------- */
 /* Entries
 --------------------------------------------- */
-/* line 534, lib/scss/style.scss */
+/* line 533, lib/scss/style.scss */
 .entry {
   margin-bottom: 3.75rem;
 }
 
-/* line 539, lib/scss/style.scss */
+/* line 538, lib/scss/style.scss */
 .entry-content .attachment a,
 .entry-content .gallery a {
   border: none;
 }
 
-/* line 544, lib/scss/style.scss */
+/* line 543, lib/scss/style.scss */
 .entry-content ol ol,
 .entry-content ul ul {
   margin-bottom: 0;
 }
 
-/* line 549, lib/scss/style.scss */
+/* line 548, lib/scss/style.scss */
 .entry-content .search-form {
   width: 50%;
 }
 
-/* line 553, lib/scss/style.scss */
+/* line 552, lib/scss/style.scss */
 .entry-meta {
   color: #999;
   font-size: 0.875rem;
 }
-/* line 556, lib/scss/style.scss */
+/* line 555, lib/scss/style.scss */
 .entry-meta a {
   color: #999;
 }
-/* line 558, lib/scss/style.scss */
+/* line 557, lib/scss/style.scss */
 .entry-meta a:hover {
   color: #0078a0;
 }
 
-/* line 564, lib/scss/style.scss */
+/* line 563, lib/scss/style.scss */
 .entry-meta a {
   border-bottom: 1px solid #ddd;
 }
 
-/* line 568, lib/scss/style.scss */
+/* line 567, lib/scss/style.scss */
 .entry-header .entry-meta {
   margin-bottom: 24px;
   margin-bottom: 2.4rem;
 }
 
-/* line 576, lib/scss/style.scss */
+/* line 575, lib/scss/style.scss */
 .entry-categories,
 .entry-tags {
   display: block;
@@ -11586,7 +11210,7 @@ Content Area
 
 /* Pagination
 --------------------------------------------- */
-/* line 610, lib/scss/style.scss */
+/* line 609, lib/scss/style.scss */
 .archive-pagination,
 .entry-pagination {
   font-size: 14px;
@@ -11595,12 +11219,12 @@ Content Area
   margin: 4rem 0;
 }
 
-/* line 618, lib/scss/style.scss */
+/* line 617, lib/scss/style.scss */
 .archive-pagination li {
   display: inline;
 }
 
-/* line 622, lib/scss/style.scss */
+/* line 621, lib/scss/style.scss */
 .archive-pagination li a {
   background-color: #333;
   border-radius: 3px;
@@ -11611,20 +11235,20 @@ Content Area
   padding: 0.8rem 1.2rem;
 }
 
-/* line 632, lib/scss/style.scss */
+/* line 631, lib/scss/style.scss */
 .archive-pagination li a:hover,
 .archive-pagination li.active a {
   background-color: #008cba;
 }
 
-/* line 637, lib/scss/style.scss */
+/* line 636, lib/scss/style.scss */
 .entry-pagination a {
   border-bottom: 1px solid #ddd;
 }
 
 /* Comments
 --------------------------------------------- */
-/* line 644, lib/scss/style.scss */
+/* line 643, lib/scss/style.scss */
 .comment-respond,
 .entry-comments,
 .entry-pings {
@@ -11633,77 +11257,77 @@ Content Area
   margin-bottom: 4rem;
 }
 
-/* line 661, lib/scss/style.scss */
+/* line 660, lib/scss/style.scss */
 .comment-respond a,
 .entry-comments a {
   border-bottom: 1px solid #ddd;
 }
 
-/* line 666, lib/scss/style.scss */
+/* line 665, lib/scss/style.scss */
 .comment-content {
   clear: both;
 }
 
-/* line 670, lib/scss/style.scss */
+/* line 669, lib/scss/style.scss */
 .entry-comments .comment-author {
   margin-bottom: 0;
 }
 
-/* line 674, lib/scss/style.scss */
+/* line 673, lib/scss/style.scss */
 .comment-respond input[type="email"],
 .comment-respond input[type="text"],
 .comment-respond input[type="url"] {
   width: 50%;
 }
 
-/* line 680, lib/scss/style.scss */
+/* line 679, lib/scss/style.scss */
 .comment-respond label {
   display: block;
   margin-right: 0.75rem;
 }
 
-/* line 685, lib/scss/style.scss */
+/* line 684, lib/scss/style.scss */
 .comment-list {
   margin-left: 0;
 }
 
-/* line 689, lib/scss/style.scss */
+/* line 688, lib/scss/style.scss */
 .comment-list li,
 .ping-list li {
   list-style-type: none;
 }
 
-/* line 694, lib/scss/style.scss */
+/* line 693, lib/scss/style.scss */
 .comment-list li {
   margin-top: 1.5rem;
   padding: 2rem;
 }
 
-/* line 699, lib/scss/style.scss */
+/* line 698, lib/scss/style.scss */
 .comment-list li li {
   margin-right: -2rem;
 }
 
-/* line 703, lib/scss/style.scss */
+/* line 702, lib/scss/style.scss */
 .comment {
   background-color: #f5f5f5;
 }
-/* line 705, lib/scss/style.scss */
+/* line 704, lib/scss/style.scss */
 .comment .depth-2 {
   background: #e8e8e8;
 }
 
-/* line 710, lib/scss/style.scss */
+/* line 709, lib/scss/style.scss */
 .comment .avatar {
   margin: 0 1rem 1.5rem 0;
 }
 
-/* line 714, lib/scss/style.scss */
+/* line 713, lib/scss/style.scss */
 .entry-pings .reply {
   display: none;
 }
 
-/* line 721, lib/scss/style.scss */
+/* line 720, lib/scss/style.scss */
 .form-allowed-tags {
   background-color: #f5f5f5;
   font-size: 0.875rem;
@@ -11713,35 +11337,35 @@ Content Area
 /*
 Sidebars
 ---------------------------------------------------------------------------------------------------- */
-/* line 732, lib/scss/style.scss */
+/* line 731, lib/scss/style.scss */
 .sidebar {
   color: #999;
 }
 
-/* line 736, lib/scss/style.scss */
+/* line 735, lib/scss/style.scss */
 .sidebar p:last-child {
   margin-bottom: 0;
 }
 
-/* line 740, lib/scss/style.scss */
+/* line 739, lib/scss/style.scss */
 .sidebar li {
   list-style-type: none;
   margin-bottom: 0.375rem;
   word-wrap: break-word;
 }
 
-/* line 746, lib/scss/style.scss */
+/* line 745, lib/scss/style.scss */
 .sidebar ul > li:last-child {
   margin-bottom: 0;
 }
 
-/* line 750, lib/scss/style.scss */
+/* line 749, lib/scss/style.scss */
 .sidebar .widget {
   background-color: #fff;
   margin-bottom: 2.5rem;
 }
 
-/* line 755, lib/scss/style.scss */
+/* line 754, lib/scss/style.scss */
 .sidebar .enews-widget {
   background-color: #333;
 }
@@ -11750,7 +11374,7 @@ Sidebars
 Media Queries
 ------------------------------------------- */
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 768, lib/scss/style.scss */
+  /* line 767, lib/scss/style.scss */
   .header-image .site-header .wrap {
     background: url(images/logo@2x.png) no-repeat left;
     background-size: 320px 164px;
