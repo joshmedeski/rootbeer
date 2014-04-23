@@ -8238,1049 +8238,7 @@ th.hide-for-touch {
   display: table-cell !important;
 }
 
-/* line 2, lib/scss/_dashicon.scss */
-div.sharedaddy .sd-content li.share-email:before, div.sharedaddy .sd-content li.share-facebook:before, div.sharedaddy .sd-content li.share-google-plus-1:before, div.sharedaddy .sd-content li.share-twitter:before, .search-form:before, input[type="email"]:before, .entry-time:before, .entry-author:before, .entry-comments-link:before, .entry-tags:before, .entry-categories:before {
-  font: normal 18px/1 'dashicons';
-  margin-right: 5px;
-  margin-top: 2px;
-  vertical-align: top;
-  -webkit-font-smoothing: antialiased;
-  display: inline-block;
-}
-
-/* line 11, lib/scss/_dashicon.scss */
-.dashicons,
-.dashicons-before:before {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  font-size: 20px;
-  line-height: 1;
-  font-family: "dashicons";
-  text-decoration: inherit;
-  font-weight: normal;
-  font-style: normal;
-  vertical-align: top;
-  text-align: center;
-  -webkit-transition: color .1s ease-in 0;
-  transition: color .1s ease-in 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-/* Admin Menu Icons */
-/* line 32, lib/scss/_dashicon.scss */
-.dashicons-menu:before {
-  content: "\f333";
-}
-
-/* line 36, lib/scss/_dashicon.scss */
-.dashicons-admin-site:before {
-  content: "\f319";
-}
-
-/* line 40, lib/scss/_dashicon.scss */
-.dashicons-dashboard:before {
-  content: "\f226";
-}
-
-/* line 44, lib/scss/_dashicon.scss */
-.dashicons-admin-media:before {
-  content: "\f104";
-}
-
-/* line 48, lib/scss/_dashicon.scss */
-.dashicons-admin-page:before {
-  content: "\f105";
-}
-
-/* line 52, lib/scss/_dashicon.scss */
-.dashicons-admin-comments:before, .entry-comments-link:before {
-  content: "\f101";
-}
-
-/* line 56, lib/scss/_dashicon.scss */
-.dashicons-admin-appearance:before {
-  content: "\f100";
-}
-
-/* line 60, lib/scss/_dashicon.scss */
-.dashicons-admin-plugins:before {
-  content: "\f106";
-}
-
-/* line 64, lib/scss/_dashicon.scss */
-.dashicons-admin-users:before, .entry-author:before {
-  content: "\f110";
-}
-
-/* line 68, lib/scss/_dashicon.scss */
-.dashicons-admin-tools:before {
-  content: "\f107";
-}
-
-/* line 72, lib/scss/_dashicon.scss */
-.dashicons-admin-settings:before {
-  content: "\f108";
-}
-
-/* line 76, lib/scss/_dashicon.scss */
-.dashicons-admin-network:before {
-  content: "\f112";
-}
-
-/* line 80, lib/scss/_dashicon.scss */
-.dashicons-admin-generic:before {
-  content: "\f111";
-}
-
-/* line 84, lib/scss/_dashicon.scss */
-.dashicons-admin-home:before {
-  content: "\f102";
-}
-
-/* line 88, lib/scss/_dashicon.scss */
-.dashicons-admin-collapse:before {
-  content: "\f148";
-}
-
-/* Both Admin Menu and Post Formats */
-/* line 95, lib/scss/_dashicon.scss */
-.dashicons-admin-links:before,
-.dashicons-format-links:before {
-  content: "\f103";
-}
-
-/* line 100, lib/scss/_dashicon.scss */
-.dashicons-admin-post:before,
-.dashicons-format-standard:before {
-  content: "\f109";
-}
-
-/* Post Format Icons */
-/* line 108, lib/scss/_dashicon.scss */
-.dashicons-format-image:before {
-  content: "\f128";
-}
-
-/* line 112, lib/scss/_dashicon.scss */
-.dashicons-format-gallery:before {
-  content: "\f161";
-}
-
-/* line 116, lib/scss/_dashicon.scss */
-.dashicons-format-audio:before {
-  content: "\f127";
-}
-
-/* line 120, lib/scss/_dashicon.scss */
-.dashicons-format-video:before {
-  content: "\f126";
-}
-
-/* line 124, lib/scss/_dashicon.scss */
-.dashicons-format-chat:before {
-  content: "\f125";
-}
-
-/* line 128, lib/scss/_dashicon.scss */
-.dashicons-format-status:before {
-  content: "\f130";
-}
-
-/* line 132, lib/scss/_dashicon.scss */
-.dashicons-format-aside:before {
-  content: "\f123";
-}
-
-/* line 136, lib/scss/_dashicon.scss */
-.dashicons-format-quote:before {
-  content: "\f122";
-}
-
-/* Welcome Screen Icons */
-/* line 143, lib/scss/_dashicon.scss */
-.dashicons-welcome-write-blog:before,
-.dashicons-welcome-edit-page:before {
-  content: "\f119";
-}
-
-/* line 148, lib/scss/_dashicon.scss */
-.dashicons-welcome-add-page:before {
-  content: "\f133";
-}
-
-/* line 152, lib/scss/_dashicon.scss */
-.dashicons-welcome-view-site:before {
-  content: "\f115";
-}
-
-/* line 156, lib/scss/_dashicon.scss */
-.dashicons-welcome-widgets-menus:before {
-  content: "\f116";
-}
-
-/* line 160, lib/scss/_dashicon.scss */
-.dashicons-welcome-comments:before {
-  content: "\f117";
-}
-
-/* line 164, lib/scss/_dashicon.scss */
-.dashicons-welcome-learn-more:before {
-  content: "\f118";
-}
-
-/* Image Editing Icons */
-/* line 171, lib/scss/_dashicon.scss */
-.dashicons-image-crop:before {
-  content: "\f165";
-}
-
-/* line 175, lib/scss/_dashicon.scss */
-.dashicons-image-rotate-left:before {
-  content: "\f166";
-}
-
-/* line 179, lib/scss/_dashicon.scss */
-.dashicons-image-rotate-right:before {
-  content: "\f167";
-}
-
-/* line 183, lib/scss/_dashicon.scss */
-.dashicons-image-flip-vertical:before {
-  content: "\f168";
-}
-
-/* line 187, lib/scss/_dashicon.scss */
-.dashicons-image-flip-horizontal:before {
-  content: "\f169";
-}
-
-/* Both Image Editing and TinyMCE */
-/* line 194, lib/scss/_dashicon.scss */
-.dashicons-undo:before {
-  content: "\f171";
-}
-
-/* line 198, lib/scss/_dashicon.scss */
-.dashicons-redo:before {
-  content: "\f172";
-}
-
-/* TinyMCE Icons */
-/* line 204, lib/scss/_dashicon.scss */
-.dashicons-editor-bold:before {
-  content: "\f200";
-}
-
-/* line 208, lib/scss/_dashicon.scss */
-.dashicons-editor-italic:before {
-  content: "\f201";
-}
-
-/* line 212, lib/scss/_dashicon.scss */
-.dashicons-editor-ul:before {
-  content: "\f203";
-}
-
-/* line 216, lib/scss/_dashicon.scss */
-.dashicons-editor-ol:before {
-  content: "\f204";
-}
-
-/* line 220, lib/scss/_dashicon.scss */
-.dashicons-editor-quote:before {
-  content: "\f205";
-}
-
-/* line 224, lib/scss/_dashicon.scss */
-.dashicons-editor-alignleft:before {
-  content: "\f206";
-}
-
-/* line 228, lib/scss/_dashicon.scss */
-.dashicons-editor-aligncenter:before {
-  content: "\f207";
-}
-
-/* line 232, lib/scss/_dashicon.scss */
-.dashicons-editor-alignright:before {
-  content: "\f208";
-}
-
-/* line 236, lib/scss/_dashicon.scss */
-.dashicons-editor-insertmore:before {
-  content: "\f209";
-}
-
-/* line 240, lib/scss/_dashicon.scss */
-.dashicons-editor-spellcheck:before {
-  content: "\f210";
-}
-
-/* line 244, lib/scss/_dashicon.scss */
-.dashicons-editor-distractionfree:before,
-.dashicons-editor-expand:before {
-  content: "\f211";
-}
-
-/* line 249, lib/scss/_dashicon.scss */
-.dashicons-editor-contract:before {
-  content: "\f506";
-}
-
-/* line 253, lib/scss/_dashicon.scss */
-.dashicons-editor-kitchensink:before {
-  content: "\f212";
-}
-
-/* line 257, lib/scss/_dashicon.scss */
-.dashicons-editor-underline:before {
-  content: "\f213";
-}
-
-/* line 261, lib/scss/_dashicon.scss */
-.dashicons-editor-justify:before {
-  content: "\f214";
-}
-
-/* line 265, lib/scss/_dashicon.scss */
-.dashicons-editor-textcolor:before {
-  content: "\f215";
-}
-
-/* line 269, lib/scss/_dashicon.scss */
-.dashicons-editor-paste-word:before {
-  content: "\f216";
-}
-
-/* line 273, lib/scss/_dashicon.scss */
-.dashicons-editor-paste-text:before {
-  content: "\f217";
-}
-
-/* line 277, lib/scss/_dashicon.scss */
-.dashicons-editor-removeformatting:before {
-  content: "\f218";
-}
-
-/* line 281, lib/scss/_dashicon.scss */
-.dashicons-editor-video:before {
-  content: "\f219";
-}
-
-/* line 285, lib/scss/_dashicon.scss */
-.dashicons-editor-customchar:before {
-  content: "\f220";
-}
-
-/* line 289, lib/scss/_dashicon.scss */
-.dashicons-editor-outdent:before {
-  content: "\f221";
-}
-
-/* line 293, lib/scss/_dashicon.scss */
-.dashicons-editor-indent:before {
-  content: "\f222";
-}
-
-/* line 297, lib/scss/_dashicon.scss */
-.dashicons-editor-help:before {
-  content: "\f223";
-}
-
-/* line 301, lib/scss/_dashicon.scss */
-.dashicons-editor-strikethrough:before {
-  content: "\f224";
-}
-
-/* line 305, lib/scss/_dashicon.scss */
-.dashicons-editor-unlink:before {
-  content: "\f225";
-}
-
-/* line 309, lib/scss/_dashicon.scss */
-.dashicons-editor-rtl:before {
-  content: "\f320";
-}
-
-/* line 313, lib/scss/_dashicon.scss */
-.dashicons-editor-break:before {
-  content: "\f474";
-}
-
-/* line 317, lib/scss/_dashicon.scss */
-.dashicons-editor-code:before {
-  content: "\f475";
-}
-
-/* line 321, lib/scss/_dashicon.scss */
-.dashicons-editor-paragraph:before {
-  content: "\f476";
-}
-
-/* Post Icons */
-/* line 327, lib/scss/_dashicon.scss */
-.dashicons-align-left:before {
-  content: "\f135";
-}
-
-/* line 331, lib/scss/_dashicon.scss */
-.dashicons-align-right:before {
-  content: "\f136";
-}
-
-/* line 335, lib/scss/_dashicon.scss */
-.dashicons-align-center:before {
-  content: "\f134";
-}
-
-/* line 339, lib/scss/_dashicon.scss */
-.dashicons-align-none:before {
-  content: "\f138";
-}
-
-/* line 343, lib/scss/_dashicon.scss */
-.dashicons-lock:before {
-  content: "\f160";
-}
-
-/* line 347, lib/scss/_dashicon.scss */
-.dashicons-calendar:before {
-  content: "\f145";
-}
-
-/* line 351, lib/scss/_dashicon.scss */
-.dashicons-visibility:before {
-  content: "\f177";
-}
-
-/* line 355, lib/scss/_dashicon.scss */
-.dashicons-post-status:before {
-  content: "\f173";
-}
-
-/* line 359, lib/scss/_dashicon.scss */
-.dashicons-edit:before {
-  content: "\f464";
-}
-
-/* line 363, lib/scss/_dashicon.scss */
-.dashicons-post-trash:before,
-.dashicons-trash:before {
-  content: "\f182";
-}
-
-/* Sorting */
-/* line 371, lib/scss/_dashicon.scss */
-.dashicons-external:before {
-  content: "\f504";
-}
-
-/* line 375, lib/scss/_dashicon.scss */
-.dashicons-arrow-up:before {
-  content: "\f142";
-}
-
-/* line 379, lib/scss/_dashicon.scss */
-.dashicons-arrow-down:before {
-  content: "\f140";
-}
-
-/* line 383, lib/scss/_dashicon.scss */
-.dashicons-arrow-left:before {
-  content: "\f141";
-}
-
-/* line 387, lib/scss/_dashicon.scss */
-.dashicons-arrow-right:before {
-  content: "\f139";
-}
-
-/* line 391, lib/scss/_dashicon.scss */
-.dashicons-arrow-up-alt:before {
-  content: "\f342";
-}
-
-/* line 395, lib/scss/_dashicon.scss */
-.dashicons-arrow-down-alt:before {
-  content: "\f346";
-}
-
-/* line 399, lib/scss/_dashicon.scss */
-.dashicons-arrow-left-alt:before {
-  content: "\f340";
-}
-
-/* line 403, lib/scss/_dashicon.scss */
-.dashicons-arrow-right-alt:before {
-  content: "\f344";
-}
-
-/* line 407, lib/scss/_dashicon.scss */
-.dashicons-arrow-up-alt2:before {
-  content: "\f343";
-}
-
-/* line 411, lib/scss/_dashicon.scss */
-.dashicons-arrow-down-alt2:before {
-  content: "\f347";
-}
-
-/* line 415, lib/scss/_dashicon.scss */
-.dashicons-arrow-left-alt2:before {
-  content: "\f341";
-}
-
-/* line 419, lib/scss/_dashicon.scss */
-.dashicons-arrow-right-alt2:before {
-  content: "\f345";
-}
-
-/* line 423, lib/scss/_dashicon.scss */
-.dashicons-leftright:before {
-  content: "\f229";
-}
-
-/* line 427, lib/scss/_dashicon.scss */
-.dashicons-sort:before {
-  content: "\f156";
-}
-
-/* line 431, lib/scss/_dashicon.scss */
-.dashicons-randomize:before {
-  content: "\f503";
-}
-
-/* line 435, lib/scss/_dashicon.scss */
-.dashicons-list-view:before {
-  content: "\f163";
-}
-
-/* line 439, lib/scss/_dashicon.scss */
-.dashicons-exerpt-view:before {
-  content: "\f164";
-}
-
-/* WPorg specific icons: Jobs, Profiles, WordCamps */
-/* line 446, lib/scss/_dashicon.scss */
-.dashicons-hammer:before {
-  content: "\f308";
-}
-
-/* line 450, lib/scss/_dashicon.scss */
-.dashicons-art:before {
-  content: "\f309";
-}
-
-/* line 454, lib/scss/_dashicon.scss */
-.dashicons-migrate:before {
-  content: "\f310";
-}
-
-/* line 458, lib/scss/_dashicon.scss */
-.dashicons-performance:before {
-  content: "\f311";
-}
-
-/* line 462, lib/scss/_dashicon.scss */
-.dashicons-universal-access:before {
-  content: "\f483";
-}
-
-/* line 466, lib/scss/_dashicon.scss */
-.dashicons-universal-access-alt:before {
-  content: "\f507";
-}
-
-/* line 470, lib/scss/_dashicon.scss */
-.dashicons-tickets:before {
-  content: "\f486";
-}
-
-/* line 474, lib/scss/_dashicon.scss */
-.dashicons-nametag:before {
-  content: "\f484";
-}
-
-/* line 478, lib/scss/_dashicon.scss */
-.dashicons-clipboard:before {
-  content: "\f481";
-}
-
-/* line 482, lib/scss/_dashicon.scss */
-.dashicons-heart:before {
-  content: "\f487";
-}
-
-/* line 486, lib/scss/_dashicon.scss */
-.dashicons-megaphone:before {
-  content: "\f488";
-}
-
-/* line 490, lib/scss/_dashicon.scss */
-.dashicons-schedule:before {
-  content: "\f489";
-}
-
-/* Internal/Products */
-/* line 497, lib/scss/_dashicon.scss */
-.dashicons-wordpress:before {
-  content: "\f120";
-}
-
-/* line 501, lib/scss/_dashicon.scss */
-.dashicons-wordpress-alt:before {
-  content: "\f324";
-}
-
-/* line 505, lib/scss/_dashicon.scss */
-.dashicons-pressthis:before {
-  content: "\f157";
-}
-
-/* line 509, lib/scss/_dashicon.scss */
-.dashicons-update:before {
-  content: "\f463";
-}
-
-/* line 513, lib/scss/_dashicon.scss */
-.dashicons-screenoptions:before {
-  content: "\f180";
-}
-
-/* line 517, lib/scss/_dashicon.scss */
-.dashicons-info:before {
-  content: "\f348";
-}
-
-/* line 521, lib/scss/_dashicon.scss */
-.dashicons-cart:before {
-  content: "\f174";
-}
-
-/* line 525, lib/scss/_dashicon.scss */
-.dashicons-feedback:before {
-  content: "\f175";
-}
-
-/* line 529, lib/scss/_dashicon.scss */
-.dashicons-cloud:before {
-  content: "\f176";
-}
-
-/* line 533, lib/scss/_dashicon.scss */
-.dashicons-translation:before {
-  content: "\f326";
-}
-
-/* Taxonomies */
-/* line 540, lib/scss/_dashicon.scss */
-.dashicons-tag:before, .entry-tags:before {
-  content: "\f323";
-}
-
-/* line 544, lib/scss/_dashicon.scss */
-.dashicons-category:before, .entry-categories:before {
-  content: "\f318";
-}
-
-/* Widget icons */
-/* line 551, lib/scss/_dashicon.scss */
-.dashicons-archive:before {
-  content: "\f480";
-}
-
-/* line 555, lib/scss/_dashicon.scss */
-.dashicons-tagcloud:before {
-  content: "\f479";
-}
-
-/* line 559, lib/scss/_dashicon.scss */
-.dashicons-text:before {
-  content: "\f478";
-}
-
-/* Media icons */
-/* line 566, lib/scss/_dashicon.scss */
-.dashicons-media-archive:before {
-  content: "\f501";
-}
-
-/* line 570, lib/scss/_dashicon.scss */
-.dashicons-media-audio:before {
-  content: "\f500";
-}
-
-/* line 574, lib/scss/_dashicon.scss */
-.dashicons-media-code:before {
-  content: "\f499";
-}
-
-/* line 578, lib/scss/_dashicon.scss */
-.dashicons-media-default:before {
-  content: "\f498";
-}
-
-/* line 582, lib/scss/_dashicon.scss */
-.dashicons-media-document:before {
-  content: "\f497";
-}
-
-/* line 586, lib/scss/_dashicon.scss */
-.dashicons-media-interactive:before {
-  content: "\f496";
-}
-
-/* line 590, lib/scss/_dashicon.scss */
-.dashicons-media-spreadsheet:before {
-  content: "\f495";
-}
-
-/* line 594, lib/scss/_dashicon.scss */
-.dashicons-media-text:before {
-  content: "\f491";
-}
-
-/* line 598, lib/scss/_dashicon.scss */
-.dashicons-media-video:before {
-  content: "\f490";
-}
-
-/* line 602, lib/scss/_dashicon.scss */
-.dashicons-playlist-audio:before {
-  content: "\f492";
-}
-
-/* line 606, lib/scss/_dashicon.scss */
-.dashicons-playlist-video:before {
-  content: "\f493";
-}
-
-/* Alerts/Notifications/Flags */
-/* line 613, lib/scss/_dashicon.scss */
-.dashicons-yes:before {
-  content: "\f147";
-}
-
-/* line 617, lib/scss/_dashicon.scss */
-.dashicons-no:before {
-  content: "\f158";
-}
-
-/* line 621, lib/scss/_dashicon.scss */
-.dashicons-no-alt:before {
-  content: "\f335";
-}
-
-/* line 625, lib/scss/_dashicon.scss */
-.dashicons-plus:before {
-  content: "\f132";
-}
-
-/* line 629, lib/scss/_dashicon.scss */
-.dashicons-plus-alt:before {
-  content: "\f502";
-}
-
-/* line 633, lib/scss/_dashicon.scss */
-.dashicons-minus:before {
-  content: "\f460";
-}
-
-/* line 637, lib/scss/_dashicon.scss */
-.dashicons-dismiss:before {
-  content: "\f153";
-}
-
-/* line 641, lib/scss/_dashicon.scss */
-.dashicons-marker:before {
-  content: "\f159";
-}
-
-/* line 645, lib/scss/_dashicon.scss */
-.dashicons-star-filled:before {
-  content: "\f155";
-}
-
-/* line 649, lib/scss/_dashicon.scss */
-.dashicons-star-half:before {
-  content: "\f459";
-}
-
-/* line 653, lib/scss/_dashicon.scss */
-.dashicons-star-empty:before {
-  content: "\f154";
-}
-
-/* line 657, lib/scss/_dashicon.scss */
-.dashicons-flag:before {
-  content: "\f227";
-}
-
-/* Social Icons */
-/* line 664, lib/scss/_dashicon.scss */
-.dashicons-share:before {
-  content: "\f237";
-}
-
-/* line 668, lib/scss/_dashicon.scss */
-.dashicons-share1:before {
-  content: "\f237";
-}
-
-/* line 672, lib/scss/_dashicon.scss */
-.dashicons-share-alt:before {
-  content: "\f240";
-}
-
-/* line 676, lib/scss/_dashicon.scss */
-.dashicons-share-alt2:before {
-  content: "\f242";
-}
-
-/* line 680, lib/scss/_dashicon.scss */
-.dashicons-twitter:before, div.sharedaddy .sd-content li.share-twitter:before {
-  content: "\f301";
-}
-
-/* line 684, lib/scss/_dashicon.scss */
-.dashicons-rss:before {
-  content: "\f303";
-}
-
-/* line 688, lib/scss/_dashicon.scss */
-.dashicons-email:before, div.sharedaddy .sd-content li.share-email:before {
-  content: "\f465";
-}
-
-/* line 692, lib/scss/_dashicon.scss */
-.dashicons-email-alt:before, input[type="email"]:before {
-  content: "\f466";
-}
-
-/* line 696, lib/scss/_dashicon.scss */
-.dashicons-facebook:before {
-  content: "\f304";
-}
-
-/* line 700, lib/scss/_dashicon.scss */
-.dashicons-facebook-alt:before, div.sharedaddy .sd-content li.share-facebook:before {
-  content: "\f305";
-}
-
-/* line 704, lib/scss/_dashicon.scss */
-.dashicons-networking:before {
-  content: "\f325";
-}
-
-/* line 708, lib/scss/_dashicon.scss */
-.dashicons-googleplus:before, div.sharedaddy .sd-content li.share-google-plus-1:before {
-  content: "\f462";
-}
-
-/* Misc/CPT */
-/* line 715, lib/scss/_dashicon.scss */
-.dashicons-location:before {
-  content: "\f230";
-}
-
-/* line 719, lib/scss/_dashicon.scss */
-.dashicons-location-alt:before {
-  content: "\f231";
-}
-
-/* line 723, lib/scss/_dashicon.scss */
-.dashicons-camera:before {
-  content: "\f306";
-}
-
-/* line 727, lib/scss/_dashicon.scss */
-.dashicons-images-alt:before {
-  content: "\f232";
-}
-
-/* line 731, lib/scss/_dashicon.scss */
-.dashicons-images-alt2:before {
-  content: "\f233";
-}
-
-/* line 735, lib/scss/_dashicon.scss */
-.dashicons-video-alt:before {
-  content: "\f234";
-}
-
-/* line 739, lib/scss/_dashicon.scss */
-.dashicons-video-alt2:before {
-  content: "\f235";
-}
-
-/* line 743, lib/scss/_dashicon.scss */
-.dashicons-video-alt3:before {
-  content: "\f236";
-}
-
-/* line 747, lib/scss/_dashicon.scss */
-.dashicons-vault:before {
-  content: "\f178";
-}
-
-/* line 751, lib/scss/_dashicon.scss */
-.dashicons-shield:before {
-  content: "\f332";
-}
-
-/* line 755, lib/scss/_dashicon.scss */
-.dashicons-shield-alt:before {
-  content: "\f334";
-}
-
-/* line 759, lib/scss/_dashicon.scss */
-.dashicons-sos:before {
-  content: "\f468";
-}
-
-/* line 763, lib/scss/_dashicon.scss */
-.dashicons-search:before, .search-form:before {
-  content: "\f179";
-}
-
-/* line 767, lib/scss/_dashicon.scss */
-.dashicons-slides:before {
-  content: "\f181";
-}
-
-/* line 771, lib/scss/_dashicon.scss */
-.dashicons-analytics:before {
-  content: "\f183";
-}
-
-/* line 775, lib/scss/_dashicon.scss */
-.dashicons-chart-pie:before {
-  content: "\f184";
-}
-
-/* line 779, lib/scss/_dashicon.scss */
-.dashicons-chart-bar:before {
-  content: "\f185";
-}
-
-/* line 783, lib/scss/_dashicon.scss */
-.dashicons-chart-line:before {
-  content: "\f238";
-}
-
-/* line 787, lib/scss/_dashicon.scss */
-.dashicons-chart-area:before {
-  content: "\f239";
-}
-
-/* line 791, lib/scss/_dashicon.scss */
-.dashicons-groups:before {
-  content: "\f307";
-}
-
-/* line 795, lib/scss/_dashicon.scss */
-.dashicons-businessman:before {
-  content: "\f338";
-}
-
-/* line 799, lib/scss/_dashicon.scss */
-.dashicons-id:before {
-  content: "\f336";
-}
-
-/* line 803, lib/scss/_dashicon.scss */
-.dashicons-id-alt:before {
-  content: "\f337";
-}
-
-/* line 807, lib/scss/_dashicon.scss */
-.dashicons-products:before {
-  content: "\f312";
-}
-
-/* line 811, lib/scss/_dashicon.scss */
-.dashicons-awards:before {
-  content: "\f313";
-}
-
-/* line 815, lib/scss/_dashicon.scss */
-.dashicons-forms:before {
-  content: "\f314";
-}
-
-/* line 819, lib/scss/_dashicon.scss */
-.dashicons-testimonial:before {
-  content: "\f473";
-}
-
-/* line 823, lib/scss/_dashicon.scss */
-.dashicons-portfolio:before {
-  content: "\f322";
-}
-
-/* line 827, lib/scss/_dashicon.scss */
-.dashicons-book:before {
-  content: "\f330";
-}
-
-/* line 831, lib/scss/_dashicon.scss */
-.dashicons-book-alt:before {
-  content: "\f331";
-}
-
-/* line 835, lib/scss/_dashicon.scss */
-.dashicons-download:before {
-  content: "\f316";
-}
-
-/* line 839, lib/scss/_dashicon.scss */
-.dashicons-upload:before {
-  content: "\f317";
-}
-
-/* line 843, lib/scss/_dashicon.scss */
-.dashicons-backup:before {
-  content: "\f321";
-}
-
-/* line 847, lib/scss/_dashicon.scss */
-.dashicons-clock:before, .entry-time:before {
-  content: "\f469";
-}
-
-/* line 851, lib/scss/_dashicon.scss */
-.dashicons-lightbulb:before {
-  content: "\f339";
-}
-
-/* line 855, lib/scss/_dashicon.scss */
-.dashicons-microphone:before {
-  content: "\f482";
-}
-
-/* line 859, lib/scss/_dashicon.scss */
-.dashicons-desktop:before {
-  content: "\f472";
-}
-
-/* line 863, lib/scss/_dashicon.scss */
-.dashicons-tablet:before {
-  content: "\f471";
-}
-
-/* line 867, lib/scss/_dashicon.scss */
-.dashicons-smartphone:before {
-  content: "\f470";
-}
-
-/* line 871, lib/scss/_dashicon.scss */
-.dashicons-smiley:before {
-  content: "\f328";
-}
-
-/* line 36, lib/scss/_layout.scss */
+/* line 14, lib/scss/_layout.scss */
 .wrap, .site-inner {
   width: 100%;
   margin-left: auto;
@@ -9300,8 +8258,9 @@ div.sharedaddy .sd-content li.share-email:before, div.sharedaddy .sd-content li.
   clear: both;
 }
 
-/* line 41, lib/scss/_layout.scss */
-.content-sidebar .content, .sidebar-content .content, .content-sidebar-sidebar .content, .sidebar-sidebar-content .content, .sidebar-content-sidebar .content, .content-sidebar .sidebar-primary, .sidebar-content .sidebar-primary, .content-sidebar-sidebar .sidebar-primary, .sidebar-sidebar-content .sidebar-primary, .sidebar-content-sidebar .sidebar-primary, .content-sidebar-sidebar .sidebar-secondary, .sidebar-sidebar-content .sidebar-secondary, .sidebar-content-sidebar .sidebar-secondary, .full-width-content
+/* line 19, lib/scss/_layout.scss */
+.content-sidebar .content, .sidebar-content .content, .title-area, .header-widget-area, .content-sidebar-sidebar .content, .sidebar-sidebar-content .content, .sidebar-content-sidebar .content, .content-sidebar .sidebar-primary, .sidebar-content .sidebar-primary, .content-sidebar-sidebar .sidebar-primary, .sidebar-sidebar-content .sidebar-primary, .sidebar-content-sidebar .sidebar-primary, .footer-widgets-1, .footer-widgets-2, .footer-widgets-3, .footer-widgets-4, .content-sidebar-sidebar .sidebar-secondary, .sidebar-sidebar-content .sidebar-secondary, .sidebar-content-sidebar .sidebar-secondary, .header-full-width
+.title-area, .menu-primary, .full-width-content
 .content {
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
@@ -9310,7 +8269,7 @@ div.sharedaddy .sd-content li.share-email:before, div.sharedaddy .sd-content li.
 }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 45, lib/scss/_layout.scss */
+  /* line 23, lib/scss/_layout.scss */
   .content-sidebar .content, .sidebar-content .content {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
@@ -9320,8 +8279,8 @@ div.sharedaddy .sd-content li.share-email:before, div.sharedaddy .sd-content li.
 }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 52, lib/scss/_layout.scss */
-  .content-sidebar-sidebar .content, .sidebar-sidebar-content .content, .sidebar-content-sidebar .content {
+  /* line 30, lib/scss/_layout.scss */
+  .title-area, .header-widget-area, .content-sidebar-sidebar .content, .sidebar-sidebar-content .content, .sidebar-content-sidebar .content {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 50%;
@@ -9330,7 +8289,7 @@ div.sharedaddy .sd-content li.share-email:before, div.sharedaddy .sd-content li.
 }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 59, lib/scss/_layout.scss */
+  /* line 37, lib/scss/_layout.scss */
   .content-sidebar .sidebar-primary, .sidebar-content .sidebar-primary, .content-sidebar-sidebar .sidebar-primary, .sidebar-sidebar-content .sidebar-primary, .sidebar-content-sidebar .sidebar-primary {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
@@ -9340,7 +8299,17 @@ div.sharedaddy .sd-content li.share-email:before, div.sharedaddy .sd-content li.
 }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 66, lib/scss/_layout.scss */
+  /* line 44, lib/scss/_layout.scss */
+  .footer-widgets-1, .footer-widgets-2, .footer-widgets-3, .footer-widgets-4 {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 25%;
+    float: left;
+  }
+}
+
+@media only screen and (min-width: 40.063em) {
+  /* line 51, lib/scss/_layout.scss */
   .content-sidebar-sidebar .sidebar-secondary, .sidebar-sidebar-content .sidebar-secondary, .sidebar-content-sidebar .sidebar-secondary {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
@@ -9350,7 +8319,7 @@ div.sharedaddy .sd-content li.share-email:before, div.sharedaddy .sd-content li.
 }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 80, lib/scss/_layout.scss */
+  /* line 65, lib/scss/_layout.scss */
   .sidebar-sidebar-content .content {
     position: relative;
     padding-left: 0.9375rem;
@@ -9362,7 +8331,7 @@ div.sharedaddy .sd-content li.share-email:before, div.sharedaddy .sd-content li.
 }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 86, lib/scss/_layout.scss */
+  /* line 71, lib/scss/_layout.scss */
   .sidebar-content .content {
     position: relative;
     padding-left: 0.9375rem;
@@ -9374,7 +8343,7 @@ div.sharedaddy .sd-content li.share-email:before, div.sharedaddy .sd-content li.
 }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 92, lib/scss/_layout.scss */
+  /* line 77, lib/scss/_layout.scss */
   .sidebar-content-sidebar .content, .sidebar-content-sidebar .sidebar-primary {
     position: relative;
     padding-left: 0.9375rem;
@@ -9386,7 +8355,7 @@ div.sharedaddy .sd-content li.share-email:before, div.sharedaddy .sd-content li.
 }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 99, lib/scss/_layout.scss */
+  /* line 84, lib/scss/_layout.scss */
   .sidebar-sidebar-content .sidebar-secondary, .sidebar-content-sidebar .sidebar-secondary {
     position: relative;
     padding-left: 0.9375rem;
@@ -9398,7 +8367,7 @@ div.sharedaddy .sd-content li.share-email:before, div.sharedaddy .sd-content li.
 }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 105, lib/scss/_layout.scss */
+  /* line 90, lib/scss/_layout.scss */
   .sidebar-content .sidebar-primary {
     position: relative;
     padding-left: 0.9375rem;
@@ -9410,7 +8379,7 @@ div.sharedaddy .sd-content li.share-email:before, div.sharedaddy .sd-content li.
 }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 117, lib/scss/_layout.scss */
+  /* line 102, lib/scss/_layout.scss */
   .sidebar-sidebar-content .sidebar-primary {
     position: relative;
     padding-left: 0.9375rem;
@@ -9421,63 +8390,75 @@ div.sharedaddy .sd-content li.share-email:before, div.sharedaddy .sd-content li.
   }
 }
 
-/*
-Site Header
---------------------------------------------- */
-/* Title Area
---------------------------------------------- */
-/* line 12, lib/scss/_header.scss */
-.title-area {
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
-  width: 100%;
-  float: left;
+/* line 11, lib/scss/_box.scss */
+.site-header {
   padding: 2.5rem 0;
 }
-@media only screen and (min-width: 40.063em) {
-  /* line 12, lib/scss/_header.scss */
-  .title-area {
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
-    width: 50%;
-    float: left;
-  }
-}
 
-/* line 20, lib/scss/_header.scss */
-.site-title {
-  font-size: 1.875rem;
-  line-height: 1;
-  margin-bottom: 0;
-  text-transform: uppercase;
-}
-/* line 25, lib/scss/_header.scss */
+/* line 21, lib/scss/_typography.scss */
 .site-title a {
   color: #222222;
 }
-/* line 27, lib/scss/_header.scss */
+/* line 23, lib/scss/_typography.scss */
 .site-title a:hover {
-  color: #0078a0;
+  color: #008cba;
 }
 
-/* line 33, lib/scss/_header.scss */
-.site-description {
-  color: #999;
-  font-size: 1.125rem;
+/* line 38, lib/scss/_typography.scss */
+.site-title, .site-description {
+  margin: 0;
   line-height: 1;
-  margin-bottom: 0;
 }
 
-/* Full width header, no widgets */
-/* line 42, lib/scss/_header.scss */
-.header-full-width .title-area {
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
-  width: 100%;
-  float: left;
+/* line 43, lib/scss/_typography.scss */
+.site-title, .site-description {
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 40em) {
+  /* line 47, lib/scss/_typography.scss */
+  .title-area, .header-widget-area {
+    text-align: center;
+  }
+}
+
+/* line 22, lib/scss/_header.scss */
+.site-title {
+  font-size: 1.875rem;
+}
+
+/* line 29, lib/scss/_header.scss */
+.site-description {
+  color: #6f6f6f;
+  font-size: 1.125rem;
+}
+
+/* line 37, lib/scss/_header.scss */
+.header-widget-area {
+  padding-top: 1.875rem;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 37, lib/scss/_header.scss */
+  .header-widget-area {
+    padding-top: 0;
+    text-align: right;
+  }
 }
 
 /* line 46, lib/scss/_header.scss */
+.header-image .site-header .widget-area {
+  padding: 2.5rem 0;
+}
+
+@media only screen and (min-width: 40.063em) {
+  /* line 54, lib/scss/_header.scss */
+  .site-header .search-form {
+    float: right;
+  }
+}
+
+/* Full width header, no widgets */
+/* line 61, lib/scss/_header.scss */
 .header-image .site-description,
 .header-image .site-title a {
   display: block;
@@ -9485,56 +8466,179 @@ Site Header
 }
 
 /* Logo, hide text */
-/* line 54, lib/scss/_header.scss */
+/* line 68, lib/scss/_header.scss */
 .header-image .site-header .wrap {
   background: url(images/logo.png) no-repeat left;
   padding: 0;
 }
 
-/* line 59, lib/scss/_header.scss */
+/* line 73, lib/scss/_header.scss */
 .header-image .site-title a {
   float: left;
   min-height: 164px;
   width: 100%;
 }
 
-/* Widget Area
---------------------------------------------- */
-/* line 68, lib/scss/_header.scss */
-.site-header .widget-area {
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
-  width: 100%;
-  float: left;
-  padding: 2.5rem 0;
-  text-align: center;
+/* line 13, lib/scss/_navigation.scss */
+.genesis-nav-menu {
+  color: #999;
+  margin-bottom: 0;
+  margin-left: 0;
 }
-@media only screen and (min-width: 40.063em) {
-  /* line 68, lib/scss/_header.scss */
-  .site-header .widget-area {
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
-    width: 50%;
-    float: left;
-    text-align: right;
-  }
+
+/* line 19, lib/scss/_navigation.scss */
+.genesis-nav-menu .menu-item {
+  display: inline-block;
+  text-align: left;
 }
-/* line 76, lib/scss/_header.scss */
-.site-header .widget-area .alignleft {
+
+/* line 24, lib/scss/_navigation.scss */
+.genesis-nav-menu a {
+  border: none;
+  color: #999;
+  display: block;
+  padding: 1.5rem;
+  position: relative;
+}
+
+/* line 32, lib/scss/_navigation.scss */
+.genesis-nav-menu a:hover,
+.genesis-nav-menu .current-menu-item > a,
+.genesis-nav-menu .sub-menu .current-menu-item > a:hover {
+  color: #333;
+}
+
+/* line 38, lib/scss/_navigation.scss */
+.genesis-nav-menu .sub-menu .current-menu-item > a {
+  color: #999;
+}
+
+/* line 42, lib/scss/_navigation.scss */
+.genesis-nav-menu > .menu-item > a {
+  text-transform: uppercase;
+}
+
+/* line 46, lib/scss/_navigation.scss */
+.genesis-nav-menu .sub-menu {
+  left: -9999px;
+  opacity: 0;
+  position: absolute;
+  -webkit-transition: opacity .4s ease-in-out;
+  -moz-transition: opacity .4s ease-in-out;
+  -ms-transition: opacity .4s ease-in-out;
+  -o-transition: opacity .4s ease-in-out;
+  transition: opacity .4s ease-in-out;
+  width: 200px;
+  z-index: 99;
+}
+
+/* line 59, lib/scss/_navigation.scss */
+.genesis-nav-menu .sub-menu a {
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-top: none;
+  font-size: 0.875rem;
+  padding: 1rem 1.25rem;
+  position: relative;
+  width: 12.5rem;
+}
+
+/* line 69, lib/scss/_navigation.scss */
+.genesis-nav-menu .sub-menu .sub-menu {
+  margin: -54px 0 0 199px;
+}
+
+/* line 73, lib/scss/_navigation.scss */
+.genesis-nav-menu .menu-item:hover {
+  position: static;
+}
+
+/* line 77, lib/scss/_navigation.scss */
+.genesis-nav-menu .menu-item:hover > .sub-menu {
+  left: auto;
+  opacity: 1;
+}
+
+/* line 82, lib/scss/_navigation.scss */
+.genesis-nav-menu > .first > a {
+  padding-left: 0;
+}
+
+/* line 86, lib/scss/_navigation.scss */
+.genesis-nav-menu > .last > a {
+  padding-right: 0;
+}
+
+/* line 90, lib/scss/_navigation.scss */
+.genesis-nav-menu > .right {
+  display: inline-block;
   float: right;
+  list-style-type: none;
+  padding: 28px 0;
+  padding: 2.8rem 0;
+  text-transform: uppercase;
 }
 
-/* line 81, lib/scss/_header.scss */
-.header-image .site-header .widget-area {
-  padding: 2.5rem 0;
+/* line 99, lib/scss/_navigation.scss */
+.genesis-nav-menu > .right > a {
+  display: inline;
+  padding: 0;
 }
 
-/* line 85, lib/scss/_header.scss */
-.site-header .search-form {
-  float: right;
+/* line 104, lib/scss/_navigation.scss */
+.genesis-nav-menu > .rss > a {
+  margin-left: 48px;
+  margin-left: 4.8rem;
 }
 
-/* line 20, lib/scss/_footer.scss */
+/* line 109, lib/scss/_navigation.scss */
+.genesis-nav-menu > .search {
+  padding: 14px 0 0;
+  padding: 1.4rem 0 0;
+}
+
+/* line 118, lib/scss/_navigation.scss */
+.site-header .sub-menu {
+  border-top: 1px solid #eee;
+}
+
+/* line 122, lib/scss/_navigation.scss */
+.site-header .sub-menu .sub-menu {
+  margin-top: -55px;
+}
+
+/* line 130, lib/scss/_navigation.scss */
+.nav-primary {
+  background-color: #333;
+}
+
+/* line 134, lib/scss/_navigation.scss */
+.nav-primary a:hover,
+.nav-primary .current-menu-item > a {
+  color: #fff;
+}
+
+/* line 139, lib/scss/_navigation.scss */
+.nav-primary .sub-menu a:hover {
+  color: #333;
+}
+
+/* line 143, lib/scss/_navigation.scss */
+.genesis-nav-menu > .menu-item:first-child a {
+  padding-left: 0;
+}
+
+/* line 147, lib/scss/_navigation.scss */
+.nav-primary > a:first {
+  padding-left: 0;
+}
+
+/* line 155, lib/scss/_navigation.scss */
+.nav-secondary {
+  background-color: #fff;
+}
+
+/* line 24, lib/scss/_footer.scss */
 .footer-widgets a, .site-footer a {
   border-bottom: 1px solid #666666;
 }
@@ -9542,80 +8646,59 @@ Site Header
 /*
 Footer Widgets
 ---------------------------------------- */
-/* line 28, lib/scss/_footer.scss */
+/* line 32, lib/scss/_footer.scss */
 .footer-widgets {
   background-color: #333333;
   color: #999999;
   clear: both;
   padding: 2.5rem 0 1rem;
 }
-/* line 33, lib/scss/_footer.scss */
-.footer-widgets .widget-area {
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
-  width: 100%;
-  float: left;
-}
-@media only screen and (min-width: 40.063em) {
-  /* line 33, lib/scss/_footer.scss */
-  .footer-widgets .widget-area {
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
-    width: 25%;
-    float: left;
-  }
-}
-/* line 39, lib/scss/_footer.scss */
+/* line 37, lib/scss/_footer.scss */
 .footer-widgets abbr {
   color: gray;
 }
-/* line 42, lib/scss/_footer.scss */
+/* line 40, lib/scss/_footer.scss */
 .footer-widgets a {
   color: #999999;
 }
-/* line 45, lib/scss/_footer.scss */
+/* line 43, lib/scss/_footer.scss */
 .footer-widgets a:hover {
   color: #dddddd;
 }
-/* line 49, lib/scss/_footer.scss */
+/* line 47, lib/scss/_footer.scss */
 .footer-widgets .simple-social-icons ul li a {
   background: none !important;
   color: #999999 !important;
 }
-/* line 52, lib/scss/_footer.scss */
+/* line 50, lib/scss/_footer.scss */
 .footer-widgets .simple-social-icons ul li a:hover {
   background: #666 !important;
   color: #dddddd !important;
 }
-/* line 57, lib/scss/_footer.scss */
+/* line 55, lib/scss/_footer.scss */
 .footer-widgets .widget {
   margin-bottom: 24px;
   margin-bottom: 2.4rem;
 }
-/* line 61, lib/scss/_footer.scss */
+/* line 59, lib/scss/_footer.scss */
 .footer-widgets .widget-title {
   color: #dddddd;
 }
-/* line 64, lib/scss/_footer.scss */
+/* line 62, lib/scss/_footer.scss */
 .footer-widgets ul {
   margin-left: 0;
 }
-/* line 66, lib/scss/_footer.scss */
+/* line 64, lib/scss/_footer.scss */
 .footer-widgets ul li {
   list-style-type: none;
   margin-bottom: 0.375rem;
   word-wrap: break-word;
 }
 
-/* line 74, lib/scss/_footer.scss */
-.footer-widgets .search-form input:focus {
-  border: 1px solid #ddd;
-}
-
 /*
 Site Footer
 ----------------------------------------- */
-/* line 83, lib/scss/_footer.scss */
+/* line 76, lib/scss/_footer.scss */
 .site-footer {
   background-color: #222222;
   color: #999999;
@@ -9623,15 +8706,15 @@ Site Footer
   padding: 2.5rem 0;
   text-align: center;
 }
-/* line 89, lib/scss/_footer.scss */
+/* line 82, lib/scss/_footer.scss */
 .site-footer p {
   margin-bottom: 0;
 }
-/* line 92, lib/scss/_footer.scss */
+/* line 85, lib/scss/_footer.scss */
 .site-footer a {
   color: #999999;
 }
-/* line 95, lib/scss/_footer.scss */
+/* line 88, lib/scss/_footer.scss */
 .site-footer a:hover {
   color: #dddddd;
 }
@@ -9777,766 +8860,6 @@ Site Footer
   border-radius: 0 !important;
 }
 
-/* line 30, lib/scss/_jetpack-sharing.scss */
-div.sharedaddy .sd-content ul {
-  margin: 0 auto 1.0625rem auto;
-  margin-left: -1.375rem;
-  margin-right: 0;
-  padding: 0;
-  list-style: none;
-  overflow: hidden;
-}
-/* line 41, bower_components/foundation/scss/foundation/components/_inline-lists.scss */
-div.sharedaddy .sd-content ul > li {
-  list-style: none;
-  float: left;
-  margin-left: 1.375rem;
-  display: block;
-}
-/* line 46, bower_components/foundation/scss/foundation/components/_inline-lists.scss */
-div.sharedaddy .sd-content ul > li > * {
-  display: block;
-}
-/* line 32, lib/scss/_jetpack-sharing.scss */
-div.sharedaddy .sd-content ul span {
-  position: absolute;
-  margin-right: 10px;
-}
-
-/* line 39, lib/scss/_jetpack-sharing.scss */
-div.sharedaddy .sd-content li.share-digg {
-  background: black !important;
-  border: 1px solid black !important;
-}
-/* line 42, lib/scss/_jetpack-sharing.scss */
-div.sharedaddy .sd-content li.share-digg a {
-  color: #fff;
-}
-/* line 44, lib/scss/_jetpack-sharing.scss */
-div.sharedaddy .sd-content li.share-digg a:hover {
-  color: black;
-}
-
-/* line 39, lib/scss/_jetpack-sharing.scss */
-div.sharedaddy .sd-content li.share-email {
-  background: #bdbdbd !important;
-  border: 1px solid #a4a4a4 !important;
-}
-/* line 42, lib/scss/_jetpack-sharing.scss */
-div.sharedaddy .sd-content li.share-email a {
-  color: #fff;
-}
-/* line 44, lib/scss/_jetpack-sharing.scss */
-div.sharedaddy .sd-content li.share-email a:hover {
-  color: #a4a4a4;
-}
-
-/* line 39, lib/scss/_jetpack-sharing.scss */
-div.sharedaddy .sd-content li.share-facebook {
-  background: #3b5998 !important;
-  border: 1px solid #2d4373 !important;
-}
-/* line 42, lib/scss/_jetpack-sharing.scss */
-div.sharedaddy .sd-content li.share-facebook a {
-  color: #fff;
-}
-/* line 44, lib/scss/_jetpack-sharing.scss */
-div.sharedaddy .sd-content li.share-facebook a:hover {
-  color: #2d4373;
-}
-
-/* line 39, lib/scss/_jetpack-sharing.scss */
-div.sharedaddy .sd-content li.share-google-plus-1 {
-  background: #dd4b39 !important;
-  border: 1px solid #c23321 !important;
-}
-/* line 42, lib/scss/_jetpack-sharing.scss */
-div.sharedaddy .sd-content li.share-google-plus-1 a {
-  color: #fff;
-}
-/* line 44, lib/scss/_jetpack-sharing.scss */
-div.sharedaddy .sd-content li.share-google-plus-1 a:hover {
-  color: #c23321;
-}
-
-/* line 39, lib/scss/_jetpack-sharing.scss */
-div.sharedaddy .sd-content li.share-linkedin {
-  background: #0e76a8 !important;
-  border: 1px solid #0a5579 !important;
-}
-/* line 42, lib/scss/_jetpack-sharing.scss */
-div.sharedaddy .sd-content li.share-linkedin a {
-  color: #fff;
-}
-/* line 44, lib/scss/_jetpack-sharing.scss */
-div.sharedaddy .sd-content li.share-linkedin a:hover {
-  color: #0a5579;
-}
-
-/* line 39, lib/scss/_jetpack-sharing.scss */
-div.sharedaddy .sd-content li.share-pinterest {
-  background: #c8232c !important;
-  border: 1px solid #9d1b22 !important;
-}
-/* line 42, lib/scss/_jetpack-sharing.scss */
-div.sharedaddy .sd-content li.share-pinterest a {
-  color: #fff;
-}
-/* line 44, lib/scss/_jetpack-sharing.scss */
-div.sharedaddy .sd-content li.share-pinterest a:hover {
-  color: #9d1b22;
-}
-
-/* line 39, lib/scss/_jetpack-sharing.scss */
-div.sharedaddy .sd-content li.share-print {
-  background: #888888 !important;
-  border: 1px solid #6f6f6f !important;
-}
-/* line 42, lib/scss/_jetpack-sharing.scss */
-div.sharedaddy .sd-content li.share-print a {
-  color: #fff;
-}
-/* line 44, lib/scss/_jetpack-sharing.scss */
-div.sharedaddy .sd-content li.share-print a:hover {
-  color: #6f6f6f;
-}
-
-/* line 39, lib/scss/_jetpack-sharing.scss */
-div.sharedaddy .sd-content li.share-reddit {
-  background: #cee2f8 !important;
-  border: 1px solid #a1c8f2 !important;
-}
-/* line 42, lib/scss/_jetpack-sharing.scss */
-div.sharedaddy .sd-content li.share-reddit a {
-  color: #fff;
-}
-/* line 44, lib/scss/_jetpack-sharing.scss */
-div.sharedaddy .sd-content li.share-reddit a:hover {
-  color: #a1c8f2;
-}
-
-/* line 39, lib/scss/_jetpack-sharing.scss */
-div.sharedaddy .sd-content li.share-stumbleupon {
-  background: #f74425 !important;
-  border: 1px solid #e12808 !important;
-}
-/* line 42, lib/scss/_jetpack-sharing.scss */
-div.sharedaddy .sd-content li.share-stumbleupon a {
-  color: #fff;
-}
-/* line 44, lib/scss/_jetpack-sharing.scss */
-div.sharedaddy .sd-content li.share-stumbleupon a:hover {
-  color: #e12808;
-}
-
-/* line 39, lib/scss/_jetpack-sharing.scss */
-div.sharedaddy .sd-content li.share-tumblr {
-  background: #34526f !important;
-  border: 1px solid #24384c !important;
-}
-/* line 42, lib/scss/_jetpack-sharing.scss */
-div.sharedaddy .sd-content li.share-tumblr a {
-  color: #fff;
-}
-/* line 44, lib/scss/_jetpack-sharing.scss */
-div.sharedaddy .sd-content li.share-tumblr a:hover {
-  color: #24384c;
-}
-
-/* line 39, lib/scss/_jetpack-sharing.scss */
-div.sharedaddy .sd-content li.share-twitter {
-  background: #55acee !important;
-  border: 1px solid #2795e9 !important;
-}
-/* line 42, lib/scss/_jetpack-sharing.scss */
-div.sharedaddy .sd-content li.share-twitter a {
-  color: #fff;
-}
-/* line 44, lib/scss/_jetpack-sharing.scss */
-div.sharedaddy .sd-content li.share-twitter a:hover {
-  color: #2795e9;
-}
-
-/* line 53, lib/scss/_jetpack-sharing.scss */
-div.sharedaddy .sd-content li.share-email:before {
-  color: #fff;
-}
-
-/* line 53, lib/scss/_jetpack-sharing.scss */
-div.sharedaddy .sd-content li.share-facebook:before {
-  color: #fff;
-}
-
-/* line 53, lib/scss/_jetpack-sharing.scss */
-div.sharedaddy .sd-content li.share-google-plus-1:before {
-  color: #fff;
-}
-
-/* line 53, lib/scss/_jetpack-sharing.scss */
-div.sharedaddy .sd-content li.share-twitter:before {
-  color: #fff;
-}
-
-/* line 63, lib/scss/_jetpack-sharing.scss */
-.sharrre {
-  display: inline-block;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  margin-right: 5px;
-  overflow: hidden;
-  position: relative;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-/* Buttons */
-/* line 79, lib/scss/_jetpack-sharing.scss */
-.sharrre .share,
-.sharrre .count {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  border: none;
-  display: inline-block;
-  padding: 0;
-  text-decoration: none !important;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-/* line 96, lib/scss/_jetpack-sharing.scss */
-.sharrre .share {
-  color: #fff;
-  float: left;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-/* line 103, lib/scss/_jetpack-sharing.scss */
-.sharrre:hover .share {
-  border: none;
-  color: #fff;
-  text-decoration: none;
-}
-
-/* line 109, lib/scss/_jetpack-sharing.scss */
-.sharrre .count {
-  background-color: #fff;
-  font-weight: bold;
-  position: relative;
-  text-align: center;
-}
-
-/* Small */
-/* line 118, lib/scss/_jetpack-sharing.scss */
-.share-small .share,
-.share-small .count {
-  font-size: 12px;
-  height: 20px;
-  line-height: 20px;
-}
-
-/* line 125, lib/scss/_jetpack-sharing.scss */
-.share-small .share {
-  border-top-left-radius: 3px;
-  border-bottom-left-radius: 3px;
-  padding: 0 0 0 24px;
-  width: 20px;
-}
-
-/* line 132, lib/scss/_jetpack-sharing.scss */
-.share-small .sharrre:hover .share {
-  width: 60px;
-}
-
-/* line 133, lib/scss/_jetpack-sharing.scss */
-.share-small .facebook:hover .share {
-  width: 50px;
-}
-
-/* line 134, lib/scss/_jetpack-sharing.scss */
-.share-small .pinterest:hover .share {
-  width: 45px;
-}
-
-/* line 135, lib/scss/_jetpack-sharing.scss */
-.share-small .googlePlus:hover .share {
-  width: 40px;
-}
-
-/* line 137, lib/scss/_jetpack-sharing.scss */
-.share-small .count {
-  border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
-  float: right;
-  width: 42px;
-}
-
-/* Medium */
-/* line 146, lib/scss/_jetpack-sharing.scss */
-.share-medium .share,
-.share-medium .count {
-  font-size: 13px;
-  height: 25px;
-  line-height: 25px;
-}
-
-/* line 153, lib/scss/_jetpack-sharing.scss */
-.share-medium .share {
-  border-top-left-radius: 3px;
-  border-bottom-left-radius: 3px;
-  padding: 0 0 0 28px;
-  width: 28px;
-}
-
-/* line 160, lib/scss/_jetpack-sharing.scss */
-.share-medium .count {
-  border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
-  float: right;
-  width: 42px;
-}
-
-/* line 167, lib/scss/_jetpack-sharing.scss */
-.share-medium .sharrre:hover .share {
-  width: 65px;
-}
-
-/* line 168, lib/scss/_jetpack-sharing.scss */
-.share-medium .facebook:hover .share {
-  width: 55px;
-}
-
-/* line 169, lib/scss/_jetpack-sharing.scss */
-.share-medium .pinterest:hover .share {
-  width: 50px;
-}
-
-/* line 170, lib/scss/_jetpack-sharing.scss */
-.share-medium .googlePlus:hover .share {
-  width: 45px;
-}
-
-/* Tall */
-/* line 174, lib/scss/_jetpack-sharing.scss */
-.share-tall .share {
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px;
-  font-size: 13px;
-  height: 25px;
-  line-height: 25px;
-  padding-left: 20px;
-  text-align: center;
-  width: 100%;
-}
-
-/* line 185, lib/scss/_jetpack-sharing.scss */
-.share-tall .googlePlus .share {
-  padding-left: 16px;
-}
-
-/* line 186, lib/scss/_jetpack-sharing.scss */
-.share-tall .facebook .share {
-  padding-left: 18px;
-}
-
-/* line 188, lib/scss/_jetpack-sharing.scss */
-.share-tall .count {
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
-  display: block;
-  float: none;
-  font-size: 16px;
-  height: 55px;
-  line-height: 55px;
-  width: 75px;
-}
-
-/* Icons */
-/* line 201, lib/scss/_jetpack-sharing.scss */
-.share-small .share:before,
-.share-medium .share:before,
-.share-tall .share:before {
-  line-height: 1;
-  display: block;
-  font-family: 'Genericons';
-  font-size: 13px;
-  height: 20px;
-  top: 4px;
-  left: 6px;
-  text-indent: 0;
-  -webkit-font-smoothing: antialiased;
-  position: absolute;
-  width: 20px;
-}
-
-/* line 217, lib/scss/_jetpack-sharing.scss */
-.share-medium .share:before {
-  font-size: 14px;
-  top: 5px;
-  left: 7px;
-}
-
-/* line 223, lib/scss/_jetpack-sharing.scss */
-.share-tall .share:before {
-  bottom: 0px;
-  top: auto;
-}
-
-/* line 228, lib/scss/_jetpack-sharing.scss */
-.twitter .share:before {
-  content: '\f202';
-}
-
-/* line 229, lib/scss/_jetpack-sharing.scss */
-.facebook .share:before {
-  content: '\f204';
-}
-
-/* line 230, lib/scss/_jetpack-sharing.scss */
-.googlePlus .share:before {
-  content: '\f218';
-}
-
-/* line 231, lib/scss/_jetpack-sharing.scss */
-.youtube .share:before {
-  content: '\f213';
-}
-
-/* line 232, lib/scss/_jetpack-sharing.scss */
-.digg .share:before {
-  content: '\f221';
-}
-
-/* line 233, lib/scss/_jetpack-sharing.scss */
-.delicious .share:before {
-  content: '\f202';
-}
-
-/* line 234, lib/scss/_jetpack-sharing.scss */
-.pinterest .share:before {
-  content: '\f209';
-}
-
-/* line 235, lib/scss/_jetpack-sharing.scss */
-.linkedin .share:before {
-  content: '\f207';
-}
-
-/* line 236, lib/scss/_jetpack-sharing.scss */
-.stumbleupon .share:before {
-  content: '\f223';
-}
-
-/* line 238, lib/scss/_jetpack-sharing.scss */
-.share-small .pinterest .share:before {
-  font-size: 12px;
-}
-
-/* line 242, lib/scss/_jetpack-sharing.scss */
-.share-small .linkedin .share:before {
-  font-size: 16px;
-  top: 1px;
-}
-
-/* line 247, lib/scss/_jetpack-sharing.scss */
-.share-small .stumbleupon .share:before {
-  font-size: 16px;
-  top: 3px;
-}
-
-/* line 252, lib/scss/_jetpack-sharing.scss */
-.share-medium .pinterest .share:before {
-  font-size: 13px;
-  top: 6px;
-}
-
-/* line 257, lib/scss/_jetpack-sharing.scss */
-.share-medium .linkedin .share:before {
-  font-size: 17px;
-  top: 3px;
-}
-
-/* line 262, lib/scss/_jetpack-sharing.scss */
-.share-medium .stumbleupon .share:before {
-  font-size: 16px;
-  top: 5px;
-}
-
-/* line 267, lib/scss/_jetpack-sharing.scss */
-.share-tall .facebook .share:before {
-  left: 10px;
-}
-
-/* line 271, lib/scss/_jetpack-sharing.scss */
-.share-tall .googlePlus .share:before {
-  left: 13px;
-}
-
-/* line 275, lib/scss/_jetpack-sharing.scss */
-.share-tall .pinterest .share:before {
-  font-size: 13px;
-  bottom: -1px;
-}
-
-/* line 280, lib/scss/_jetpack-sharing.scss */
-.share-tall .linkedin .share:before {
-  font-size: 17px;
-  bottom: 2px;
-}
-
-/* line 285, lib/scss/_jetpack-sharing.scss */
-.share-tall .stumbleupon .share:before {
-  font-size: 16px;
-}
-
-/* Appearance - filled */
-/* line 291, lib/scss/_jetpack-sharing.scss */
-.share-filled .twitter .share {
-  background: #09b0ed;
-}
-
-/* line 292, lib/scss/_jetpack-sharing.scss */
-.share-filled .twitter .count,
-.share-filled .twitter .count:hover {
-  color: #09b0ed;
-  border: 1px solid #09b0ed;
-}
-
-/* line 295, lib/scss/_jetpack-sharing.scss */
-.share-filled .facebook .share {
-  background: #3d5a98;
-}
-
-/* line 296, lib/scss/_jetpack-sharing.scss */
-.share-filled .facebook .count,
-.share-filled .facebook .count:hover {
-  color: #3d5a98;
-  border: 1px solid #3d5a98;
-}
-
-/* line 299, lib/scss/_jetpack-sharing.scss */
-.share-filled .googlePlus .share {
-  background: #dd4c39;
-}
-
-/* line 300, lib/scss/_jetpack-sharing.scss */
-.share-filled .googlePlus .count,
-.share-filled .googlePlus .count:hover {
-  color: #dd4c39;
-  border: 1px solid #dd4c39;
-}
-
-/* line 303, lib/scss/_jetpack-sharing.scss */
-.share-filled .linkedin .share {
-  background: #035a87;
-}
-
-/* line 304, lib/scss/_jetpack-sharing.scss */
-.share-filled .linkedin .count,
-.share-filled .linkedin .count:hover {
-  color: #035a87;
-  border: 1px solid #035a87;
-}
-
-/* line 307, lib/scss/_jetpack-sharing.scss */
-.share-filled .youtube .share {
-  background: #cc181e;
-}
-
-/* line 308, lib/scss/_jetpack-sharing.scss */
-.share-filled .youtube .count,
-.share-filled .youtube .count:hover {
-  color: #cc181e;
-  border: 1px solid #cc181e;
-}
-
-/* line 311, lib/scss/_jetpack-sharing.scss */
-.share-filled .pinterest .share {
-  background: #cb2127;
-}
-
-/* line 312, lib/scss/_jetpack-sharing.scss */
-.share-filled .pinterest .count,
-.share-filled .pinterest .count:hover {
-  color: #cb2127;
-  border: 1px solid #cb2127;
-}
-
-/* line 315, lib/scss/_jetpack-sharing.scss */
-.share-filled .stumbleupon .share {
-  background: #eb4923;
-}
-
-/* line 316, lib/scss/_jetpack-sharing.scss */
-.share-filled .stumbleupon .count,
-.share-filled .stumbleupon .count:hover {
-  color: #eb4923;
-  border: 1px solid #eb4923;
-}
-
-/* line 319, lib/scss/_jetpack-sharing.scss */
-.share-filled .twitter:hover .count {
-  background: #09b0ed !important;
-}
-
-/* line 320, lib/scss/_jetpack-sharing.scss */
-.share-filled .facebook:hover .count {
-  background: #3d5a98 !important;
-}
-
-/* line 321, lib/scss/_jetpack-sharing.scss */
-.share-filled .googlePlus:hover .count {
-  background: #dd4c39 !important;
-}
-
-/* line 322, lib/scss/_jetpack-sharing.scss */
-.share-filled .linkedin:hover .count {
-  background: #035a87 !important;
-}
-
-/* line 323, lib/scss/_jetpack-sharing.scss */
-.share-filled .youtube:hover .count {
-  background: #cc181e !important;
-}
-
-/* line 324, lib/scss/_jetpack-sharing.scss */
-.share-filled .pinterest:hover .count {
-  background: #cb2127 !important;
-}
-
-/* line 325, lib/scss/_jetpack-sharing.scss */
-.share-filled .stumbleupon:hover .count {
-  background: #eb4923 !important;
-}
-
-/* line 327, lib/scss/_jetpack-sharing.scss */
-.share-filled .sharrre:hover .count {
-  color: #fff;
-}
-
-/* Appearance - outlined */
-/* line 332, lib/scss/_jetpack-sharing.scss */
-.share-outlined .twitter .share,
-.share-outlined .twitter .count,
-.share-outlined .twitter .count:hover {
-  border: 1px solid #09b0ed;
-  color: #09b0ed;
-}
-
-/* line 336, lib/scss/_jetpack-sharing.scss */
-.share-outlined .facebook .share,
-.share-outlined .facebook .count,
-.share-outlined .facebook .count:hover {
-  border: 1px solid #3d5a98;
-  color: #3d5a98;
-}
-
-/* line 340, lib/scss/_jetpack-sharing.scss */
-.share-outlined .googlePlus .share,
-.share-outlined .googlePlus .count,
-.share-outlined .googlePlus .count:hover {
-  border: 1px solid #dd4c39;
-  color: #dd4c39;
-}
-
-/* line 344, lib/scss/_jetpack-sharing.scss */
-.share-outlined .linkedin .share,
-.share-outlined .linkedin .count,
-.share-outlined .linkedin .count:hover {
-  border: 1px solid #035a87;
-  color: #035a87;
-}
-
-/* line 348, lib/scss/_jetpack-sharing.scss */
-.share-outlined .youtube .share,
-.share-outlined .youtube .count,
-.share-outlined .youtube .count:hover {
-  border: 1px solid #cc181e;
-  color: #cc181e;
-}
-
-/* line 352, lib/scss/_jetpack-sharing.scss */
-.share-outlined .pinterest .share,
-.share-outlined .pinterest .count,
-.share-outlined .pinterest .count:hover {
-  border: 1px solid #cb2127;
-  color: #cb2127;
-}
-
-/* line 356, lib/scss/_jetpack-sharing.scss */
-.share-outlined .stumbleupon .share,
-.share-outlined .stumbleupon .count,
-.share-outlined .stumbleupon .count:hover {
-  border: 1px solid #eb4923;
-  color: #eb4923;
-}
-
-/* line 360, lib/scss/_jetpack-sharing.scss */
-.share-outlined.share-small .share,
-.share-outlined.share-medium .share {
-  border-right: none !important;
-}
-
-/* line 363, lib/scss/_jetpack-sharing.scss */
-.share-outlined.share-tall .share {
-  border-top: none !important;
-}
-
-/* line 365, lib/scss/_jetpack-sharing.scss */
-.share-outlined .twitter:hover .share,
-.share-outlined .twitter:hover .count {
-  background: #09b0ed;
-}
-
-/* line 368, lib/scss/_jetpack-sharing.scss */
-.share-outlined .facebook:hover .share,
-.share-outlined .facebook:hover .count {
-  background: #3d5a98;
-}
-
-/* line 371, lib/scss/_jetpack-sharing.scss */
-.share-outlined .googlePlus:hover .share,
-.share-outlined .googlePlus:hover .count {
-  background: #dd4c39;
-}
-
-/* line 374, lib/scss/_jetpack-sharing.scss */
-.share-outlined .linkedin:hover .share,
-.share-outlined .linkedin:hover .count {
-  background: #035a87;
-}
-
-/* line 377, lib/scss/_jetpack-sharing.scss */
-.share-outlined .youtube:hover .share,
-.share-outlined .youtube:hover .count {
-  background: #cc181e;
-}
-
-/* line 380, lib/scss/_jetpack-sharing.scss */
-.share-outlined .pinterest:hover .share,
-.share-outlined .pinterest:hover .count {
-  background: #cb2127;
-}
-
-/* line 383, lib/scss/_jetpack-sharing.scss */
-.share-outlined .stumbleupon:hover .share,
-.share-outlined .stumbleupon:hover .count {
-  background: #eb4923;
-}
-
-/* line 386, lib/scss/_jetpack-sharing.scss */
-.share-outlined .sharrre:hover .count,
-.share-outlined .sharrre:hover .share {
-  color: #fff;
-}
-
 /* line 32, lib/scss/style.scss */
 a,
 button,
@@ -10659,27 +8982,7 @@ Common Classes
   margin-left: 2.4rem;
 }
 
-/* line 104, lib/scss/style.scss */
-.search-form:before {
-  font-size: 1.125rem;
-  color: #999;
-  right: 7px;
-  position: relative;
-  bottom: -28px;
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
-  -webkit-transform: scale(-1, 1);
-  -moz-transform: scale(-1, 1);
-  -ms-transform: scale(-1, 1);
-  -o-transform: scale(-1, 1);
-  transform: scale(-1, 1);
-}
-
-/* line 123, lib/scss/style.scss */
-input[type="email"]:before {
-  margin-top: -42px;
-}
-
-/* line 129, lib/scss/style.scss */
+/* line 103, lib/scss/style.scss */
 .search-form input[type="submit"] {
   border: 0;
   clip: rect(0, 0, 0, 0);
@@ -10690,7 +8993,7 @@ input[type="email"]:before {
   width: 1px;
 }
 
-/* line 142, lib/scss/style.scss */
+/* line 116, lib/scss/style.scss */
 img.centered,
 .aligncenter {
   display: block;
@@ -10698,39 +9001,39 @@ img.centered,
   margin: 0 auto 2.4rem;
 }
 
-/* line 149, lib/scss/style.scss */
+/* line 123, lib/scss/style.scss */
 img.alignnone {
   margin-bottom: 12px;
   margin-bottom: 1.2rem;
 }
 
-/* line 154, lib/scss/style.scss */
+/* line 128, lib/scss/style.scss */
 .alignleft {
   float: left;
   text-align: left;
 }
 
-/* line 159, lib/scss/style.scss */
+/* line 133, lib/scss/style.scss */
 .alignright {
   float: right;
   text-align: right;
 }
 
-/* line 164, lib/scss/style.scss */
+/* line 138, lib/scss/style.scss */
 img.alignleft,
 .wp-caption.alignleft {
   margin: 0 24px 24px 0;
   margin: 0 2.4rem 2.4rem 0;
 }
 
-/* line 170, lib/scss/style.scss */
+/* line 144, lib/scss/style.scss */
 img.alignright,
 .wp-caption.alignright {
   margin: 0 0 24px 24px;
   margin: 0 0 2.4rem 2.4rem;
 }
 
-/* line 176, lib/scss/style.scss */
+/* line 150, lib/scss/style.scss */
 .wp-caption-text {
   font-size: 14px;
   font-size: 1.4rem;
@@ -10738,12 +9041,12 @@ img.alignright,
   text-align: center;
 }
 
-/* line 186, lib/scss/style.scss */
+/* line 160, lib/scss/style.scss */
 .widget_calendar table {
   width: 100%;
 }
 
-/* line 190, lib/scss/style.scss */
+/* line 164, lib/scss/style.scss */
 .widget_calendar td,
 .widget_calendar th {
   text-align: center;
@@ -10751,7 +9054,7 @@ img.alignright,
 
 /* Genesis
 --------------------------------------------- */
-/* line 198, lib/scss/style.scss */
+/* line 172, lib/scss/style.scss */
 .breadcrumb {
   display: block;
   padding: 0.5625rem 0.875rem 0.5625rem;
@@ -10765,20 +9068,20 @@ img.alignright,
   margin-bottom: 1.25rem;
 }
 
-/* line 206, lib/scss/style.scss */
+/* line 180, lib/scss/style.scss */
 .archive-description,
 .author-box {
   background-color: #fff;
   margin-bottom: 2.5rem;
 }
 
-/* line 216, lib/scss/style.scss */
+/* line 190, lib/scss/style.scss */
 .author-box {
   padding: 2rem;
   background: #f5f5f5;
 }
 
-/* line 221, lib/scss/style.scss */
+/* line 195, lib/scss/style.scss */
 .author-box-title {
   color: #333;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -10788,52 +9091,52 @@ img.alignright,
   margin-bottom: 0.4rem;
 }
 
-/* line 230, lib/scss/style.scss */
+/* line 204, lib/scss/style.scss */
 .author-box a {
   border-bottom: 1px solid #ddd;
 }
 
-/* line 234, lib/scss/style.scss */
+/* line 208, lib/scss/style.scss */
 .author-box p {
   margin-bottom: 0;
 }
 
-/* line 238, lib/scss/style.scss */
+/* line 212, lib/scss/style.scss */
 .author-box .avatar {
   margin: 0 0.9375rem 0.9375rem 0;
 }
 
 /* Titles
 --------------------------------------------- */
-/* line 245, lib/scss/style.scss */
+/* line 219, lib/scss/style.scss */
 .entry-title {
   font-size: 2.25rem;
   line-height: 1;
 }
 
-/* line 250, lib/scss/style.scss */
+/* line 224, lib/scss/style.scss */
 .entry-title a,
 .sidebar .widget-title a {
   color: #333;
 }
-/* line 253, lib/scss/style.scss */
+/* line 227, lib/scss/style.scss */
 .entry-title a:hover,
 .sidebar .widget-title a:hover {
   color: #0078a0;
 }
 
-/* line 258, lib/scss/style.scss */
+/* line 232, lib/scss/style.scss */
 .widget-title {
   font-size: 1.25rem;
   text-transform: uppercase;
 }
 
-/* line 263, lib/scss/style.scss */
+/* line 237, lib/scss/style.scss */
 .sidebar .widget-title a {
   border: none;
 }
 
-/* line 267, lib/scss/style.scss */
+/* line 241, lib/scss/style.scss */
 .archive-title {
   font-size: 20px;
   font-size: 2rem;
@@ -10846,7 +9149,7 @@ Widgets
 ---------------------------------------------------------------------------------------------------- */
 /* Featured Content
 --------------------------------------------- */
-/* line 282, lib/scss/style.scss */
+/* line 256, lib/scss/style.scss */
 .featured-content .entry {
   border-bottom: 2px solid #f5f5f5;
   margin-bottom: 20px;
@@ -10855,7 +9158,7 @@ Widgets
   padding: 0 0 2.4rem;
 }
 
-/* line 290, lib/scss/style.scss */
+/* line 264, lib/scss/style.scss */
 .featured-content .entry-title {
   border: none;
   font-size: 24px;
@@ -10863,7 +9166,7 @@ Widgets
   line-height: 1.2;
 }
 
-/* line 297, lib/scss/style.scss */
+/* line 271, lib/scss/style.scss */
 .featured-content .entry-title a {
   border: none;
 }
@@ -10873,28 +9176,28 @@ Plugins
 ---------------------------------------------------------------------------------------------------- */
 /* Genesis eNews Extended
 --------------------------------------------- */
-/* line 309, lib/scss/style.scss */
+/* line 283, lib/scss/style.scss */
 .enews-widget {
   color: #999;
 }
 
-/* line 313, lib/scss/style.scss */
+/* line 287, lib/scss/style.scss */
 .enews-widget .widget-title {
   color: #fff;
 }
 
-/* line 317, lib/scss/style.scss */
+/* line 291, lib/scss/style.scss */
 .enews-widget input {
   margin-bottom: 16px;
   margin-bottom: 1.6rem;
 }
 
-/* line 322, lib/scss/style.scss */
+/* line 296, lib/scss/style.scss */
 .enews-widget input:focus {
   border: 1px solid #ddd;
 }
 
-/* line 326, lib/scss/style.scss */
+/* line 300, lib/scss/style.scss */
 .enews-widget input[type="submit"] {
   border-style: solid;
   border-width: 0px;
@@ -10934,7 +9237,7 @@ Plugins
 
 /* Genesis Latest Tweets
 --------------------------------------------- */
-/* line 338, lib/scss/style.scss */
+/* line 312, lib/scss/style.scss */
 .latest-tweets ul li {
   margin-bottom: 16px;
   margin-bottom: 1.6rem;
@@ -10942,7 +9245,7 @@ Plugins
 
 /* Gravity Forms
 --------------------------------------------- */
-/* line 346, lib/scss/style.scss */
+/* line 320, lib/scss/style.scss */
 div.gform_wrapper input[type="email"],
 div.gform_wrapper input[type="text"],
 div.gform_wrapper textarea,
@@ -10953,19 +9256,19 @@ div.gform_wrapper .ginput_complex label {
   padding: 1.6rem;
 }
 
-/* line 356, lib/scss/style.scss */
+/* line 330, lib/scss/style.scss */
 div.gform_wrapper .ginput_complex label {
   padding: 0;
 }
 
-/* line 360, lib/scss/style.scss */
+/* line 334, lib/scss/style.scss */
 div.gform_wrapper li,
 div.gform_wrapper form li {
   margin: 16px 0 0;
   margin: 1.6rem 0 0;
 }
 
-/* line 366, lib/scss/style.scss */
+/* line 340, lib/scss/style.scss */
 div.gform_wrapper .gform_footer input[type="submit"] {
   font-size: 14px;
   font-size: 1.4rem;
@@ -10973,181 +9276,9 @@ div.gform_wrapper .gform_footer input[type="submit"] {
 
 /* Jetpack
 --------------------------------------------- */
-/* line 374, lib/scss/style.scss */
+/* line 348, lib/scss/style.scss */
 img#wpstats {
   display: none;
-}
-
-/*
-Site Navigation
---------------------------------------------------------- */
-/* line 382, lib/scss/style.scss */
-.genesis-nav-menu {
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
-  width: 100%;
-  float: left;
-  color: #999;
-  margin-bottom: 0;
-  margin-left: 0;
-}
-
-/* line 389, lib/scss/style.scss */
-.genesis-nav-menu .menu-item {
-  display: inline-block;
-  text-align: left;
-}
-
-/* line 394, lib/scss/style.scss */
-.genesis-nav-menu a {
-  border: none;
-  color: #999;
-  display: block;
-  padding: 1.5rem;
-  position: relative;
-}
-
-/* line 402, lib/scss/style.scss */
-.genesis-nav-menu a:hover,
-.genesis-nav-menu .current-menu-item > a,
-.genesis-nav-menu .sub-menu .current-menu-item > a:hover {
-  color: #333;
-}
-
-/* line 408, lib/scss/style.scss */
-.genesis-nav-menu .sub-menu .current-menu-item > a {
-  color: #999;
-}
-
-/* line 412, lib/scss/style.scss */
-.genesis-nav-menu > .menu-item > a {
-  text-transform: uppercase;
-}
-
-/* line 416, lib/scss/style.scss */
-.genesis-nav-menu .sub-menu {
-  left: -9999px;
-  opacity: 0;
-  position: absolute;
-  -webkit-transition: opacity .4s ease-in-out;
-  -moz-transition: opacity .4s ease-in-out;
-  -ms-transition: opacity .4s ease-in-out;
-  -o-transition: opacity .4s ease-in-out;
-  transition: opacity .4s ease-in-out;
-  width: 200px;
-  z-index: 99;
-}
-
-/* line 429, lib/scss/style.scss */
-.genesis-nav-menu .sub-menu a {
-  background-color: #fff;
-  border: 1px solid #eee;
-  border-top: none;
-  font-size: 0.875rem;
-  padding: 1rem 1.25rem;
-  position: relative;
-  width: 12.5rem;
-}
-
-/* line 439, lib/scss/style.scss */
-.genesis-nav-menu .sub-menu .sub-menu {
-  margin: -54px 0 0 199px;
-}
-
-/* line 443, lib/scss/style.scss */
-.genesis-nav-menu .menu-item:hover {
-  position: static;
-}
-
-/* line 447, lib/scss/style.scss */
-.genesis-nav-menu .menu-item:hover > .sub-menu {
-  left: auto;
-  opacity: 1;
-}
-
-/* line 452, lib/scss/style.scss */
-.genesis-nav-menu > .first > a {
-  padding-left: 0;
-}
-
-/* line 456, lib/scss/style.scss */
-.genesis-nav-menu > .last > a {
-  padding-right: 0;
-}
-
-/* line 460, lib/scss/style.scss */
-.genesis-nav-menu > .right {
-  display: inline-block;
-  float: right;
-  list-style-type: none;
-  padding: 28px 0;
-  padding: 2.8rem 0;
-  text-transform: uppercase;
-}
-
-/* line 469, lib/scss/style.scss */
-.genesis-nav-menu > .right > a {
-  display: inline;
-  padding: 0;
-}
-
-/* line 474, lib/scss/style.scss */
-.genesis-nav-menu > .rss > a {
-  margin-left: 48px;
-  margin-left: 4.8rem;
-}
-
-/* line 479, lib/scss/style.scss */
-.genesis-nav-menu > .search {
-  padding: 14px 0 0;
-  padding: 1.4rem 0 0;
-}
-
-/* Site Header Navigation
---------------------------------------------- */
-/* line 487, lib/scss/style.scss */
-.site-header .sub-menu {
-  border-top: 1px solid #eee;
-}
-
-/* line 491, lib/scss/style.scss */
-.site-header .sub-menu .sub-menu {
-  margin-top: -55px;
-}
-
-/* Primary Navigation
---------------------------------------------- */
-/* line 498, lib/scss/style.scss */
-.nav-primary {
-  background-color: #333;
-}
-
-/* line 502, lib/scss/style.scss */
-.nav-primary a:hover,
-.nav-primary .current-menu-item > a {
-  color: #fff;
-}
-
-/* line 507, lib/scss/style.scss */
-.nav-primary .sub-menu a:hover {
-  color: #333;
-}
-
-/* line 511, lib/scss/style.scss */
-.genesis-nav-menu > .menu-item:first-child a {
-  padding-left: 0;
-}
-
-/* line 515, lib/scss/style.scss */
-.nav-primary > a:first {
-  padding-left: 0;
-}
-
-/* Secondary Navigation
---------------------------------------------- */
-/* line 522, lib/scss/style.scss */
-.nav-secondary {
-  background-color: #fff;
 }
 
 /*
@@ -11155,54 +9286,54 @@ Content Area
 --------------------------------------------- */
 /* Entries
 --------------------------------------------- */
-/* line 533, lib/scss/style.scss */
+/* line 359, lib/scss/style.scss */
 .entry {
   margin-bottom: 3.75rem;
 }
 
-/* line 538, lib/scss/style.scss */
+/* line 364, lib/scss/style.scss */
 .entry-content .attachment a,
 .entry-content .gallery a {
   border: none;
 }
 
-/* line 543, lib/scss/style.scss */
+/* line 369, lib/scss/style.scss */
 .entry-content ol ol,
 .entry-content ul ul {
   margin-bottom: 0;
 }
 
-/* line 548, lib/scss/style.scss */
+/* line 374, lib/scss/style.scss */
 .entry-content .search-form {
   width: 50%;
 }
 
-/* line 552, lib/scss/style.scss */
+/* line 378, lib/scss/style.scss */
 .entry-meta {
   color: #999;
   font-size: 0.875rem;
 }
-/* line 555, lib/scss/style.scss */
+/* line 381, lib/scss/style.scss */
 .entry-meta a {
   color: #999;
 }
-/* line 557, lib/scss/style.scss */
+/* line 383, lib/scss/style.scss */
 .entry-meta a:hover {
   color: #0078a0;
 }
 
-/* line 563, lib/scss/style.scss */
+/* line 389, lib/scss/style.scss */
 .entry-meta a {
   border-bottom: 1px solid #ddd;
 }
 
-/* line 567, lib/scss/style.scss */
+/* line 393, lib/scss/style.scss */
 .entry-header .entry-meta {
   margin-bottom: 24px;
   margin-bottom: 2.4rem;
 }
 
-/* line 575, lib/scss/style.scss */
+/* line 401, lib/scss/style.scss */
 .entry-categories,
 .entry-tags {
   display: block;
@@ -11210,7 +9341,7 @@ Content Area
 
 /* Pagination
 --------------------------------------------- */
-/* line 609, lib/scss/style.scss */
+/* line 409, lib/scss/style.scss */
 .archive-pagination,
 .entry-pagination {
   font-size: 14px;
@@ -11219,12 +9350,12 @@ Content Area
   margin: 4rem 0;
 }
 
-/* line 617, lib/scss/style.scss */
+/* line 417, lib/scss/style.scss */
 .archive-pagination li {
   display: inline;
 }
 
-/* line 621, lib/scss/style.scss */
+/* line 421, lib/scss/style.scss */
 .archive-pagination li a {
   background-color: #333;
   border-radius: 3px;
@@ -11235,20 +9366,20 @@ Content Area
   padding: 0.8rem 1.2rem;
 }
 
-/* line 631, lib/scss/style.scss */
+/* line 431, lib/scss/style.scss */
 .archive-pagination li a:hover,
 .archive-pagination li.active a {
   background-color: #008cba;
 }
 
-/* line 636, lib/scss/style.scss */
+/* line 436, lib/scss/style.scss */
 .entry-pagination a {
   border-bottom: 1px solid #ddd;
 }
 
 /* Comments
 --------------------------------------------- */
-/* line 643, lib/scss/style.scss */
+/* line 443, lib/scss/style.scss */
 .comment-respond,
 .entry-comments,
 .entry-pings {
@@ -11257,77 +9388,77 @@ Content Area
   margin-bottom: 4rem;
 }
 
-/* line 660, lib/scss/style.scss */
+/* line 460, lib/scss/style.scss */
 .comment-respond a,
 .entry-comments a {
   border-bottom: 1px solid #ddd;
 }
 
-/* line 665, lib/scss/style.scss */
+/* line 465, lib/scss/style.scss */
 .comment-content {
   clear: both;
 }
 
-/* line 669, lib/scss/style.scss */
+/* line 469, lib/scss/style.scss */
 .entry-comments .comment-author {
   margin-bottom: 0;
 }
 
-/* line 673, lib/scss/style.scss */
+/* line 473, lib/scss/style.scss */
 .comment-respond input[type="email"],
 .comment-respond input[type="text"],
 .comment-respond input[type="url"] {
   width: 50%;
 }
 
-/* line 679, lib/scss/style.scss */
+/* line 479, lib/scss/style.scss */
 .comment-respond label {
   display: block;
   margin-right: 0.75rem;
 }
 
-/* line 684, lib/scss/style.scss */
+/* line 484, lib/scss/style.scss */
 .comment-list {
   margin-left: 0;
 }
 
-/* line 688, lib/scss/style.scss */
+/* line 488, lib/scss/style.scss */
 .comment-list li,
 .ping-list li {
   list-style-type: none;
 }
 
-/* line 693, lib/scss/style.scss */
+/* line 493, lib/scss/style.scss */
 .comment-list li {
   margin-top: 1.5rem;
   padding: 2rem;
 }
 
-/* line 698, lib/scss/style.scss */
+/* line 498, lib/scss/style.scss */
 .comment-list li li {
   margin-right: -2rem;
 }
 
-/* line 702, lib/scss/style.scss */
+/* line 502, lib/scss/style.scss */
 .comment {
   background-color: #f5f5f5;
 }
-/* line 704, lib/scss/style.scss */
+/* line 504, lib/scss/style.scss */
 .comment .depth-2 {
   background: #e8e8e8;
 }
 
-/* line 709, lib/scss/style.scss */
+/* line 509, lib/scss/style.scss */
 .comment .avatar {
   margin: 0 1rem 1.5rem 0;
 }
 
-/* line 713, lib/scss/style.scss */
+/* line 513, lib/scss/style.scss */
 .entry-pings .reply {
   display: none;
 }
 
-/* line 720, lib/scss/style.scss */
+/* line 520, lib/scss/style.scss */
 .form-allowed-tags {
   background-color: #f5f5f5;
   font-size: 0.875rem;
@@ -11337,35 +9468,35 @@ Content Area
 /*
 Sidebars
 ---------------------------------------------------------------------------------------------------- */
-/* line 731, lib/scss/style.scss */
+/* line 531, lib/scss/style.scss */
 .sidebar {
   color: #999;
 }
 
-/* line 735, lib/scss/style.scss */
+/* line 535, lib/scss/style.scss */
 .sidebar p:last-child {
   margin-bottom: 0;
 }
 
-/* line 739, lib/scss/style.scss */
+/* line 539, lib/scss/style.scss */
 .sidebar li {
   list-style-type: none;
   margin-bottom: 0.375rem;
   word-wrap: break-word;
 }
 
-/* line 745, lib/scss/style.scss */
+/* line 545, lib/scss/style.scss */
 .sidebar ul > li:last-child {
   margin-bottom: 0;
 }
 
-/* line 749, lib/scss/style.scss */
+/* line 549, lib/scss/style.scss */
 .sidebar .widget {
   background-color: #fff;
   margin-bottom: 2.5rem;
 }
 
-/* line 754, lib/scss/style.scss */
+/* line 554, lib/scss/style.scss */
 .sidebar .enews-widget {
   background-color: #333;
 }
@@ -11374,7 +9505,7 @@ Sidebars
 Media Queries
 ------------------------------------------- */
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 767, lib/scss/style.scss */
+  /* line 567, lib/scss/style.scss */
   .header-image .site-header .wrap {
     background: url(images/logo@2x.png) no-repeat left;
     background-size: 320px 164px;
