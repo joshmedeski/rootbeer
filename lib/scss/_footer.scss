@@ -1,3 +1,7 @@
+// --------------------------------------------------
+// VARIABLES
+// --------------------------------------------------
+
 // Footer Widgets
 $footer-widgets-bg: #333;
 $footer-widgets-color: #999;
@@ -30,12 +34,6 @@ Footer Widgets
   color: $footer-widgets-color;
   clear: both;
   padding: $footer-widgets-padding-top 0 $footer-widgets-padding-bottom;
-  .widget-area {
-    @include grid-column(12);
-    @media #{$medium-up} {
-      @include grid-column(3);
-    }
-  }
   abbr {
     color: darken($footer-widgets-color, 10%);
   }
@@ -70,11 +68,6 @@ Footer Widgets
     }
   }
 }
-
-.footer-widgets .search-form input:focus {
-  border: 1px solid #ddd;
-}
-
 
 /*
 Site Footer
