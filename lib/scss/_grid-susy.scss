@@ -1,0 +1,58 @@
+/*
+ * [Grid]
+ *
+ * The grid is built with Susy 2.0
+ * http://susy.oddbird.net/
+ */
+
+$susy: (
+  container: 80rem,
+  gutters: 1/2,
+  gutter-position: split,
+);
+
+.wrap, .site-inner    { @include container; }
+
+.title-area           { @include span(6 of 12); }
+.header-widget-area   { @include span(3 of 12); }
+
+.header-full-width
+.title-area           { @include span(12 of 12); }
+
+.menu-primary         { @include span(12 of 12); }
+
+.content-sidebar {
+  .content            { @include span(9 of 12); }
+  .sidebar-primary    { @include span(3 of 12 last); }
+}
+
+.sidebar-content {
+  .sidebar-primary    { @include span(3 of 12); }
+  .content            { @include span(9 of 12 last); }
+}
+
+.content-sidebar-sidebar {
+  .content            { @include span(7 of 12); }
+  .sidebar-primary    { @include span(3 of 12); }
+  .sidebar-secondary  { @include span(2 of 12 last); }
+}
+
+.sidebar-sidebar-content {
+  .sidebar-secondary  { @include span(2 of 12); @include pull(5 of 12); }
+  .sidebar-primary    { @include span(3 of 12); @include push(2 of 12); }
+  .content            { @include span(7 of 12 last); }
+}
+
+.sidebar-content-sidebar {
+  .sidebar-secondary  { @include span(2 of 12); @include pull(9 of 12); }
+  .content            { @include span(7 of 12); @include push(2 of 12); }
+  .sidebar-primary    { @include span(3 of 12 last); }
+}
+
+.full-width-content
+  .content            { @include span(8 of 12); @include push(2 of 12); }
+
+.footer-widgets-1     { @include span(3 of 12); }
+.footer-widgets-2     { @include span(3 of 12); }
+.footer-widgets-3     { @include span(3 of 12); }
+.footer-widgets-4     { @include span(3 of 12 last); }
