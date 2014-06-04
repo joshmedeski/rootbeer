@@ -7,6 +7,9 @@ define( 'CHILD_THEME_NAME', 'Rootbeer' );
 define( 'CHILD_THEME_URL', 'http://github.com/joshmedeski/rootbeer/' );
 define( 'CHILD_THEME_VERSION', '0.0.1' );
 
+// TGM Plugin Activation
+require_once( get_stylesheet_directory() . '/lib/functions/plugins.php');
+
 // HTML5 markup structure
 add_theme_support( 'html5' );
 
